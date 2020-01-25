@@ -1,0 +1,41 @@
+{
+  "name": "craftand",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A marketing site scaffold that uses Gridsome, GraphQL, TailwindCSS, and Forestry.io",
+  "keywords": [
+    "gridsome",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonpittman/gridsome-starter-default.git"
+  },
+  "license": "MIT",
+  "author": "Peter Lloyd & John Foderaro",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint": "eslint . --ext vue,js,jsx,ts,tsx"
+  },
+  "dependencies": {
+    "gridsome": "latest",
+    "gridsome-plugin-base-components": "0.0.12"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-gridsome": "^1.4.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "gridsome-plugin-svg": "0.0.10",
+    "gridsome-plugin-tailwindcss": "^2.2.32",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1",
+    "tailwindcss-plugin-fancy": "1.0.2"
+  }
+}
