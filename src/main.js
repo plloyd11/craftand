@@ -19,7 +19,7 @@ export default function (Vue, { router, head, isClient }) {
   // Load custom fonts
   head.link.push({
     rel: 'stylesheet',
-    href: 'href="https://use.typekit.net/iyb1djz.css'
+    href: 'https://use.typekit.net/iyb1djz.css'
   })
 
   head.bodyAttrs = {
