@@ -12,34 +12,17 @@ module.exports = {
       use: 'gridsome-plugin-tailwindcss'
     },
     {
-      use: 'gridsome-plugin-svg',
-      options: {
-      // default options below
-        goesBothWays: false,
-        svgo: [
-          {
-            removeTitle: false
-          },
-          {
-            prefixIds: {
-              prefix: (_, { path }) => basename(path, '.svg'),
-              delim: '-'
-            }
-          },
-          {
-            removeDesc: false
-          },
-          {
-            removeViewBox: false
-          },
-          {
-            sortAttrs: true
-          }
-        ]
-      }
+      use: 'gridsome-plugin-svg'
     },
     {
       use: 'gridsome-plugin-base-components'
     }
-  ]
+  ],
+  chainWebpack: config => {
+    const svgRule = config.module.rule('svg')
+    svgRule.uses.clear()
+    svgRule
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader')
+  }
 }

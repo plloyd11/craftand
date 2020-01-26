@@ -36,6 +36,7 @@
     "gridsome-plugin-tailwindcss": "^2.2.32",
     "snazzy": "^8.0.0",
     "standard": "^14.3.1",
-    "tailwindcss-plugin-fancy": "1.0.2"
+    "tailwindcss-plugin-fancy": "1.0.2",
+    "vue-svg-loader": "^0.15.0"
   }
 }
