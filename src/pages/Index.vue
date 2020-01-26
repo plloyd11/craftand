@@ -15,9 +15,7 @@
         Rather than be ruled by the tides, C&C evolved as a team of no-nonsense, outcomes-focused digital specialists, re-inventing how our purpose-driven partners capture attention, change behavior, and inspire action in this dynamic digital world— a landscape filled with untapped opportunity.
       </p>
     </section>
-    <section>
-      <h2>Section Two</h2>
-    </section>
+    <section />
     <section class="w-9/12 mx-auto bg-main-gray">
       <p class="w-7/12 py-12 mx-auto text-4xl leading-tight text-center text-white">
         —and our mission is clear: <br>Craft & Commerce drives meaningful results for things that matter.
