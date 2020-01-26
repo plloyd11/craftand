@@ -19,7 +19,7 @@ export default function (Vue, { router, head, isClient }) {
   // Load custom fonts
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700&display=swap'
+    href: 'https://use.typekit.net/iyb1djz.css'
   })
 
   head.bodyAttrs = {
