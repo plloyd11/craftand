@@ -1,9 +1,14 @@
 <template>
-  <footer class="mt-2 bg-teal-800">
-    <div class="container flex justify-between py-12 mx-auto text-center">
-      <h1>I'm a footer!</h1>
-      <p>{{ $static.metadata.siteName }} is going to be so great!</p>
+  <footer class="py-10 bg-primary">
+    <div class="container flex justify-center mx-auto text-center">
+      <p>NEW YORK, NY</p>
+      <span class="mx-4">|</span>
+      <a
+        href="mailto:hello@craftand.com"
+        class="block"
+      >HELLO@CRAFTAND.COM</a>
     </div>
+    <small class="block mt-4 text-center">Copyright 2020 by Craft &amp; Commerce.</small>
   </footer>
 </template>
 

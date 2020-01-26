@@ -1,6 +1,12 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: '#fadd0d',
+        'main-gray': '#231f20',
+        'light-gray': '#ebebeb'
+      }
+    }
   },
   variants: {},
   plugins: [
