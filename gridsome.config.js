@@ -23,6 +23,18 @@ module.exports = {
   templates: {
     Job: '/careers/:slug'
   },
+  transformers: {
+    remark: {
+      plugins: [
+        ['@noxify/gridsome-remark-classes', {
+          'heading[depth=1]': 'title',
+          'heading[depth=2]': 'subtitle',
+          paragraph: 'body-text',
+          a: 'body-link'
+        }]
+      ]
+    }
+  },
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()

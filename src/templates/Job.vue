@@ -1,6 +1,9 @@
 <template>
   <Layout>
-    <div v-html="$page.job.content" class="job-post"></div>
+    <div
+      class="container mx-auto mt-12 job-post"
+      v-html="$page.job.content"
+    />
   </Layout>
 </template>
 
@@ -14,6 +17,23 @@
 
 <style>
 .job-post h1 {
-  @apply text-6xl font-bold;
+  @apply text-5xl font-bold;
 }
+
+.job-post ul {
+  @apply my-1;
+}
+
+.job-post .body-text {
+  @apply my-4 max-w-screen-lg;
+}
+
+.job-post li {
+  @apply list-disc list-inside;
+}
+
+.job-post p > a {
+  @apply mt-12 inline-block bg-transparent text-gray-900 font-semibold py-2 px-4 border border-gray-900 border-2 uppercase;
+}
+
 </style>

@@ -1,5 +1,9 @@
 ---
 title: Digital Ads Manager
+excerpt: This is a chill fifth post. What a magical blog this is going to be!
+date: 2020-01-15
+tags: ['ads', 'sem', 'sales']
+cover_image: '../img/career-photo.png'
 slug: digital-ads-manager
 ---
 
