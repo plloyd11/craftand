@@ -1,16 +1,15 @@
 <template>
   <Layout>
-    <section class="container flex-grow mx-auto">
-      <g-image
-        alt="Hero Image"
-        src="~/img/our-work/hero.jpg"
-        class="w-10/12 mx-auto"
-      />
-      <h1
-        class="mt-8 text-3xl font-bold text-center"
-      >
-        Our Work
-      </h1>
+    <!-- Hero -->
+    <section class="pt-24 hero">
+      <div class="container px-6 mx-auto">
+        <h1 class="mb-4 text-4xl font-extrabold">
+          For things that matter.
+        </h1>
+        <p class="mb-6 text-xl leading-normal max-w-screen-md">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minima impedit, numquam iste repudiandae quis amet reiciendis a sit voluptatum. Ipsa cumque facere, possimus laboriosam delectus ab rerum quasi ipsam.
+        </p>
+      </div>
     </section>
   </Layout>
 </template>
