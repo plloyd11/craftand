@@ -20,6 +20,8 @@
     "lint": "eslint . --ext vue,js,jsx,ts,tsx"
   },
   "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.4.0",
     "gridsome": "latest",
     "gridsome-plugin-base-components": "0.0.12"
   },
