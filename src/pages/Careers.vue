@@ -26,7 +26,7 @@
 
 <page-query>
   query($page: Int) {
-    allJob(perPage: 2, page: $page) @paginate {
+    allJob(perPage: 20, page: $page) @paginate {
       pageInfo {
         totalPages
         currentPage

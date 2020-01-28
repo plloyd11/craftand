@@ -17,11 +17,11 @@ module.exports = {
     use: '@gridsome/source-filesystem',
     options: {
       typeName: 'Job',
-      path: './src/content/jobs/**/*.md'
+      path: './src/content/careers/**/*.md'
     }
   }],
   templates: {
-    Job: '/jobs/:slug'
+    Job: '/careers/:slug'
   },
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')

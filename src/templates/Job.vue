@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div v-html="$page.job.content"></div>
+    <div v-html="$page.job.content" class="job-post"></div>
   </Layout>
 </template>
 
@@ -11,3 +11,9 @@
     }
   }
 </page-query>
+
+<style>
+.job-post h1 {
+  @apply text-6xl font-bold;
+}
+</style>
