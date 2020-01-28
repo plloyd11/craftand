@@ -9,17 +9,28 @@ module.exports = {
   siteDescription: 'A marketing site scaffold that uses Gridsome, GraphQL, TailwindCSS, and Forestry.io',
   plugins: [{
     use: 'gridsome-plugin-tailwindcss'
-  }, {
+  },
+  {
     use: 'gridsome-plugin-svg'
-  }, {
+  },
+  {
     use: 'gridsome-plugin-base-components'
-  }, {
+  },
+  {
     use: '@gridsome/source-filesystem',
     options: {
       typeName: 'Job',
       path: './src/content/careers/**/*.md'
     }
-  }],
+  },
+  {
+    use: '@gridsome/source-filesystem',
+    options: {
+      typeName: 'Employees',
+      path: './src/data/**/*.json'
+    }
+  }
+  ],
   templates: {
     Job: '/careers/:slug'
   },
