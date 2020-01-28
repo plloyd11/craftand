@@ -17,11 +17,23 @@ module.exports = {
     use: '@gridsome/source-filesystem',
     options: {
       typeName: 'Job',
-      path: './src/content/jobs/**/*.md'
+      path: './src/content/careers/**/*.md'
     }
   }],
   templates: {
-    Job: '/jobs/:slug'
+    Job: '/careers/:slug'
+  },
+  transformers: {
+    remark: {
+      plugins: [
+        ['@noxify/gridsome-remark-classes', {
+          'heading[depth=1]': 'title',
+          'heading[depth=2]': 'subtitle',
+          paragraph: 'body-text',
+          a: 'body-link'
+        }]
+      ]
+    }
   },
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')

@@ -2,7 +2,7 @@
   <main class="flex flex-col min-h-screen">
     <Header />
     <slot />
-    <Footer />
+    <Footer class="mt-24" />
   </main>
 </template>
 
