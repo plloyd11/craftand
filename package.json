@@ -14,12 +14,13 @@
   "license": "MIT",
   "author": "Peter Lloyd & John Foderaro",
   "scripts": {
-    "build": "gridsome build",
+    "build": "./node_modules/.bin/gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "lint": "eslint . --ext vue,js,jsx,ts,tsx"
   },
   "dependencies": {
+    "@gridsome/cli": "^0.3.1",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.4.0",
     "@noxify/gridsome-remark-classes": "^1.0.0",
