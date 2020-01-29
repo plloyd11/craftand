@@ -5,11 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src/careers
+  path: src/content/careers
   label: Careers
   create: documents
   match: "**/*.md"
   new_doc_ext: md
+  templates:
+  - job-posting
 - type: directory
   path: src/data
   label: Team Members
