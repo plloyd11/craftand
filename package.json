@@ -15,8 +15,8 @@
   "author": "Peter Lloyd & John Foderaro",
   "scripts": {
     "build": "./node_modules/.bin/gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
+    "develop": "./node_modules/gridsome develop",
+    "explore": "./node_modules/gridsome gridsome explore",
     "lint": "eslint . --ext vue,js,jsx,ts,tsx"
   },
   "dependencies": {
