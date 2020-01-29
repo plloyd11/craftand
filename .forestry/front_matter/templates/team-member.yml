@@ -1,0 +1,26 @@
+---
+label: Team Member
+hide_body: true
+fields:
+- type: field_group_list
+  name: Team
+  label: Team
+  fields:
+  - type: number
+    name: id
+    label: id
+  - type: text
+    name: photo
+    label: photo
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: shortBio
+    label: shortBio
+  - type: textarea
+    name: fullBio
+    label: fullBio
