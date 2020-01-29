@@ -12,7 +12,7 @@ slug: seo
 ---
 # SEO
 
-This shit better work!
+This is going to be great!
 
 ## Here's what we offer:
 

@@ -59,16 +59,16 @@
     <!-- Callout -->
     <section class="container mx-auto max-w-screen-lg join-the-team">
       <div class="flex flex-col items-center justify-center py-16">
-        <h2 class="text-4xl font-extrabold text-center">
+        <h2 class="mb-6 text-4xl font-extrabold text-center proxima">
           Join the team at Craft &amp; Commerce
         </h2>
         <p class="mx-auto text-lg text-center max-w-screen-md">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra justo nec ultrices dui sapien. Maecenas sed enim ut sem viverra aliquet. Integer feugiat scelerisque varius morbi.
+          Our hands-on team of digital media specialists believes in achieving better results for causes that matter. We're based in New York City but have team members across the country. If you're itching to put your digital skills to work for positive change, we should talk.
         </p>
-        <p class="inline-block px-2 py-1 mt-8 text-center bg-white shadow-sm din">
+        <p class="inline-block px-2 pt-1 mt-8 text-center bg-white shadow-sm din">
           WHAT ARE YOU WAITING FOR?
           <a
-            href="#"
+            href="mailto:hello@craftand.com"
             class="underline uppercase"
           >Drop us a line.</a>
         </p>

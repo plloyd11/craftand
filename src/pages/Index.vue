@@ -86,15 +86,29 @@
         </div>
       </div>
     </section>
-    <section class="max-w-4xl mx-auto mt-12 bg-main-gray lg:mt-24">
-      <p class="w-9/12 py-16 mx-auto text-4xl leading-tight text-center text-white">
-        —and our mission is clear: <br>Craft & Commerce drives meaningful results for things that matter.
-      </p>
+    <section class="max-w-4xl mx-auto mt-12 lg:mt-24">
+      <div class="bg-main-gray">
+        <p class="w-9/12 py-20 mx-auto text-4xl leading-normal text-center text-white">
+          —and our mission is clear: <br>Craft & Commerce drives meaningful results for things that matter.
+        </p>
+      </div>
+      <aside class="flex items-center justify-end">
+        <g-link to="/">
+          <div class="px-4 py-8 bg-primary-color">
+            <TearSheet class="w-8 mx-auto mb-4" />
+            <p class="w-32 text-sm text-center text-white uppercase din">
+              Our services &amp; focus areas
+            </p>
+          </div>
+        </g-link>
+      </aside>
     </section>
+    <LogoBox class="mt-16" />
   </Layout>
 </template>
 
 <script>
+import LogoBox from '@/components/LogoBox.vue'
 // SVG as imports
 import Hero from '~/img/homepage/hero.svg'
 import Audience from '~/img/homepage/audience.svg'
@@ -104,6 +118,7 @@ import Testing from '~/img/homepage/testing.svg'
 
 export default {
   components: {
+    LogoBox,
     Hero,
     Audience,
     Creative,

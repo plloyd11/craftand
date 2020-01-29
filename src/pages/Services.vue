@@ -4,7 +4,7 @@
     <section class="hero">
       <div class="container flex items-start px-6 py-16 mx-auto bg-main-gray-semi-transparent">
         <div class="w-8/12">
-          <h2 class="mb-4 text-4xl font-extrabold text-white">
+          <h2 class="mb-8 text-5xl font-extrabold text-white proxima">
             All method, no madness.
           </h2>
           <p class="mb-6 text-xl leading-normal text-white max-w-screen-sm">
@@ -52,7 +52,7 @@
           <IssueEducation class="w-64" />
         </div>
         <div class="max-w-lg">
-          <h2 class="mb-2 text-3xl font-bold">
+          <h2 class="mb-2 text-3xl font-bold proxima">
             Issue Education
           </h2>
           <p class="max-w-sm">
@@ -78,7 +78,7 @@
         <p class="mb-8 uppercase din">
           The right stuff
         </p>
-        <h2 class="mb-2 text-4xl font-extrabold text-center">
+        <h2 class="mb-2 text-5xl font-extrabold text-center proxima">
           The C&amp;C Toolbox:
         </h2>
         <p class="mx-auto text-lg text-center max-w-screen-md">
@@ -87,12 +87,12 @@
       </div>
     </section>
     <!-- Quote -->
-    <section class="container max-w-lg mx-auto mt-12 text-center">
+    <section class="container max-w-xl mx-auto mt-12 text-center">
       <div class="flex flex-col items-center justify-center py-16">
-        <p class="mb-8 text-3xl">
-          <span class="block mb-8">"I’ve worked with a lot of media folks in my career.</span> The Craft & Commerce team is the smartest and most effective I've ever run into.”
+        <p class="mb-8 text-4xl">
+          <span class="block mb-8">"I’ve worked with a lot of media folks in my career.</span> The Craft & Commerce team is <br> the smartest and most effective I've ever run into.”
         </p>
-        <p class="uppercase din">
+        <p class="px-3 pt-2 uppercase din bg-primary-color">
           —Bright Pink
         </p>
       </div>
