@@ -26,7 +26,7 @@ module.exports = {
   {
     use: '@gridsome/source-filesystem',
     options: {
-      typeName: 'Employees',
+      typeName: 'TeamMembers',
       path: './src/data/**/*.json'
     }
   }

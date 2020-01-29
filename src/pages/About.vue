@@ -21,31 +21,41 @@
       </div>
     </section>
     <!-- Team -->
-    <section class="mx-auto mb-24 max-w-screen-lg">
-      <div class="flex items-center team-card">
-        <div>
-          <g-image
-            src="~/img/team/mark.png"
-            class="max-w-sm rounded-full"
-          />
-        </div>
-        <div class="pl-12">
-          <h2 class="text-3xl font-extrabold">
-            Mark Barker
-          </h2>
-          <p class="uppercase din">
-            Co-founder / strategy lead
-          </p>
-          <p class="max-w-md mt-8">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam quos sed, nemo, accusamus recusandae quaerat delectus fuga enim tempora exercitationem labore. Rem aliquid autem incidunt aliquam ad dolor deserunt!
-            <a
-              href="#modal"
-              class="px-1 py-0 text-sm font-extrabold bg-primary-color"
-            >+</a>
-          </p>
-        </div>
+    <div
+      v-for="edge in $page.allTeamMembers.edges"
+      :key="edge.node.id"
+    >
+      <div
+        v-for="item in edge.node.data"
+        :key="item.id"
+      >
+        <section class="mx-auto mb-24 max-w-screen-lg">
+          <div class="flex items-center team-card">
+            <div>
+              <g-image
+                src="~/img/team/mark.png"
+                class="max-w-sm rounded-full"
+              />
+            </div>
+            <div class="pl-12">
+              <h2 class="text-3xl font-extrabold">
+                {{ item.name }}
+              </h2>
+              <p class="uppercase din">
+                {{ item.title }}
+              </p>
+              <p class="max-w-md mt-8">
+                {{ item.shortBio }}
+                <a
+                  href="#modal"
+                  class="px-1 py-0 text-sm font-extrabold bg-primary-color"
+                >+</a>
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+    </div>
     <!-- Callout -->
     <section class="container mx-auto max-w-screen-lg join-the-team">
       <div class="flex flex-col items-center justify-center py-16">
@@ -66,6 +76,25 @@
     </section>
   </Layout>
 </template>
+
+<page-query>
+  query TeamMembers {
+    allTeamMembers {
+      edges {
+        node {
+          data {
+            id
+            photo
+            name
+            title
+            shortBio
+            fullBio
+          }
+        }
+      }
+    }
+  }
+</page-query>
 
 <script>
 export default {
