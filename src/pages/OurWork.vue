@@ -3,7 +3,7 @@
     <!-- Hero -->
     <section class="pt-24 hero">
       <div class="container px-6 mx-auto">
-        <h1 class="mb-4 text-4xl font-extrabold">
+        <h1 class="mb-4 text-4xl font-extrabold proxima">
           For things that matter.
         </h1>
         <p class="mb-6 text-xl leading-normal max-w-screen-md">

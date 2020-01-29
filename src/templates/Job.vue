@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div
-      class="container mx-auto mt-12 job-post"
+      class="container px-6 mx-auto mt-12 job-post"
       v-html="$page.job.content"
     />
   </Layout>
@@ -17,6 +17,7 @@
 
 <style>
 .job-post h1 {
+  font-family: 'Proxima Nova', sans-serif;
   @apply text-5xl font-bold;
 }
 

@@ -2,20 +2,20 @@
   <Layout>
     <section class="hero">
       <div class="p-12 bg-white shadow-sm">
-        <h1 class="text-5xl font-extrabold text-center">
+        <h1 class="text-5xl font-extrabold text-center proxima">
           Work with us.
         </h1>
       </div>
     </section>
-    <section class="container mx-auto my-24">
-      <h3 class="mb-8 text-4xl font-extrabold">
+    <section class="container px-6 mx-auto my-24">
+      <h3 class="mb-8 text-4xl font-extrabold proxima">
         We're Hiring!
       </h3>
       <p class="text-lg leading-normal max-w-screen-lg">
         Finding the right people for our team’s next level of growth is both art and science to us: lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </section>
-    <section class="container mx-auto job-posting-grid">
+    <section class="container px-6 mx-auto job-posting-grid">
       <!-- Individual job posting -->
       <div
         v-for="edge in $page.allJob.edges"
@@ -27,7 +27,7 @@
               :src="edge.node.cover_image"
               class="w-full mb-4"
             />
-            <h4 class="mb-2 text-2xl font-bold">
+            <h4 class="mb-2 text-2xl font-bold proxima">
               {{ edge.node.title }}
             </h4>
             <p class="mb-2 text-base text-gray-700">
