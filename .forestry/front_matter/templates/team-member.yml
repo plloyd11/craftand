@@ -30,3 +30,5 @@ fields:
   - type: textarea
     name: fullBio
     label: fullBio
+pages:
+- src/data/emily.json
