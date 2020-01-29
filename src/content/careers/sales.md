@@ -1,6 +1,6 @@
 ---
 title: Sales
-excerpt: This is a chill fifth post. What a magical blog this is going to be!
+excerpt: This is where the short description of the job requirement will go.
 date: 2020-01-11
 tags: ['ads', 'sem', 'sales']
 cover_image: '../img/career-photo.png'

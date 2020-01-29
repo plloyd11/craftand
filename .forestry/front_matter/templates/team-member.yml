@@ -1,0 +1,34 @@
+---
+label: Team Member
+hide_body: true
+fields:
+- type: field_group_list
+  name: Team
+  label: Team
+  fields:
+  - type: number
+    name: id
+    label: id
+  - name: photograph
+    type: file
+    config:
+      maxSize: 250
+    label: Photograph
+    description: '600x600 photo '
+  - type: text
+    name: photo
+    label: photo
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: shortBio
+    label: shortBio
+  - type: textarea
+    name: fullBio
+    label: fullBio
+pages:
+- src/data/emily.json
