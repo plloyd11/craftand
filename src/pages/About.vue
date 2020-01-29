@@ -1,21 +1,21 @@
 <template>
   <Layout>
     <!-- Hero -->
-    <section class="pt-24 hero">
+    <section class="mt-20 hero">
       <div class="container px-6 mx-auto">
-        <h1 class="mb-4 text-4xl font-extrabold">
-          Behind the curtain...
+        <h1 class="mb-4 text-5xl font-extrabold proxima">
+          Behind the <span class="text-strike">curtain</span>...
         </h1>
         <p class="mb-6 text-xl leading-normal max-w-screen-md">
-          West Philadelphia, born and raised — hold up, that’s a different orgin story;)
+          West Philadelphia, born and — hang on, that’s a different orgin story ;)
         </p>
         <p class="mb-6 text-xl leading-normal max-w-screen-md">
-          Here’s ours: Founders Mark and Jordan met while working at GOOD, and went on to form Craft & Commerce in 200X as a digital ad firm focused on elevating organizations that were making a positive impact in the world.
+          Here’s ours: founders Mark and Jordan, colleagues at GOOD, decided to change their lives in 200X, and started building a company from scratch. Craft & Commerce, born as a purposeful agency, grew through a combination of hustle and good fortune.
         </p>
         <p class="mb-6 text-xl leading-normal max-w-screen-md">
-          Since then, we’ve grown and evolved much like the digital world has, building a team of experts around our core disciplines of strategy + planning, data + analytics, copywriting, design + branding. And we’ve found bold partners in education, civic progress, non-profit, public policy, and more who share our vision of social purpose.
+          Much like the digital world has, C&C has evolved, building a team of experts around our core strategic and creative disciplines. Along the way we have found bold partners in education, civic progress, non-profit, public policy, and more who share our vision of social purpose.
         </p>
-        <p class="mt-24 text-xl din">
+        <p class="mt-20 text-xl din">
           MEET THE TEAM THAT MAKES IT POSSIBLE —
         </p>
       </div>
@@ -38,7 +38,7 @@
               />
             </div>
             <div class="pl-12">
-              <h2 class="text-3xl font-extrabold">
+              <h2 class="text-3xl font-extrabold proxima">
                 {{ item.name }}
               </h2>
               <p class="uppercase din">
@@ -107,9 +107,9 @@ export default {
 <style scoped>
   .hero {
     width: 100%;
-    height: 800px;
+    height: 750px;
     background: url('~@/img/global/diagonal-bg.png') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
   }
 
   .join-the-team {
