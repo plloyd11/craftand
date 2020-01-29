@@ -1,4 +1,45 @@
 ---
 label: Job Posting
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Title of posting
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
+  description: Short description of the posting
+- name: date
+  type: datetime
+  label: Date of Posting
+  description: When the job was first posted
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tags
+  type: tag_list
+  default: []
+  label: Category Tags
+- name: cover_image
+  type: file
+  config:
+    maxSize: 250
+  label: Cover Image
+  description: Photo associated with job posting
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+  description: Custom URL for job posting. Needs to be lowercase & separated by hyphens
