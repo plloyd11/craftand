@@ -1,9 +1,9 @@
 <template>
   <section class="flex flex-col items-center justify-center w-8/12 bg-main-gray">
-    <h2 class="text-4xl font-bold text-center text-primary-color">
+    <h2 class="text-4xl font-bold text-center text-primary-color proxima">
       We drive better results for things that matter.
     </h2>
-    <p class="text-xl text-center text-gray-400">
+    <p class="text-lg text-center text-gray-400">
       Sign up for our newsletter, where we share our insights and predictions on all things digital.
     </p>
     <form class="w-full max-w-4xl mx-auto mt-8">

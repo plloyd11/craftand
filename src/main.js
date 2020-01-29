@@ -23,6 +23,6 @@ export default function (Vue, { router, head, isClient }) {
   })
 
   head.bodyAttrs = {
-    class: 'antialiased bg-gray-100 text-gray-900'
+    class: 'antialiased text-gray-900'
   }
 }

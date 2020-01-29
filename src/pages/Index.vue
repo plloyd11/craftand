@@ -6,9 +6,9 @@
         alt="Hero Image"
       />
       <h1
-        class="mt-12 mb-4 text-5xl font-extrabold text-center"
+        class="mt-12 mb-4 text-5xl font-extrabold text-center proxima"
       >
-        The attention landscape is always in flux.
+        The attention landscape is <span class="text-strike">always</span> in flux.
       </h1>
       <p class="w-7/12 mx-auto text-xl text-center">
         Rather than be ruled by the tides, C&C evolved as a team of no-nonsense, outcomes-focused digital specialists, re-inventing how our purpose-driven partners capture attention, change behavior, and inspire action in this dynamic digital world— a landscape filled with untapped opportunity.
@@ -28,8 +28,8 @@
               <h4 class="text-3xl font-bold leading-none text-center text-header-color proxima">
                 Audience-driven research, strategy and insights
               </h4>
-              <hr class="block w-1/12 mx-auto my-4">
-              <p class="text-lg text-center text-gray-700">
+              <hr class="block w-1/12 mx-auto my-4 border-2 border-gray-800">
+              <p class="text-lg text-center text-gray-800">
                 What makes your audience tick? Where are they, and what motivates them? Insights like these become your campaign’s North Star.
               </p>
             </div>
@@ -44,8 +44,8 @@
               <h4 class="text-3xl font-bold leading-none text-center text-header-color proxima">
                 Nimble, modern <br> creative
               </h4>
-              <hr class="block w-1/12 mx-auto my-4">
-              <p class="text-lg text-center text-gray-700">
+              <hr class="block w-1/12 mx-auto my-4 border-2 border-gray-800">
+              <p class="text-lg text-center text-gray-800">
                 Eye-catching, feed-stopping visuals and copy that speaks your audience’s language is what drives action: then iterate to improve on what works!
               </p>
             </div>
@@ -61,8 +61,8 @@
               <h4 class="text-3xl font-bold leading-none text-center text-header-color proxima">
                 Innovative media planning and buying
               </h4>
-              <hr class="block w-1/12 mx-auto my-4">
-              <p class="text-lg text-center text-gray-700">
+              <hr class="block w-1/12 mx-auto my-4 border-2 border-gray-800">
+              <p class="text-lg text-center text-gray-800">
                 Creativity isn’t confined to art or copy — what sets a campaign up for success is how we mix and remix our palette of platforms, budget, and timing.
               </p>
             </div>
@@ -77,8 +77,8 @@
               <h4 class="text-3xl font-bold leading-none text-center text-header-color proxima">
                 Rigorous testing, iteration, and optimization
               </h4>
-              <hr class="block w-1/12 mx-auto my-4">
-              <p class="text-lg text-center text-gray-700">
+              <hr class="block w-1/12 mx-auto my-4 border-2 border-gray-800">
+              <p class="text-lg text-center text-gray-800">
                 There’s always room to learn and improve, even when our metrics are overperforming: testing and iterating brings our campaigns to new levels.
               </p>
             </div>
@@ -89,14 +89,13 @@
     <section class="max-w-4xl mx-auto mt-12 lg:mt-24">
       <div class="bg-main-gray">
         <p class="w-9/12 py-20 mx-auto text-4xl leading-normal text-center text-white">
-          —and our mission is clear: <br>Craft & Commerce drives meaningful results for things that matter.
+          —and our mission is clear: <br> Craft & Commerce drives meaningful results for things that matter.
         </p>
       </div>
       <aside class="flex items-center justify-end">
-        <g-link to="/">
+        <g-link to="/services">
           <div class="px-4 py-8 bg-primary-color">
-            <TearSheet class="w-8 mx-auto mb-4" />
-            <p class="w-32 text-sm text-center text-white uppercase din">
+            <p class="w-24 text-xs text-center uppercase din">
               Our services &amp; focus areas
             </p>
           </div>
@@ -134,13 +133,14 @@ export default {
 <style scoped>
   .approach-grid {
     display: grid;
-    gap: 64px;
+    gap: 48px;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   }
 
   .approach-card {
     align-self: center;
     justify-self: center;
+    z-index: 100;
   }
 
   .approach-card svg {
@@ -157,7 +157,7 @@ export default {
     top: calc(50% - 27ch);
     background: url('~@/img/global/diagonal-bg.png') no-repeat center center;
     background-size: cover;
-    z-index: -1;
+    z-index: 10;
   }
 
 </style>
