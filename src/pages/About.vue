@@ -38,6 +38,10 @@
           </p>
           <p class="max-w-md mt-8">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam quos sed, nemo, accusamus recusandae quaerat delectus fuga enim tempora exercitationem labore. Rem aliquid autem incidunt aliquam ad dolor deserunt!
+            <a
+              href="#modal"
+              class="px-1 py-0 text-sm font-extrabold bg-primary-color"
+            >+</a>
           </p>
         </div>
       </div>
