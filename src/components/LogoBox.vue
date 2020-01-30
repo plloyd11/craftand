@@ -87,7 +87,7 @@ export default {
 <style scoped>
   .logo-box {
     width: 100%;
-    background: url('~@/img/global/gray-decorated-square.png') no-repeat center center;
+    background: url('~@/assets/img/global/gray-decorated-square.png') no-repeat center center;
     background-size: cover;
   }
 </style>

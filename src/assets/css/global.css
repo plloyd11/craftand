@@ -22,6 +22,7 @@ main
 
 .text-strike {
   position: relative;
+  display: inline-block;
   z-index: 10;
 }
 

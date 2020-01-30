@@ -101,8 +101,8 @@
 </template>
 
 <script>
-import TearSheet from '~/img/icons/tearsheet.svg'
-import IssueEducation from '~/img/services/issue-education.svg'
+import TearSheet from '~/assets/img/icons/tearsheet.svg'
+import IssueEducation from '~/assets/img/services/issue-education.svg'
 
 export default {
   metaInfo: {
@@ -122,7 +122,7 @@ export default {
     align-items: center;
     width: 100%;
     height: 700px;
-    background: url('~@/img/services/services-hero.jpg') no-repeat center center;
+    background: url('~@/assets/img/services/services-hero.jpg') no-repeat center center;
     background-size: cover;
   }
 
@@ -133,13 +133,13 @@ export default {
 
   .services-carousel {
     width: 100%;
-    background: url('~@/img/global/diagonal-bg.png') no-repeat center center;
+    background: url('~@/assets/img/global/diagonal-bg.png') no-repeat center center;
     background-size: cover;
   }
 
   .right-stuff {
     width: 100%;
-    background: url('~@/img/global/gray-decorated-square.png') no-repeat center center;
+    background: url('~@/assets/img/global/gray-decorated-square.png') no-repeat center center;
     background-size: cover;
   }
 

@@ -83,7 +83,7 @@ export default {
     align-items: center;
     width: 100%;
     height: 600px;
-    background: url('~@/img/careers/careers-hero.jpg') no-repeat center center;
+    background: url('~@/assets/img/careers/careers-hero.jpg') no-repeat center center;
     background-size: cover;
   }
 

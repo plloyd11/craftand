@@ -109,11 +109,11 @@
 <script>
 import LogoBox from '@/components/LogoBox.vue'
 // SVG as imports
-import Hero from '~/img/homepage/hero.svg'
-import Audience from '~/img/homepage/audience.svg'
-import Creative from '~/img/homepage/creative.svg'
-import Innovative from '~/img/homepage/innovative.svg'
-import Testing from '~/img/homepage/testing.svg'
+import Hero from '~/assets/img/homepage/hero.svg'
+import Audience from '~/assets/img/homepage/audience.svg'
+import Creative from '~/assets/img/homepage/creative.svg'
+import Innovative from '~/assets/img/homepage/innovative.svg'
+import Testing from '~/assets/img/homepage/testing.svg'
 
 export default {
   components: {
@@ -155,7 +155,7 @@ export default {
     width: 100%;
     height: 550px;
     top: calc(50% - 27ch);
-    background: url('~@/img/global/diagonal-bg.png') no-repeat center center;
+    background: url('~@/assets/img/global/diagonal-bg.png') no-repeat center center;
     background-size: cover;
     z-index: 10;
   }

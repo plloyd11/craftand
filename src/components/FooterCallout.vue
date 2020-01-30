@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Calendar from '~/img/homepage/calendar.svg'
+import Calendar from '~/assets/img/homepage/calendar.svg'
 
 export default {
   components: {

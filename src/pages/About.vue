@@ -24,20 +24,21 @@
     <div
       v-for="edge in $page.allTeamMembers.edges"
       :key="edge.node.id"
+      class="team-container"
     >
       <div
         v-for="item in edge.node.data"
         :key="item.id"
       >
         <section class="mx-auto mb-24 max-w-screen-lg">
-          <div class="flex items-center team-card">
-            <div>
+          <div class="flex items-center team-member">
+            <div class="team-member--photo">
               <g-image
-                src="~/img/team/mark.png"
+                :src="item.photo"
                 class="max-w-sm rounded-full"
               />
             </div>
-            <div class="pl-12">
+            <div class="team-member--content">
               <h2 class="text-3xl font-extrabold proxima">
                 {{ item.name }}
               </h2>
@@ -108,13 +109,30 @@ export default {
   .hero {
     width: 100%;
     height: 750px;
-    background: url('~@/img/global/diagonal-bg.png') no-repeat center center;
+    background: url('~@/assets/img/global/diagonal-bg.png') no-repeat center center;
     background-size: contain;
   }
 
   .join-the-team {
     width: 100%;
-    background: url('~@/img/global/gray-decorated-square.png') no-repeat center center;
+    background: url('~@/assets/img/global/gray-decorated-square.png') no-repeat center center;
     background-size: cover;
   }
+
+  /* Programatically re-order the team member cards into a left / right pattern */
+
+  .team-container > div:nth-child(even) .team-member--photo {
+    order: 2;
+  }
+
+  .team-container > div:nth-child(even) .team-member--content {
+    order: 1;
+    padding-right: 3em;
+    text-align: right;
+  }
+
+  .team-container > div:nth-child(odd) .team-member--content {
+    padding-left: 3em;
+  }
+
 </style>
