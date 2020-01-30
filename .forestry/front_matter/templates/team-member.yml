@@ -30,3 +30,5 @@ fields:
   - type: textarea
     name: fullBio
     label: fullBio
+  config:
+    labelField: name
