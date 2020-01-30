@@ -1,5 +1,13 @@
 [
   {
+    "id": "123",
+    "photo": "",
+    "name": "John",
+    "title": "developer",
+    "shortBio": "john",
+    "fullBio": "john"
+  },
+  {
     "id": 1,
     "photo": "path",
     "name": "Mark Barker",
