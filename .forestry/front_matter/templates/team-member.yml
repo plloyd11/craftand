@@ -4,11 +4,14 @@ hide_body: true
 fields:
 - type: field_group_list
   name: Team
-  label: Team A
+  label: Team Member
   fields:
-  - type: number
-    name: id
-    label: id
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    name: title
+    label: Title
   - name: photograph
     type: file
     config:
@@ -18,17 +21,12 @@ fields:
   - type: text
     name: photo
     label: photo
-  - type: text
-    name: name
-    label: name
-  - type: text
-    name: title
-    label: title
   - type: textarea
     name: shortBio
-    label: shortBio
+    label: Short Bio
   - type: textarea
     name: fullBio
-    label: fullBio
+    label: Full Bio
   config:
     labelField: name
+  description: Adds a team member to the About page.
