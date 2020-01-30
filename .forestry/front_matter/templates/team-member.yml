@@ -12,15 +12,12 @@ fields:
   - type: text
     name: title
     label: Title
-  - name: photograph
+  - name: photo
     type: file
     config:
       maxSize: 250
     label: Photograph
     description: '600x600 photo '
-  - type: text
-    name: photo
-    label: photo
   - type: textarea
     name: shortBio
     label: Short Bio
