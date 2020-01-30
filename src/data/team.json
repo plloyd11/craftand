@@ -1,6 +1,5 @@
 [
   {
-    "id": "123",
     "photo": "../assets/img/craft/john-foderaro.jpg",
     "name": "John",
     "title": "Software Engineer",
@@ -9,7 +8,6 @@
     "photograph": "/assets/craft/john-foderaro.jpg"
   },
   {
-    "id": 1,
     "photo": "path",
     "name": "Mark Barker",
     "title": "Co-founder / strategy lead",
@@ -17,7 +15,6 @@
     "fullBio": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias numquam quos sed, nemo, accusamus recusandae quaerat delectus fuga enim tempora exercitationem labore. Rem aliquid autem incidunt aliquam ad dolor deserunt!"
   },
   {
-    "id": 2,
     "photo": "path",
     "name": "Jordan Ruden",
     "title": "Co-founder / campaign lead",

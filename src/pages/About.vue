@@ -26,8 +26,8 @@
       :key="edge.node.id"
     >
       <div
-        v-for="item in edge.node.data"
-        :key="item.id"
+        v-for="(item, index) in edge.node.data"
+        :key="index"
       >
         <section class="mx-auto mb-24 max-w-screen-lg">
           <div class="flex items-center team-card">
@@ -83,7 +83,6 @@
       edges {
         node {
           data {
-            id
             photo
             name
             title
