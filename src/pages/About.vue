@@ -33,7 +33,7 @@
           <div class="flex items-center team-card">
             <div>
               <g-image
-                src="~/img/team/mark.png"
+                :src="item.photo"
                 class="max-w-sm rounded-full"
               />
             </div>

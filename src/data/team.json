@@ -1,7 +1,7 @@
 [
   {
     "id": "123",
-    "photo": "/assets/img/craft/john-foderaro.jpg",
+    "photo": "../assets/img/craft/john-foderaro.jpg",
     "name": "John",
     "title": "Software Engineer",
     "shortBio": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
