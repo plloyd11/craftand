@@ -20,8 +20,8 @@ sections:
   new_doc_ext: json
   templates:
   - team-member
-upload_dir: assets/craft
-public_path: "/assets/craft"
+upload_dir: src/assets/img/craft
+public_path: "/assets/img/craft"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
