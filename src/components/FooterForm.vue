@@ -1,14 +1,14 @@
 <template>
   <section class="flex flex-col items-center justify-center w-8/12 bg-main-gray">
-    <h2 class="text-4xl font-bold text-center text-primary-color proxima">
+    <h2 class="text-3xl font-bold text-center text-primary-color proxima">
       We drive better results for things that matter.
     </h2>
-    <p class="text-lg text-center text-gray-400">
+    <p class="text-center text-gray-400 text-md">
       Sign up for our newsletter, where we share our insights and predictions on all things digital.
     </p>
     <form class="w-full max-w-4xl mx-auto mt-8">
-      <div class="flex flex-wrap w-11/12 mx-auto mb-6">
-        <div class="flex-1 w-full px-3">
+      <div class="flex flex-wrap w-10/12 mx-auto mb-6">
+        <div class="flex-1 w-full mr-8">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
             for="first-name"
@@ -23,7 +23,7 @@
             required
           >
         </div>
-        <div class="flex-1 w-full px-3">
+        <div class="flex-1 w-full">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
             for="last-name"
@@ -39,8 +39,8 @@
           >
         </div>
       </div>
-      <div class="flex flex-wrap items-end w-10/12 mx-auto mb-2">
-        <div class="flex-1 w-full">
+      <div class="flex flex-wrap items-end w-10/12 mx-auto">
+        <div class="w-4/5">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
             for="zip"
@@ -55,9 +55,9 @@
             required
           >
         </div>
-        <div class="flex-initial w-full">
+        <div class="relative flex-auto">
           <input
-            class="h-12 px-12 font-bold text-white bg-transparent border border-white focus:shadow-outline focus:outline-none"
+            class="text-gray-400 bg-transparent border border-white cursor-pointer din form-submit focus:shadow-outline focus:outline-none"
             type="submit"
             value="SUBMIT"
             name="Submit"
@@ -69,11 +69,19 @@
 </template>
 
 <script>
+
 export default {
 
 }
 </script>
 
-<style>
+<style scoped>
+
+.form-submit {
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 4px;
+  height: 46px;
+}
 
 </style>
