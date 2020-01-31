@@ -1,5 +1,12 @@
 [
   {
+    "name": "Test",
+    "title": "Test",
+    "photo": "../assets/img/craft/mark-barker.png",
+    "shortBio": "test",
+    "fullBio": "test"
+  },
+  {
     "id": 1,
     "photo": "../assets/img/craft/mark-barker.png",
     "name": "Mark Barker",
