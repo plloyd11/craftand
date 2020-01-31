@@ -10,6 +10,10 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minima impedit, numquam iste repudiandae quis amet reiciendis a sit voluptatum. Ipsa cumque facere, possimus laboriosam delectus ab rerum quasi ipsam.
         </p>
       </div>
+    </section>
+    <CaseStudyFilter />
+    <CaseStudyList />
+    <section>
       <div
         v-for="(caseStudy, index) in caseStudies"
         :key="index"
@@ -18,6 +22,7 @@
       </div>
       <button
         v-if="loadMore"
+        class="block mx-auto text-gray-700 uppercase din"
         @click="onClick"
       >
         Load More
@@ -27,7 +32,10 @@
 </template>
 
 <script>
+import CaseStudyFilter from '@/components/CaseStudyFilter.vue'
+import CaseStudyList from '@/components/CaseStudyList.vue'
 import allCaseStudies from '@/data/caseStudies.json'
+
 const caseStudyCount = allCaseStudies.length
 const caseStudyDisplay = 4
 
@@ -35,6 +43,11 @@ export default {
   name: 'CaseStudies',
   metaInfo: {
     title: 'Our Work'
+  },
+  components: {
+    CaseStudyFilter,
+    CaseStudyList
+
   },
   data () {
     return {
