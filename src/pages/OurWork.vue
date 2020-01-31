@@ -10,14 +10,46 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minima impedit, numquam iste repudiandae quis amet reiciendis a sit voluptatum. Ipsa cumque facere, possimus laboriosam delectus ab rerum quasi ipsam.
         </p>
       </div>
+      <div
+        v-for="(caseStudy, index) in caseStudies"
+        :key="index"
+      >
+        {{ caseStudy.title }}
+      </div>
+      <button
+        v-if="loadMore"
+        @click="onClick"
+      >
+        Load More
+      </button>
     </section>
   </Layout>
 </template>
 
 <script>
+import allCaseStudies from '@/data/caseStudies.json'
+const caseStudyCount = allCaseStudies.length
+const caseStudyDisplay = 4
+
 export default {
+  name: 'CaseStudies',
   metaInfo: {
     title: 'Our Work'
+  },
+  data () {
+    return {
+      caseStudies: allCaseStudies.splice(0, caseStudyDisplay),
+      loadMore: true
+    }
+  },
+  methods: {
+    onClick () {
+      this.caseStudies = [
+        ...this.caseStudies,
+        ...allCaseStudies.splice(0, caseStudyDisplay)
+      ]
+      this.loadMore = this.caseStudies.length !== caseStudyCount
+    }
   }
 }
 </script>
