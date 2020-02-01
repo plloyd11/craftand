@@ -26,6 +26,33 @@
         </g-link>
       </div>
     </div>
+    <!-- opposite facing item, will be removed once templating is setup -->
+    <div class="flex items-center justify-center case-study">
+      <div class="flex-1 pl-20 case-study--text">
+        <h4 class="font-semibold text-gray-700 uppercase text-md din">
+          Bright Pink
+        </h4>
+        <h2 class="max-w-sm my-4 text-4xl font-extrabold leading-none proxima">
+          Reach young, black women with prevention info
+        </h2>
+        <p class="max-w-sm mb-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat aut, iste accusamus eveniet labore. Cupiditate beatae laboriosam autem voluptatibus nam ea velit voluptate? Vitae praesentium facilis doloremque provident saepe.
+        </p>
+        <g-link
+          to="/carton-council"
+          class="px-1 pt-1 text-sm uppercase bg-primary-color din"
+        >
+          Read on
+          <RightArrow class="inline-block w-2 pb-1" />
+        </g-link>
+      </div>
+      <div class="flex-1 case-study--image">
+        <g-image
+          src="~/assets/img/case-studies/bright-pink-hero.png"
+          class="mb-1"
+        />
+      </div>
+    </div>
   </section>
 </template>
 

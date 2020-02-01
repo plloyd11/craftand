@@ -31,7 +31,7 @@
         :key="index"
       >
         <section class="mx-auto mb-24 max-w-screen-lg">
-          <div class="flex items-center team-member">
+          <div class="flex flex-col items-center sm:flex-row team-member">
             <div class="team-member--photo">
               <g-image
                 :src="item.photo"
@@ -104,7 +104,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .hero {
     width: 100%;
     height: 750px;
@@ -118,20 +118,30 @@ export default {
     background-size: cover;
   }
 
-  /* Programatically re-order the team member cards into a left / right pattern */
-
-  .team-container > div:nth-child(even) .team-member--photo {
-    order: 2;
+/* Programatically re-order the team member cards into a left / right pattern */
+.team-container {
+  @media (min-width: 1179px) {
+      padding-left: 9rem;
   }
-
-  .team-container > div:nth-child(even) .team-member--content {
-    order: 1;
-    padding-right: 3em;
-    text-align: right;
+  > div:nth-child(even) {
+    .team-member {
+      &--photo {
+        order: 2;
+      }
+      &--content {
+        order: 1;
+        padding-right: 3em;
+        text-align: right;
+      }
+    }
   }
-
-  .team-container > div:nth-child(odd) .team-member--content {
-    padding-left: 3em;
+  > div:nth-child(odd) {
+    .team-member {
+      &--content {
+        padding-left: 3em;
+      }
+    }
   }
+}
 
 </style>

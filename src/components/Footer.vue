@@ -1,7 +1,7 @@
 <template>
   <footer>
     <!-- Top Footer -->
-    <section class="flex">
+    <section class="flex flex-col sm:flex-row">
       <FooterForm />
       <FooterCallout />
     </section>
