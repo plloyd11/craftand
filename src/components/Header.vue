@@ -1,5 +1,5 @@
 <template>
-  <header class="py-12 shadow-md bg-main-gray">
+  <header class="py-8 shadow-md bg-main-gray">
     <div class="container flex items-center justify-between mx-auto">
       <div>
         <g-link
@@ -46,31 +46,64 @@
         >
           Careers
         </g-link>
-        <div class="md:ml-24 lg:ml-32">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="64"
-            height="64"
-            viewBox="0 0 64 64"
-          >
-            <image
-              id="Contact_Us_Icon"
-              data-name="Contact Us Icon"
-              width="64"
-              height="64"
-              xlink:href="data:img/png;base64,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"
-            />
-          </svg>
-        </div>
+        <FormTrigger
+          class="cursor-pointer md:ml-16 lg:ml-24"
+          @click="toggleForm(); toggleBodyClass();"
+        />
+        <transition
+          name="slide-in"
+          mode="out-in"
+        >
+          <HeaderForm
+            v-if="isOpen"
+            class="header-form"
+            @close-form="toggleForm"
+          />
+        </transition>
       </nav>
     </div>
   </header>
 </template>
 
 <script>
-export default {
+import HeaderForm from '@/components/HeaderForm.vue'
+import FormTrigger from '@/assets/img/icons/form-trigger.svg'
 
+export default {
+  components: {
+    HeaderForm,
+    FormTrigger
+  },
+  data () {
+    return {
+      isOpen: false
+    }
+  },
+  methods: {
+    toggleForm () {
+      this.isOpen = !this.isOpen
+    },
+    /*  @johnfoderaro - need help finishing this method, which adds / removes the no-flow class to the body when the
+        modal is toggled, so a user won't be able to scroll down when the modal is opened
+    */
+    toggleBodyClass (addRemoveClass, className) {
+      const el = document.body
+      console.log(el)
+      if (addRemoveClass === 'addClass') {
+        el.classList.add(className)
+        console.log('i was clicked!')
+      } else {
+        el.classList.remove(className)
+        console.log('sad panda!')
+      }
+    },
+    updated () {
+      this.toggleBodyClass('addClass', 'no-flow')
+    },
+    destroyed () {
+      this.toggleBodyClass('removeClass', 'no-flow')
+    }
+  }
 }
 </script>
 
@@ -82,10 +115,25 @@ export default {
   }
 </static-query>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .active {
   color: #fadd0d;
+}
+
+.slide-in-enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slide-in-enter-active,
+.slide-in-leave-active {
+  transition: all .45s ease-in-out;
+}
+
+.slide-in-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
 }
 
 </style>
