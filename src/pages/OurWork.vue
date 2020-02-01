@@ -11,13 +11,58 @@
         </p>
       </div>
     </section>
+    <CaseStudyFilter />
+    <CaseStudyList />
+    <section>
+      <div
+        v-for="(caseStudy, index) in caseStudies"
+        :key="index"
+      >
+        {{ caseStudy.title }}
+      </div>
+      <button
+        v-if="loadMore"
+        class="block mx-auto text-gray-700 uppercase din"
+        @click="onClick"
+      >
+        Load More
+      </button>
+    </section>
   </Layout>
 </template>
 
 <script>
+import CaseStudyFilter from '@/components/CaseStudyFilter.vue'
+import CaseStudyList from '@/components/CaseStudyList.vue'
+import allCaseStudies from '@/data/caseStudies.json'
+
+const caseStudyCount = allCaseStudies.length
+const caseStudyDisplay = 4
+
 export default {
+  name: 'CaseStudies',
   metaInfo: {
     title: 'Our Work'
+  },
+  components: {
+    CaseStudyFilter,
+    CaseStudyList
+
+  },
+  data () {
+    return {
+      caseStudies: allCaseStudies.splice(0, caseStudyDisplay),
+      loadMore: true
+    }
+  },
+  methods: {
+    onClick () {
+      this.caseStudies = [
+        ...this.caseStudies,
+        ...allCaseStudies.splice(0, caseStudyDisplay)
+      ]
+      this.loadMore = this.caseStudies.length !== caseStudyCount
+    }
   }
 }
 </script>

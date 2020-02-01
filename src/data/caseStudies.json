@@ -1,0 +1,41 @@
+[{
+  "id": 1,
+  "title": "Case Study 1",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 2,
+  "title": "Case Study 2",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 3,
+  "title": "Case Study 3",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 4,
+  "title": "Case Study 4",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 5,
+  "title": "Case Study 5",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 6,
+  "title": "Case Study 6",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 7,
+  "title": "Case Study 7",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 8,
+  "title": "Case Study 8",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 9,
+  "title": "Case Study 9",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id": 10,
+  "title": "Case Study 10",
+  "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}]
