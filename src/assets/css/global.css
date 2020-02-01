@@ -10,8 +10,6 @@ body {
   background-color: #fff;
 }
 
-main
-
 .din {
   font-family: 'URW DIN', sans-serif;
 }
@@ -34,4 +32,8 @@ main
   height: 10px;
   width: 100%;
   background-color: #fadd0d;
+}
+
+.no-flow {
+  overflow-y: hidden;
 }

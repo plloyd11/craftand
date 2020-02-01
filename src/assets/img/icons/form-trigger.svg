@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>form-trigger</title>
+    <desc>Created with Sketch.</desc>
+    <g id="form-trigger" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email-action-unread">
+            <circle id="Oval" fill="#FADD0D" cx="32" cy="32" r="32"></circle>
+            <rect id="Rectangle" stroke="#231F20" stroke-width="2.25634505" stroke-linecap="round" stroke-linejoin="round" x="16.233415" y="20.5907725" width="31.5888307" height="22.5634505" rx="2.25634505"></rect>
+            <path d="M47.3123117,21.418099 L35.0618623,30.8405959 C33.2731873,32.2165832 30.7824734,32.2165832 28.9937984,30.8405959 L16.743349,21.418099" id="Path" stroke="#231F20" stroke-width="2.25634505" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
