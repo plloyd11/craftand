@@ -1,14 +1,14 @@
 <template>
-  <section class="flex flex-col items-center justify-center w-8/12 bg-main-gray">
+  <section class="flex flex-col items-center justify-center py-12 sm:py-0 sm:w-8/12 bg-main-gray">
     <h2 class="text-3xl font-bold text-center text-primary-color proxima">
       We drive better results for things that matter.
     </h2>
     <p class="text-center text-gray-400 text-md">
       Sign up for our newsletter, where we share our insights and predictions on all things digital.
     </p>
-    <form class="w-full max-w-4xl mx-auto mt-8">
-      <div class="flex flex-wrap w-10/12 mx-auto mb-6">
-        <div class="flex-1 w-full mr-8">
+    <form class="w-full max-w-4xl px-8 mx-auto mt-8 footer-form">
+      <div class="mx-auto mb-6 footer-form_row-1">
+        <div class="w-full mb-6 sm:mr-8 sm:mb-0">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
             for="first-name"
@@ -23,7 +23,7 @@
             required
           >
         </div>
-        <div class="flex-1 w-full">
+        <div class="w-full">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
             for="last-name"
@@ -39,8 +39,8 @@
           >
         </div>
       </div>
-      <div class="flex flex-wrap items-end w-10/12 mx-auto">
-        <div class="w-4/5">
+      <div class="mx-auto footer-form_row-2">
+        <div class="w-full mb-6 sm:mb-0">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
             for="zip"
@@ -55,9 +55,9 @@
             required
           >
         </div>
-        <div class="relative flex-auto">
+        <div class="self-end w-full">
           <input
-            class="text-gray-400 bg-transparent border border-white cursor-pointer din form-submit focus:shadow-outline focus:outline-none"
+            class="px-12 text-gray-400 bg-transparent border border-white cursor-pointer din form-submit focus:shadow-outline focus:outline-none"
             type="submit"
             value="SUBMIT"
             name="Submit"
@@ -75,12 +75,31 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
+.footer-form {
+  &_row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: 768px) {
+      display: grid;
+      column-gap: 32px;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  &_row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr min-content;
+    }
+  }
+}
 
 .form-submit {
-  padding-left: 44px;
-  padding-right: 44px;
-  padding-top: 4px;
   height: 46px;
 }
 
