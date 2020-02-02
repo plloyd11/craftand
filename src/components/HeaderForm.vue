@@ -6,7 +6,7 @@
       <div class="container relative flex px-6 mx-auto">
         <FormTriggerClose
           class="formClose"
-          @click="closeForm"
+          @click="close"
         />
         <div class="flex-1 mt-24">
           <h2 class="text-5xl font-extrabold proxima">
@@ -81,14 +81,10 @@ export default {
     FormTriggerClose,
     MapPin
   },
-  data () {
-    return {
-
-    }
-  },
   methods: {
-    closeForm () {
-      this.$emit('close-form')
+    // TODO handle the submission form
+    close () {
+      this.$emit('close')
     }
   }
 }

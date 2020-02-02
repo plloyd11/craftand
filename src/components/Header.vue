@@ -48,7 +48,7 @@
         </g-link>
         <FormTrigger
           class="cursor-pointer md:ml-16 lg:ml-24"
-          @click="toggleForm(); toggleBodyClass();"
+          @click="toggle"
         />
         <transition
           name="slide-in"
@@ -57,7 +57,7 @@
           <HeaderForm
             v-if="isOpen"
             class="header-form"
-            @close-form="toggleForm"
+            @close="toggle"
           />
         </transition>
       </nav>
@@ -80,28 +80,9 @@ export default {
     }
   },
   methods: {
-    toggleForm () {
+    toggle () {
       this.isOpen = !this.isOpen
-    },
-    /*  @johnfoderaro - need help finishing this method, which adds / removes the no-flow class to the body when the
-        modal is toggled, so a user won't be able to scroll down when the modal is opened
-    */
-    toggleBodyClass (addRemoveClass, className) {
-      const el = document.body
-      console.log(el)
-      if (addRemoveClass === 'addClass') {
-        el.classList.add(className)
-        console.log('i was clicked!')
-      } else {
-        el.classList.remove(className)
-        console.log('sad panda!')
-      }
-    },
-    updated () {
-      this.toggleBodyClass('addClass', 'no-flow')
-    },
-    destroyed () {
-      this.toggleBodyClass('removeClass', 'no-flow')
+      document.body.classList.toggle('no-flow')
     }
   }
 }
