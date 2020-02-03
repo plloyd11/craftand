@@ -1,4 +1,31 @@
 ---
 label: Case Study
 hide_body: true
-fields: []
+fields:
+- name: Title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Case study title.
+- name: categroy
+  type: tag_list
+  default: []
+  label: Category
+  description: Case study category
+- name: introduction
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Introduction
+  description: Introduction text.
+- name: photo
+  type: file
+  config:
+    maxSize: 250
+  label: Photo
+  description: Case study photo.
