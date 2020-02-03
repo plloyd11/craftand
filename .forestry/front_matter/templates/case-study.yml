@@ -13,7 +13,7 @@ fields:
   default: []
   label: Category
   description: Case study category
-- name: Title
+- name: title
   type: text
   config:
     required: false
