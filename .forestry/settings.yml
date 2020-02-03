@@ -9,7 +9,7 @@ sections:
   label: Case Studies
   create: documents
   match: "**/*.json"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - case-study
 - type: directory
