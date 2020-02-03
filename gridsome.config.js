@@ -26,10 +26,17 @@ module.exports = {
   {
     use: '@gridsome/source-filesystem',
     options: {
-      typeName: 'CaseStudies',
-      path: './src/data/caseStudies.json'
+      typeName: 'CaseStudy',
+      path: './src/content/case-studies/**/*.json'
     }
   },
+  // {
+  //   use: '@gridsome/source-filesystem',
+  //   options: {
+  //     typeName: 'CaseStudies',
+  //     path: './src/data/caseStudies.json'
+  //   }
+  // },
   {
     use: '@gridsome/source-filesystem',
     options: {

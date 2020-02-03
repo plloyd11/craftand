@@ -11,15 +11,13 @@
         </p>
       </div>
     </section>
-    <CaseStudyFilter />
-    <CaseStudyList />
+    <CaseStudyFilter
+      :case-studies-list="caseStudiesList"
+    />
+    <CaseStudyList
+      :case-studies-list="caseStudiesList"
+    />
     <section>
-      <div
-        v-for="(caseStudy, index) in caseStudies"
-        :key="index"
-      >
-        {{ caseStudy.title }}
-      </div>
       <button
         v-if="loadMore"
         class="block mx-auto text-gray-700 uppercase din"
@@ -31,13 +29,26 @@
   </Layout>
 </template>
 
+<static-query>
+  query {
+    allCaseStudy {
+      edges {
+        node {
+          title
+          name
+          category
+          introduction
+          photo
+          path
+        }
+      }
+    }
+  }
+</static-query>
+
 <script>
 import CaseStudyFilter from '@/components/CaseStudyFilter.vue'
 import CaseStudyList from '@/components/CaseStudyList.vue'
-import allCaseStudies from '@/data/caseStudies.json'
-
-const caseStudyCount = allCaseStudies.length
-const caseStudyDisplay = 4
 
 export default {
   name: 'CaseStudies',
@@ -47,21 +58,26 @@ export default {
   components: {
     CaseStudyFilter,
     CaseStudyList
-
   },
   data () {
     return {
-      caseStudies: allCaseStudies.splice(0, caseStudyDisplay),
-      loadMore: true
+      caseStudies: [],
+      caseStudiesList: [],
+      loadMore: true,
+      maxDisplay: 1
     }
+  },
+  mounted () {
+    this.caseStudies = this.$static.allCaseStudy.edges
+    this.caseStudiesList = this.caseStudies.splice(0, this.maxDisplay)
   },
   methods: {
     onClick () {
-      this.caseStudies = [
-        ...this.caseStudies,
-        ...allCaseStudies.splice(0, caseStudyDisplay)
+      this.caseStudiesList = [
+        ...this.caseStudiesList,
+        ...this.caseStudies.splice(0, this.maxDisplay)
       ]
-      this.loadMore = this.caseStudies.length !== caseStudyCount
+      this.loadMore = this.caseStudies.length > 0
     }
   }
 }
