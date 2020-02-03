@@ -1,0 +1,8 @@
+{
+  "categroy": [
+    "Category A"
+  ],
+  "Title": "Test Case Study 01",
+  "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "photo": "../assets/img/craft/carton-hero.png"
+}

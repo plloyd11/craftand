@@ -29,3 +29,5 @@ fields:
     maxSize: 250
   label: Photo
   description: Case study photo.
+pages:
+- src/content/case-studies/carton-council.json
