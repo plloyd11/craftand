@@ -5,6 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: src/content/case-studies
+  label: Case Studies
+  create: documents
+  match: "**/*.json"
+  new_doc_ext: ".json"
+  templates:
+  - case-study
+- type: directory
   path: src/content/careers
   label: Careers
   create: documents
