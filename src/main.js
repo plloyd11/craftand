@@ -22,6 +22,11 @@ export default function (Vue, { router, head, isClient }) {
     href: 'https://use.typekit.net/iyb1djz.css'
   })
 
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://unpkg.com/vue-agile/dist/VueAgile.css'
+  })
+
   head.bodyAttrs = {
     class: 'antialiased text-gray-900'
   }
