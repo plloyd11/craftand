@@ -1,6 +1,6 @@
 <template>
-  <section class="flex flex-col items-center justify-center py-12 sm:py-0 sm:w-8/12 bg-main-gray">
-    <h2 class="text-3xl font-bold text-center text-primary-color proxima">
+  <section class="flex flex-col items-center justify-center px-6 py-12 sm:py-0 sm:w-8/12 bg-main-gray">
+    <h2 class="mb-4 text-2xl font-bold leading-tight text-center lg:mb-2 lg:text-3xl text-primary-color proxima">
       We drive better results for things that matter.
     </h2>
     <p class="text-center text-gray-400 text-md">

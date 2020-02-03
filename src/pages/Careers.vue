@@ -1,14 +1,14 @@
 <template>
   <Layout>
     <section class="hero">
-      <div class="p-12 bg-white shadow-sm">
-        <h1 class="text-5xl font-extrabold text-center proxima">
+      <div class="p-8 bg-white lg:p-12 shadow-sm">
+        <h1 class="text-2xl font-extrabold text-center lg:text-5xl proxima">
           Work with us.
         </h1>
       </div>
     </section>
-    <section class="container px-6 mx-auto my-24">
-      <h3 class="mb-8 text-4xl font-extrabold proxima">
+    <section class="container px-6 mx-auto my-12 lg:my-24">
+      <h3 class="mb-8 text-2xl font-extrabold lg:text-4xl proxima">
         We're Hiring!
       </h3>
       <p class="text-lg leading-normal max-w-screen-lg">
@@ -21,7 +21,7 @@
         v-for="edge in $page.allJob.edges"
         :key="edge.node.id"
       >
-        <div class="max-w-sm overflow-hidden rounded shadow-lg">
+        <div class="max-w-sm mb-6 overflow-hidden rounded shadow-lg lg:mb-0">
           <div class="px-6 py-4">
             <g-image
               :src="edge.node.cover_image"
@@ -30,15 +30,12 @@
             <h4 class="mb-2 text-2xl font-bold proxima">
               {{ edge.node.title }}
             </h4>
-            <p class="mb-2 text-base text-gray-700">
+            <p class="mb-6 text-base text-gray-700">
               {{ edge.node.excerpt }}
             </p>
             <g-link :to="edge.node.path">
               Learn more
             </g-link>
-          </div>
-          <div class="px-6 py-2">
-            <span class="inline-block px-3 py-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">{{ edge.node.tags }}</span>
           </div>
         </div>
       </div>
@@ -76,21 +73,31 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 300px;
     background: url('~@/assets/img/careers/careers-hero.jpg') no-repeat center center;
     background-size: cover;
+    @media (min-width: 1024px) {
+      height: 600px;
+    }
   }
 
   .job-posting-grid {
-    display: grid;
-    gap: 24px;
-    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: 1024px) {
+      display: grid;
+      column-gap: 8px;
+      row-gap: 92px;
+      grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    }
   }
 
 </style>

@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <!-- Hero -->
-    <section class="mt-20 hero">
+    <section class="mt-12 lg:mt-20 hero">
       <div class="container px-6 mx-auto">
-        <h1 class="mb-4 text-5xl font-extrabold proxima">
+        <h1 class="mb-4 text-3xl font-extrabold lg:text-5xl proxima">
           For things that <span class="text-strike">matter</span>.
         </h1>
         <p class="mb-6 text-xl leading-normal max-w-screen-md">

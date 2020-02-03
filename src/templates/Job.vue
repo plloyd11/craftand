@@ -15,10 +15,17 @@
   }
 </page-query>
 
-<style>
-.job-post h1 {
-  font-family: 'Proxima Nova', sans-serif;
-  @apply text-5xl font-bold;
+<style lang="scss">
+
+.job-post {
+  .title {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    @media (min-width: 1024px) {
+      font-size: 3rem;
+    }
+  }
 }
 
 .job-post ul {
@@ -26,11 +33,11 @@
 }
 
 .job-post .body-text {
-  @apply my-4 max-w-screen-lg;
+  @apply my-6 max-w-screen-md;
 }
 
 .job-post li {
-  @apply list-disc list-inside;
+  @apply list-disc list-inside mb-2;
 }
 
 .job-post p > a {
