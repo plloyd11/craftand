@@ -2,17 +2,23 @@
 label: Case Study
 hide_body: true
 fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Name of the case study.
+- name: categroy
+  type: tag_list
+  default: []
+  label: Category
+  description: Case study category
 - name: Title
   type: text
   config:
     required: false
   label: Title
   description: Case study title.
-- name: categroy
-  type: tag_list
-  default: []
-  label: Category
-  description: Case study category
 - name: introduction
   type: textarea
   default: ''
