@@ -27,7 +27,8 @@
     "@gridsome/transformer-remark": "^0.4.0",
     "@noxify/gridsome-remark-classes": "^1.0.0",
     "gridsome": "latest",
-    "gridsome-plugin-base-components": "0.0.12"
+    "gridsome-plugin-base-components": "0.0.12",
+    "vue-agile": "^1.0.11"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

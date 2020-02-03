@@ -6,7 +6,7 @@
         alt="Hero Image"
       />
       <h1
-        class="mt-12 mb-4 text-2xl font-extrabold text-center sm:text-5xl proxima"
+        class="mt-12 mb-4 text-3xl font-extrabold leading-tight text-center sm:text-5xl proxima"
       >
         The attention landscape is <span class="text-strike">always</span> in flux.
       </h1>
