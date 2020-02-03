@@ -1,6 +1,7 @@
 <template>
   <main class="flex flex-col min-h-screen">
-    <Header />
+    <Header class="hidden lg:block" />
+    <HeaderMobile class="lg:hidden" />
     <slot />
     <Footer class="mt-24" />
   </main>
@@ -8,11 +9,13 @@
 
 <script>
 import Header from '~/components/Header.vue'
+import HeaderMobile from '~/components/HeaderMobile.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Header,
+    HeaderMobile,
     Footer
   }
 }

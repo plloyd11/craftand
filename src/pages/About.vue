@@ -1,21 +1,21 @@
 <template>
   <Layout>
     <!-- Hero -->
-    <section class="mt-20 hero">
+    <section class="my-12 lg:mb-0 lg:mt-20 hero">
       <div class="container px-6 mx-auto">
-        <h1 class="mb-4 text-5xl font-extrabold proxima">
+        <h1 class="mb-4 text-3xl font-extrabold lg:text-5xl proxima">
           Behind the <span class="text-strike">curtain</span>...
         </h1>
-        <p class="mb-6 text-xl leading-normal max-w-screen-md">
+        <p class="mb-6 text-lg leading-normal lg:text-xl max-w-screen-md">
           West Philadelphia, born and — hang on, that’s a different orgin story ;)
         </p>
-        <p class="mb-6 text-xl leading-normal max-w-screen-md">
+        <p class="mb-6 text-lg leading-normal lg:text-xl max-w-screen-md">
           Here’s ours: founders Mark and Jordan, colleagues at GOOD, decided to change their lives in 200X, and started building a company from scratch. Craft & Commerce, born as a purposeful agency, grew through a combination of hustle and good fortune.
         </p>
-        <p class="mb-6 text-xl leading-normal max-w-screen-md">
+        <p class="mb-6 text-lg leading-normal lg:text-xl max-w-screen-md">
           Much like the digital world has, C&C has evolved, building a team of experts around our core strategic and creative disciplines. Along the way we have found bold partners in education, civic progress, non-profit, public policy, and more who share our vision of social purpose.
         </p>
-        <p class="mt-20 text-xl din">
+        <p class="mt-12 lg:mt-20 text-md lg:text-xl din">
           MEET THE TEAM THAT MAKES IT POSSIBLE —
         </p>
       </div>
@@ -31,7 +31,7 @@
         :key="index"
       >
         <section class="mx-auto mb-24 max-w-screen-lg">
-          <div class="flex flex-col items-center sm:flex-row team-member">
+          <div class="flex flex-col items-center justify-center sm:flex-row team-member">
             <div class="team-member--photo">
               <g-image
                 :src="item.photo"
@@ -107,9 +107,11 @@ export default {
 <style lang="scss" scoped>
   .hero {
     width: 100%;
-    height: 750px;
-    background: url('~@/assets/img/global/diagonal-bg.png') no-repeat center center;
-    background-size: contain;
+    @media (min-width: 1024px) {
+      height: 750px;
+      background: url('~@/assets/img/global/diagonal-bg.png') no-repeat center center;
+      background-size: contain;
+    }
   }
 
   .join-the-team {
@@ -120,18 +122,20 @@ export default {
 
 /* Programatically re-order the team member cards into a left / right pattern */
 .team-container {
-  @media (min-width: 1179px) {
-      padding-left: 9rem;
-  }
   > div:nth-child(even) {
     .team-member {
       &--photo {
-        order: 2;
+        @media (min-width: 1024px) {
+          order: 2;
+        }
       }
       &--content {
-        order: 1;
-        padding-right: 3em;
-        text-align: right;
+        @media (min-width: 1024px) {
+          order: 1;
+          order: 1;
+          padding-right: 3em;
+          text-align: right;
+        }
       }
     }
   }
