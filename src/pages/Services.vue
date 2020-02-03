@@ -2,9 +2,9 @@
   <Layout>
     <!-- Hero -->
     <section class="hero">
-      <div class="container flex items-start px-6 py-16 mx-auto bg-main-gray-semi-transparent">
-        <div class="w-8/12">
-          <h2 class="mb-8 text-5xl font-extrabold text-white proxima">
+      <div class="container flex flex-col items-start px-6 py-12 mx-auto lg:py-16 lg:flex-row bg-main-gray-semi-transparent">
+        <div class="mb-6 lg:mb-0 lg:w-8/12">
+          <h2 class="mb-8 text-3xl font-extrabold text-center text-white lg:text-left lg:text-5xl proxima">
             All method, no madness.
           </h2>
           <p class="mb-6 text-xl leading-normal text-white max-w-screen-sm">
@@ -17,8 +17,8 @@
             How might you move the needle with the right method in hand?
           </p>
         </div>
-        <div class="w-4/12 border-l-2 border-primary-color">
-          <h4 class="pl-4 mb-8 font-bold text-white uppercase din">
+        <div class="border-l-2 lg:w-4/12 border-primary-color">
+          <h4 class="pl-4 mb-8 text-xl font-bold text-white uppercase din">
             Focus Areas
           </h4>
           <ul class="text-white uppercase din hero-list">
@@ -29,7 +29,9 @@
             <li>Purpose-Driven Brands</li>
             <li>Foundations</li>
             <li>Educators</li>
-            <li>State, Local, and Regional Government Agencies and Planning Authorities</li>
+            <li class="w-64">
+              State, Local, and Regional Government Agencies and Planning Authorities
+            </li>
           </ul>
         </div>
       </div>
@@ -46,39 +48,18 @@
       </g-link>
     </aside>
     <!-- Services Carousel -->
-    <section class="py-12 -my-12 services-carousel">
+    <section class="py-12 -my-24 services-carousel">
       <div class="flex items-center justify-center py-48">
-        <div class="mr-12">
-          <IssueEducation class="w-64" />
-        </div>
-        <div class="max-w-lg">
-          <h2 class="mb-2 text-3xl font-bold proxima">
-            Issue Education
-          </h2>
-          <p class="max-w-sm">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
-          </p>
-          <p class="mt-8 mb-4 text-sm uppercase din">
-            Related Case Studies
-          </p>
-          <ul>
-            <li class="my-3">
-              3PS for CA
-            </li>
-            <li class="my-3">
-              Maine Family Planning
-            </li>
-          </ul>
-        </div>
+        <ServicesCarousel />
       </div>
     </section>
     <!-- Callout -->
-    <section class="container mx-auto mt-24 max-w-screen-lg right-stuff">
+    <section class="container px-6 mx-auto mt-24 max-w-screen-lg right-stuff">
       <div class="flex flex-col items-center justify-center py-16">
         <p class="mb-8 uppercase din">
           The right stuff
         </p>
-        <h2 class="mb-2 text-5xl font-extrabold text-center proxima">
+        <h2 class="mb-2 text-3xl font-extrabold text-center sm:text-5xl proxima">
           The C&amp;C Toolbox:
         </h2>
         <p class="mx-auto text-lg text-center max-w-screen-md">
@@ -87,10 +68,10 @@
       </div>
     </section>
     <!-- Quote -->
-    <section class="container max-w-xl mx-auto mt-12 text-center">
+    <section class="container max-w-xl px-6 mx-auto mt-12 text-center">
       <div class="flex flex-col items-center justify-center py-16">
-        <p class="mb-8 text-4xl">
-          <span class="block mb-8">"I’ve worked with a lot of media folks in my career.</span> The Craft & Commerce team is <br> the smartest and most effective I've ever run into.”
+        <p class="mb-8 text-xl sm:text-4xl">
+          <span class="block mb-4 sm:mb-8">"I’ve worked with a lot of media folks in my career.</span> The Craft & Commerce team is <br> the smartest and most effective I've ever run into.”
         </p>
         <p class="px-3 pt-2 uppercase din bg-primary-color">
           —Bright Pink
@@ -102,7 +83,7 @@
 
 <script>
 import TearSheet from '~/assets/img/icons/tearsheet.svg'
-import IssueEducation from '~/assets/img/services/issue-education.svg'
+import ServicesCarousel from '~/components/ServicesCarousel.vue'
 
 export default {
   metaInfo: {
@@ -110,20 +91,22 @@ export default {
   },
   components: {
     TearSheet,
-    IssueEducation
+    ServicesCarousel
   }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 700px;
     background: url('~@/assets/img/services/services-hero.jpg') no-repeat center center;
     background-size: cover;
+    @media (min-width: 1024px) {
+      height: 700px;
+    }
   }
 
   .hero-list li {
