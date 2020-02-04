@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "photo": "../assets/img/craft/mark-barker.png",
+    "photo": "../../assets/img/craft/mark-barker.png",
     "name": "Mark Barker",
     "title": "Co-founder / strategy lead",
     "shortBio": "Mark is a data-driven marketer with deep experience in integrated media strategy and social impact advertising. Prior to founding Craft & Commerce, Mark was General Manager of GOOD’s digital platform and GOOD/Corps agency business, where he crafted innovative, content-based consumer engagements for the likes of Gates Foundation, Google and Starbucks.",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "photo": "../assets/img/craft/jordan-ruden.png",
+    "photo": "../../assets/img/craft/jordan-ruden.png",
     "name": "Jordan Ruden",
     "title": "Co-founder / campaign lead",
     "shortBio": "Jordan is a leading creative and technology specialist with a track record of empowering nonprofits, advocacy organizations, and purpose-driven brands to effectively harness paid media, cut through today’s noisy attention landscape, and drive real-world outcomes.",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "photo": "../assets/img/craft/ella-evans.png",
+    "photo": "../../assets/img/craft/ella-evans.png",
     "name": "Ella Evans",
     "title": "Copywriter",
     "shortBio": "Ella is a savvy, leading-edge digital communicator who oversees content strategy and copywriting for Craft & Commerce’s campaigns.",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "photo": "../assets/img/craft/emily-iles.png",
+    "photo": "../../assets/img/craft/emily-iles.png",
     "name": "Emily Iles",
     "title": "Creative Director",
     "shortBio": "Emily establishes the creative strategy for Craft & Commerce’s campaigns, aligning her depth of experience and keen eye for breakthrough design with the objectives and requirements of any given project, yielding effective, “feed-stopping” creative that truly defines a campaign.",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "photo": "../assets/img/craft/karen-stransky-price.png",
+    "photo": "../../assets/img/craft/karen-stransky-price.png",
     "name": "Karen Stransky-Price",
     "title": "Director of Operations",
     "shortBio": "Karen leads day-to-day campaign management for our partners, stewarding campaign setup and delivery, iteration and optimization, and reporting--as well as generally keeps the trains running on time.",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "photo": "../assets/img/craft/kellie-chea.png",
+    "photo": "../../assets/img/craft/kellie-chea.png",
     "name": "Kellie Chea",
     "title": "Account Director",
     "shortBio": "Kellie channels her background in project management and communications to amplify the voices of progressive social organizations and nonprofits.",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "photo": "../assets/img/craft/jacob-lepiarz.png",
+    "photo": "../../assets/img/craft/jacob-lepiarz.png",
     "name": "Jacob Lepiarz",
     "title": "Account Director",
     "shortBio": "Jacob is a seasoned movement building and cause marketing strategist with deep digital and integrated marketing expertise.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "photo": "../assets/img/craft/jacob-lepiarz.png",
+    "photo": "../../assets/img/craft/jacob-lepiarz.png",
     "name": "Kristin Holzer",
     "title": "Graphic Designer",
     "shortBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "photo": "../assets/img/craft/jacob-lepiarz.png",
+    "photo": "../../assets/img/craft/jacob-lepiarz.png",
     "name": "Steph Marquette",
     "title": "Ad Operations Manager",
     "shortBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "photo": "../assets/img/craft/jacob-lepiarz.png",
+    "photo": "../../assets/img/craft/jacob-lepiarz.png",
     "name": "Carli Feinstein",
     "title": "Title",
     "shortBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

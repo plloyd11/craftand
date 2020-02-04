@@ -34,7 +34,7 @@
 <script>
 import CaseStudyFilter from '@/components/CaseStudyFilter.vue'
 import CaseStudyList from '@/components/CaseStudyList.vue'
-import allCaseStudies from '@/data/caseStudies.json'
+// import allCaseStudies from '@/data/caseStudies.json'
 
 const caseStudyCount = allCaseStudies.length
 const caseStudyDisplay = 4
