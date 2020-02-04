@@ -32,15 +32,9 @@
       </div>
     </div>
 
-
     <!-- opposite facing item, will be removed once templating is setup -->
-<<<<<<< HEAD
-    <div class="flex flex-col items-center justify-center sm:flex-row case-study">
+    <!-- <div class="flex flex-col items-center justify-center sm:flex-row case-study">
       <div class="flex-1 order-2 sm:order-1 sm:pl-20 case-study--text">
-=======
-    <!-- <div class="flex items-center justify-center case-study">
-      <div class="flex-1 pl-20 case-study--text">
->>>>>>> b422b894d48f81116b82909ed7a0f272973278d9
         <h4 class="font-semibold text-gray-700 uppercase text-md din">
           Bright Pink
         </h4>
