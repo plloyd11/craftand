@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src/content/case-studies
+  path: src/data
   label: Case Studies
   create: documents
   match: "**/*.json"
