@@ -9,7 +9,7 @@ sections:
   label: Case Studies
   create: documents
   match: "**/*.json"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - case-study
 - type: directory
@@ -21,7 +21,7 @@ sections:
   templates:
   - job-posting
 - type: directory
-  path: src/data
+  path: src/content/team
   label: Team Members
   create: none
   match: "**/*.json"
