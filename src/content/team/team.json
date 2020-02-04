@@ -3,7 +3,8 @@
     "name": "John",
     "title": "John",
     "shortBio": "John",
-    "fullBio": "John"
+    "fullBio": "John",
+    "photo": "../../assets/img/craft/carton-hero.png"
   },
   {
     "id": 1,
