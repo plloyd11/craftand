@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src/data
+  path: src/content/case-studies
   label: Case Studies
   create: documents
   match: "**/*.json"
@@ -21,7 +21,7 @@ sections:
   templates:
   - job-posting
 - type: directory
-  path: src/data
+  path: src/content/team
   label: Team Members
   create: none
   match: "**/*.json"
@@ -29,7 +29,7 @@ sections:
   templates:
   - team-member
 upload_dir: src/assets/img/craft
-public_path: "../assets/img/craft"
+public_path: "../../assets/img/craft"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
