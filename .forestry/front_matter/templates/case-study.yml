@@ -35,3 +35,9 @@ fields:
     maxSize: 250
   label: Photo
   description: Case study photo.
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+  description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
