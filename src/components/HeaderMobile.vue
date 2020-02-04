@@ -1,12 +1,6 @@
 <template>
   <header class="px-4 py-8 shadow-md bg-main-gray">
     <div class="container flex items-center justify-between mx-auto">
-      <!-- Menu -->
-      <div>
-        <a
-          class="nav-trigger"
-        ><span>Menu</span></a>
-      </div>
       <!-- Logo -->
       <div>
         <g-link
@@ -20,35 +14,19 @@
           />
         </g-link>
       </div>
-      <!-- Form -->
+      <!-- Menu -->
       <div>
-        <FormTrigger
-          @click="toggle"
-        />
-        <transition
-          name="slide-in"
-          mode="out-in"
-        >
-          <HeaderForm
-            v-if="isOpen"
-            class="header-form"
-            @close="toggle"
-          />
-        </transition>
+        <a
+          class="nav-trigger"
+        ><span>Menu</span></a>
       </div>
     </div>
   </header>
 </template>
 
 <script>
-import HeaderForm from '@/components/HeaderForm.vue'
-import FormTrigger from '@/assets/img/icons/form-trigger.svg'
 
 export default {
-  components: {
-    HeaderForm,
-    FormTrigger
-  },
   data () {
     return {
       isOpen: false
@@ -79,10 +57,7 @@ export default {
 }
 
 .header-logo {
-  width: 165px;
-  @media (min-width: 1024px) {
-    width: 275px;
-  }
+  width: 215px;
 }
 
 .slide-in-enter {

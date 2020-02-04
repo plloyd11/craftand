@@ -48,9 +48,14 @@
               <p class="max-w-md mt-8">
                 {{ item.shortBio }}
                 <a
-                  href="#modal"
                   class="px-1 py-0 text-sm font-extrabold bg-primary-color"
-                >+</a>
+                  @click="showModal = true"
+                >
+                  <TeamModal
+                    v-if="showModal"
+                    @close="showModal = false"
+                  />
+                  +</a>
               </p>
             </div>
           </div>
@@ -97,9 +102,18 @@
 </page-query>
 
 <script>
+import TeamModal from '~/components/TeamModal.vue'
 export default {
+  components: {
+    TeamModal
+  },
   metaInfo: {
     title: 'About us'
+  },
+  data () {
+    return {
+      showModal: false
+    }
   }
 }
 </script>

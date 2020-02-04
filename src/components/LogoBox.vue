@@ -29,7 +29,7 @@
       />
       <g-image
         src="~/assets/img/logos/macarthur.png"
-        class="w-24"
+        class="w-32"
       />
       <g-image
         src="~/assets/img/logos/nal.png"
@@ -41,7 +41,7 @@
       />
       <g-image
         src="~/assets/img/logos/united.png"
-        class="w-24"
+        class="w-32"
       />
       <g-image
         src="~/assets/img/logos/mfp.png"
@@ -69,7 +69,7 @@
       />
       <g-image
         src="~/assets/img/logos/bp.png"
-        class="w-24"
+        class="w-32"
       />
       <g-image
         src="~/assets/img/logos/kellogg.png"

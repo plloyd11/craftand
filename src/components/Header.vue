@@ -95,10 +95,7 @@ export default {
 }
 
 .header-logo {
-  width: 175px;
-  @media (min-width: 1024px) {
-    width: 275px;
-  }
+  width: 275px;
 }
 
 .slide-in-enter {
