@@ -1,5 +1,11 @@
 [
   {
+    "name": "John",
+    "title": "John",
+    "shortBio": "John",
+    "fullBio": "John"
+  },
+  {
     "id": 1,
     "photo": "../../assets/img/craft/mark-barker.png",
     "name": "Mark Barker",
