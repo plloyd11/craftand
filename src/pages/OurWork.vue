@@ -40,6 +40,7 @@
           introduction
           photo
           path
+          slug
         }
       }
     }
@@ -49,13 +50,6 @@
 <script>
 import CaseStudyFilter from '@/components/CaseStudyFilter.vue'
 import CaseStudyList from '@/components/CaseStudyList.vue'
-<<<<<<< HEAD
-=======
-// import allCaseStudies from '@/data/caseStudies.json'
-
-const caseStudyCount = allCaseStudies.length
-const caseStudyDisplay = 4
->>>>>>> cb8531bebafa7e321d871fddcded985939e96956
 
 export default {
   name: 'CaseStudies',

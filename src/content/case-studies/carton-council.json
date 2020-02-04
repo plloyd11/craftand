@@ -4,6 +4,7 @@
   ],
   "title": "Reimagine recycling education",
   "introduction": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat aut, iste accusamus eveniet labore. Cupiditate beatae laboriosam autem voluptatibus nam ea velit voluptate? Vitae praesentium facilis doloremque provident saepe.",
-  "photo": "../assets/img/craft/carton-hero.png",
-  "name": "carton council"
+  "photo": "../../assets/img/craft/carton-hero.png",
+  "name": "carton council",
+  "slug": "carton-council"
 }
