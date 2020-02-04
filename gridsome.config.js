@@ -26,6 +26,13 @@ module.exports = {
   {
     use: '@gridsome/source-filesystem',
     options: {
+      typeName: 'CaseStudy',
+      path: './src/content/case-studies/**/*.json'
+    }
+  },
+  {
+    use: '@gridsome/source-filesystem',
+    options: {
       typeName: 'TeamMembers',
       path: './src/content/team/team.json'
     }

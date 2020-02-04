@@ -46,7 +46,12 @@
 
 <script>
 export default {
-
+  props: {
+    caseStudiesList: {
+      type: Array,
+      required: true
+    }
+  }
 }
 </script>
 
