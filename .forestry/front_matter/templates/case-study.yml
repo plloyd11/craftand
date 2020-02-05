@@ -2,17 +2,23 @@
 label: Case Study
 hide_body: true
 fields:
+- name: categroy
+  type: tag_list
+  default: []
+  label: Category
+  description: Case study category
 - name: name
   type: text
   config:
     required: false
   label: Name
   description: Name of the case study.
-- name: categroy
-  type: tag_list
-  default: []
-  label: Category
-  description: Case study category
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+  description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
 - name: title
   type: text
   config:
@@ -35,12 +41,6 @@ fields:
     maxSize: 250
   label: Photo
   description: Case study photo.
-- name: slug
-  type: text
-  config:
-    required: false
-  label: Slug
-  description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
 - name: heading2
   type: text
   config:
