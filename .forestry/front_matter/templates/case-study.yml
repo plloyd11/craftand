@@ -3,23 +3,29 @@ label: Case Study
 hide_body: false
 display_field: name
 fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Friendly name in Forestry (not visible on website)
 - name: categroy
   type: tag_list
   default: []
   label: Category
   description: Case study category
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
-  description: Title of the case study.
 - name: slug
   type: text
   config:
     required: false
   label: Slug
   description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of the case study.
 - name: heading1
   type: text
   config:
