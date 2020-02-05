@@ -3,6 +3,12 @@ label: Case Study
 hide_body: false
 display_field: name
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of the case study.
 - name: categroy
   type: tag_list
   default: []
@@ -14,12 +20,6 @@ fields:
     required: false
   label: Slug
   description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
-  description: Title of the case study.
 - name: heading1
   type: text
   config:
