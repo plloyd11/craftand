@@ -19,13 +19,13 @@ fields:
     required: false
   label: Slug
   description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
-- name: title
+- name: heading1
   type: text
   config:
     required: false
-  label: Title
+  label: Heading 1
   description: Case study title.
-- name: introduction
+- name: body1
   type: textarea
   default: ''
   config:
@@ -33,7 +33,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Introduction
+  label: Body 1
   description: Introduction text.
 - name: photo
   type: file
