@@ -2,10 +2,10 @@
   "category": [
     "issue education"
   ],
-  "title": "Reimagine recycling education",
+  "title": "CARTON COUNCIL",
   "introduction": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat aut, iste accusamus eveniet labore. Cupiditate beatae laboriosam autem voluptatibus nam ea velit voluptate? Vitae praesentium facilis doloremque provident saepe.",
   "photo": "../../assets/img/craft/carton-hero.png",
-  "name": "CARTON COUNCIL",
+  "name": "Carton Council",
   "slug": "carton-council",
   "heading2": "Messenger lowers Cost Per Email by 150%",
   "body2": "Coupled with an average of 0:38 time on content",
@@ -15,5 +15,8 @@
   "body4": "— FIRSTNAME LASTNAME\nDIGITAL MEDIA DIRECTOR, CARTON COUNCIL",
   "videoPoster": "../../assets/img/craft/video-poster.png",
   "heading1": "Reimagine recycling education",
-  "body1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat aut, iste accusamus eveniet labore. Cupiditate beatae laboriosam autem voluptatibus nam ea velit voluptate? Vitae praesentium facilis doloremque provident saepe."
+  "body1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat aut, iste accusamus eveniet labore. Cupiditate beatae laboriosam autem voluptatibus nam ea velit voluptate? Vitae praesentium facilis doloremque provident saepe.",
+  "categroy": [
+    "behavior change"
+  ]
 }
