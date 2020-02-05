@@ -41,3 +41,46 @@ fields:
     required: false
   label: Slug
   description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
+- name: heading2
+  type: text
+  config:
+    required: false
+  label: Heading 2
+- name: body2
+  type: text
+  config:
+    required: false
+  label: Body 2
+- name: heading3
+  type: text
+  config:
+    required: false
+  label: Heading 3
+- name: body3
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body 3
+- name: videoPoster
+  type: file
+  config:
+    maxSize: 250
+  label: Video Poster
+- name: heading4
+  type: text
+  config:
+    required: false
+  label: Heading 4
+- name: body4
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body 4
