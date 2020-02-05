@@ -3,12 +3,6 @@ label: Case Study
 hide_body: false
 display_field: name
 fields:
-- name: name
-  type: text
-  config:
-    required: false
-  label: Name
-  description: Friendly name in Forestry (not visible on website)
 - name: categroy
   type: tag_list
   default: []
