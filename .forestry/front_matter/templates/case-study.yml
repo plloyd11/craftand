@@ -1,6 +1,7 @@
 ---
 label: Case Study
 hide_body: false
+display_field: name
 fields:
 - name: categroy
   type: tag_list
