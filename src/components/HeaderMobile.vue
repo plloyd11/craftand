@@ -1,5 +1,5 @@
 <template>
-  <header class="px-4 py-8 shadow-md bg-main-gray">
+  <header class="px-4 py-6 shadow-md bg-main-gray">
     <div class="container flex items-center justify-between mx-auto">
       <!-- Logo -->
       <div>
@@ -15,27 +15,54 @@
         </g-link>
       </div>
       <!-- Menu -->
-      <div>
+      <div :class="{ navOpen: isOpen}">
         <a
           class="nav-trigger"
+          @click="toggle"
         ><span>Menu</span></a>
       </div>
+      <transition
+        name="slide-in"
+        mode="out-in"
+      >
+        <HeaderMobileMenu
+          v-if="isOpen"
+          class="header-form"
+          @close="toggle"
+        />
+      </transition>
+      <transition
+        name="fade-in"
+        mode="out-in"
+      >
+        <div
+          v-if="isOverlay"
+          class="overlay"
+        />
+      </transition>
     </div>
   </header>
 </template>
 
 <script>
+import HeaderMobileMenu from '~/components/HeaderMobileMenu.vue'
 
 export default {
+  components: {
+    HeaderMobileMenu
+  },
   data () {
     return {
-      isOpen: false
+      isOpen: false,
+      isOverlay: false
     }
   },
   methods: {
     toggle () {
+      const main = document.querySelector('main')
       this.isOpen = !this.isOpen
-      document.body.classList.toggle('no-flow')
+      this.isOverlay = !this.isOverlay
+      // main.classList.toggle('no-flow-mobile')
     }
   }
 }
@@ -60,6 +87,8 @@ export default {
   width: 215px;
 }
 
+// Transition for mobile menu
+
 .slide-in-enter {
   transform: translateX(100%);
   opacity: 0;
@@ -72,6 +101,21 @@ export default {
 
 .slide-in-leave-to {
   transform: translateX(100%);
+  opacity: 0;
+}
+
+// Transition for overlay
+
+.fade-in-enter {
+  opacity: 0;
+}
+
+.fade-in-enter-active,
+.fade-in-leave-active {
+  transition: all .25s ease-out;
+}
+
+.fade-in-leave-to {
   opacity: 0;
 }
 
@@ -89,12 +133,13 @@ Hamburger menu
   color: transparent;
   white-space: nowrap;
   text-indent: 100%;
+  cursor: pointer;
 }
 
 .nav-trigger span,
 .nav-trigger span::before {
   position: absolute;
-  width: 36px;
+  width: 32px;
   height: 2px;
   background: #fadd0d;
   border-radius: 9999px;
@@ -102,7 +147,7 @@ Hamburger menu
 
 .nav-trigger span::after {
   position: absolute;
-  width: 18px;
+  width: 16px;
   height: 2px;
   background: #fadd0d;
   border-radius: 9999px;
@@ -123,11 +168,11 @@ Hamburger menu
 }
 
 .nav-trigger span::before {
-  transform: translateY(-12px);
+  transform: translateY(-8px);
 }
 
 .nav-trigger span::after {
-  transform: translateY(12px);
+  transform: translateY(8px);
 }
 
 .nav-trigger:hover span,
@@ -136,21 +181,26 @@ Hamburger menu
   background: white;
 }
 
-.nav-open .nav-trigger span::before,
-.nav-open .nav-trigger span::after {
-  background-color: #333;
+.navOpen .nav-trigger span {
+  transform: rotate(45deg);
 }
 
-.nav-open .nav-trigger span {
+.navOpen .nav-trigger span::before {
+  transform: rotate(-95deg);
+}
+
+.navOpen .nav-trigger span::after {
   background: transparent;
 }
 
-.nav-open .nav-trigger span::before {
-  transform: rotate(-45deg);
-}
-
-.nav-open .nav-trigger span::after {
-  transform: rotate(45deg);
+.overlay {
+  position: absolute;
+  top: 92px;
+  right: 0;
+  background: hsla(0, 0%, 20%,.8);
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
 }
 
 </style>

@@ -37,3 +37,9 @@ body {
 .no-flow {
   overflow-y: hidden;
 }
+
+.no-flow-mobile {
+  height: 100vh;
+  position: fixed;
+  overflow-y: hidden;
+}
