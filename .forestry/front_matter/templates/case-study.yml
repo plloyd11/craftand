@@ -8,12 +8,12 @@ fields:
   default: []
   label: Category
   description: Case study category
-- name: name
+- name: title
   type: text
   config:
     required: false
-  label: Name
-  description: Name of the case study.
+  label: Title
+  description: Title of the case study.
 - name: slug
   type: text
   config:
