@@ -1,25 +1,38 @@
 ---
 label: Case Study
-hide_body: true
+hide_body: false
+display_field: name
 fields:
 - name: name
   type: text
   config:
     required: false
   label: Name
-  description: Name of the case study.
+  description: Friendly name in Forestry (not visible on website)
 - name: categroy
   type: tag_list
   default: []
   label: Category
   description: Case study category
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+  description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
 - name: title
   type: text
   config:
     required: false
   label: Title
+  description: Title of the case study.
+- name: heading1
+  type: text
+  config:
+    required: false
+  label: Heading 1
   description: Case study title.
-- name: introduction
+- name: body1
   type: textarea
   default: ''
   config:
@@ -27,7 +40,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Introduction
+  label: Body 1
   description: Introduction text.
 - name: photo
   type: file
@@ -35,9 +48,50 @@ fields:
     maxSize: 250
   label: Photo
   description: Case study photo.
-- name: slug
+- name: heading2
   type: text
   config:
     required: false
-  label: Slug
-  description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
+  label: Heading 2
+- name: body2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body 2
+- name: heading3
+  type: text
+  config:
+    required: false
+  label: Heading 3
+- name: body3
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body 3
+- name: videoPoster
+  type: file
+  config:
+    maxSize: 250
+  label: Video Poster
+- name: heading4
+  type: text
+  config:
+    required: false
+  label: Heading 4
+- name: body4
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body 4
