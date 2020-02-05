@@ -6,17 +6,21 @@
         <div class="flex-1 pl-20 case-study--text">
           <h4 class="font-semibold text-gray-700 uppercase text-md din">
             Carton Council
+            {{ title }}
           </h4>
           <h2 class="max-w-sm mt-12 mb-6 text-4xl font-extrabold leading-none proxima">
             Reimagine recycling education
+            {{ heading1 }}
           </h2>
           <p class="max-w-sm mb-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat aut, iste accusamus eveniet labore. Cupiditate beatae laboriosam autem voluptatibus nam ea velit voluptate? Vitae praesentium facilis doloremque provident saepe.
+            {{ body1 }}
           </p>
           <span
             class="px-1 pt-1 text-sm uppercase bg-primary-color din"
           >
             Email Acquisition
+            {{ heading2 }}
           </span>
         </div>
         <div class="flex-1 case-study--image">
@@ -69,6 +73,16 @@
   query($path: String!) {
     caseStudy(path: $path) {
       title
+      heading1
+      body1
+      photo
+      heading2
+      body2
+      heading3
+      body3
+      videoPoster
+      heading4
+      body4
     }
   }
 </page-query>
