@@ -47,6 +47,15 @@ fields:
   config:
     required: false
   label: Heading 2
+- name: body2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body 2
 - name: heading3
   type: text
   config:
