@@ -35,12 +35,12 @@
       edges {
         node {
           title
-          name
           category
-          introduction
+          slug
+          heading1
+          body1
           photo
           path
-          slug
         }
       }
     }

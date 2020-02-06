@@ -39,6 +39,7 @@ module.exports = {
   }
   ],
   templates: {
+    CaseStudy: '/case-studies/:slug',
     Job: '/careers/:slug'
   },
   transformers: {

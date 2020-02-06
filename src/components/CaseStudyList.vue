@@ -13,13 +13,13 @@
       </div>
       <div class="flex-1 sm:pl-20 case-study--text">
         <h4 class="font-semibold text-gray-700 uppercase text-md din">
-          {{ caseStudy.node.name }}
+          {{ caseStudy.node.title }}
         </h4>
         <h2 class="max-w-sm my-4 text-4xl font-extrabold leading-none proxima">
-          {{ caseStudy.node.title }}
+          {{ caseStudy.node.heading1 }}
         </h2>
         <p class="max-w-sm mb-8">
-          {{ caseStudy.node.introduction }}
+          {{ caseStudy.node.body1 }}
         </p>
         <g-link
           :to="caseStudy.node.path"
