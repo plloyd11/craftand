@@ -5,7 +5,6 @@
 // It's recommended to keep the global styles at minimal and add styles in
 // Vue components instead to get proper code-splitting and Critical CSS support.
 import '~/assets/css/global.css'
-import '~/assets/css/carousel.css'
 
 import DefaultLayout from '~/layouts/Default'
 
@@ -26,6 +25,11 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
     href: 'https://unpkg.com/vue-agile/dist/VueAgile.css'
+  })
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://craftand.s3.amazonaws.com/css/carousel.css'
   })
 
   head.bodyAttrs = {

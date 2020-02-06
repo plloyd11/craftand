@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="slide">
-        <div class="flex items-center justify-center">
+        <div class="flex flex-col items-center justify-center sm:flex-row">
           <div class="sm:mr-12">
             <BehaviorChange class="w-48" />
           </div>
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="slide">
-        <div class="flex items-center justify-center">
+        <div class="flex flex-col items-center justify-center sm:flex-row">
           <div class="sm:mr-12">
             <ProgramGrowth />
           </div>
@@ -85,7 +85,7 @@
         </div>
       </div>
       <div class="slide">
-        <div class="flex items-center justify-center">
+        <div class="flex flex-col items-center justify-center sm:flex-row">
           <div class="sm:mr-12">
             <LeadGeneration />
           </div>
@@ -136,6 +136,52 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+
+.agile {
+  &__nav-button {
+    background: transparent;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 24px;
+    transition-duration: .3s;
+    &:hover {
+      color: #888;
+    }
+  }
+  &__actions {
+    justify-content: center;
+  }
+  &__nav-button {
+    display: none;
+  }
+  &__dots {
+    position: relative;
+    top: 128px;
+  }
+  &__dot {
+    margin: 0 10px;
+    button {
+      background-color: #bababa;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      height: 10px;
+      font-size: 0;
+      line-height: 0;
+      margin: 0;
+      padding: 0;
+      transition-duration: .3s;
+      width: 10px;
+    }
+    &--current {
+      button {
+        background-color: #333;
+      }
+    }
+  }
+}
 
 </style>
