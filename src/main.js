@@ -5,7 +5,7 @@
 // It's recommended to keep the global styles at minimal and add styles in
 // Vue components instead to get proper code-splitting and Critical CSS support.
 import '~/assets/css/global.css'
-import '~/assets/css/components.scss'
+import '~/assets/css/carousel.css'
 
 import DefaultLayout from '~/layouts/Default'
 
