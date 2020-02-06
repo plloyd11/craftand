@@ -8,32 +8,37 @@
       </div>
     </div>
     <div class="container px-6 mx-auto">
-      <div>
+      <div @click="onClick">
         <a
+          data-tag="all"
           href="#"
           class="mr-4 text-sm text-gray-600 uppercase din"
         >
           All
         </a>
         <a
+          data-tag="issue education"
           href="#"
           class="mr-4 text-sm text-gray-600 uppercase din"
         >
           Issue Education
         </a>
         <a
+          data-tag="behavior change"
           href="#"
           class="mr-4 text-sm text-gray-600 uppercase din"
         >
           Behavior Change
         </a>
         <a
+          data-tag="program growth delivery"
           href="#"
           class="mr-4 text-sm text-gray-600 uppercase din"
         >
           Program Growth &amp; Delivery
         </a>
         <a
+          data-tag="lead generation"
           href="#"
           class="text-sm text-gray-600 uppercase din"
         >
@@ -47,9 +52,15 @@
 <script>
 export default {
   props: {
-    caseStudiesList: {
-      type: Array,
+    tagHandler: {
+      type: Function,
       required: true
+    }
+  },
+  methods: {
+    onClick (event) {
+      const tag = event.target.dataset.tag
+      tag && this.tagHandler(tag)
     }
   }
 }

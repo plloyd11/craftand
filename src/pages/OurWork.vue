@@ -12,7 +12,7 @@
       </div>
     </section>
     <CaseStudyFilter
-      :case-studies-list="caseStudiesList"
+      :tag-handler="tagHandler"
     />
     <CaseStudyList
       :case-studies-list="caseStudiesList"
@@ -51,6 +51,9 @@
 import CaseStudyFilter from '@/components/CaseStudyFilter.vue'
 import CaseStudyList from '@/components/CaseStudyList.vue'
 
+// cache a copy of all case studies outside of the instance
+const allCaseStudies = [];
+
 export default {
   name: 'CaseStudies',
   metaInfo: {
@@ -70,15 +73,27 @@ export default {
   },
   mounted () {
     this.caseStudies = this.$static.allCaseStudy.edges
-    this.caseStudiesList = this.caseStudies.splice(0, this.maxDisplay)
+    this.caseStudiesList = this.caseStudies.filter((c, i) => i < this.maxDisplay && c)
   },
   methods: {
     onClick () {
-      this.caseStudiesList = [
-        ...this.caseStudiesList,
-        ...this.caseStudies.splice(0, this.maxDisplay)
-      ]
-      this.loadMore = this.caseStudies.length > 0
+      this.maxDisplay += this.maxDisplay
+      this.caseStudiesList = this.caseStudies.filter((c, i) => i < this.maxDisplay && c)
+      this.loadMore = this.maxDisplay > this.caseStudies.length
+    },
+    tagHandler (tag) {
+      if (tag === 'all') {
+        this.caseStudiesList = this.caseStudies.filter((c, i) => i < this.maxDisplay && c)
+      } else {
+        let next
+        const all = [...this.caseStudies]
+        const filtered = []
+        next = all.pop()
+        while (next) {
+          console.log(next)
+          next = all.pop()
+        }
+      }
     }
   }
 }
