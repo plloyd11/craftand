@@ -98,15 +98,31 @@
       </div>
       <aside class="flex items-center justify-end">
         <g-link to="/services">
-          <div class="px-4 py-8 bg-primary-color">
+          <div class="px-4 py-6 bg-primary-color">
+            <Add class="mx-auto mb-6" />
             <p class="w-24 text-xs text-center uppercase din">
-              Our services &amp; focus areas
+              Our services <br> &amp; focus areas
             </p>
           </div>
         </g-link>
       </aside>
     </section>
-    <CaseStudyList />
+    <section class="container max-w-4xl mx-auto">
+      <h3 class="text-xl uppercase din">
+        Our recent work
+      </h3>
+      <CaseStudyList />
+      <aside class="flex items-center justify-end">
+        <g-link to="/our-work">
+          <div class="px-4 py-6 bg-primary-color">
+            <Add class="mx-auto mb-6" />
+            <p class="w-24 text-xs text-center uppercase din">
+              See more <br> projects
+            </p>
+          </div>
+        </g-link>
+      </aside>
+    </section>
     <LogoBox class="mt-16" />
   </Layout>
 </template>
@@ -120,6 +136,7 @@ import Audience from '~/assets/img/homepage/audience.svg'
 import Creative from '~/assets/img/homepage/creative.svg'
 import Innovative from '~/assets/img/homepage/innovative.svg'
 import Testing from '~/assets/img/homepage/testing.svg'
+import Add from '~/assets/img/icons/add.svg'
 
 export default {
   components: {
@@ -129,7 +146,8 @@ export default {
     Audience,
     Creative,
     Innovative,
-    Testing
+    Testing,
+    Add
   },
   metaInfo: {
     title: 'Craft & Commerce | The Action Agency'

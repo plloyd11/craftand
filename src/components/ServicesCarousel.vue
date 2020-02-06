@@ -4,25 +4,26 @@
       :center-mode="true"
     >
       <div class="slide">
-        <div class="flex items-center justify-center">
-          <div class="mr-12">
+        <div class="flex flex-col items-center justify-center sm:flex-row">
+          <div class="sm:mr-12">
             <IssueEducation class="w-64" />
           </div>
           <div class="max-w-lg">
-            <h2 class="mb-2 text-3xl font-bold proxima">
+            <h2 class="mb-2 text-4xl font-bold proxima">
               Issue Education
             </h2>
             <p class="max-w-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
             </p>
-            <p class="mt-8 mb-4 text-sm uppercase din">
+            <p class="mt-8 mb-4 text-sm font-semibold uppercase din">
               Related Case Studies
             </p>
             <ul>
-              <li class="my-3">
+              <li class="inline-block px-1 my-1 uppercase bg-white">
                 3PS for CA
               </li>
-              <li class="my-3">
+              <br>
+              <li class="inline-block px-1 my-1 uppercase bg-white">
                 Maine Family Planning
               </li>
             </ul>
@@ -31,24 +32,25 @@
       </div>
       <div class="slide">
         <div class="flex items-center justify-center">
-          <div class="mr-12">
+          <div class="sm:mr-12">
             <BehaviorChange class="w-48" />
           </div>
           <div class="max-w-lg">
-            <h2 class="mb-2 text-3xl font-bold proxima">
+            <h2 class="mb-2 text-4xl font-bold proxima">
               Behavior Change
             </h2>
             <p class="max-w-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
             </p>
-            <p class="mt-8 mb-4 text-sm uppercase din">
+            <p class="mt-8 mb-4 text-sm font-semibold uppercase din">
               Related Case Studies
             </p>
             <ul>
-              <li class="my-3">
+              <li class="inline-block px-1 my-1 uppercase bg-white">
                 Carton Council
               </li>
-              <li class="my-3">
+              <br>
+              <li class="inline-block px-1 my-1 uppercase bg-white">
                 VZLA
               </li>
             </ul>
@@ -57,24 +59,25 @@
       </div>
       <div class="slide">
         <div class="flex items-center justify-center">
-          <div class="mr-12">
+          <div class="sm:mr-12">
             <ProgramGrowth />
           </div>
           <div class="max-w-lg">
-            <h2 class="mb-2 text-3xl font-bold proxima">
+            <h2 class="mb-2 text-4xl font-bold proxima">
               Program Growth + Delivery
             </h2>
             <p class="max-w-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
             </p>
-            <p class="mt-8 mb-4 text-sm uppercase din">
+            <p class="mt-8 mb-4 text-sm font-semibold uppercase din">
               Related Case Studies
             </p>
             <ul>
-              <li class="my-3">
+              <li class="inline-block px-1 my-1 uppercase bg-white">
                 AYR
               </li>
-              <li class="my-3">
+              <br>
+              <li class="inline-block px-1 my-1 uppercase bg-white">
                 CZI
               </li>
             </ul>
@@ -83,24 +86,25 @@
       </div>
       <div class="slide">
         <div class="flex items-center justify-center">
-          <div class="mr-12">
+          <div class="sm:mr-12">
             <LeadGeneration />
           </div>
           <div class="max-w-lg">
-            <h2 class="mb-2 text-3xl font-bold proxima">
+            <h2 class="mb-2 text-4xl font-bold proxima">
               Lead Generation
             </h2>
             <p class="max-w-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
             </p>
-            <p class="mt-8 mb-4 text-sm uppercase din">
+            <p class="mt-8 mb-4 text-sm font-semibold uppercase din">
               Related Case Studies
             </p>
             <ul>
-              <li class="my-3">
+              <li class="inline-block px-1 my-1 uppercase bg-white">
                 Sonoma County
               </li>
-              <li class="my-3">
+              <br>
+              <li class="inline-block px-1 my-1 uppercase bg-white">
                 CRR
               </li>
             </ul>
@@ -133,50 +137,5 @@ export default {
 </script>
 
 <style lang="scss">
-.agile {
-  &__nav-button {
-    background: transparent;
-    border: none;
-    color: #ccc;
-    cursor: pointer;
-    font-size: 24px;
-    transition-duration: .3s;
-    &:hover {
-      color: #888;
-    }
-  }
-  &__actions {
-    justify-content: center;
-  }
-  &__nav-button {
-    display: none;
-  }
-  &__dots {
-    position: relative;
-    top: 128px;
-  }
-  &__dot {
-    margin: 0 10px;
-    button {
-      background-color: #bababa;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      height: 10px;
-      font-size: 0;
-      line-height: 0;
-      margin: 0;
-      padding: 0;
-      transition-duration: .3s;
-      width: 10px;
-    }
-    &--current {
-      button {
-        background-color: #333;
-      }
-    }
-  }
-}
 
 </style>

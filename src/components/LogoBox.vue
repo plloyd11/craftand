@@ -26,6 +26,7 @@
       />
       <g-image
         src="~/assets/img/logos/sfmta.png"
+        class="w-32"
       />
       <g-image
         src="~/assets/img/logos/macarthur.png"
@@ -33,53 +34,55 @@
       />
       <g-image
         src="~/assets/img/logos/nal.png"
-        class="w-24"
+        class="hidden w-24 sm:block"
       />
       <g-image
         src="~/assets/img/logos/mtc.png"
-        class="w-24"
+        class="hidden w-24 sm:block"
       />
       <g-image
         src="~/assets/img/logos/united.png"
-        class="w-32"
+        class="hidden w-32 sm:block"
       />
       <g-image
         src="~/assets/img/logos/mfp.png"
-        class="w-24"
+        class="hidden w-24 sm:block"
       />
       <g-image
         src="~/assets/img/logos/cnycn.png"
-        class="w-28"
+        class="hidden w-28 sm:block"
       />
       <g-image
         src="~/assets/img/logos/bahfa.png"
-        class="w-24"
+        class="hidden w-24 sm:block"
       />
       <g-image
         src="~/assets/img/logos/nyu.png"
-        class="w-48"
+        class="hidden w-48 sm:block"
       />
       <g-image
         src="~/assets/img/logos/johnson-johnson.png"
-        class="w-48"
+        class="hidden w-48 sm:block"
       />
       <g-image
         src="~/assets/img/logos/stb.png"
-        class="w-16"
+        class="hidden w-16 sm:block"
       />
       <g-image
         src="~/assets/img/logos/bp.png"
-        class="w-32"
+        class="hidden w-32 sm:block"
       />
       <g-image
         src="~/assets/img/logos/kellogg.png"
+        class="hidden w-32 sm:block"
       />
       <g-image
         src="~/assets/img/logos/crr.png"
-        class="w-24"
+        class="hidden w-24 sm:block"
       />
       <g-image
         src="~/assets/img/logos/carton-council.png"
+        class="hidden w-32 sm:block"
       />
     </div>
   </section>
