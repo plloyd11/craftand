@@ -35,7 +35,7 @@
             <div class="team-member--photo">
               <g-image
                 :src="item.photo"
-                class="max-w-sm rounded-full"
+                class="max-w-sm mb-4 rounded-full sm:mb-0"
               />
             </div>
             <div class="team-member--content">
@@ -144,6 +144,7 @@ export default {
         }
       }
       &--content {
+        text-align: center;
         @media (min-width: 1024px) {
           order: 1;
           order: 1;
@@ -156,7 +157,11 @@ export default {
   > div:nth-child(odd) {
     .team-member {
       &--content {
-        padding-left: 3em;
+        text-align: center;
+        @media (min-width: 1024px) {
+          padding-left: 3em;
+          text-align: left;
+        }
       }
     }
   }
