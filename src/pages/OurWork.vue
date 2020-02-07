@@ -35,7 +35,7 @@
       edges {
         node {
           title
-          category
+          tags
           slug
           heading1
           body1
@@ -50,9 +50,6 @@
 <script>
 import CaseStudyFilter from '@/components/CaseStudyFilter.vue'
 import CaseStudyList from '@/components/CaseStudyList.vue'
-
-// cache a copy of all case studies outside of the instance
-const allCaseStudies = [];
 
 export default {
   name: 'CaseStudies',
@@ -72,28 +69,35 @@ export default {
     }
   },
   mounted () {
-    this.caseStudies = this.$static.allCaseStudy.edges
-    this.caseStudiesList = this.caseStudies.filter((c, i) => i < this.maxDisplay && c)
+    this.allCaseStudies = [...this.$static.allCaseStudy.edges]
+    this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
   },
   methods: {
     onClick () {
       this.maxDisplay += this.maxDisplay
-      this.caseStudiesList = this.caseStudies.filter((c, i) => i < this.maxDisplay && c)
-      this.loadMore = this.maxDisplay > this.caseStudies.length
+      this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
+      this.loadMore = this.maxDisplay > this.allCaseStudies.length
     },
     tagHandler (tag) {
       if (tag === 'all') {
-        this.caseStudiesList = this.caseStudies.filter((c, i) => i < this.maxDisplay && c)
+        this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
       } else {
         let next
-        const all = [...this.caseStudies]
+        const all = [...this.allCaseStudies]
         const filtered = []
         next = all.pop()
         while (next) {
-          console.log(next)
+          const match = next.node.tags.find(t => t === tag)
+          if (match) {
+            filtered.push(next)
+          }
           next = all.pop()
         }
+        this.caseStudiesList = this.filterByMaxDisplay(filtered)
       }
+    },
+    filterByMaxDisplay (input) {
+      return input.filter((a, i) => i < this.maxDisplay && a)
     }
   }
 }
