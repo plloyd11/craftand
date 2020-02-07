@@ -23,70 +23,50 @@
         class="relative mt-12"
       >
         <div class="container px-6 mx-auto approach-grid">
-          <div class="approach-card">
-            <div class="max-w-md overflow-hidden">
-              <div>
-                <Audience />
-              </div>
-              <div class="px-6 py-4">
-                <h4 class="text-3xl font-bold leading-none text-center text-header-color proxima">
-                  Audience-driven research, strategy and insights
-                </h4>
-                <hr class="block w-1/12 mx-auto my-6 border-2 border-gray-800">
-                <p class="text-lg text-center text-gray-800">
-                  What makes your audience tick? Where are they, and what motivates them? Insights like these become your campaign’s North Star.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="approach-card">
-            <div class="max-w-md overflow-hidden">
-              <div>
-                <Creative />
-              </div>
-              <div class="px-6 py-4">
-                <h4 class="text-3xl font-bold leading-none text-center text-header-color proxima">
-                  Nimble, modern <br> creative
-                </h4>
-                <hr class="block w-1/12 mx-auto my-6 border-2 border-gray-800">
-                <p class="text-lg text-center text-gray-800">
-                  Eye-catching, feed-stopping visuals and copy that speaks your audience’s language is what drives action: then iterate to improve on what works!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="approach-card">
-            <div class="max-w-md overflow-hidden">
-              <div>
-                <Innovative />
-              </div>
-              <div class="px-6 py-4">
-                <h4 class="text-3xl font-bold leading-none text-center text-header-color proxima">
-                  Innovative media planning and buying
-                </h4>
-                <hr class="block w-1/12 mx-auto my-6 border-2 border-gray-800">
-                <p class="text-lg text-center text-gray-800">
-                  Creativity isn’t confined to art or copy — what sets a campaign up for success is how we mix and remix our palette of platforms, budget, and timing.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="approach-card">
-            <div class="max-w-md overflow-hidden">
-              <div>
-                <Testing />
-              </div>
-              <div class="px-6 py-4">
-                <h4 class="text-3xl font-bold leading-none text-center text-header-color proxima">
-                  Rigorous testing, iteration, and optimization
-                </h4>
-                <hr class="block w-1/12 mx-auto my-6 border-2 border-gray-800">
-                <p class="text-lg text-center text-gray-800">
-                  There’s always room to learn and improve, even when our metrics are overperforming: testing and iterating brings our campaigns to new levels.
-                </p>
-              </div>
-            </div>
-          </div>
+          <ApproachCard>
+            <template v-slot:image>
+              <Audience />
+            </template>
+            <template v-slot:heading>
+              Audience-driven research, strategy and insights
+            </template>
+            <template v-slot:content>
+              What makes your audience tick? Where are they, and what motivates them? Insights like these become your campaign’s North Star.
+            </template>
+          </ApproachCard>
+          <ApproachCard>
+            <template v-slot:image>
+              <Creative />
+            </template>
+            <template v-slot:heading>
+              Nimble, modern <br> creative
+            </template>
+            <template v-slot:content>
+              Eye-catching, feed-stopping visuals and copy that speaks your audience’s language is what drives action: then iterate to improve on what works!
+            </template>
+          </ApproachCard>
+          <ApproachCard>
+            <template v-slot:image>
+              <Innovative />
+            </template>
+            <template v-slot:heading>
+              Innovative media planning and buying
+            </template>
+            <template v-slot:content>
+              Creativity isn’t confined to art or copy — what sets a campaign up for success is how we mix and remix our palette of platforms, budget, and timing.
+            </template>
+          </ApproachCard>
+          <ApproachCard>
+            <template v-slot:image>
+              <Testing />
+            </template>
+            <template v-slot:heading>
+              Rigorous testing, iteration, and optimization
+            </template>
+            <template v-slot:content>
+              There’s always room to learn and improve, even when our metrics are overperforming: testing and iterating brings our campaigns to new levels.
+            </template>
+          </ApproachCard>
         </div>
       </div>
     </section>
@@ -96,38 +76,32 @@
           —and our mission is clear: <br> Craft & Commerce drives meaningful results for things that matter.
         </p>
       </div>
-      <aside class="flex items-center justify-end">
-        <g-link to="/services">
-          <div class="px-4 py-6 bg-primary-color">
-            <Add class="mx-auto mb-6" />
-            <p class="w-24 text-xs text-center uppercase din">
-              Our services <br> &amp; focus areas
-            </p>
-          </div>
-        </g-link>
-      </aside>
+      <AsideBox :link="`/services`">
+        <template v-slot:helperText>
+          Our services <br> &amp; focus areas
+        </template>
+      </AsideBox>
     </section>
     <section class="container max-w-4xl mx-auto">
       <h3 class="text-xl uppercase din">
         Our recent work
       </h3>
-      <CaseStudyList />
-      <aside class="flex items-center justify-end">
-        <g-link to="/our-work">
-          <div class="px-4 py-6 bg-primary-color">
-            <Add class="mx-auto mb-6" />
-            <p class="w-24 text-xs text-center uppercase din">
-              See more <br> projects
-            </p>
-          </div>
-        </g-link>
-      </aside>
+      <CaseStudyList
+        :case-studies-list="caseStudiesList"
+      />
+      <AsideBox :link="`/our-work`">
+        <template v-slot:helperText>
+          See more <br> projects
+        </template>
+      </AsideBox>
     </section>
     <LogoBox class="mt-16" />
   </Layout>
 </template>
 
 <script>
+import ApproachCard from '@/components/homepage/ApproachCard.vue'
+import AsideBox from '@/components/global/AsideBox.vue'
 import CaseStudyList from '@/components/CaseStudyList.vue'
 import LogoBox from '@/components/LogoBox.vue'
 // SVG as imports
@@ -136,21 +110,28 @@ import Audience from '~/assets/img/homepage/audience.svg'
 import Creative from '~/assets/img/homepage/creative.svg'
 import Innovative from '~/assets/img/homepage/innovative.svg'
 import Testing from '~/assets/img/homepage/testing.svg'
-import Add from '~/assets/img/icons/add.svg'
 
 export default {
   components: {
+    ApproachCard,
+    AsideBox,
     CaseStudyList,
     LogoBox,
     Hero,
     Audience,
     Creative,
     Innovative,
-    Testing,
-    Add
+    Testing
+
   },
   metaInfo: {
     title: 'Craft & Commerce | The Action Agency'
+  },
+  data () {
+    return {
+      // TODO: Return array of isFeatured = true items to display on homepage
+      caseStudiesList: []
+    }
   }
 }
 </script>
