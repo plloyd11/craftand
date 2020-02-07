@@ -78,10 +78,11 @@ export default {
 
 .hero-callout {
   position: absolute;
-  width: 700px;
-  padding-left: calc(10% - 48px);
+  width: 750px;
+  padding-left: calc(10% - 25px);
   z-index: 100;
   bottom: 4px;
+  left: 0;
 }
 
 .takeaway {

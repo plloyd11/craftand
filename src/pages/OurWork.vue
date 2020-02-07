@@ -12,15 +12,15 @@
       </div>
     </section>
     <CaseStudyFilter
-      :case-studies-list="caseStudiesList"
+      :tag-handler="tagHandler"
     />
     <CaseStudyList
       :case-studies-list="caseStudiesList"
     />
-    <section>
+    <section class="mb-12 lg:mb-24">
       <button
         v-if="loadMore"
-        class="block mx-auto text-gray-700 uppercase din"
+        class="block mx-auto mt-24 text-gray-700 uppercase din"
         @click="onClick"
       >
         Load More
@@ -35,7 +35,7 @@
       edges {
         node {
           title
-          category
+          tags
           slug
           heading1
           body1
@@ -69,16 +69,35 @@ export default {
     }
   },
   mounted () {
-    this.caseStudies = this.$static.allCaseStudy.edges
-    this.caseStudiesList = this.caseStudies.splice(0, this.maxDisplay)
+    this.allCaseStudies = [...this.$static.allCaseStudy.edges]
+    this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
   },
   methods: {
     onClick () {
-      this.caseStudiesList = [
-        ...this.caseStudiesList,
-        ...this.caseStudies.splice(0, this.maxDisplay)
-      ]
-      this.loadMore = this.caseStudies.length > 0
+      this.maxDisplay += this.maxDisplay
+      this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
+      this.loadMore = this.maxDisplay > this.allCaseStudies.length
+    },
+    tagHandler (tag) {
+      if (tag === 'all') {
+        this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
+      } else {
+        let next
+        const all = [...this.allCaseStudies]
+        const filtered = []
+        next = all.pop()
+        while (next) {
+          const match = next.node.tags.find(t => t === tag)
+          if (match) {
+            filtered.push(next)
+          }
+          next = all.pop()
+        }
+        this.caseStudiesList = this.filterByMaxDisplay(filtered)
+      }
+    },
+    filterByMaxDisplay (input) {
+      return input.filter((a, i) => i < this.maxDisplay && a)
     }
   }
 }

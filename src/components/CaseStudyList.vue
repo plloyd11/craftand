@@ -1,17 +1,16 @@
 <template>
-  <section class="container px-6 mx-auto">
+  <section class="container px-6 mx-auto case-study-container">
     <div
       v-for="(caseStudy, index) in caseStudiesList"
       :key="index"
       class="flex flex-col items-center justify-center mb-6 sm:flex-row case-study sm:mb-0"
     >
-      <div class="flex-1 case-study--image">
+      <div class="case-study--photo">
         <g-image
           :src="caseStudy.node.photo"
-          class="mb-1"
         />
       </div>
-      <div class="flex-1 sm:pl-20 case-study--text">
+      <div class="flex-1 case-study--content">
         <h4 class="font-semibold text-gray-700 uppercase text-md din">
           {{ caseStudy.node.title }}
         </h4>
@@ -49,6 +48,45 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+.case-study-container {
+  > div:nth-child(even) {
+    .case-study {
+      &--photo {
+        flex: 1 1 7%;
+        @media (min-width: 1024px) {
+          order: 2;
+        }
+      }
+      &--content {
+        text-align: center;
+        @media (min-width: 1024px) {
+          order: 1;
+          order: 1;
+          text-align: right;
+          padding-right: 5rem;
+        }
+        h2,p {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+  > div:nth-child(odd) {
+    .case-study {
+      &--photo {
+        flex: 1 1 7%;
+      }
+      &--content {
+        text-align: center;
+        @media (min-width: 1024px) {
+          text-align: left;
+          padding-left: 5rem;
+        }
+      }
+    }
+  }
+}
 
 </style>

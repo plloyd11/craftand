@@ -9,7 +9,7 @@ fields:
     required: false
   label: Title
   description: Title of the case study.
-- name: categroy
+- name: category
   type: tag_list
   default: []
   label: Category

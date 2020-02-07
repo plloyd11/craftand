@@ -1,10 +1,10 @@
 <template>
   <Layout>
     <!-- Hero -->
-    <section class="container relative px-6 mx-auto">
-      <div class="flex items-center justify-center case-study">
-        <div class="flex-1 pl-20 case-study--text">
-          <h4 class="font-semibold text-gray-700 uppercase text-md din">
+    <section class="container relative px-6 mx-auto lg:px-0">
+      <div class="flex flex-col items-center justify-center sm:flex-row case-study">
+        <div class="flex-1 lg:pl-20 case-study--text">
+          <h4 class="mt-12 font-semibold text-gray-700 uppercase text-md din lg:mt-0">
             {{ $page.caseStudy.title }}
           </h4>
           <h2 class="max-w-sm mt-12 mb-6 text-4xl font-extrabold leading-none proxima">
@@ -16,13 +16,13 @@
           <span
             class="px-1 pt-1 text-sm uppercase bg-primary-color din"
           >
-            Email Acquisition
+            <!-- This is the category / tag -->
+            {{ $page.caseStudy.category }}
           </span>
         </div>
         <div class="flex-1 case-study--image">
           <g-image
             :src="$page.caseStudy.photo"
-            class="mb-1"
           />
         </div>
       </div>
@@ -33,6 +33,41 @@
         <p class="italic text-white text-gray-400">
           {{ $page.caseStudy.body2 }}
         </p>
+      </div>
+    </section>
+    <!-- Carousel -->
+    <section class="relative pt-12 case-study-carousel">
+      <div class="container mx-auto">
+        <agile
+          :center-mode="true"
+          :fade="true"
+        >
+          <CaseStudySlide>
+            <template v-slot:slide-image>
+              <g-image 
+                src="~/assets/img/case-studies/ChatThumb.png"
+                class="w-2/3 mx-auto"
+              />
+            </template>
+            <template v-slot:slide-header>
+              {{ $page.caseStudy.heading2 }}
+            </template>
+            <template v-slot:slide-content>
+              {{ $page.caseStudy.body1 }}
+            </template>
+          </CaseStudySlide>
+          <CaseStudySlide>
+            <template v-slot:slide-image>
+              <g-image src="~/assets/img/case-studies/case-study-carousel.png" class="w-2/3 mx-auto" />
+            </template>
+            <template v-slot:slide-header>
+              Simplify, Simplify
+            </template>
+            <template v-slot:slide-content>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officiis atque, praesentium totam sed veniam quasi. Quod veniam amet voluptates nemo nihil soluta quas rerum, totam optio doloribus molestiae deserunt.
+            </template>
+          </CaseStudySlide>
+        </agile>
       </div>
     </section>
     <!-- Takeaway -->
@@ -46,11 +81,13 @@
         </p>
       </div>
     </section>
+    <!-- Video -->
     <section>
       <g-image :src="$page.caseStudy.videoPoster" />
     </section>
-    <section class="mt-16">
-      <p class="w-6/12 mx-auto mb-12 text-4xl leading-normal text-center">
+    <!-- Quote -->
+    <section class="mt-24">
+      <p class="w-10/12 mx-auto mb-12 text-xl leading-normal text-center lg:w-6/12 lg:text-4xl">
         {{ $page.caseStudy.heading4 }}
       </p>
       <div class="flex flex-col">
@@ -64,6 +101,8 @@
         </p>
       </div>
     </section>
+    <!-- Bottom Nav -->
+    <CaseStudyNav />
   </Layout>
 </template>
 
@@ -73,6 +112,8 @@
       title
       heading1
       body1
+      category
+      tags
       photo
       heading2
       body2
@@ -86,22 +127,34 @@
 </page-query>
 
 <script>
+import { VueAgile } from 'vue-agile'
+import CaseStudySlide from '@/components/CaseStudySlide.vue'
+import CaseStudyNav from '@/components/CaseStudyNav.vue'
 
 export default {
+  components: {
+    agile: VueAgile,
+    CaseStudySlide,
+    CaseStudyNav
+  },
   metaInfo: {
     title: 'Services'
   }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .hero-callout {
-  position: absolute;
-  width: 700px;
-  padding-left: calc(10% - 48px);
-  z-index: 100;
-  bottom: 4px;
+  padding-left: 24px;
+  @media (min-width: 1024px) {
+    position: absolute;
+    width: 725px;
+    padding-left: calc(10% - 25px);
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 .takeaway {
