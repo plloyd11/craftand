@@ -3,7 +3,7 @@
     <Header class="hidden lg:block" />
     <HeaderMobile class="lg:hidden" />
     <slot />
-    <Footer class="mt-24" />
+    <Footer />
   </main>
 </template>
 

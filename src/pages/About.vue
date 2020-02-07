@@ -63,7 +63,7 @@
       </div>
     </div>
     <!-- Callout -->
-    <section class="container mx-auto max-w-screen-lg join-the-team">
+    <section class="container mx-auto mb-12 max-w-screen-lg join-the-team lg:mb-24">
       <div class="flex flex-col items-center justify-center py-16">
         <h2 class="mb-6 text-4xl font-extrabold text-center proxima">
           Join the team at Craft &amp; Commerce

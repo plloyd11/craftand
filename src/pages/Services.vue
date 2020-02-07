@@ -68,8 +68,8 @@
       </div>
     </section>
     <!-- Quote -->
-    <section class="container max-w-xl px-6 mx-auto mt-12 text-center">
-      <div class="flex flex-col items-center justify-center py-16">
+    <section class="container max-w-xl px-6 mx-auto mt-12 mb-12 text-center lg:mb-24">
+      <div class="flex flex-col items-center justify-center pt-16">
         <p class="mb-8 text-xl sm:text-4xl">
           <span class="block mb-4 sm:mb-8">"I’ve worked with a lot of media folks in my career.</span> The Craft & Commerce team is <br> the smartest and most effective I've ever run into.”
         </p>

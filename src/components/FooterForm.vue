@@ -56,12 +56,15 @@
           >
         </div>
         <div class="self-end w-full">
-          <input
-            class="px-12 text-gray-400 bg-transparent border border-white cursor-pointer din form-submit focus:shadow-outline focus:outline-none"
-            type="submit"
-            value="SUBMIT"
-            name="Submit"
-          >
+          <div class="flex items-center px-12 text-gray-300 border border-white cursor-pointer din form-submit focus:shadow-outline focus:outline-none">
+            <input
+              class="pt-2 leading-none bg-transparent"
+              type="submit"
+              value="SUBMIT"
+              name="Submit"
+            >
+            <RightArrowWhite class="inline-block w-3 ml-2" />
+          </div>
         </div>
       </div>
     </form>
@@ -69,9 +72,12 @@
 </template>
 
 <script>
+import RightArrowWhite from '@/assets/img/icons/right-arrow-white.svg'
 
 export default {
-
+  components: {
+    RightArrowWhite
+  }
 }
 </script>
 

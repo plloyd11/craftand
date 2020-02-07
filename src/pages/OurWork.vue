@@ -17,10 +17,10 @@
     <CaseStudyList
       :case-studies-list="caseStudiesList"
     />
-    <section>
+    <section class="mb-12 lg:mb-24">
       <button
         v-if="loadMore"
-        class="block mx-auto text-gray-700 uppercase din"
+        class="block mx-auto mt-24 text-gray-700 uppercase din"
         @click="onClick"
       >
         Load More

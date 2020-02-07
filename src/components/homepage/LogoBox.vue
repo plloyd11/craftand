@@ -1,5 +1,5 @@
 <template>
-  <section class="container py-16 mx-auto logo-box">
+  <section class="container py-16 mx-auto mb-12 logo-box lg:mb-24">
     <h3 class="mb-16 text-center uppercase din">
       We're proud to work with:
     </h3>
