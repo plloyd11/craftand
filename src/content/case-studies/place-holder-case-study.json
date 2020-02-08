@@ -13,5 +13,6 @@
   "body3": "Body3",
   "videoPoster": "../../assets/img/craft/video-poster.png",
   "heading4": "Heading4",
-  "body4": "Body4"
+  "body4": "Body4",
+  "featured": true
 }
