@@ -16,8 +16,7 @@
           <span
             class="px-1 pt-1 text-sm uppercase bg-primary-color din"
           >
-            <!-- This is the category / tag -->
-            {{ $page.caseStudy.category }}
+            {{ $page.caseStudy.tags }}
           </span>
         </div>
         <div class="flex-1 case-study--image">
@@ -112,7 +111,6 @@
       title
       heading1
       body1
-      category
       tags
       photo
       heading2
