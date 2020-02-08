@@ -1,17 +1,16 @@
 {
   "tags": [
-    "behavior change",
     "issue education"
   ],
-  "title": "Bright Pink",
+  "title": "Carton Council",
   "introduction": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat aut, iste accusamus eveniet labore. Cupiditate beatae laboriosam autem voluptatibus nam ea velit voluptate? Vitae praesentium facilis doloremque provident saepe.",
-  "photo": "../../assets/img/craft/bright-pink-hero.png",
+  "photo": "../../assets/img/craft/carton-hero.png",
   "name": "Bright Pink",
-  "slug": "bright-pink",
+  "slug": "carton-council",
   "category": [
     "issue education"
   ],
-  "heading1": "Reach young, black women with prevention info",
+  "heading1": "Reimagine recycling education",
   "body1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugiat aut, iste accusamus eveniet labore. Cupiditate beatae laboriosam autem voluptatibus nam ea velit voluptate? Vitae praesentium facilis doloremque provident saepe.",
   "heading2": "Messenger lowers Cost Per Email by 150%",
   "body2": "Coupled with an average of 0:38 time on content",
