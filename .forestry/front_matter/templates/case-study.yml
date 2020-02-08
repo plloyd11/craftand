@@ -6,9 +6,9 @@ fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Title
-  description: Title of the case study.
+  description: Title of the case study (will appear capitalized on website)
 - name: tags
   type: tag_list
   default: []
@@ -17,20 +17,20 @@ fields:
 - name: slug
   type: text
   config:
-    required: false
+    required: true
   label: Slug
   description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
 - name: heading1
   type: text
   config:
-    required: false
+    required: true
   label: Heading 1
   description: Case study title.
 - name: body1
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
@@ -45,13 +45,13 @@ fields:
 - name: heading2
   type: text
   config:
-    required: false
+    required: true
   label: Heading 2
 - name: body2
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
@@ -59,13 +59,13 @@ fields:
 - name: heading3
   type: text
   config:
-    required: false
+    required: true
   label: Heading 3
 - name: body3
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
@@ -78,13 +78,13 @@ fields:
 - name: heading4
   type: text
   config:
-    required: false
+    required: true
   label: Heading 4
 - name: body4
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
