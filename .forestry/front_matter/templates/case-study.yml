@@ -14,6 +14,10 @@ fields:
   default: []
   label: Tags
   description: Case study tags
+- name: featured
+  type: boolean
+  label: Featured
+  description: Features this case study on the home page.
 - name: slug
   type: text
   config:
