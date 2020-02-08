@@ -9,11 +9,11 @@ fields:
     required: false
   label: Title
   description: Title of the case study.
-- name: category
+- name: tags
   type: tag_list
   default: []
-  label: Category
-  description: Case study category
+  label: Tags
+  description: Case study tags
 - name: slug
   type: text
   config:
