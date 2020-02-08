@@ -91,3 +91,4 @@ fields:
   label: Body 4
 pages:
 - src/content/case-studies/bright-pink.json
+- src/content/case-studies/carton-council.json
