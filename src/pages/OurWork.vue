@@ -12,7 +12,7 @@
       </div>
     </section>
     <CaseStudyFilter
-      :tag-handler="tagHandler"
+      :tag-handler="onTag"
     />
     <CaseStudyList
       :case-studies-list="caseStudiesList"
@@ -21,7 +21,7 @@
       <button
         v-if="loadMore"
         class="block mx-auto mt-24 text-gray-700 uppercase din"
-        @click="onClick"
+        @click="onLoadMore"
       >
         Load More
       </button>
@@ -61,43 +61,50 @@ export default {
     CaseStudyList
   },
   data () {
+    // set up our initial instance properties
     return {
-      caseStudies: [],
+      caseStudiesAll: [],
+      caseStudiesFiltered: [],
       caseStudiesList: [],
       loadMore: true,
-      maxDisplay: 1
+      maxDisplay: 1,
+      tag: 'all'
     }
   },
   mounted () {
-    this.allCaseStudies = [...this.$static.allCaseStudy.edges]
-    this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
+    this.caseStudiesAll = [...this.$static.allCaseStudy.edges]
+    this.caseStudiesFiltered = [...this.caseStudiesAll]
+    this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
   },
   methods: {
-    onClick () {
+    onLoadMore () {
       this.maxDisplay += this.maxDisplay
-      this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
-      this.loadMore = this.maxDisplay > this.allCaseStudies.length
+      this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
+      this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
     },
-    tagHandler (tag) {
+    onTag (tag) {
       if (tag === 'all') {
-        this.caseStudiesList = this.filterByMaxDisplay(this.allCaseStudies)
+        this.caseStudiesFiltered = [...this.caseStudiesAll]
+        this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
       } else {
         let next
-        const all = [...this.allCaseStudies]
-        const filtered = []
-        next = all.pop()
+        const all = [...this.caseStudiesAll]
+        this.caseStudiesFiltered = []
+        next = all.shift()
         while (next) {
           const match = next.node.tags.find(t => t === tag)
           if (match) {
-            filtered.push(next)
+            this.caseStudiesFiltered.push(next)
           }
-          next = all.pop()
+          next = all.shift()
         }
-        this.caseStudiesList = this.filterByMaxDisplay(filtered)
+        this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
       }
+      this.tag = tag
+      this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
     },
-    filterByMaxDisplay (input) {
-      return input.filter((a, i) => i < this.maxDisplay && a)
+    filterByMaxDisplay (arr) {
+      return arr.slice(0, this.maxDisplay)
     }
   }
 }
