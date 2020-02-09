@@ -99,6 +99,23 @@
   </Layout>
 </template>
 
+<static-query>
+  query {
+    allCaseStudy {
+      edges {
+        node {
+          title
+          featured
+          heading1
+          body1
+          photo
+          path
+        }
+      }
+    }
+  }
+</static-query>
+
 <script>
 import ApproachCard from '@/components/homepage/ApproachCard.vue'
 import AsideBox from '@/components/global/AsideBox.vue'
@@ -129,9 +146,12 @@ export default {
   },
   data () {
     return {
-      // TODO: Return array of isFeatured = true items to display on homepage
       caseStudiesList: []
     }
+  },
+  mounted () {
+    const allCaseStudies = this.$static.allCaseStudy.edges
+    this.caseStudiesList = allCaseStudies.filter((c) => c.node.featured)
   }
 }
 </script>
