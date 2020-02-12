@@ -10,7 +10,7 @@
       <div class="mx-auto mb-6 footer-form_row-1">
         <div class="w-full mb-6 sm:mr-8 sm:mb-0">
           <label
-            class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
+            class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase din"
             for="first-name"
           >
             First Name
@@ -25,7 +25,7 @@
         </div>
         <div class="w-full">
           <label
-            class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
+            class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase din"
             for="last-name"
           >
             Last Name
@@ -42,7 +42,7 @@
       <div class="mx-auto footer-form_row-2">
         <div class="w-full mb-6 sm:mb-0">
           <label
-            class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
+            class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase din"
             for="zip"
           >
             Email

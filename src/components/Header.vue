@@ -38,10 +38,7 @@
         >
           Careers
         </g-link>
-        <FormTrigger
-          class="cursor-pointer md:ml-16 lg:ml-24"
-          @click="toggle"
-        />
+        <g-image src="~/assets/img/icons/contact-icon.png" class="w-16 cursor-pointer md:ml-16 lg:ml-20" @click="toggle" />
         <transition
           name="slide-in"
           mode="out-in"

@@ -1,26 +1,27 @@
 <template>
   <section class="flex flex-col items-center justify-center px-24 py-12 lg:py-24 sm:w-4/12 bg-main-gray-faded">
-    <Calendar class="w-20 mb-12" />
-    <p class="w-48 mb-8 text-lg text-center text-white">
-      Join us November 15 and 16, 2019 at Digital Media Fest in Chicago. We’ll be the ones with the lorem ipsum.
+    <Podcast class="mx-auto mb-12" />
+    <p class="w-56 mb-8 text-lg text-center text-white">
+      Mark and Jordan talk Republicans’ vs. Democrats’ online savvy in this recent Dastardly Cleverness podcast
     </p>
-    <g-link
-      to="/carton-council"
+    <a
+      href="https://dastardlycleverness.com/barker-ruden"
       class="px-1 pt-1 text-sm leading-none uppercase bg-primary-color din"
+      target="_blank"
     >
       Link
       <RightArrow class="inline-block w-2 pb-1" />
-    </g-link>
+    </a>
   </section>
 </template>
 
 <script>
-import Calendar from '~/assets/img/homepage/calendar.svg'
+import Podcast from '~/assets/img/icons/podcast.svg'
 import RightArrow from '@/assets/img/icons/right-arrow.svg'
 
 export default {
   components: {
-    Calendar,
+    Podcast,
     RightArrow
   }
 }

@@ -28,10 +28,10 @@
               <Audience />
             </template>
             <template v-slot:heading>
-              Audience-driven research, strategy and insights
+              Attention-aligned insights, strategy, and message development
             </template>
             <template v-slot:content>
-              What makes your audience tick? Where are they, and what motivates them? Insights like these become your campaign’s North Star.
+              In our hyperconnected world, attention is the currency that matters—and it’s constantly evolving. We focus on where the attention of your audience resides today, where it’s going, and how to transform attention into action.
             </template>
           </ApproachCard>
           <ApproachCard>
@@ -42,7 +42,7 @@
               Nimble, modern <br> creative
             </template>
             <template v-slot:content>
-              Eye-catching, feed-stopping visuals and copy that speaks your audience’s language is what drives action: then iterate to improve on what works!
+              Eye-catching, thumb-stopping visuals and copy that speak your audience’s language drives action. We pride ourselves in an iterative, “non-precious” approach to creative that’s at home in social and mobile feeds, and values effectiveness above all else.
             </template>
           </ApproachCard>
           <ApproachCard>
@@ -53,7 +53,7 @@
               Innovative media planning and buying
             </template>
             <template v-slot:content>
-              Creativity isn’t confined to art or copy — what sets a campaign up for success is how we mix and remix our palette of platforms, budget, and timing.
+              Media plans have traditionally revolved around inputs—a 0:30 spot here, a 728x90 banner there. Ours begin with the outcomes. We clearly define what success looks like, and reverse engineer a media plan with that outcome as our north star.
             </template>
           </ApproachCard>
           <ApproachCard>
@@ -61,10 +61,10 @@
               <Testing />
             </template>
             <template v-slot:heading>
-              Rigorous testing, iteration, and optimization
+              Hands-on, iterative collaboration and optimization
             </template>
             <template v-slot:content>
-              There’s always room to learn and improve, even when our metrics are overperforming: testing and iterating brings our campaigns to new levels.
+              Our deep, recurring partnerships are built on collaboration, with C&C acting as an extension of your team—bolstering capacity, testing, learning, and iterating together, and being responsive to real-time developments.
             </template>
           </ApproachCard>
         </div>
@@ -73,7 +73,7 @@
     <section class="max-w-4xl mx-auto mt-12 lg:mt-24">
       <div class="bg-main-gray">
         <p class="w-9/12 py-20 mx-auto text-4xl leading-normal text-center text-white">
-          —and our mission is clear: <br> Craft & Commerce drives meaningful results for things that matter.
+          —and the result is this: <br> We connect meaningfully with audiences where their attention lives today, and inspire action at scale. 
         </p>
       </div>
       <AsideBox :link="`/services`">
