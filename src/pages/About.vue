@@ -6,16 +6,16 @@
         <h1 class="mb-4 text-3xl font-extrabold lg:text-5xl proxima">
           Behind the <span class="text-strike">curtain</span>...
         </h1>
-        <p class="mb-6 text-lg leading-normal lg:text-xl max-w-screen-md">
+        <p class="max-w-screen-md mb-6 text-lg leading-normal lg:text-xl">
           West Philadelphia, born and — hang on, that’s a different orgin story ;)
         </p>
-        <p class="mb-6 text-lg leading-normal lg:text-xl max-w-screen-md">
+        <p class="max-w-screen-md mb-6 text-lg leading-normal lg:text-xl">
           Here’s ours: founders Mark and Jordan, colleagues at GOOD, decided to change their lives in 200X, and started building a company from scratch. Craft & Commerce, born as a purposeful agency, grew through a combination of hustle and good fortune.
         </p>
-        <p class="mb-6 text-lg leading-normal lg:text-xl max-w-screen-md">
+        <p class="max-w-screen-md mb-6 text-lg leading-normal lg:text-xl">
           Much like the digital world has, C&C has evolved, building a team of experts around our core strategic and creative disciplines. Along the way we have found bold partners in education, civic progress, non-profit, public policy, and more who share our vision of social purpose.
         </p>
-        <p class="mt-12 lg:mt-20 text-md lg:text-xl din">
+        <p class="mt-12 tracking-wider lg:mt-20 text-md lg:text-xl din">
           MEET THE TEAM THAT MAKES IT POSSIBLE —
         </p>
       </div>
@@ -30,7 +30,7 @@
         v-for="(item, index) in edge.node.data"
         :key="index"
       >
-        <section class="mx-auto mb-24 max-w-screen-lg">
+        <section class="max-w-screen-lg mx-auto mb-24">
           <div class="flex flex-col items-center justify-center sm:flex-row team-member">
             <div class="team-member--photo">
               <g-image
@@ -63,12 +63,12 @@
       </div>
     </div>
     <!-- Callout -->
-    <section class="container mx-auto mb-12 max-w-screen-lg join-the-team lg:mb-24">
+    <section class="container max-w-screen-lg mx-auto mb-12 join-the-team lg:mb-24">
       <div class="flex flex-col items-center justify-center py-16">
         <h2 class="mb-6 text-4xl font-extrabold text-center proxima">
           Join the team at Craft &amp; Commerce
         </h2>
-        <p class="mx-auto text-lg text-center max-w-screen-md">
+        <p class="max-w-screen-md mx-auto text-lg text-center">
           Our hands-on team of digital media specialists believes in achieving better results for causes that matter. We're based in New York City but have team members across the country. If you're itching to put your digital skills to work for positive change, we should talk.
         </p>
         <p class="inline-block px-2 pt-1 mt-8 text-center bg-white shadow-sm din">
@@ -103,6 +103,7 @@
 
 <script>
 import TeamModal from '~/components/TeamModal.vue'
+import Close from '@/assets/img/icons/close.svg'
 export default {
   components: {
     TeamModal

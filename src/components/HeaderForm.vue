@@ -54,7 +54,7 @@
             <input
               type="submit"
               name="Submit"
-              class="block mt-16 mr-auto bg-transparent"
+              class="inline-block w-32 px-4 pt-4 pb-3 mt-16 text-sm tracking-wide text-center uppercase transition-all duration-300 ease-in-out bg-transparent border border-black cursor-pointer hover:bg-main-gray hover:text-white din"
             >
           </form>
         </div>
@@ -64,7 +64,7 @@
             class="w-8/12 mx-auto mb-12"
           />
           <MapPin class="mx-auto" />
-          <p class="mt-6 text-center uppercase din">
+          <p class="mt-6 text-sm tracking-wider text-center uppercase din">
             222 Broadway 19th Floor, <br> New York, NY 10038
           </p>
         </div>

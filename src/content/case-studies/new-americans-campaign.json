@@ -12,7 +12,7 @@
   "body2": "Lorem",
   "heading3": "Lorem",
   "body3": "Lorem",
-  "videoPoster": "",
+  "videoPoster": "../../assets/img/craft/video-poster.png",
   "heading4": "Lorem",
   "body4": "Lorem"
 }

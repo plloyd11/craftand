@@ -1,21 +1,21 @@
 <template>
   <Layout>
     <section class="container px-6 py-24 mx-auto bg-light-gray">
-      <Hero
+      <!-- <Hero
         class="w-11/12 mx-auto sm:w-7/12"
         alt="Hero Image"
-      />
+      /> -->
       <h1
-        class="mt-12 mb-4 text-3xl font-extrabold leading-tight text-center sm:text-5xl proxima"
+        class="max-w-3xl mx-auto mb-12 text-3xl font-extrabold leading-tight text-center sm:text-5xl proxima"
       >
-        The attention landscape is <span class="text-strike">always</span> in flux.
+        <span class="text-strike">Our mission</span> is to more <br> effectively harness paid media <br> to advance <span class="text-strike">your mission.</span>
       </h1>
       <p class="w-full mx-auto text-center sm:w-7/12 text-md sm:text-xl">
-        Rather than be ruled by the tides, C&C evolved as a team of no-nonsense, outcomes-focused digital specialists, re-inventing how our purpose-driven partners capture attention, change behavior, and inspire action in this dynamic digital world— a landscape filled with untapped opportunity.
+        Craft &amp; Commerce is the only agency that’s dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
       </p>
     </section>
     <section class="mt-12 lg:mt-24">
-      <h2 class="text-xl text-center din">
+      <h2 class="text-xl tracking-wider text-center din">
         OUR APPROACH BOILS DOWN TO THIS —
       </h2>
       <div
@@ -50,7 +50,7 @@
               <Innovative />
             </template>
             <template v-slot:heading>
-              Innovative media planning and buying
+              Innovative media <br> planning and buying
             </template>
             <template v-slot:content>
               Media plans have traditionally revolved around inputs—a 0:30 spot here, a 728x90 banner there. Ours begin with the outcomes. We clearly define what success looks like, and reverse engineer a media plan with that outcome as our north star.
@@ -73,7 +73,7 @@
     <section class="max-w-4xl mx-auto mt-12 lg:mt-24">
       <div class="bg-main-gray">
         <p class="w-9/12 py-20 mx-auto text-4xl leading-normal text-center text-white">
-          —and the result is this: <br> We connect meaningfully with audiences where their attention lives today, and inspire action at scale. 
+          —and the result is this: <br> We connect meaningfully with audiences where their attention lives today, and inspire action at scale.
         </p>
       </div>
       <AsideBox :link="`/services`">
@@ -82,9 +82,9 @@
         </template>
       </AsideBox>
     </section>
-    <section class="container max-w-4xl mx-auto">
-      <h3 class="text-xl uppercase din">
-        Our recent work
+    <section class="container mx-auto">
+      <h3 class="mb-12 text-lg tracking-wider uppercase din">
+        recent work
       </h3>
       <CaseStudyList
         :case-studies-list="caseStudiesList"

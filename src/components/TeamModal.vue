@@ -3,12 +3,10 @@
     <div class="modal-mask">
       <div class="modal-wrapper">
         <div class="modal-container">
-          <button
+          <Close
             class="modal-default-button"
             @click="$emit('close')"
-          >
-            X
-          </button>
+          />
           <div
             slot="body"
             class="modal-body-content"
@@ -35,13 +33,15 @@
         </div>
       </div>
     </div>
-    </div>
   </transition>
 </template>
 
 <script>
+import Close from '@/assets/img/icons/close.svg'
 export default {
-
+  components: {
+    Close
+  }
 }
 </script>
 
@@ -109,6 +109,7 @@ export default {
 }
 
 .modal-default-button {
+  width: 12px;
   position: absolute;
   top: 10px;
   right: 15px;

@@ -1,11 +1,11 @@
 <template>
   <section class="flex flex-col items-center justify-center px-24 py-12 lg:py-24 sm:w-4/12 bg-main-gray-faded">
-    <Podcast class="mx-auto mb-12" />
-    <p class="w-56 mb-8 text-lg text-center text-white">
-      Mark and Jordan talk Republicans’ vs. Democrats’ online savvy in this recent Dastardly Cleverness podcast
+    <Interview class="w-24 mx-auto mb-12" />
+    <p class="w-64 mb-8 text-lg text-center text-white">
+      Campaign US interviews Mark and Jordan about their "purposeful" approach to life and work, out of which C&C was born.
     </p>
     <a
-      href="https://dastardlycleverness.com/barker-ruden"
+      href="https://www.campaignlive.com/article/why-craft-commerce-seeks-work-meaning/1673611"
       class="px-1 pt-1 text-sm leading-none uppercase bg-primary-color din"
       target="_blank"
     >
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import Podcast from '~/assets/img/icons/podcast.svg'
+import Interview from '~/assets/img/icons/interview.svg'
 import RightArrow from '@/assets/img/icons/right-arrow.svg'
 
 export default {
   components: {
-    Podcast,
+    Interview,
     RightArrow
   }
 }

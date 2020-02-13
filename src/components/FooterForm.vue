@@ -1,10 +1,10 @@
 <template>
   <section class="flex flex-col items-center justify-center px-6 py-12 sm:py-0 sm:w-8/12 bg-main-gray">
     <h2 class="mb-4 text-2xl font-bold leading-tight text-center lg:mb-2 lg:text-3xl text-primary-color proxima">
-      We drive better results for things that matter.
+      The best way forward is together.
     </h2>
-    <p class="text-center text-gray-400 text-md">
-      Sign up for our newsletter, where we share our insights and predictions on all things digital.
+    <p class="text-sm text-center text-gray-400">
+      Join us for a recurring newsletter that covers modern media and marketing, through the lens of those doing good in the world.
     </p>
     <form class="w-full max-w-4xl px-8 mx-auto mt-8 footer-form">
       <div class="mx-auto mb-6 footer-form_row-1">

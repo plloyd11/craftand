@@ -1,6 +1,6 @@
 <template>
   <section class="container py-16 mx-auto mb-12 logo-box lg:mb-24">
-    <h3 class="mb-16 text-center uppercase din">
+    <h3 class="mb-12 text-sm tracking-wider text-center uppercase din">
       We're proud to work with:
     </h3>
     <div class="px-24 logos">
@@ -14,7 +14,7 @@
       />
       <g-image
         src="~/assets/img/logos/autism-speaks.png"
-        class="w-24"
+        class="w-32"
       />
       <g-image
         src="~/assets/img/logos/cz.png"

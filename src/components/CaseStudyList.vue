@@ -1,5 +1,5 @@
 <template>
-  <section class="container px-6 mx-auto case-study-container">
+  <section class="container mx-auto case-study-container">
     <div
       v-for="(caseStudy, index) in caseStudiesList"
       :key="index"
@@ -54,7 +54,7 @@ export default {
   > div:nth-child(even) {
     .case-study {
       &--photo {
-        flex: 1 1 7%;
+        flex: 1 1 80px;
         @media (min-width: 1024px) {
           order: 2;
         }
@@ -76,7 +76,7 @@ export default {
   > div:nth-child(odd) {
     .case-study {
       &--photo {
-        flex: 1 1 7%;
+        flex: 1 1 80px;
       }
       &--content {
         text-align: center;

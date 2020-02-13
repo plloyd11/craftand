@@ -1,10 +1,11 @@
 <template>
-  <header class="px-6 py-8 shadow-md bg-main-gray">
+  <header class="px-6 py-5 shadow-md bg-main-gray">
     <div class="container flex items-center justify-between mx-auto">
       <div>
         <g-link
           exact
           to="/"
+          class="relative"
         >
           <g-image
             src="~/assets/img/global/logo.png"
@@ -15,30 +16,34 @@
       </div>
       <nav class="items-center hidden lg:flex">
         <g-link
-          class="mr-8 text-white uppercase din hover:underline"
+          class="mr-8 text-sm font-medium tracking-wider text-center text-white uppercase din hover:underline"
           to="/about/"
         >
           About
         </g-link>
         <g-link
-          class="mr-8 text-white uppercase din hover:underline"
+          class="mr-8 text-sm font-medium tracking-wider text-white uppercase din hover:underline"
           to="/services/"
         >
           Services
         </g-link>
         <g-link
-          class="mr-8 text-white uppercase din hover:underline"
-          to="/our-work/"
+          class="mr-8 text-sm font-medium tracking-wider text-white uppercase din hover:underline"
+          to="/work/"
         >
-          Our Work
+          Work
         </g-link>
         <g-link
-          class="text-white uppercase din hover:underline"
+          class="mr-8 text-sm font-medium tracking-wider text-white uppercase din hover:underline"
           to="/careers/"
         >
           Careers
         </g-link>
-        <g-image src="~/assets/img/icons/contact-icon.png" class="w-16 cursor-pointer md:ml-16 lg:ml-20" @click="toggle" />
+        <g-image
+          src="~/assets/img/icons/contact-icon.png"
+          class="w-12 cursor-pointer md:ml-8 lg:ml-12"
+          @click="toggle"
+        />
         <transition
           name="slide-in"
           mode="out-in"
@@ -56,12 +61,10 @@
 
 <script>
 import HeaderForm from '@/components/HeaderForm.vue'
-import FormTrigger from '@/assets/img/icons/form-trigger.svg'
 
 export default {
   components: {
-    HeaderForm,
-    FormTrigger
+    HeaderForm
   },
   data () {
     return {
@@ -87,12 +90,38 @@ export default {
 
 <style lang="scss" scoped>
 
+nav {
+  a {
+    position: relative;
+    &:hover {
+      text-decoration: none;
+      &::after {
+        content: '';
+        position: absolute;
+        border-bottom: 2px solid #fadd0d;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        bottom: -2px;
+      }
+    }
+  }
+}
+
 .active {
-  color: #fadd0d;
+  &::after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #fadd0d;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+  }
 }
 
 .header-logo {
-  width: 275px;
+  width: 235px;
 }
 
 .slide-in-enter {

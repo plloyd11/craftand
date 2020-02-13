@@ -15,15 +15,15 @@
             <p class="max-w-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
             </p>
-            <p class="mt-8 mb-4 text-sm font-semibold uppercase din">
+            <p class="mt-8 mb-4 text-sm font-medium tracking-wider uppercase din">
               Related Case Studies
             </p>
             <ul>
-              <li class="inline-block px-1 my-1 uppercase bg-white">
+              <li class="inline-block px-1 pt-1 my-1 tracking-wider uppercase bg-white din">
                 3PS for CA
               </li>
               <br>
-              <li class="inline-block px-1 my-1 uppercase bg-white">
+              <li class="inline-block px-1 pt-1 my-1 tracking-wider uppercase bg-white din">
                 Maine Family Planning
               </li>
             </ul>
@@ -42,15 +42,15 @@
             <p class="max-w-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
             </p>
-            <p class="mt-8 mb-4 text-sm font-semibold uppercase din">
+            <p class="mt-8 mb-4 text-sm font-medium tracking-wider uppercase din">
               Related Case Studies
             </p>
             <ul>
-              <li class="inline-block px-1 my-1 uppercase bg-white">
+              <li class="inline-block px-1 pt-1 my-1 tracking-wider uppercase bg-white din">
                 Carton Council
               </li>
               <br>
-              <li class="inline-block px-1 my-1 uppercase bg-white">
+              <li class="inline-block px-1 pt-1 my-1 tracking-wider uppercase bg-white din">
                 VZLA
               </li>
             </ul>
@@ -69,15 +69,15 @@
             <p class="max-w-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
             </p>
-            <p class="mt-8 mb-4 text-sm font-semibold uppercase din">
+            <p class="mt-8 mb-4 text-sm font-medium tracking-wider uppercase din">
               Related Case Studies
             </p>
             <ul>
-              <li class="inline-block px-1 my-1 uppercase bg-white">
+              <li class="inline-block px-1 pt-1 my-1 tracking-wider uppercase bg-white din">
                 AYR
               </li>
               <br>
-              <li class="inline-block px-1 my-1 uppercase bg-white">
+              <li class="inline-block px-1 pt-1 my-1 tracking-wider uppercase bg-white din">
                 CZI
               </li>
             </ul>
@@ -96,15 +96,15 @@
             <p class="max-w-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum consequatur fugiat dolores alias perspiciatis tempora adipisci tempore exercitationem labore explicabo aliquid.
             </p>
-            <p class="mt-8 mb-4 text-sm font-semibold uppercase din">
+            <p class="mt-8 mb-4 text-sm font-medium tracking-wider uppercase din">
               Related Case Studies
             </p>
             <ul>
-              <li class="inline-block px-1 my-1 uppercase bg-white">
+              <li class="inline-block px-1 pt-1 my-1 tracking-wider uppercase bg-white din">
                 Sonoma County
               </li>
               <br>
-              <li class="inline-block px-1 my-1 uppercase bg-white">
+              <li class="inline-block px-1 pt-1 my-1 tracking-wider uppercase bg-white din">
                 CRR
               </li>
             </ul>

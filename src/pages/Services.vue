@@ -7,21 +7,21 @@
           <h2 class="mb-8 text-3xl font-extrabold text-center text-white lg:text-left lg:text-5xl proxima">
             All method, no madness.
           </h2>
-          <p class="mb-6 text-xl leading-normal text-white max-w-screen-sm">
+          <p class="max-w-screen-sm mb-6 text-lg leading-normal text-white">
             At Craft & Commerce, we‘ve thrown out our cookie-cutters: instead, we take a broad view of the tools available, and calibrate to your desired outcome, tilting momentum toward even the most enigmatic goals.
           </p>
-          <p class="mb-6 text-xl leading-normal text-white max-w-screen-sm">
+          <p class="max-w-screen-sm mb-6 text-lg leading-normal text-white">
             One of the ways we like to begin is by defining how we’ll measure success: is success a million downloads, or a dozen downloads by just the right people? Is it broad awareness, or do you need to gauge how people are reacting?
           </p>
-          <p class="mb-6 text-xl leading-normal text-white max-w-screen-sm">
+          <p class="max-w-screen-sm mb-6 text-lg leading-normal text-white">
             How might you move the needle with the right method in hand?
           </p>
         </div>
         <div class="border-l-2 lg:w-4/12 border-primary-color">
-          <h4 class="pl-4 mb-8 text-xl font-bold text-white uppercase din">
+          <h4 class="pl-4 mb-8 text-lg font-bold tracking-wider text-white uppercase din">
             Focus Areas
           </h4>
-          <ul class="text-white uppercase din hero-list">
+          <ul class="text-sm tracking-wider text-white uppercase din hero-list">
             <li class="pl-8">
               Non-Profits
             </li>
@@ -40,7 +40,7 @@
     <aside class="flex items-center justify-center">
       <g-link to="/">
         <div class="px-4 py-8 bg-main-gray">
-          <TearSheet class="w-8 mx-auto mb-4" />
+          <TearSheet class="w-6 mx-auto mb-4" />
           <p class="w-32 text-sm text-center text-white uppercase din">
             Download <br> our services tearsheet
           </p>
@@ -54,15 +54,15 @@
       </div>
     </section>
     <!-- Callout -->
-    <section class="container px-6 mx-auto mt-24 max-w-screen-lg right-stuff">
+    <section class="container max-w-screen-lg px-6 mx-auto mt-24 right-stuff">
       <div class="flex flex-col items-center justify-center py-16">
-        <p class="mb-8 uppercase din">
+        <p class="mb-8 tracking-wider uppercase din">
           The right stuff
         </p>
         <h2 class="mb-2 text-3xl font-extrabold text-center sm:text-5xl proxima">
           The C&amp;C Toolbox:
         </h2>
-        <p class="mx-auto text-lg text-center max-w-screen-md">
+        <p class="max-w-screen-md mx-auto text-lg text-center">
           Media Planning & Buying • Campaign Dashboard Development • Creative Development • Copywriting • Message Development • Market Research
         </p>
       </div>
@@ -70,10 +70,10 @@
     <!-- Quote -->
     <section class="container max-w-xl px-6 mx-auto mt-12 mb-12 text-center lg:mb-24">
       <div class="flex flex-col items-center justify-center pt-16">
-        <p class="mb-8 text-xl sm:text-4xl">
-          <span class="block mb-4 sm:mb-8">"I’ve worked with a lot of media folks in my career.</span> The Craft & Commerce team is <br> the smartest and most effective I've ever run into.”
+        <p class="mb-8 text-xl leading-tight sm:text-4xl">
+          <span class="block mb-2 sm:mb-4">"I’ve worked with a lot of media folks in my career.</span> The Craft & Commerce team is <br> the smartest and most effective I’ve ever run into.”
         </p>
-        <p class="px-3 pt-2 uppercase din bg-primary-color">
+        <p class="px-3 pt-2 tracking-wider uppercase din bg-primary-color">
           —Bright Pink
         </p>
       </div>

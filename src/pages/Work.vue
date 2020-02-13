@@ -6,7 +6,7 @@
         <h1 class="mb-4 text-3xl font-extrabold lg:text-5xl proxima">
           For things that <span class="text-strike">matter</span>.
         </h1>
-        <p class="mb-6 text-xl leading-normal max-w-screen-md">
+        <p class="max-w-screen-md mb-6 text-xl leading-normal">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minima impedit, numquam iste repudiandae quis amet reiciendis a sit voluptatum. Ipsa cumque facere, possimus laboriosam delectus ab rerum quasi ipsam.
         </p>
       </div>
@@ -67,7 +67,7 @@ export default {
       caseStudiesFiltered: [],
       caseStudiesList: [],
       loadMore: true,
-      maxDisplay: 1,
+      maxDisplay: 8,
       tag: 'all'
     }
   },
