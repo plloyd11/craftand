@@ -15,10 +15,15 @@
           <form
             class="flex flex-col w-full max-w-sm mt-16"
             name="header-form"
-            method="POST"
+            method="post"
             data-netlify="true"
-            action="/thank-you"
+            action="/thank-you/"
+            data-netlify-honeypot="bot-field"
+            @submit.prevent="handleSubmit"
           >
+            <p class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+            </p>
             <div class="flex flex-col items-start pt-2 mb-16 border-b border-b-2 border-gray-800">
               <label
                 for="name"
@@ -26,6 +31,7 @@
               >Name</label>
               <input
                 id="name"
+                v-model="formData.name"
                 class="w-full px-2 py-1 mr-3 leading-tight text-gray-700 bg-transparent border-none appearance-none focus:outline-none"
                 type="text"
                 name="name"
@@ -40,6 +46,7 @@
               >Email</label>
               <input
                 id="email"
+                v-model="formData.email"
                 class="w-full px-2 py-1 mr-3 leading-tight text-gray-700 bg-transparent border-none appearance-none focus:outline-none"
                 type="email"
                 name="email"
@@ -53,6 +60,7 @@
             <div class="flex items-center py-2 border-b border-b-2 border-gray-800">
               <input
                 id="message"
+                v-model="formData.message"
                 class="w-full px-2 py-1 mr-3 leading-tight text-gray-700 bg-transparent border-none appearance-none focus:outline-none"
                 type="textarea"
                 name="message"
@@ -89,8 +97,29 @@ export default {
     FormTriggerClose,
     MapPin
   },
+  data () {
+    return {
+      formData: {}
+    }
+  },
   methods: {
-    // TODO handle the submission form
+    encode (data) {
+      return Object.keys(data)
+        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+        .join('&')
+    },
+    handleSubmit (e) {
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: this.encode({
+          'form-name': e.target.getAttribute('name'),
+          ...this.formData
+        })
+      })
+        .then(() => this.$router.push('/thank-you'))
+        .catch(error => alert(error))
+    },
     close () {
       this.$emit('close')
     }
