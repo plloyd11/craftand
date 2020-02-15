@@ -6,19 +6,28 @@
     <p class="text-sm text-center text-gray-400">
       Join us for a recurring newsletter that covers modern media and marketing, through the lens of those doing good in the world.
     </p>
-    <form class="w-full max-w-4xl px-8 mx-auto mt-8 footer-form">
+    <form
+      id="mc-embedded-subscribe-form"
+      class="w-full max-w-4xl px-8 mx-auto mt-8 footer-form validate"
+      action="https://craftand.us15.list-manage.com/subscribe/post?u=fddf53c8e5bc7f77de77b73d4&amp;id=efe67cf7d9"
+      method="post"
+      name="mc-embedded-subscribe-form"
+      target="_blank"
+      novalidate
+    >
       <div class="mx-auto mb-6 footer-form_row-1">
         <div class="w-full mb-6 sm:mr-8 sm:mb-0">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase din"
-            for="first-name"
+            for="mce-FNAME"
           >
             First Name
           </label>
           <input
-            id="first-name"
+            id="mce-FNAME"
             class="block w-full px-4 py-3 leading-tight text-gray-700 placeholder-gray-600 bg-transparent border border-white appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
             type="text"
+            name="FNAME"
             placeholder="First"
             required
           >
@@ -26,42 +35,57 @@
         <div class="w-full">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase din"
-            for="last-name"
+            for="mce-LNAME"
           >
             Last Name
           </label>
           <input
-            id="last-name"
+            id="mce-LNAME"
             class="block w-full px-4 py-3 leading-tight text-gray-700 placeholder-gray-600 bg-transparent border border-white appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
             type="text"
+            name="LNAME"
             placeholder="Last"
             required
           >
         </div>
       </div>
       <div class="mx-auto footer-form_row-2">
-        <div class="w-full mb-6 sm:mb-0">
+        <div class="w-full mb-6 sm:mb-0 mc-field-group">
           <label
             class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase din"
-            for="zip"
+            for="mce-EMAIL"
           >
             Email
           </label>
           <input
-            id="email"
-            class="block w-full px-4 py-3 leading-tight text-gray-700 placeholder-gray-600 bg-transparent border border-white appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
-            type="text"
+            id="mce-EMAIL"
+            class="block w-full px-4 py-3 leading-tight text-gray-700 placeholder-gray-600 bg-transparent border border-white appearance-none focus:outline-none focus:bg-white focus:border-gray-500 email"
+            type="email"
+            name="EMAIL"
             placeholder="Email"
             required
+          >
+        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div
+          style="position: absolute; left: -5000px;"
+          aria-hidden="true"
+        >
+          <input
+            type="text"
+            name="b_fddf53c8e5bc7f77de77b73d4_efe67cf7d9"
+            tabindex="-1"
+            value=""
           >
         </div>
         <div class="self-end w-full">
           <div class="flex items-center px-12 text-gray-300 border border-white cursor-pointer din form-submit focus:shadow-outline focus:outline-none">
             <input
+              id="mc-embedded-subscribe"
               class="pt-2 leading-none bg-transparent"
               type="submit"
               value="SUBMIT"
-              name="Submit"
+              name="subscribe"
             >
             <RightArrowWhite class="inline-block w-3 ml-2" />
           </div>

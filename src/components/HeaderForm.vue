@@ -12,7 +12,17 @@
           <h2 class="text-5xl font-extrabold proxima">
             Reach out.
           </h2>
-          <form class="flex flex-col w-full max-w-sm mt-16">
+          <form
+            class="flex flex-col w-full max-w-sm mt-16"
+            name="header-form"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="/thank-you"
+          >
+            <p class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+            </p>
             <div class="flex flex-col items-start pt-2 mb-16 border-b border-b-2 border-gray-800">
               <label
                 for="name"
