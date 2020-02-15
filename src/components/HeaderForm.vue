@@ -18,11 +18,8 @@
             method="POST"
             data-netlify="true"
             netlify-honeypot="bot-field"
-            action="/thank-you/"
+            action="/thank-you"
           >
-            <p class="hidden">
-              <input name="bot-field">
-            </p>
             <div class="flex flex-col items-start pt-2 mb-16 border-b border-b-2 border-gray-800">
               <label
                 for="name"
