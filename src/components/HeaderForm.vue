@@ -21,7 +21,7 @@
             action="/thank-you/"
           >
             <p class="hidden">
-              <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+              <input name="bot-field">
             </p>
             <div class="flex flex-col items-start pt-2 mb-16 border-b border-b-2 border-gray-800">
               <label
