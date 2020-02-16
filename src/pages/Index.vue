@@ -100,10 +100,10 @@
     allCaseStudy {
       edges {
         node {
-          title
+          client
           featured
-          heading1
-          body1
+          headline
+          campaignDescription
           photo
           path
         }
@@ -118,7 +118,6 @@ import AsideBox from '@/components/global/AsideBox.vue'
 import CaseStudyList from '@/components/CaseStudyList.vue'
 import LogoBox from '@/components/homepage/LogoBox.vue'
 // SVG as imports
-import Hero from '~/assets/img/homepage/hero.svg'
 import Audience from '~/assets/img/homepage/audience.svg'
 import Creative from '~/assets/img/homepage/creative.svg'
 import Innovative from '~/assets/img/homepage/innovative.svg'
@@ -130,7 +129,6 @@ export default {
     AsideBox,
     CaseStudyList,
     LogoBox,
-    Hero,
     Audience,
     Creative,
     Innovative,
