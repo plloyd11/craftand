@@ -108,17 +108,17 @@ fields:
 - name: carousel
   type: field_group_list
   fields:
-  - name: carouselPhoto
+  - name: photo
     type: file
     config:
       maxSize: 250
     label: Photo
-  - name: carouselHeader
+  - name: header
     type: text
     config:
       required: false
     label: Header
-  - name: carouselBody
+  - name: body
     type: textarea
     default: ''
     config:
