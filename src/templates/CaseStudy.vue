@@ -163,7 +163,9 @@ export default {
     }
     const categoriesAll = this.$page.caseStudy.categories
     const categoryKeys = Object.keys(categoriesAll)
-    const categories = categoryKeys.filter(category => categoriesAll[category]).map(category => categoryMap[category])
+    const categories = categoryKeys
+      .filter(category => categoriesAll[category])
+      .map(category => categoryMap[category])
     this.categories = categories
   }
 }
