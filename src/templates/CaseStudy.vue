@@ -5,13 +5,13 @@
       <div class="flex flex-col items-center justify-center sm:flex-row case-study">
         <div class="flex-1 lg:pl-20 case-study--text">
           <h4 class="mt-12 font-semibold text-gray-700 uppercase text-md din lg:mt-0">
-            {{ $page.caseStudy.title }}
+            {{ $page.caseStudy.client }}
           </h4>
           <h2 class="max-w-md mt-12 mb-6 text-xl font-extrabold leading-none sm:text-4xl proxima">
-            {{ $page.caseStudy.heading1 }}
+            {{ $page.caseStudy.headline }}
           </h2>
           <p class="max-w-md mb-8">
-            {{ $page.caseStudy.body1 }}
+            {{ $page.caseStudy.campaignDescription }}
           </p>
           <span
             v-for="(category, index) in categories"
@@ -28,14 +28,14 @@
         </div>
       </div>
       <div
-        v-if="$page.caseStudy.heading2 && $page.caseStudy.body2"
+        v-if="$page.caseStudy.mainTakeaway && $page.caseStudy.supportiveText"
         class="py-6 hero-callout bg-main-gray"
       >
         <p class="mb-1 text-xl font-bold text-primary-color proxima">
-          {{ $page.caseStudy.heading2 }}
+          {{ $page.caseStudy.mainTakeaway }}
         </p>
         <p class="italic text-white text-gray-400">
-          {{ $page.caseStudy.body2 }}
+          {{ $page.caseStudy.supportiveText }}
         </p>
       </div>
     </section>
@@ -69,15 +69,15 @@
     </section>
     <!-- Takeaway -->
     <section
-      v-if="$page.caseStudy.heading3 && $page.caseStudy.body3"
+      v-if="$page.caseStudy.yellowBoxHeadline && $page.caseStudy.yellowBoxContent"
       class="container max-w-screen-lg mx-auto my-12 takeaway"
     >
       <div class="flex flex-col items-center justify-center py-16">
         <h3 class="mb-6 text-4xl font-extrabold text-center proxima">
-          {{ $page.caseStudy.heading3 }}
+          {{ $page.caseStudy.yellowBoxHeadline }}
         </h3>
         <p class="max-w-screen-md mx-auto text-center text-md">
-          {{ $page.caseStudy.body3 }}
+          {{ $page.caseStudy.yellowBoxContent }}
         </p>
       </div>
     </section>
@@ -87,15 +87,15 @@
     </section>
     <!-- Quote -->
     <section
-      v-if="$page.caseStudy.heading4 && $page.caseStudy.body4"
+      v-if="$page.caseStudy.clientTestimony && $page.caseStudy.clientTitle"
       class="mt-24"
     >
       <p class="w-10/12 mx-auto mb-12 text-xl leading-normal text-center lg:w-6/12 lg:text-4xl">
-        {{ $page.caseStudy.heading4 }}
+        {{ $page.caseStudy.clientTestimony }}
       </p>
       <div class="flex flex-col">
         <p
-          v-for="(item, index) in $page.caseStudy.body4.split('\n')"
+          v-for="(item, index) in $page.caseStudy.clientTitle.split('\n')"
           :key="index"
           :class="index === 0 && 'mb-2'"
           class="inline-block px-1 pt-1 mx-auto text-sm text-center uppercase bg-primary-color din"
@@ -112,7 +112,7 @@
 <page-query>
   query($path: String!) {
     caseStudy(path: $path) {
-      title
+      client
       categories {
         behaviorChange
         issueEducation
@@ -124,16 +124,16 @@
         header
         body
       }
-      heading1
-      body1
+      headline
+      campaignDescription
       photo
-      heading2
-      body2
-      heading3
-      body3
+      mainTakeaway
+      supportiveText
+      yellowBoxHeadline
+      yellowBoxContent
       videoPoster
-      heading4
-      body4
+      clientTestimony
+      clientTitle
     }
   }
 </page-query>
