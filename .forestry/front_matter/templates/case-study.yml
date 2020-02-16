@@ -3,12 +3,46 @@ label: Case Study
 hide_body: true
 display_field: title
 fields:
-- name: title
+- name: featured
+  type: boolean
+  label: Featured
+  description: Features this case study on the home page.
+- name: client
   type: text
   config:
     required: true
-  label: Title
-  description: Title of the case study (will appear capitalized on website)
+  label: Client
+  description: Client name for the case study (will appear capitalized on website)
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
+  description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
+- name: headline
+  type: text
+  config:
+    required: true
+  label: Headline
+  description: Main headline for the case study
+- name: campaignDescription
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Campaign Description
+  description: 'Introductory text that will describe the main goals of the case study. '
+- name: photo
+  type: file
+  config:
+    maxSize: 250
+  label: Primary Photo
+  description: Primary case study photo. Should be formatted exactly the same across
+    every case study. Will also populate on the /work page and on the homepage if
+    it is featured.
 - name: categories
   type: field_group
   config: {}
@@ -26,38 +60,24 @@ fields:
     type: boolean
     label: Lead Generation
   label: Categories
-- name: featured
-  type: boolean
-  label: Featured
-  description: Features this case study on the home page.
-- name: slug
+- name: mainTakeaway
   type: text
   config:
-    required: true
-  label: Slug
-  description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
-- name: heading1
-  type: text
-  config:
-    required: true
-  label: Heading 1
-  description: Case study title.
-- name: body1
+    required: false
+  label: Main Takeaway
+  description: Main takeaway text that will appear as yellow title in the dark box
+    along bottom of introductory section.
+- name: supportiveText
   type: textarea
   default: ''
   config:
-    required: true
+    required: false
     wysiwyg: false
     schema:
       format: markdown
-  label: Body 1
-  description: Introduction text.
-- name: photo
-  type: file
-  config:
-    maxSize: 250
-  label: Photo
-  description: Case study photo.
+  label: Supportive Text
+  description: Supportive content that will appear as white copy in the dark box along
+    bottom of introductory section.
 - name: carousel
   type: field_group_list
   fields:
@@ -85,12 +105,13 @@ fields:
     max: 
     labelField: 
   label: Carousel
-- name: heading2
+- name: yellowBoxHeadline
   type: text
   config:
     required: false
-  label: Heading 2
-- name: body2
+  label: Yellow Box Headline
+  description: Headline for the yellow box callout section
+- name: yellowBoxContent
   type: textarea
   default: ''
   config:
@@ -98,21 +119,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Body 2
-- name: heading3
-  type: text
-  config:
-    required: false
-  label: Heading 3
-- name: body3
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Body 3
+  label: Yellow Box Content
+  description: Content for the yellow box callout section
 - name: videoPoster
   type: file
   config:
