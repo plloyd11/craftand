@@ -1,8 +1,4 @@
 {
-  "tags": [
-    "Program Growth & Delivery",
-    " Behavior Change"
-  ],
   "title": "Bay Area Metropolitan Transportation Commission",
   "featured": false,
   "slug": "pba2050",
@@ -15,5 +11,11 @@
   "body3": "Snapchat, Facebook and IG stories gave us a platform to hook residents on the challenge of playing the game.",
   "videoPoster": "../../assets/img/craft/video-poster.png",
   "heading4": "Hey hey",
-  "body4": "the stuff"
+  "body4": "the stuff",
+  "categories": {
+    "issueEducation": false,
+    "behaviorChange": true,
+    "programGrowthDelivery": true,
+    "leadGeneration": false
+  }
 }
