@@ -105,6 +105,33 @@ fields:
     schema:
       format: markdown
   label: Body 4
+- name: carousel
+  type: field_group_list
+  fields:
+  - name: carouselPhoto
+    type: file
+    config:
+      maxSize: 250
+    label: Photo
+  - name: carouselHeader
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: carouselBody
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Carousel
 pages:
 - src/content/case-studies/bay-area-metropolitan-transportation-commission.json
 - src/content/case-studies/bright-pink.json
