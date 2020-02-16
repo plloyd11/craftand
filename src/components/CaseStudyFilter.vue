@@ -53,6 +53,8 @@
 </template>
 
 <script>
+const activeClass = 'active'
+const activeDefault = 'all'
 export default {
   props: {
     tagHandler: {
@@ -60,9 +62,17 @@ export default {
       required: true
     }
   },
+  mounted () {
+    this.activeElement = document.querySelector(`[data-tag='${activeDefault}']`)
+    this.activeElement.classList.add(activeClass)
+  },
   methods: {
     onClick (event) {
-      const tag = event.target.dataset.tag
+      const { target } = event
+      const tag = target.dataset.tag
+      this.activeElement.classList.remove(activeClass)
+      this.activeElement = target
+      this.activeElement.classList.add(activeClass)
       tag && this.tagHandler(tag)
     }
   }
