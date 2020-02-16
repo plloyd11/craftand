@@ -13,35 +13,35 @@
         @click="onClick"
       >
         <a
-          data-tag="all"
+          data-category="all"
           href="#"
           class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           All
         </a>
         <a
-          data-tag="issueEducation"
+          data-category="issueEducation"
           href="#"
           class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Issue Education
         </a>
         <a
-          data-tag="behaviorChange"
+          data-category="behaviorChange"
           href="#"
           class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Behavior Change
         </a>
         <a
-          data-tag="programGrowthDelivery"
+          data-category="programGrowthDelivery"
           href="#"
           class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Program Growth &amp; Delivery
         </a>
         <a
-          data-tag="leadGeneration"
+          data-category="leadGeneration"
           href="#"
           class="text-sm tracking-wider text-gray-600 uppercase din"
         >
@@ -55,15 +55,15 @@
 <script>
 export default {
   props: {
-    tagHandler: {
+    categoryHandler: {
       type: Function,
       required: true
     }
   },
   methods: {
     onClick (event) {
-      const tag = event.target.dataset.tag
-      tag && this.tagHandler(tag)
+      const category = event.target.dataset.category
+      category && this.categoryHandler(category)
     }
   }
 }

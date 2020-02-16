@@ -12,7 +12,7 @@
       </div>
     </section>
     <CaseStudyFilter
-      :tag-handler="onTag"
+      :category-handler="oncategory"
     />
     <CaseStudyList
       :case-studies-list="caseStudiesList"
@@ -73,7 +73,7 @@ export default {
       caseStudiesList: [],
       loadMore: true,
       maxDisplay: 8,
-      tag: 'all'
+      category: 'all'
     }
   },
   mounted () {
@@ -87,8 +87,8 @@ export default {
       this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
       this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
     },
-    onTag (tag) {
-      if (tag === 'all') {
+    oncategory (category) {
+      if (category === 'all') {
         this.caseStudiesFiltered = [...this.caseStudiesAll]
         this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
       } else {
@@ -97,7 +97,7 @@ export default {
         this.caseStudiesFiltered = []
         next = all.shift()
         while (next) {
-          const match = next.node.categories[tag]
+          const match = next.node.categories[category]
           if (match) {
             this.caseStudiesFiltered.push(next)
           }
@@ -105,7 +105,7 @@ export default {
         }
         this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
       }
-      this.tag = tag
+      this.category = category
       this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
     },
     filterByMaxDisplay (arr) {
