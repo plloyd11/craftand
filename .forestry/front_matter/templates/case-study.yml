@@ -9,6 +9,23 @@ fields:
     required: true
   label: Title
   description: Title of the case study (will appear capitalized on website)
+- name: categories
+  type: field_group
+  config: {}
+  fields:
+  - name: issueEducation
+    type: boolean
+    label: Issue Education
+  - name: behaviorChange
+    type: boolean
+    label: Behavior Change
+  - name: programGrowthDelivery
+    type: boolean
+    label: Program Growth & Delivery
+  - name: leadGeneration
+    type: boolean
+    label: Lead Generation
+  label: Categories
 - name: tags
   type: tag_list
   default: []
