@@ -61,13 +61,13 @@ fields:
 - name: heading2
   type: text
   config:
-    required: true
+    required: false
   label: Heading 2
 - name: body2
   type: textarea
   default: ''
   config:
-    required: true
+    required: false
     wysiwyg: false
     schema:
       format: markdown
@@ -75,13 +75,13 @@ fields:
 - name: heading3
   type: text
   config:
-    required: true
+    required: false
   label: Heading 3
 - name: body3
   type: textarea
   default: ''
   config:
-    required: true
+    required: false
     wysiwyg: false
     schema:
       format: markdown
@@ -94,13 +94,13 @@ fields:
 - name: heading4
   type: text
   config:
-    required: true
+    required: false
   label: Heading 4
 - name: body4
   type: textarea
   default: ''
   config:
-    required: true
+    required: false
     wysiwyg: false
     schema:
       format: markdown
