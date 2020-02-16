@@ -35,7 +35,6 @@
       edges {
         node {
           title
-          tags
           slug
           heading1
           body1

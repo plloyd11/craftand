@@ -14,9 +14,11 @@
             {{ $page.caseStudy.body1 }}
           </p>
           <span
+            v-for="(category, index) in categories"
+            :key="index"
             class="px-1 pt-1 text-sm uppercase bg-primary-color din"
           >
-            {{ $page.caseStudy.tags }}
+            {{ category }}
           </span>
         </div>
         <div class="flex-1 case-study--image">
@@ -112,9 +114,14 @@
   query($path: String!) {
     caseStudy(path: $path) {
       title
+      categories {
+        behaviorChange
+        issueEducation
+        leadGeneration
+        programGrowthDelivery
+      }
       heading1
       body1
-      tags
       photo
       heading2
       body2
@@ -140,6 +147,24 @@ export default {
   },
   metaInfo: {
     title: 'Services'
+  },
+  data () {
+    return {
+      categories: []
+    }
+  },
+  mounted () {
+    // sets up some friendly names for categories
+    const categoryMap = {
+      behaviorChange: 'Behavior Change',
+      issueEducation: 'Issue Education',
+      leadGeneration: 'Lead Generation',
+      programGrowthDelivery: 'Program Growth & Delivery'
+    }
+    const categoriesAll = this.$page.caseStudy.categories
+    const categoryKeys = Object.keys(categoriesAll)
+    const categories = categoryKeys.filter(category => categoriesAll[category]).map(category => categoryMap[category])
+    this.categories = categories
   }
 }
 </script>
