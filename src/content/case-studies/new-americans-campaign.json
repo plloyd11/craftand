@@ -14,5 +14,11 @@
   "body3": "Lorem",
   "videoPoster": "../../assets/img/craft/video-poster.png",
   "heading4": "Lorem",
-  "body4": "Lorem"
+  "body4": "Lorem",
+  "categories": {
+    "issueEducation": true,
+    "behaviorChange": false,
+    "programGrowthDelivery": false,
+    "leadGeneration": false
+  }
 }
