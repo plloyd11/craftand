@@ -27,7 +27,10 @@
           />
         </div>
       </div>
-      <div class="py-6 hero-callout bg-main-gray">
+      <div
+        v-if="$page.caseStudy.heading2 && $page.caseStudy.body2"
+        class="py-6 hero-callout bg-main-gray"
+      >
         <p class="mb-1 text-xl font-bold text-primary-color proxima">
           {{ $page.caseStudy.heading2 }}
         </p>
@@ -75,7 +78,10 @@
       </div>
     </section>
     <!-- Takeaway -->
-    <section class="container max-w-screen-lg mx-auto my-12 takeaway">
+    <section
+      v-if="$page.caseStudy.heading3 && $page.caseStudy.body3"
+      class="container max-w-screen-lg mx-auto my-12 takeaway"
+    >
       <div class="flex flex-col items-center justify-center py-16">
         <h3 class="mb-6 text-4xl font-extrabold text-center proxima">
           {{ $page.caseStudy.heading3 }}
@@ -90,7 +96,10 @@
       <g-image :src="$page.caseStudy.videoPoster" />
     </section>
     <!-- Quote -->
-    <section class="mt-24">
+    <section
+      v-if="$page.caseStudy.heading4 && $page.caseStudy.body4"
+      class="mt-24"
+    >
       <p class="w-10/12 mx-auto mb-12 text-xl leading-normal text-center lg:w-6/12 lg:text-4xl">
         {{ $page.caseStudy.heading4 }}
       </p>
