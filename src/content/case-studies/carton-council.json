@@ -17,5 +17,21 @@
     "behaviorChange": true,
     "programGrowthDelivery": false,
     "leadGeneration": false
-  }
+  },
+  "client": "Carton Council",
+  "headline": "Reimagine recycling education",
+  "campaignDescription": "C&C innovated the relatively mundane business of carton recycling through “behind-the-scenes” social explainer videos, Instagram Stories, and a Facebook Messenger experience that educates citizens on the particulars of recycling in their area, and invites them into an email capture recycling pledge.",
+  "mainTakeaway": "Messenger lowers Cost Per Email by 150%",
+  "supportiveText": "Coupled with an average of 0:38 time on content",
+  "carousel": [
+    {
+      "photo": "../../assets/img/craft/ChatThumb.png",
+      "header": "Starting a conversation",
+      "body": "Our messenger chatbot was a popular tool that also helped verify that citizens were getting the info relevant to them, and that they had intentions to begin or get better about their recycling habits."
+    }
+  ],
+  "yellowBoxHeadline": "What we learned along the way",
+  "yellowBoxContent": "When we began this project with Carton Council, Messenger chatbots were relatively new, and we were cautiously optimistic that it could be a good tool for this kind of information-heavy campaign where we aim to gather emails. The results far exceeded expectations, and offered a third benefit we hadn’t anticipated: it allowed us to track intent to recycle, too, opening up the possibility of personalized, ongoing recycling reminders.",
+  "clientTestimony": "“With Craft & Commerce, we have been able to see our impact in real time, and know that our message is turning into action.” ",
+  "clientTitle": "— FIRSTNAME LASTNAME\nDIGITAL MEDIA DIRECTOR, CARTON COUNCIL"
 }
