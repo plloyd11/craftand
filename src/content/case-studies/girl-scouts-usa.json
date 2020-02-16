@@ -18,7 +18,7 @@
   ],
   "yellowBoxHeadline": "This was a great Campaign",
   "yellowBoxContent": "We did an awesome job!",
-  "videoPoster": "",
+  "videoPoster": "../../assets/img/craft/video-poster.png",
   "clientTestimony": "\"What an amazing campaign this was!\"",
   "clientTitle": "Client Name\nHead of the Girl Scouts USA"
 }
