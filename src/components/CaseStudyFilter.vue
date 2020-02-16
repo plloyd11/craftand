@@ -15,35 +15,35 @@
         <a
           data-category="all"
           href="#"
-          class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
+          class="relative mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           All
         </a>
         <a
           data-category="issueEducation"
           href="#"
-          class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
+          class="relative mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Issue Education
         </a>
         <a
           data-category="behaviorChange"
           href="#"
-          class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
+          class="relative mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Behavior Change
         </a>
         <a
           data-category="programGrowthDelivery"
           href="#"
-          class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
+          class="relative mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Program Growth &amp; Delivery
         </a>
         <a
           data-category="leadGeneration"
           href="#"
-          class="text-sm tracking-wider text-gray-600 uppercase din"
+          class="relative text-sm tracking-wider text-gray-600 uppercase din"
         >
           Lead Generation
         </a>
@@ -53,6 +53,8 @@
 </template>
 
 <script>
+const activeClass = 'active-tag'
+const activeDefault = 'all'
 export default {
   props: {
     categoryHandler: {
@@ -60,9 +62,17 @@ export default {
       required: true
     }
   },
+  mounted () {
+    this.activeElement = document.querySelector(`[data-category='${activeDefault}']`)
+    this.activeElement.classList.add(activeClass)
+  },
   methods: {
     onClick (event) {
+      const { target } = event
       const category = event.target.dataset.category
+      this.activeElement.classList.remove(activeClass)
+      this.activeElement = target
+      this.activeElement.classList.add(activeClass)
       category && this.categoryHandler(category)
     }
   }
@@ -74,6 +84,18 @@ export default {
 .title-box {
   @media (min-width: 768px) {
     width: calc(50% - 410px);
+  }
+}
+
+.active-tag {
+  &::after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #fadd0d;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
   }
 }
 
