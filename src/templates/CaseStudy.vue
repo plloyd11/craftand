@@ -43,9 +43,9 @@
     <section class="relative pt-12 case-study-carousel">
       <div class="container mx-auto">
         <agile
+          v-if="carousel.length > 0"
           :center-mode="true"
           :fade="true"
-          :v-if="carousel.length"
         >
           <CaseStudySlide
             v-for="(item, index) in carousel"
