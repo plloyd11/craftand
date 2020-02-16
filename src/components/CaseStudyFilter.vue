@@ -20,28 +20,28 @@
           All
         </a>
         <a
-          data-tag="issue education"
+          data-tag="issueEducation"
           href="#"
           class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Issue Education
         </a>
         <a
-          data-tag="behavior change"
+          data-tag="behaviorChange"
           href="#"
           class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Behavior Change
         </a>
         <a
-          data-tag="program growth delivery"
+          data-tag="programGrowthDelivery"
           href="#"
           class="mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
           Program Growth &amp; Delivery
         </a>
         <a
-          data-tag="lead generation"
+          data-tag="leadGeneration"
           href="#"
           class="text-sm tracking-wider text-gray-600 uppercase din"
         >

@@ -35,12 +35,17 @@
       edges {
         node {
           title
-          tags
           slug
           heading1
           body1
           photo
           path
+          categories {
+            behaviorChange
+            issueEducation
+            leadGeneration
+            programGrowthDelivery
+          }
         }
       }
     }
@@ -92,7 +97,7 @@ export default {
         this.caseStudiesFiltered = []
         next = all.shift()
         while (next) {
-          const match = next.node.tags.find(t => t === tag)
+          const match = next.node.categories[tag]
           if (match) {
             this.caseStudiesFiltered.push(next)
           }
