@@ -17,5 +17,17 @@
     "behaviorChange": true,
     "programGrowthDelivery": false,
     "leadGeneration": true
-  }
+  },
+  "carousel": [
+    {
+      "carouselPhoto": "../../assets/img/craft/jordan-ruden.png",
+      "carouselHeader": "Carousel Header 2",
+      "carouselBody": "Carousel body 2"
+    },
+    {
+      "carouselPhoto": "../../assets/img/craft/mark-barker.png",
+      "carouselHeader": "Carousel Header 1",
+      "carouselBody": "Carousel Header 2"
+    }
+  ]
 }
