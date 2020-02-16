@@ -10,11 +10,11 @@
           :src="caseStudy.node.photo"
         />
       </div>
-      <div class="flex-1 case-study--content">
-        <h4 class="font-semibold text-gray-700 uppercase text-md din">
+      <div class="flex-1 px-6 case-study--content sm:px-0">
+        <h4 class="mt-3 font-semibold text-gray-700 uppercase sm:mt-0 text-md din">
           {{ caseStudy.node.title }}
         </h4>
-        <h2 class="max-w-sm my-4 text-4xl font-extrabold leading-none proxima">
+        <h2 class="max-w-sm my-4 text-2xl font-extrabold leading-tight sm:leading-none sm:text-4xl proxima">
           {{ caseStudy.node.heading1 }}
         </h2>
         <p class="max-w-sm mb-8">

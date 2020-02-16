@@ -12,21 +12,17 @@
             class="modal-body-content"
           >
             <div class="modal-body-content_img">
-              <g-image
-                src="~/assets/img/craft/mark-barker.png"
-                alt=""
-                class="img-responsive"
-              />
+              <slot name="photo" />
             </div>
             <div class="modal-body-content_text">
               <h2 class="text-3xl font-bold proxima">
-                Mark Barker
+                <slot name="name" />
               </h2>
               <h4 class="mb-4 uppercase text-md din">
-                Co-founder / strategy lead
+                <slot name="title" />
               </h4>
               <p class="pr-8">
-                Mark is a data-driven marketer with deep experience in integrated media strategy and social impact advertising. Prior to founding Craft & Commerce, Mark was General Manager of GOOD’s digital platform and GOOD/Corps agency business, where he crafted innovative, content-based consumer engagements for the likes of Gates Foundation, Google and Starbucks. Working within high-growth corporate divisions such as MTV Networks’ cross-property Generator unit and McCann Erickson’s TAG young adult marketing speciality--and as an independent consultant--Mark has driven measurable, meaningful business and social impact outcomes for leading startups, brands, and non-profit organizations, including Nativo, Verizon, and the NFL. Mark holds an MBA from the Acton School of Business, and a BA from Washington & Lee University. Mark is a frequent author and speaker at the intersection of purpose and performance, and serves as an advisor to several startups and community-based non-profits.
+                <slot name="content" />
               </p>
             </div>
           </div>
@@ -56,7 +52,7 @@ export default {
   height: 100%;
   background-color: hsla(0, 0%, 20%,0.1);
   display: table;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.2s ease-in;
   overflow-y: scroll;
 }
 

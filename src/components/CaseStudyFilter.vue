@@ -1,14 +1,17 @@
 <template>
-  <section class="my-16">
+  <section class="my-8 sm:my-16">
     <div class="mb-8 bg-light-gray title-box">
-      <div class="container flex justify-end pt-2 pb-1 pl-6 mx-auto">
+      <div class="container flex pt-2 pb-1 pl-6 mx-auto sm:justify-end">
         <h2 class="pr-4 tracking-wider uppercase din">
           CASE STUDIES AHEAD —
         </h2>
       </div>
     </div>
     <div class="container px-6 mx-auto">
-      <div @click="onClick">
+      <div
+        class="flex flex-col sm:flex-row"
+        @click="onClick"
+      >
         <a
           data-tag="all"
           href="#"
@@ -66,10 +69,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .title-box {
-  width: calc(50% - 410px);
+  @media (min-width: 768px) {
+    width: calc(50% - 410px);
+  }
 }
 
 </style>

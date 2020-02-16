@@ -45,27 +45,43 @@
               <p class="uppercase din">
                 {{ item.title }}
               </p>
-              <p class="max-w-md mt-8">
+              <p class="max-w-md px-6 mt-8 sm:px-0">
                 {{ item.shortBio }}
                 <a
                   class="px-1 py-0 text-sm font-extrabold bg-primary-color"
                   @click="showModal = true"
-                >
-                  <TeamModal
-                    v-if="showModal"
-                    @close="showModal = false"
-                  />
-                  +</a>
+                >+</a>
               </p>
+              <TeamModal
+                v-if="showModal"
+                @close="showModal = false"
+              >
+                <template v-slot:photo>
+                  <g-image
+                    :src="item.photo"
+                    :alt="item.name"
+                    class="img-responsive"
+                  />
+                </template>
+                <template v-slot:name>
+                  {{ item.name }}
+                </template>
+                <template v-slot:title>
+                  {{ item.title }}
+                </template>
+                <template v-slot:content>
+                  {{ item.fullBio }}
+                </template>
+              </TeamModal>
             </div>
           </div>
         </section>
       </div>
     </div>
     <!-- Callout -->
-    <section class="container max-w-screen-lg mx-auto mb-12 join-the-team lg:mb-24">
+    <section class="container max-w-screen-lg px-6 mx-auto mb-12 sm:px-0 join-the-team lg:mb-24">
       <div class="flex flex-col items-center justify-center py-16">
-        <h2 class="mb-6 text-4xl font-extrabold text-center proxima">
+        <h2 class="mb-6 text-xl font-extrabold text-center sm:text-4xl proxima">
           Join the team at Craft &amp; Commerce
         </h2>
         <p class="max-w-screen-md mx-auto text-lg text-center">
@@ -103,7 +119,6 @@
 
 <script>
 import TeamModal from '~/components/TeamModal.vue'
-import Close from '@/assets/img/icons/close.svg'
 export default {
   components: {
     TeamModal

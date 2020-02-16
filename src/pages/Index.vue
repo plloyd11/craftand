@@ -1,21 +1,17 @@
 <template>
   <Layout>
     <section class="container px-6 py-24 mx-auto bg-light-gray">
-      <!-- <Hero
-        class="w-11/12 mx-auto sm:w-7/12"
-        alt="Hero Image"
-      /> -->
       <h1
         class="max-w-3xl mx-auto mb-12 text-3xl font-extrabold leading-tight text-center sm:text-5xl proxima"
       >
-        <span class="text-strike">Our mission</span> is to more <br> effectively harness paid media <br> to advance <span class="text-strike">your mission.</span>
+        <span class="text-strike">Our mission</span> is to more <br> effectively harness paid media <br class="hidden sm:block"> to advance <span class="text-strike">your mission.</span>
       </h1>
       <p class="w-full mx-auto text-center sm:w-7/12 text-md sm:text-xl">
         Craft &amp; Commerce is the only agency that’s dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
       </p>
     </section>
     <section class="mt-12 lg:mt-24">
-      <h2 class="text-xl tracking-wider text-center din">
+      <h2 class="text-base tracking-wider text-center sm:text-xl din">
         OUR APPROACH BOILS DOWN TO THIS —
       </h2>
       <div
@@ -72,7 +68,7 @@
     </section>
     <section class="max-w-4xl mx-auto mt-12 lg:mt-24">
       <div class="bg-main-gray">
-        <p class="w-9/12 py-20 mx-auto text-4xl leading-normal text-center text-white">
+        <p class="w-9/12 py-8 mx-auto text-xl leading-normal text-center text-white sm:py-20 sm:text-4xl">
           —and the result is this: <br> We connect meaningfully with audiences where their attention lives today, and inspire action at scale.
         </p>
       </div>
@@ -82,8 +78,8 @@
         </template>
       </AsideBox>
     </section>
-    <section class="container mx-auto">
-      <h3 class="mb-12 text-lg tracking-wider uppercase din">
+    <section class="container mx-auto mt-8">
+      <h3 class="mb-12 text-lg tracking-wider text-center uppercase sm:text-left din">
         recent work
       </h3>
       <CaseStudyList

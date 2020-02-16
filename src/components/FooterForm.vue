@@ -78,7 +78,7 @@
             value=""
           >
         </div>
-        <div class="self-end w-full">
+        <div class="self-start w-7/12 sm:w-full sm:self-end">
           <div class="flex items-center px-12 text-gray-300 border border-white cursor-pointer din form-submit focus:shadow-outline focus:outline-none">
             <input
               id="mc-embedded-subscribe"

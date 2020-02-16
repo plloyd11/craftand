@@ -7,10 +7,10 @@
           <h4 class="mt-12 font-semibold text-gray-700 uppercase text-md din lg:mt-0">
             {{ $page.caseStudy.title }}
           </h4>
-          <h2 class="max-w-sm mt-12 mb-6 text-4xl font-extrabold leading-none proxima">
+          <h2 class="max-w-md mt-12 mb-6 text-xl font-extrabold leading-none sm:text-4xl proxima">
             {{ $page.caseStudy.heading1 }}
           </h2>
-          <p class="max-w-sm mb-8">
+          <p class="max-w-md mb-8">
             {{ $page.caseStudy.body1 }}
           </p>
           <span
@@ -43,7 +43,7 @@
         >
           <CaseStudySlide>
             <template v-slot:slide-image>
-              <g-image 
+              <g-image
                 src="~/assets/img/case-studies/ChatThumb.png"
                 class="w-2/3 mx-auto"
               />
@@ -57,7 +57,10 @@
           </CaseStudySlide>
           <CaseStudySlide>
             <template v-slot:slide-image>
-              <g-image src="~/assets/img/case-studies/case-study-carousel.png" class="w-2/3 mx-auto" />
+              <g-image
+                src="~/assets/img/case-studies/case-study-carousel.png"
+                class="w-2/3 mx-auto"
+              />
             </template>
             <template v-slot:slide-header>
               Simplify, Simplify
@@ -70,12 +73,12 @@
       </div>
     </section>
     <!-- Takeaway -->
-    <section class="container mx-auto my-12 max-w-screen-lg takeaway">
+    <section class="container max-w-screen-lg mx-auto my-12 takeaway">
       <div class="flex flex-col items-center justify-center py-16">
         <h3 class="mb-6 text-4xl font-extrabold text-center proxima">
           {{ $page.caseStudy.heading3 }}
         </h3>
-        <p class="mx-auto text-center text-md max-w-screen-md">
+        <p class="max-w-screen-md mx-auto text-center text-md">
           {{ $page.caseStudy.body3 }}
         </p>
       </div>
@@ -144,11 +147,13 @@ export default {
 <style lang="scss" scoped>
 
 .hero-callout {
-  padding-left: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
   @media (min-width: 1024px) {
     position: absolute;
     width: 725px;
-    padding-left: calc(10% - 25px);
+    padding-left: calc(10% - 45px);
+    padding-right: 0;
     z-index: 100;
     bottom: 0;
     left: 0;
