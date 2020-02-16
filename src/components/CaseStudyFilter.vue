@@ -63,7 +63,7 @@ export default {
     }
   },
   mounted () {
-    this.activeElement = document.querySelector(`[data-tag='${activeDefault}']`)
+    this.activeElement = document.querySelector(`[data-category='${activeDefault}']`)
     this.activeElement.classList.add(activeClass)
   },
   methods: {
