@@ -26,11 +26,6 @@ fields:
     type: boolean
     label: Lead Generation
   label: Categories
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-  description: Case study tags
 - name: featured
   type: boolean
   label: Featured
