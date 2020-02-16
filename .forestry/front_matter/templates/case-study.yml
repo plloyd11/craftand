@@ -126,6 +126,13 @@ fields:
   config:
     maxSize: 250
   label: Video Poster
+- name: youtubeLink
+  type: text
+  config:
+    required: false
+  label: YouTube Link
+  description: Add a link to a YouTube video to embed, provided by the Share button
+    on a YouTube video's page (e.g., https://youtu.be/isfvb5ZDOCw)
 - name: clientTestimony
   type: text
   config:
