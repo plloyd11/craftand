@@ -34,10 +34,10 @@
     allCaseStudy {
       edges {
         node {
-          title
+          client
           slug
-          heading1
-          body1
+          headline
+          campaignDescription
           photo
           path
           categories {
