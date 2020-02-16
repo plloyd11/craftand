@@ -43,35 +43,25 @@
     <section class="relative pt-12 case-study-carousel">
       <div class="container mx-auto">
         <agile
+          v-if="carousel.length > 0"
           :center-mode="true"
           :fade="true"
         >
-          <CaseStudySlide>
+          <CaseStudySlide
+            v-for="(item, index) in carousel"
+            :key="index"
+          >
             <template v-slot:slide-image>
               <g-image
-                src="~/assets/img/case-studies/ChatThumb.png"
+                :src="item.photo"
                 class="w-2/3 mx-auto"
               />
             </template>
             <template v-slot:slide-header>
-              {{ $page.caseStudy.heading2 }}
+              {{ item.header }}
             </template>
             <template v-slot:slide-content>
-              {{ $page.caseStudy.body1 }}
-            </template>
-          </CaseStudySlide>
-          <CaseStudySlide>
-            <template v-slot:slide-image>
-              <g-image
-                src="~/assets/img/case-studies/case-study-carousel.png"
-                class="w-2/3 mx-auto"
-              />
-            </template>
-            <template v-slot:slide-header>
-              Simplify, Simplify
-            </template>
-            <template v-slot:slide-content>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officiis atque, praesentium totam sed veniam quasi. Quod veniam amet voluptates nemo nihil soluta quas rerum, totam optio doloribus molestiae deserunt.
+              {{ item.body }}
             </template>
           </CaseStudySlide>
         </agile>
@@ -129,6 +119,11 @@
         leadGeneration
         programGrowthDelivery
       }
+      carousel {
+        photo
+        header
+        body
+      }
       heading1
       body1
       photo
@@ -159,6 +154,7 @@ export default {
   },
   data () {
     return {
+      carousel: [],
       categories: []
     }
   },
@@ -176,6 +172,8 @@ export default {
       .filter(category => categoriesAll[category])
       .map(category => categoryMap[category])
     this.categories = categories
+    // set up the carousel
+    this.carousel = this.$page.caseStudy.carousel
   }
 }
 </script>
