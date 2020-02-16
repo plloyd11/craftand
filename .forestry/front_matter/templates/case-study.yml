@@ -58,6 +58,33 @@ fields:
     maxSize: 250
   label: Photo
   description: Case study photo.
+- name: carousel
+  type: field_group_list
+  fields:
+  - name: photo
+    type: file
+    config:
+      maxSize: 250
+    label: Photo
+  - name: header
+    type: text
+    config:
+      required: false
+    label: Header
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Carousel
 - name: heading2
   type: text
   config:
@@ -91,12 +118,13 @@ fields:
   config:
     maxSize: 250
   label: Video Poster
-- name: heading4
+- name: client-testimony
   type: text
   config:
     required: false
-  label: Heading 4
-- name: body4
+  label: Client Testimony
+  description: This will be the testimony provided by the client
+- name: clientTitle
   type: textarea
   default: ''
   config:
@@ -104,34 +132,9 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Body 4
-- name: carousel
-  type: field_group_list
-  fields:
-  - name: photo
-    type: file
-    config:
-      maxSize: 250
-    label: Photo
-  - name: header
-    type: text
-    config:
-      required: false
-    label: Header
-  - name: body
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Body
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Carousel
+  label: Client Name & Title
+  description: Enter the clients name and title. Use a carriage return to separate
+    these two pieces of information.
 pages:
 - src/content/case-studies/bay-area-metropolitan-transportation-commission.json
 - src/content/case-studies/bright-pink.json
