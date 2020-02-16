@@ -20,14 +20,14 @@
   },
   "carousel": [
     {
-      "carouselPhoto": "../../assets/img/craft/jordan-ruden.png",
-      "carouselHeader": "Carousel Header 2",
-      "carouselBody": "Carousel body 2"
+      "photo": "../../assets/img/craft/jordan-ruden.png",
+      "header": "Carousel Header 2",
+      "body": "Carousel body 2"
     },
     {
-      "carouselPhoto": "../../assets/img/craft/mark-barker.png",
-      "carouselHeader": "Carousel Header 1",
-      "carouselBody": "Carousel Header 2"
+      "photo": "../../assets/img/craft/mark-barker.png",
+      "header": "Carousel Header 1",
+      "body": "Carousel Header 2"
     }
   ]
 }
