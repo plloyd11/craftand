@@ -1,0 +1,24 @@
+{
+  "featured": false,
+  "client": "Girl Scouts of the USA",
+  "slug": "girl-scouts-of-the-usa",
+  "headline": "Transform new member recruitment ",
+  "campaignDescription": "C&C collaborated closely with the GSUSA marketing team to reinvent the organization’s new member recruitment funnel, engaging diverse communities of girls and their parents, reinvigorating messaging and creative, and ultimately building a transformative model for scaled growth.",
+  "photo": "../../assets/img/craft/girl-scouts-hero.jpg",
+  "categories": {
+    "issueEducation": false,
+    "behaviorChange": false,
+    "programGrowthDelivery": true,
+    "leadGeneration": false
+  },
+  "mainTakeaway": "2X new member growth",
+  "supportiveText": "Doubled new member acquisitions, while cutting acquisition costs by 50%",
+  "carousel": [
+
+  ],
+  "yellowBoxHeadline": "This was a great Campaign",
+  "yellowBoxContent": "We did an awesome job!",
+  "videoPoster": "",
+  "clientTestimony": "\"What an amazing campaign this was!\"",
+  "clientTitle": "Client Name\nHead of the Girl Scouts USA"
+}
