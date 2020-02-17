@@ -114,7 +114,10 @@
       </div>
     </section>
     <!-- Bottom Nav -->
-    <CaseStudyNav />
+    <CaseStudyNav
+      :next="next"
+      :prev="prev"
+    />
   </Layout>
 </template>
 
@@ -143,9 +146,22 @@
       youtubeLink
       clientTestimony
       clientTitle
+      path
     }
   }
 </page-query>
+
+<static-query>
+  query {
+    allCaseStudy {
+      edges {
+        node {
+          path
+        }
+      }
+    }
+  }
+</static-query>
 
 <script>
 import { VueAgile } from 'vue-agile'
@@ -164,25 +180,42 @@ export default {
   data () {
     return {
       carousel: [],
-      categories: []
+      categories: [],
+      next: null,
+      prev: null
     }
   },
   mounted () {
-    // sets up some friendly names for categories
-    const categoryMap = {
-      behaviorChange: 'Behavior Change',
-      issueEducation: 'Issue Education',
-      leadGeneration: 'Lead Generation',
-      programGrowthDelivery: 'Program Growth & Delivery'
-    }
-    const categoriesAll = this.$page.caseStudy.categories
-    const categoryKeys = Object.keys(categoriesAll)
-    const categories = categoryKeys
-      .filter(category => categoriesAll[category])
-      .map(category => categoryMap[category])
-    this.categories = categories
-    // set up the carousel
+    this.createCategoryNames()
+    this.createNavLinks()
     this.carousel = this.$page.caseStudy.carousel
+  },
+  updated () {
+    this.createNavLinks()
+  },
+  methods: {
+    createCategoryNames () {
+      const categoryMap = {
+        behaviorChange: 'Behavior Change',
+        issueEducation: 'Issue Education',
+        leadGeneration: 'Lead Generation',
+        programGrowthDelivery: 'Program Growth & Delivery'
+      }
+      const categoriesAll = this.$page.caseStudy.categories
+      const categoryKeys = Object.keys(categoriesAll)
+      const categories = categoryKeys
+        .filter(category => categoriesAll[category])
+        .map(category => categoryMap[category])
+      this.categories = categories
+    },
+    createNavLinks () {
+      const allPaths = this.$static.allCaseStudy.edges
+        .reduce((a, b) => [...a, b.node.path], [])
+      const currentPath = this.$page.caseStudy.path
+      const currentIndex = allPaths.indexOf(currentPath)
+      this.next = allPaths[currentIndex + 1]
+      this.prev = allPaths[currentIndex - 1]
+    }
   }
 }
 </script>

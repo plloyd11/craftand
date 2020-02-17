@@ -1,13 +1,21 @@
 <template>
   <section class="py-8 mt-24 bg-gray-200">
     <div class="container flex justify-between mx-auto">
-      <g-link to="/" class="flex items-center pl-4 text-sm uppercase lg:pl-12 din">
-        <LeftArrow class="w-3 pb-1 mr-1"/>
+      <g-link
+        v-if="next"
+        :to="next"
+        class="flex items-center pl-4 text-sm uppercase lg:pl-12 din"
+      >
+        <LeftArrow class="w-3 pb-1 mr-1" />
         Back
       </g-link>
-      <g-link to="/" class="flex items-center pr-4 text-sm uppercase lg:pr-12 din">
+      <g-link
+        v-if="prev"
+        :to="prev"
+        class="flex items-center pr-4 text-sm uppercase lg:pr-12 din"
+      >
         Next
-        <RightArrow class="w-3 pb-1 ml-1"/>
+        <RightArrow class="w-3 pb-1 ml-1" />
       </g-link>
     </div>
   </section>
@@ -21,6 +29,16 @@ export default {
   components: {
     LeftArrow,
     RightArrow
+  },
+  props: {
+    next: {
+      type: String,
+      default: null
+    },
+    prev: {
+      type: String,
+      default: null
+    }
   }
 }
 
