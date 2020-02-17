@@ -8,7 +8,7 @@
         <h2 class="mb-6 text-2xl font-bold text-center proxima">
           <slot name="slide-header" />
         </h2>
-        <p class="max-w-sm mx-auto text-center">
+        <p class="max-w-md mx-auto text-xl text-center">
           <slot name="slide-content" />
         </p>
       </div>

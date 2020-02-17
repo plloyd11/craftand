@@ -54,7 +54,7 @@
             <template v-slot:slide-image>
               <g-image
                 :src="item.photo"
-                class="w-2/3 mx-auto"
+                class="w-10/12 mr-auto"
               />
             </template>
             <template v-slot:slide-header>
