@@ -185,13 +185,16 @@ export default {
       prev: null
     }
   },
+  watch: {
+    $route () {
+      this.createCategoryNames()
+      this.createNavLinks()
+    }
+  },
   mounted () {
     this.createCategoryNames()
     this.createNavLinks()
     this.carousel = this.$page.caseStudy.carousel
-  },
-  updated () {
-    this.createNavLinks()
   },
   methods: {
     createCategoryNames () {
