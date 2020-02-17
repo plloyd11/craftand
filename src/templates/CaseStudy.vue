@@ -83,14 +83,16 @@
     </section>
     <!-- Video -->
     <section v-if="$page.caseStudy.youtubeLink">
-      <iframe
-        width="560"
-        height="315"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        :src="`https://www.youtube.com/embed/${$page.caseStudy.youtubeLink.split('/').pop()}`"
-      />
+      <div class="container mx-auto">
+        <iframe
+          width="100%"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="youtube-container"
+          :src="`https://www.youtube.com/embed/${$page.caseStudy.youtubeLink.split('/').pop()}`"
+        />
+      </div>
     </section>
     <!-- Quote -->
     <section
@@ -205,6 +207,13 @@ export default {
   width: 100%;
   background: url('~@/assets/img/global/yellow-decorated-rectangle.jpg') no-repeat center center;
   background-size: cover;
+}
+
+.youtube-container {
+  height: 400px;
+  @media (min-width: 768px) {
+    height: 800px;
+  }
 }
 
 </style>
