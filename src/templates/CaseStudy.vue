@@ -187,14 +187,17 @@ export default {
   },
   watch: {
     $route () {
+      this.carousel = this.$page.caseStudy.carousel
       this.createCategoryNames()
       this.createNavLinks()
     }
   },
   mounted () {
+    this.carousel = this.$page.caseStudy.carousel
+    this.allPaths = this.$static.allCaseStudy.edges
+      .reduce((a, b) => [...a, b.node.path], [])
     this.createCategoryNames()
     this.createNavLinks()
-    this.carousel = this.$page.caseStudy.carousel
   },
   methods: {
     createCategoryNames () {
@@ -212,12 +215,10 @@ export default {
       this.categories = categories
     },
     createNavLinks () {
-      const allPaths = this.$static.allCaseStudy.edges
-        .reduce((a, b) => [...a, b.node.path], [])
       const currentPath = this.$page.caseStudy.path
-      const currentIndex = allPaths.indexOf(currentPath)
-      this.next = allPaths[currentIndex + 1]
-      this.prev = allPaths[currentIndex - 1]
+      const currentIndex = this.allPaths.indexOf(currentPath)
+      this.next = this.allPaths[currentIndex + 1]
+      this.prev = this.allPaths[currentIndex - 1]
     }
   }
 }
