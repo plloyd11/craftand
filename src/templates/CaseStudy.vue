@@ -2,12 +2,12 @@
   <Layout>
     <!-- Hero -->
     <section class="container relative px-6 mx-auto lg:px-0">
-      <div class="flex flex-col items-center justify-center sm:flex-row case-study">
-        <div class="flex-1 lg:pl-20 case-study--text">
-          <h4 class="mt-12 font-semibold text-gray-700 uppercase text-md din lg:mt-0">
+      <div class="flex flex-col items-start justify-center sm:flex-row case-study">
+        <div class="flex-1 lg:mt-12 xl:mt-20 xl:pl-20 case-study--text">
+          <h4 class="mt-8 font-semibold text-gray-700 uppercase text-md din lg:mt-0">
             {{ $page.caseStudy.client }}
           </h4>
-          <h2 class="max-w-md mt-12 mb-6 text-xl font-extrabold leading-none sm:text-4xl proxima">
+          <h2 class="max-w-md mt-8 mb-6 text-xl font-extrabold leading-none xl:mt-12 lg:text-4xl proxima">
             {{ $page.caseStudy.headline }}
           </h2>
           <p class="max-w-md mb-8">
