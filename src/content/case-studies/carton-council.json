@@ -2,7 +2,7 @@
   "featured": true,
   "slug": "carton-council",
   "photo": "../../assets/img/craft/carton-hero.png",
-  "videoPoster": "../../assets/img/craft/video-poster.png",
+  "youtubeLink": "",
   "categories": {
     "issueEducation": false,
     "behaviorChange": true,
