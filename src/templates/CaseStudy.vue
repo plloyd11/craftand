@@ -73,10 +73,10 @@
       class="container max-w-screen-lg mx-auto my-12 takeaway"
     >
       <div class="flex flex-col items-center justify-center py-16">
-        <h3 class="mb-6 text-4xl font-extrabold text-center proxima">
+        <h3 class="mb-6 text-2xl font-extrabold text-center lg:text-4xl proxima">
           {{ $page.caseStudy.yellowBoxHeadline }}
         </h3>
-        <p class="max-w-screen-md mx-auto text-center text-md">
+        <p class="max-w-screen-md px-6 mx-auto text-center xl:px-0 text-md">
           {{ $page.caseStudy.yellowBoxContent }}
         </p>
       </div>
@@ -194,12 +194,15 @@ export default {
   padding-right: 12px;
   @media (min-width: 1024px) {
     position: absolute;
-    width: 725px;
+    width: 545px;
     padding-left: calc(10% - 45px);
     padding-right: 0;
     z-index: 100;
     bottom: 0;
     left: 0;
+  }
+  @media (min-width: 1280px) {
+    width: 725px;
   }
 }
 
