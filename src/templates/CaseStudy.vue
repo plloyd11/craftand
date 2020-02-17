@@ -82,8 +82,15 @@
       </div>
     </section>
     <!-- Video -->
-    <section>
-      <g-image :src="$page.caseStudy.videoPoster" />
+    <section v-if="$page.caseStudy.youtubeLink">
+      <iframe
+        width="560"
+        height="315"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        :src="`https://www.youtube.com/embed/${$page.caseStudy.youtubeLink.split('/').pop()}`"
+      />
     </section>
     <!-- Quote -->
     <section
@@ -131,7 +138,7 @@
       supportiveText
       yellowBoxHeadline
       yellowBoxContent
-      videoPoster
+      youtubeLink
       clientTestimony
       clientTitle
     }
