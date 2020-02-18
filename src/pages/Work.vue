@@ -86,6 +86,7 @@ export default {
       this.maxDisplay += this.maxDisplay
       this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
       this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
+      console.log(this.caseStudiesFiltered.length)
     },
     onCategory (category) {
       if (category === 'all') {

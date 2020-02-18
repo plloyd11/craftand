@@ -49,35 +49,36 @@
                 {{ item.shortBio }}
                 <a
                   class="px-1 py-0 text-sm font-extrabold bg-primary-color"
-                  @click="showModal = true"
+                  @click="triggerModal(item)"
                 >+</a>
               </p>
-              <TeamModal
-                v-if="showModal"
-                @close="showModal = false"
-              >
-                <template v-slot:photo>
-                  <g-image
-                    :src="item.photo"
-                    :alt="item.name"
-                    class="img-responsive"
-                  />
-                </template>
-                <template v-slot:name>
-                  {{ item.name }}
-                </template>
-                <template v-slot:title>
-                  {{ item.title }}
-                </template>
-                <template v-slot:content>
-                  {{ item.fullBio }}
-                </template>
-              </TeamModal>
             </div>
           </div>
         </section>
       </div>
     </div>
+    <!-- Modal Component -->
+    <TeamModal
+      v-if="showModal"
+      @close="showModal = false"
+    >
+      <template v-slot:photo>
+        <g-image
+          :src="teamMember.photo"
+          :alt="teamMember.name"
+          class="img-responsive"
+        />
+      </template>
+      <template v-slot:name>
+        {{ teamMember.name }}
+      </template>
+      <template v-slot:title>
+        {{ teamMember.title }}
+      </template>
+      <template v-slot:content>
+        {{ teamMember.fullBio }}
+      </template>
+    </TeamModal>
     <!-- Callout -->
     <section class="container max-w-screen-lg px-6 mx-auto mb-12 sm:px-0 join-the-team lg:mb-24">
       <div class="flex flex-col items-center justify-center py-16">
@@ -105,6 +106,7 @@
       edges {
         node {
           data {
+            id
             photo
             name
             title
@@ -128,7 +130,14 @@ export default {
   },
   data () {
     return {
-      showModal: false
+      showModal: false,
+      teamMember: {}
+    }
+  },
+  methods: {
+    triggerModal (item) {
+      this.teamMember = item
+      this.showModal = !this.showModal
     }
   }
 }
