@@ -114,7 +114,10 @@
       </div>
     </section>
     <!-- Bottom Nav -->
-    <CaseStudyNav />
+    <CaseStudyNav
+      :next="next"
+      :prev="prev"
+    />
   </Layout>
 </template>
 
@@ -143,9 +146,22 @@
       youtubeLink
       clientTestimony
       clientTitle
+      path
     }
   }
 </page-query>
+
+<static-query>
+  query {
+    allCaseStudy {
+      edges {
+        node {
+          path
+        }
+      }
+    }
+  }
+</static-query>
 
 <script>
 import { VueAgile } from 'vue-agile'
@@ -164,25 +180,46 @@ export default {
   data () {
     return {
       carousel: [],
-      categories: []
+      categories: [],
+      next: null,
+      prev: null
+    }
+  },
+  watch: {
+    $route () {
+      this.carousel = this.$page.caseStudy.carousel
+      this.createCategoryNames()
+      this.createNavLinks()
     }
   },
   mounted () {
-    // sets up some friendly names for categories
-    const categoryMap = {
-      behaviorChange: 'Behavior Change',
-      issueEducation: 'Issue Education',
-      leadGeneration: 'Lead Generation',
-      programGrowthDelivery: 'Program Growth & Delivery'
-    }
-    const categoriesAll = this.$page.caseStudy.categories
-    const categoryKeys = Object.keys(categoriesAll)
-    const categories = categoryKeys
-      .filter(category => categoriesAll[category])
-      .map(category => categoryMap[category])
-    this.categories = categories
-    // set up the carousel
     this.carousel = this.$page.caseStudy.carousel
+    this.allPaths = this.$static.allCaseStudy.edges
+      .reduce((a, b) => [...a, b.node.path], [])
+    this.createCategoryNames()
+    this.createNavLinks()
+  },
+  methods: {
+    createCategoryNames () {
+      const categoryMap = {
+        behaviorChange: 'Behavior Change',
+        issueEducation: 'Issue Education',
+        leadGeneration: 'Lead Generation',
+        programGrowthDelivery: 'Program Growth & Delivery'
+      }
+      const categoriesAll = this.$page.caseStudy.categories
+      const categoryKeys = Object.keys(categoriesAll)
+      const categories = categoryKeys
+        .filter(category => categoriesAll[category])
+        .map(category => categoryMap[category])
+      this.categories = categories
+    },
+    createNavLinks () {
+      const currentPath = this.$page.caseStudy.path
+      const currentIndex = this.allPaths.indexOf(currentPath)
+      this.next = this.allPaths[currentIndex + 1]
+      this.prev = this.allPaths[currentIndex - 1]
+    }
   }
 }
 </script>
