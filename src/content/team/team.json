@@ -32,28 +32,12 @@
     "fullBio": "Ella is a savvy, leading-edge digital communicator who oversees content strategy and copywriting for Craft & Commerce’s client work, from organic social to website copy to big-budget campaigns. A veteran of startups and the pioneering digital agency VaynerMedia, Ella’s early career coincided with the explosion of social media marketing, instilling in her an intuitive strategic and creative expertise in today’s most powerful marketing platforms. Ella brings deep knowledge of copywriting best practices, content and ad strategy, branding and social voice development, and platform optimizations to sharpen every campaign."
   },
   {
-    "id": 4,
-    "photo": "../../assets/img/craft/emily-iles.png",
-    "name": "Emily Iles",
-    "title": "Creative Director",
-    "shortBio": "Emily establishes the creative strategy for Craft & Commerce’s campaigns, aligning her depth of experience and keen eye for breakthrough design with the objectives and requirements of any given project, yielding effective, “feed-stopping” creative that truly defines a campaign.",
-    "fullBio": "Emily establishes the creative strategy for Craft & Commerce’s campaigns, aligning her depth of experience and keen eye for breakthrough design with the objectives and requirements of any given project, yielding effective, “feed-stopping” creative that truly defines a campaign. Prior to joining Craft & Commerce, Emily was an art director at Almanac in St. Louis, where she worked with non-profit, education, civic and local business clients, specializing in branding, print and digital design, and UX. Emily shepherds creative from the initial brief, to asset production, and through rigorous testing and optimization."
-  },
-  {
-    "id": 5,
-    "photo": "../../assets/img/craft/karen-stransky-price.png",
-    "name": "Karen Stransky-Price",
-    "title": "Director of Operations",
-    "shortBio": "Karen leads day-to-day campaign management for our partners, stewarding campaign setup and delivery, iteration and optimization, and reporting--as well as generally keeps the trains running on time.",
-    "fullBio": "Karen leads day-to-day campaign management for our partners, stewarding campaign setup and delivery, iteration and optimization, and reporting--as well as generally keeps the trains running on time. Prior to working with Craft & Commerce, Karen specialized in analytics, site management, product design and project management for leading ecommerce and sustainability companies such as West Elm, One Kings Lane and TerraCycle."
-  },
-  {
-    "id": 7,
+    "id": 10,
     "photo": "../../assets/img/craft/jacob-lepiarz.png",
-    "name": "Jacob Lepiarz",
-    "title": "Account Director",
-    "shortBio": "Jacob is a seasoned movement building and cause marketing strategist with deep digital and integrated marketing expertise.",
-    "fullBio": "Jacob is a seasoned movement building and cause marketing strategist with deep digital and integrated marketing expertise. Jacob has developed and executed dozens of successful marketing campaigns for global non-profits, advocacy organizations and private companies.  During his time at Craft & Commerce, he has led hyper-targeted advocacy campaigns for high-profile, statewide legislative efforts, conducted in-depth audience insights research for global foundations, and done digital capacity building work across a range of clients. Prior to joining Craft & Commerce, Jacob managed global cause marketing efforts for Johnson & Johnson, including management of the Donate a Photo app where he successfully built a movement of over 250,000 people in 4 countries who unlocked over $2.5MM for partner non-profits. Jacob has also worked as adjunct professor at Rutgers University, teaching the Service, Leadership, Impact course."
+    "name": "Carli Feinstein",
+    "title": "VP, Partnerships & Strategy",
+    "shortBio": "Carli is an expert cause marketer and bridge-builder, who empowers Craft & Commerce's partners to achieve strategic objectives though powerful bespoke collaborations.",
+    "fullBio": "Carli is an expert cause marketer and bridge-builder, who empowers Craft & Commerce's partners to achieve strategic objectives though powerful bespoke collaborations. Carli's career took off through roles in branding, sponsorship, experiential and cause marketing for personal-care logos such as TRESemme, Degree, and AXE. In 2012, Carli merged professional and personal passions when she joined national women's health nonprofit Bright Pink to oversee marketing and communications strategy and manage key partner relationships. At Craft & Commerce, Carli brings all that experience to her hand-in-hand work with clients, helping them achieve cause awareness, constituent acquisition, issue education, and social change.\n\nCarli is a founding member of Chicago's Global Shapers, a globally recognized group of young leaders empowered by the World Economic Forum to improve the lives of Chicagoans. She also serves on the advisory council for youth emotional intelligence education start-up, Odyssey. "
   },
   {
     "id": 8,
@@ -64,6 +48,22 @@
     "fullBio": "Kristin is a versatile graphic designer who brings a diversity of experience and branding rigor to all of Craft & Commerce's design-focused projects. Prior to joining Craft & Commerce, Kristin produced work for the New York Public Library and Mount Sinai hospitals, among many others, and graduated from the Rutgers BFA program with the highest distinctions. With a dedication to collaboration with the broader creative team, Kristin elevates Craft & Commerce's visual strategy and output in support of social-impact campaigns."
   },
   {
+    "id": 4,
+    "photo": "../../assets/img/craft/emily-iles.png",
+    "name": "Emily Iles",
+    "title": "Creative Director",
+    "shortBio": "Emily is a strategic, collaborative leader, who aligns her deep experience and keen eye for breakthrough design to establish the creative strategy for all of Craft & Commerce's campaigns",
+    "fullBio": "Emily is a strategic, collaborative leader, who aligns her deep experience and keen eye for breakthrough design to establish the creative strategy for all of Craft & Commerce's campaigns. Prior to joining Craft & Commerce, Emily was an art director at Almanac in St. Louis, Missouri, where she worked with nonprofit, education, civic, and local business clients, specializing in branding, print and digital design, and UX. Combining a thoughtful strategic approach with the speed that digital requires, Emily shepherds Craft & Commerce's creative output from initial brief to asset production, and through rigorous testing and optimization, yielding effective, \"feed-stopping\" creative that truly defines each and every campaign."
+  },
+  {
+    "id": 7,
+    "photo": "../../assets/img/craft/jacob-lepiarz.png",
+    "name": "Jacob Lepiarz",
+    "title": "Account Director",
+    "shortBio": "Jacob is a seasoned movement building and cause marketing strategist with deep digital and integrated marketing expertise.",
+    "fullBio": "Jacob is a seasoned movement building and cause marketing strategist with deep digital and integrated marketing expertise. Jacob has developed and executed dozens of successful marketing campaigns for global non-profits, advocacy organizations and private companies.  During his time at Craft & Commerce, he has led hyper-targeted advocacy campaigns for high-profile, statewide legislative efforts, conducted in-depth audience insights research for global foundations, and done digital capacity building work across a range of clients. Prior to joining Craft & Commerce, Jacob managed global cause marketing efforts for Johnson & Johnson, including management of the Donate a Photo app where he successfully built a movement of over 250,000 people in 4 countries who unlocked over $2.5MM for partner non-profits. Jacob has also worked as adjunct professor at Rutgers University, teaching the Service, Leadership, Impact course."
+  },
+  {
     "id": 9,
     "photo": "../../assets/img/craft/steph.png",
     "name": "Steph Marquette",
@@ -72,11 +72,11 @@
     "fullBio": "Stéphane is a digital ads specialist, who manages Craft & Commerce's day-to-day ad operations, including real-time optimizations and reporting across social, search, and other programmatic channels. Steph's career in new media advertising has seen him involved with full-stack marketing and social media management across diverse verticals, including healthcare, politics, nonprofits, and automotive. Data analysis, industry-sourced wisdom, and personal experience are key to how he develops and executes digital ad strategies, helping Craft & Commerce's clients reach the right audience in the right place at the right time with the right message."
   },
   {
-    "id": 10,
-    "photo": "../../assets/img/craft/jacob-lepiarz.png",
-    "name": "Carli Feinstein",
-    "title": "VP, Partnerships & Strategy",
-    "shortBio": "Carli is an expert cause marketer and bridge-builder, who empowers Craft & Commerce's partners to achieve strategic objectives though powerful bespoke collaborations.",
-    "fullBio": "Carli is an expert cause marketer and bridge-builder, who empowers Craft & Commerce's partners to achieve strategic objectives though powerful bespoke collaborations. Carli's career took off through roles in branding, sponsorship, experiential and cause marketing for personal-care logos such as TRESemme, Degree, and AXE. In 2012, Carli merged professional and personal passions when she joined national women's health nonprofit Bright Pink to oversee marketing and communications strategy and manage key partner relationships. At Craft & Commerce, Carli brings all that experience to her hand-in-hand work with clients, helping them achieve cause awareness, constituent acquisition, issue education, and social change.\n\nCarli is a founding member of Chicago's Global Shapers, a globally recognized group of young leaders empowered by the World Economic Forum to improve the lives of Chicagoans. She also serves on the advisory council for youth emotional intelligence education start-up, Odyssey. "
+    "id": 5,
+    "photo": "../../assets/img/craft/karen-stransky-price.png",
+    "name": "Karen Stransky-Price",
+    "title": "Director of Operations",
+    "shortBio": "Karen leads day-to-day campaign management for our partners, stewarding campaign setup and delivery, iteration and optimization, and reporting--as well as generally keeps the trains running on time.",
+    "fullBio": "Karen leads day-to-day campaign management for our partners, stewarding campaign setup and delivery, iteration and optimization, and reporting--as well as generally keeps the trains running on time. Prior to working with Craft & Commerce, Karen specialized in analytics, site management, product design and project management for leading ecommerce and sustainability companies such as West Elm, One Kings Lane and TerraCycle."
   }
 ]
