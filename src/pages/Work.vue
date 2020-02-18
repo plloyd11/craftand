@@ -12,7 +12,7 @@
       </div>
     </section>
     <CaseStudyFilter
-      :category-handler="oncategory"
+      :category-handler="onCategory"
     />
     <CaseStudyList
       :case-studies-list="caseStudiesList"
@@ -87,7 +87,7 @@ export default {
       this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
       this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
     },
-    oncategory (category) {
+    onCategory (category) {
       if (category === 'all') {
         this.caseStudiesFiltered = [...this.caseStudiesAll]
         this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
