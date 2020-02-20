@@ -19,6 +19,16 @@ fields:
     required: true
   label: Slug
   description: Custom URL for a case study. Needs to be lowercase & separated by hyphens
+- name: pubDate
+  type: datetime
+  label: Publish Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: '2020-02-19T21:20:27-05:00'
 - name: headline
   type: text
   config:
