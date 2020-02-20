@@ -34,18 +34,19 @@
     allCaseStudy {
       edges {
         node {
-          client
-          slug
-          headline
           campaignDescription
-          photo
-          path
           categories {
             behaviorChange
             issueEducation
             leadGeneration
             programGrowthDelivery
           }
+          client
+          headline
+          path
+          photo
+          pubDate
+          slug
         }
       }
     }
@@ -66,32 +67,34 @@ export default {
     CaseStudyList
   },
   data () {
-    // set up our initial instance properties
     return {
+      category: 'all',
       caseStudiesAll: [],
       caseStudiesFiltered: [],
       caseStudiesList: [],
       loadMore: true,
-      maxDisplay: 8,
-      category: 'all'
+      maxDisplay: 8
     }
   },
   mounted () {
     this.caseStudiesAll = [...this.$static.allCaseStudy.edges]
     this.caseStudiesFiltered = [...this.caseStudiesAll]
-    this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
-    this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
+    this.caseStudiesList = this.filterByMaxDisplay()
+    this.caseStudiesList = this.filterByLatestDate()
+    this.loadMore = this.toggleLoadMore()
   },
   methods: {
     onLoadMore () {
       this.maxDisplay += this.maxDisplay
-      this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
-      this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
+      this.caseStudiesList = this.filterByMaxDisplay()
+      this.caseStudiesList = this.filterByLatestDate()
+      this.loadMore = this.toggleLoadMore()
     },
     onCategory (category) {
       if (category === 'all') {
         this.caseStudiesFiltered = [...this.caseStudiesAll]
-        this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
+        this.caseStudiesList = this.filterByMaxDisplay()
+        this.caseStudiesList = this.filterByLatestDate()
       } else {
         let next
         const all = [...this.caseStudiesAll]
@@ -104,13 +107,22 @@ export default {
           }
           next = all.shift()
         }
-        this.caseStudiesList = this.filterByMaxDisplay(this.caseStudiesFiltered)
+        this.caseStudiesList = this.filterByMaxDisplay()
+        this.caseStudiesList = this.filterByLatestDate()
       }
       this.category = category
-      this.loadMore = this.maxDisplay < this.caseStudiesFiltered.length
+      this.loadMore = this.toggleLoadMore()
     },
-    filterByMaxDisplay (arr) {
-      return arr.slice(0, this.maxDisplay)
+    filterByMaxDisplay () {
+      return this.caseStudiesFiltered.slice(0, this.maxDisplay)
+    },
+    filterByLatestDate () {
+      return this.caseStudiesList.sort(
+        (a, b) => new Date(b.node.pubDate) - new Date(a.node.pubDate)
+      )
+    },
+    toggleLoadMore () {
+      return this.maxDisplay < this.caseStudiesFiltered.length
     }
   }
 }
