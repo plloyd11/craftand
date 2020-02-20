@@ -28,7 +28,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-  default: '2020-02-19T21:20:27-05:00'
+  default: now
 - name: headline
   type: text
   config:
