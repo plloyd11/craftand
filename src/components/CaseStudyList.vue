@@ -11,7 +11,7 @@
         />
       </div>
       <div class="flex-1 px-6 case-study--content sm:px-0">
-        <h4 class="mt-3 font-semibold text-gray-700 uppercase sm:mt-0 text-md din">
+        <h4 class="mt-3 font-medium text-gray-700 uppercase sm:mt-0 text-md din">
           {{ caseStudy.node.client }}
         </h4>
         <h2 class="max-w-sm my-4 text-2xl font-extrabold leading-tight sm:leading-none sm:text-4xl proxima">

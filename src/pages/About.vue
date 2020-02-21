@@ -4,19 +4,19 @@
     <section class="my-12 lg:mb-0 lg:mt-20 hero">
       <div class="container px-6 mx-auto">
         <h1 class="mb-4 text-3xl font-extrabold lg:text-5xl proxima">
-          Behind the <span class="text-strike">curtain</span>...
+          What’s your <span class="text-strike">desired outcome?</span>
         </h1>
-        <p class="max-w-screen-md mb-6 text-lg leading-normal lg:text-xl">
-          West Philadelphia, born and — hang on, that’s a different orgin story ;)
+        <p class="max-w-screen-lg mb-6 text-lg leading-normal lg:text-xl">
+          We were humbled to listen in as a dear friend and collaborator recently described our work, far better than we ever could: <span class="italic">“They’re an agency, but they’re different. They start by asking the question ‘what’s your desired outcome?’ And then they work backwards to figure out how to get you there.”</span>
         </p>
-        <p class="max-w-screen-md mb-6 text-lg leading-normal lg:text-xl">
-          Here’s ours: founders Mark and Jordan, colleagues at GOOD, decided to change their lives in 200X, and started building a company from scratch. Craft & Commerce, born as a purposeful agency, grew through a combination of hustle and good fortune.
+        <p class="max-w-screen-lg mb-6 text-lg leading-normal lg:text-xl">
+          In those few words, our friend synthesized a five-year mission to reimagine the way causes deploy their marketing dollars, helping them to create more modern strategies, more efficient and effective media plans, and, ultimately, more real-world impact.
         </p>
-        <p class="max-w-screen-md mb-6 text-lg leading-normal lg:text-xl">
-          Much like the digital world has, C&C has evolved, building a team of experts around our core strategic and creative disciplines. Along the way we have found bold partners in education, civic progress, non-profit, public policy, and more who share our vision of social purpose.
+        <p class="max-w-screen-lg mb-6 text-lg leading-normal lg:text-xl">
+          What began as an insight that tugged relentlessly at co-founders Mark & Jordan as they worked on the front lines of cause marketing at GOOD/Upworthy—that impactful storytelling is only half the distance to the goal; breaking through the noise and turning attention into action is the hard-fought ground game that so often makes the difference—C&C has today helped to pass landmark affordable housing reform in California, modernized growth for one of the country’s oldest and most beloved organizations, and inspired millions of millennial women to assess their cancer risk. Our work has been awarded “Social Media Campaign of the Year” by AdAge and Modern Healthcare, received a Webby, and recognized as an Effies finalist. And as the media landscape continues to evolve, our world-class, roll-up-your-sleeves team of strategists, tacticians, and creatives evolves with it—while remaining steadfast to that original North Star.
         </p>
-        <p class="mt-12 tracking-wider lg:mt-20 text-md lg:text-xl din">
-          MEET THE TEAM THAT MAKES IT POSSIBLE —
+        <p class="mt-12 text-lg tracking-wider lg:mt-20 lg:text-xl">
+          All to say: <span class="italic">What’s your desired outcome?</span>
         </p>
       </div>
     </section>
@@ -24,7 +24,7 @@
     <div
       v-for="edge in $page.allTeamMembers.edges"
       :key="edge.node.id"
-      class="team-container"
+      class="mt-12 team-container"
     >
       <div
         v-for="(item, index) in edge.node.data"
@@ -86,14 +86,15 @@
           Join the team at Craft &amp; Commerce
         </h2>
         <p class="max-w-screen-md mx-auto text-lg text-center">
-          Our hands-on team of digital media specialists believes in achieving better results for causes that matter. We're based in New York City but have team members across the country. If you're itching to put your digital skills to work for positive change, we should talk.
+          Our hands-on team of paid and digital media specialists is dedicated to achieving better results, for things that matter. We're based in New York City but have team members across the country. If you're ready to put your skills to work for positive change, we should talk.
         </p>
-        <p class="inline-block px-2 pt-1 mt-8 text-center bg-white shadow-sm din">
-          WHAT ARE YOU WAITING FOR?
-          <a
-            href="mailto:hello@craftand.com"
-            class="underline uppercase"
-          >Drop us a line.</a>
+        <p class="inline-block px-2 pt-1 mt-8 text-center uppercase bg-white shadow-sm din">
+          See current openings — and drop us a line — <g-link
+            to="/careers"
+            class="underline"
+          >
+            here
+          </g-link>
         </p>
       </div>
     </section>
@@ -147,8 +148,8 @@ export default {
   .hero {
     width: 100%;
     @media (min-width: 1024px) {
-      height: 750px;
-      background: url('~@/assets/img/global/diagonal-bg.png') no-repeat center center;
+      padding-bottom: 5em;
+      background: url('~@/assets/img/global/diagonal-bg.png') no-repeat bottom;
       background-size: contain;
     }
   }

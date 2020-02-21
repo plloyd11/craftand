@@ -135,8 +135,8 @@ export default {
 
 .formClose {
   position: absolute;
-  top: 32px;
-  right: 0;
+  top: 20px;
+  right: 24px;
   cursor: pointer;
 }
 

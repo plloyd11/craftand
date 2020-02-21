@@ -9,6 +9,10 @@
         class="w-24"
       />
       <g-image
+        src="~/assets/img/logos/sfmta.png"
+        class="w-32"
+      />
+      <g-image
         src="~/assets/img/logos/rockerfeller.png"
         class="w-48"
       />
@@ -21,28 +25,12 @@
         class="w-24"
       />
       <g-image
-        src="~/assets/img/logos/cuny.png"
-        class="w-20"
-      />
-      <g-image
-        src="~/assets/img/logos/sfmta.png"
-        class="w-32"
-      />
-      <g-image
-        src="~/assets/img/logos/macarthur.png"
-        class="w-32"
-      />
-      <g-image
         src="~/assets/img/logos/nal.png"
         class="hidden w-24 sm:block"
       />
       <g-image
         src="~/assets/img/logos/mtc.png"
         class="hidden w-24 sm:block"
-      />
-      <g-image
-        src="~/assets/img/logos/united.png"
-        class="hidden w-32 sm:block"
       />
       <g-image
         src="~/assets/img/logos/mfp.png"
@@ -57,10 +45,6 @@
         class="hidden w-24 sm:block"
       />
       <g-image
-        src="~/assets/img/logos/nyu.png"
-        class="hidden w-48 sm:block"
-      />
-      <g-image
         src="~/assets/img/logos/johnson-johnson.png"
         class="hidden w-48 sm:block"
       />
@@ -73,6 +57,14 @@
         class="hidden w-32 sm:block"
       />
       <g-image
+        src="~/assets/img/logos/macarthur.png"
+        class="w-32"
+      />
+      <g-image
+        src="~/assets/img/logos/nyu.png"
+        class="hidden w-48 sm:block"
+      />
+      <g-image
         src="~/assets/img/logos/kellogg.png"
         class="hidden w-32 sm:block"
       />
@@ -81,8 +73,16 @@
         class="hidden w-24 sm:block"
       />
       <g-image
+        src="~/assets/img/logos/united.png"
+        class="hidden w-32 sm:block"
+      />
+      <g-image
         src="~/assets/img/logos/carton-council.png"
         class="hidden w-32 sm:block"
+      />
+      <g-image
+        src="~/assets/img/logos/cuny.png"
+        class="w-20"
       />
     </div>
   </section>

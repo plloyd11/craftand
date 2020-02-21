@@ -2,9 +2,9 @@
   <Layout>
     <section class="container px-6 py-24 mx-auto bg-light-gray">
       <h1
-        class="max-w-3xl mx-auto mb-12 text-3xl font-extrabold leading-tight text-center sm:text-5xl proxima"
+        class="max-w-5xl px-12 mx-auto mb-12 text-3xl font-extrabold text-center sm:text-6xl proxima"
       >
-        <span class="text-strike">Our mission</span> is to more <br> effectively harness paid media <br class="hidden sm:block"> to advance <span class="text-strike">your mission.</span>
+        <span class="text-strike">Our mission</span> is to more effectively harness paid media to advance <span class="text-strike">your mission.</span>
       </h1>
       <p class="w-full mx-auto text-center sm:w-7/12 text-md sm:text-xl">
         Craft &amp; Commerce is the only agency that’s dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
@@ -24,7 +24,7 @@
               <Audience />
             </template>
             <template v-slot:heading>
-              Attention-aligned insights, strategy, and message development
+              Attention-aligned insight and strategy
             </template>
             <template v-slot:content>
               In our hyperconnected world, attention is the currency that matters—and it’s constantly evolving. We focus on where the attention of your audience resides today, where it’s going, and how to transform attention into action.
@@ -38,7 +38,7 @@
               Nimble, modern <br> creative
             </template>
             <template v-slot:content>
-              Eye-catching, thumb-stopping visuals and copy that speak your audience’s language drives action. We pride ourselves in an iterative, “non-precious” approach to creative that’s at home in social and mobile feeds, and values effectiveness above all else.
+              Since the dawn of the agency, creative has been an art project, with awards the primary barometer of success. We pride ourselves in an iterative, “non-precious” approach to creative that values effectiveness above all else.
             </template>
           </ApproachCard>
           <ApproachCard>
@@ -49,7 +49,7 @@
               Innovative media <br> planning and buying
             </template>
             <template v-slot:content>
-              Media plans have traditionally revolved around inputs—a 0:30 spot here, a 728x90 banner there. Ours begin with the outcomes. We clearly define what success looks like, and reverse engineer a media plan with that outcome as our north star.
+              Media plans have traditionally revolved around inputs—a 0:30 spot here, a 728x90 banner there. Ours begin with the outcomes. We clearly define what success looks like, and reverse engineer a media plan with that outcome as our North Star.
             </template>
           </ApproachCard>
           <ApproachCard>
@@ -57,10 +57,10 @@
               <Testing />
             </template>
             <template v-slot:heading>
-              Hands-on, iterative collaboration and optimization
+              Hands-on collaboration and optimization
             </template>
             <template v-slot:content>
-              Our deep, recurring partnerships are built on collaboration, with C&C acting as an extension of your team—bolstering capacity, testing, learning, and iterating together, and being responsive to real-time developments.
+              Our deep, recurring partnerships are built upon C&C serving not as a vendor, but a “force multiplier” for your team—bolstering capacity, testing, learning, and iterating together, and being responsive to real-time developments.
             </template>
           </ApproachCard>
         </div>
@@ -85,7 +85,7 @@
       <CaseStudyList
         :case-studies-list="caseStudiesList"
       />
-      <AsideBox :link="`/our-work`">
+      <AsideBox :link="`/work`">
         <template v-slot:helperText>
           See more <br> projects
         </template>
@@ -151,6 +151,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+  h1 {
+    line-height: 1.10;
+  }
+
   .approach-grid {
     display: flex;
     flex-direction: column;

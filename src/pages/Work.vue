@@ -7,7 +7,10 @@
           For things that <span class="text-strike">matter</span>.
         </h1>
         <p class="max-w-screen-md mb-6 text-xl leading-normal">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minima impedit, numquam iste repudiandae quis amet reiciendis a sit voluptatum. Ipsa cumque facere, possimus laboriosam delectus ab rerum quasi ipsam.
+          While we're proud to bring a wealth of experience to our engagements, we've found that transformative results are rarely the result of an external force alone, but rather a collaborative partnership that merges agency expertise with that of internal teams—often across initiatives and departments.
+        </p>
+        <p class="max-w-screen-md mb-2 text-xl leading-normal">
+          Below is some of what we've been able to achieve, together.
         </p>
       </div>
     </section>

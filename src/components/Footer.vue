@@ -9,7 +9,7 @@
     <section class="py-10 bg-primary-color">
       <div class="container flex justify-center mx-auto text-center">
         <p class="text-sm tracking-wide uppercase din font">
-          New York x Chicago
+          New York <span class="lowercase">x</span> Chicago
         </p>
         <span class="mx-4 din font">|</span>
         <a
