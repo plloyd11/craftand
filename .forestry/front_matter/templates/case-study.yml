@@ -131,11 +131,6 @@ fields:
       format: markdown
   label: Yellow Box Content
   description: Content for the yellow box callout section
-- name: videoPoster
-  type: file
-  config:
-    maxSize: 250
-  label: Video Poster
 - name: youtubeLink
   type: text
   config:
