@@ -13,52 +13,48 @@
         class="w-32"
       />
       <g-image
-        src="~/assets/img/logos/rockerfeller.png"
-        class="w-48"
+        src="~/assets/img/logos/ilrc.png"
+        class="w-24"
       />
       <g-image
-        src="~/assets/img/logos/autism-speaks.png"
-        class="w-32"
+        src="~/assets/img/logos/rockerfeller.png"
+        class="w-48"
       />
       <g-image
         src="~/assets/img/logos/cz.png"
         class="w-24"
       />
       <g-image
-        src="~/assets/img/logos/nal.png"
-        class="hidden w-24 sm:block"
+        src="~/assets/img/logos/bp.png"
+        class="hidden w-32 sm:block"
+      />
+      <g-image
+        src="~/assets/img/logos/sff.png"
+        class="hidden w-48 sm:block"
       />
       <g-image
         src="~/assets/img/logos/mtc.png"
-        class="hidden w-24 sm:block"
+        class="hidden w-48 sm:block"
       />
       <g-image
-        src="~/assets/img/logos/mfp.png"
-        class="hidden w-24 sm:block"
-      />
-      <g-image
-        src="~/assets/img/logos/cnycn.png"
-        class="hidden w-28 sm:block"
-      />
-      <g-image
-        src="~/assets/img/logos/bahfa.png"
-        class="hidden w-24 sm:block"
+        src="~/assets/img/logos/autism-speaks.png"
+        class="hidden w-32 sm:block"
       />
       <g-image
         src="~/assets/img/logos/johnson-johnson.png"
         class="hidden w-48 sm:block"
       />
       <g-image
-        src="~/assets/img/logos/stb.png"
-        class="hidden w-16 sm:block"
+        src="~/assets/img/logos/bahfa.png"
+        class="hidden w-24 sm:block"
       />
       <g-image
-        src="~/assets/img/logos/bp.png"
-        class="hidden w-32 sm:block"
+        src="~/assets/img/logos/ncb.png"
+        class="hidden w-48 sm:block"
       />
       <g-image
         src="~/assets/img/logos/macarthur.png"
-        class="w-32"
+        class="hidden w-32 sm:block"
       />
       <g-image
         src="~/assets/img/logos/nyu.png"
@@ -77,12 +73,16 @@
         class="hidden w-32 sm:block"
       />
       <g-image
+        src="~/assets/img/logos/world-bank.png"
+        class="hidden w-48 sm:block"
+      />
+      <g-image
         src="~/assets/img/logos/carton-council.png"
         class="hidden w-32 sm:block"
       />
       <g-image
         src="~/assets/img/logos/cuny.png"
-        class="w-20"
+        class="hidden w-20 sm:block"
       />
     </div>
   </section>

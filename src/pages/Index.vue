@@ -32,17 +32,6 @@
           </ApproachCard>
           <ApproachCard>
             <template v-slot:image>
-              <Creative />
-            </template>
-            <template v-slot:heading>
-              Nimble, modern <br> creative
-            </template>
-            <template v-slot:content>
-              Since the dawn of the agency, creative has been an art project, with awards the primary barometer of success. We pride ourselves in an iterative, “non-precious” approach to creative that values effectiveness above all else.
-            </template>
-          </ApproachCard>
-          <ApproachCard>
-            <template v-slot:image>
               <Innovative />
             </template>
             <template v-slot:heading>
@@ -63,6 +52,17 @@
               Our deep, recurring partnerships are built upon C&C serving not as a vendor, but a “force multiplier” for your team—bolstering capacity, testing, learning, and iterating together, and being responsive to real-time developments.
             </template>
           </ApproachCard>
+          <ApproachCard>
+            <template v-slot:image>
+              <Creative />
+            </template>
+            <template v-slot:heading>
+              Nimble, modern <br> creative
+            </template>
+            <template v-slot:content>
+              Since the dawn of the agency, creative has been an art project, with awards the primary barometer of success. We pride ourselves in an iterative, “non-precious” approach to creative that values effectiveness above all else.
+            </template>
+          </ApproachCard>
         </div>
       </div>
     </section>
@@ -75,19 +75,6 @@
       <AsideBox :link="`/services`">
         <template v-slot:helperText>
           Our services <br> &amp; focus areas
-        </template>
-      </AsideBox>
-    </section>
-    <section class="container mx-auto mt-8">
-      <h3 class="mb-12 text-lg tracking-wider text-center uppercase sm:text-left din">
-        recent work
-      </h3>
-      <CaseStudyList
-        :case-studies-list="caseStudiesList"
-      />
-      <AsideBox :link="`/work`">
-        <template v-slot:helperText>
-          See more <br> projects
         </template>
       </AsideBox>
     </section>
@@ -115,7 +102,6 @@
 <script>
 import ApproachCard from '@/components/homepage/ApproachCard.vue'
 import AsideBox from '@/components/global/AsideBox.vue'
-import CaseStudyList from '@/components/CaseStudyList.vue'
 import LogoBox from '@/components/homepage/LogoBox.vue'
 // SVG as imports
 import Audience from '~/assets/img/homepage/audience.svg'
@@ -127,7 +113,6 @@ export default {
   components: {
     ApproachCard,
     AsideBox,
-    CaseStudyList,
     LogoBox,
     Audience,
     Creative,
