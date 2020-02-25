@@ -14,16 +14,16 @@
             </h2>
             <div class="flex">
               <ul class="mr-12">
-                <li>Quant / qual research</li>
-                <li>Message development</li>
-                <li>In-market testing</li>
+                <li>Attention research and planning</li>
+                <li>Audience segmentation</li>
                 <li>Channel analysis and strategy</li>
+                <li>Content strategy</li>
               </ul>
               <ul>
-                <li>Content strategy</li>
-                <li>Benchmarks and best practices</li>
+                <li>Message development</li>
+                <li>In-market testing</li>
+                <li>Performance benchmarking</li>
                 <li>Campaign budgeting</li>
-                <li>Performance dashboard</li>
               </ul>
             </div>
           </div>
@@ -63,19 +63,19 @@
           </div>
           <div class="max-w-2xl">
             <h2 class="mb-2 text-3xl font-bold proxima">
-              Rigorous Testing, Iteration, and Optimization
+              Performance Optimization
             </h2>
             <div class="flex">
               <ul class="mr-12">
-                <li>Multivariant test matrix</li>
-                <li>Hands-on campaign management and optimization</li>
-                <li>Actionable, real-time measurement</li>
-                <li>Comprehensive campaign reporting and go-forward recommendations</li>
+                <li>Multivariant testing</li>
+                <li>Active, cross-platform media monitoring and hands-on management </li>
+                <li>Dynamic, responsive campaign iteration, optimization, and scale</li>
+                <li>Actionable, real-time measurement and reporting</li>
               </ul>
               <ul>
-                <li>Landing page conversion rate</li>
+                <li>Landing page and conversion rate optimization</li>
                 <li>Multi-touch attribution</li>
-                <li>Cross device & cross-channel</li>
+                <li>Comprehensive campaign analysis and go-forward recommendations</li>
               </ul>
             </div>
           </div>
@@ -84,24 +84,24 @@
       <div class="slide">
         <div class="flex flex-col items-center justify-center sm:flex-row">
           <div class="sm:mr-12">
-            <AdvisoryCapacity />
+            <GrowthCapacity />
           </div>
           <div class="max-w-2xl">
             <h2 class="mb-2 text-3xl font-bold proxima">
-              Advisory and Capacity Building
+              Growth Support and Capacity Building
             </h2>
             <div class="flex">
               <ul class="mr-12">
-                <li>Email creation and execution</li>
-                <li>Editorial calendaring</li>
-                <li>Social content creation</li>
-                <li>Social page management</li>
+                <li>Digital content creation</li>
+                <li>Design support and brand enhancement </li>
+                <li>Channel optimization and best practice implementation</li>
+                <li>Content calendaring and channel management</li>
               </ul>
               <ul>
-                <li>Strategic promotion </li>
-                <li>Measurement and analysis</li>
+                <li>Strategic social promotion</li>
+                <li>KPI dashboard creation</li>
+                <li>Tech stack analysis and implementation</li>
                 <li>Team training</li>
-                <li>Design support and brand enhancement</li>
               </ul>
             </div>
           </div>
@@ -113,10 +113,10 @@
 
 <script>
 import { VueAgile } from 'vue-agile'
-import AdvisoryCapacity from '~/assets/img/services/advisory-capacity.svg'
-import Strategy from '~/assets/img/services/strategy.svg'
-import TestingIteration from '~/assets/img/services/testing-iteration.svg'
-import MediaPlanning from '~/assets/img/services/media-planning.svg'
+import GrowthCapacity from '~/assets/img/services/growth-capacity.svg'
+import Strategy from '~/assets/img/services/digital-strategy.svg'
+import TestingIteration from '~/assets/img/services/iteration.svg'
+import MediaPlanning from '~/assets/img/services/media-planning-buying.svg'
 
 export default {
   metaInfo: {
@@ -126,7 +126,7 @@ export default {
     agile: VueAgile,
     TestingIteration,
     MediaPlanning,
-    AdvisoryCapacity,
+    GrowthCapacity,
     Strategy
   }
 }

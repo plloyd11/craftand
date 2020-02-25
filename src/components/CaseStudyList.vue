@@ -26,12 +26,8 @@
 </template>
 
 <script>
-import RightArrow from '@/assets/img/icons/right-arrow.svg'
 
 export default {
-  components: {
-    RightArrow
-  },
   props: {
     caseStudiesList: {
       type: Array,

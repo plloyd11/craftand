@@ -16,9 +16,6 @@
           <p class="max-w-screen-sm mb-6 text-base leading-normal text-white">
             That is what truly sets C&C apart, and is the beating heart of the work that we do. We’re humbled that our clients have referred to us a “force multiplier”— not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern marketing era.
           </p>
-          <p class="max-w-screen-sm mb-6 text-base leading-normal text-white">
-            Our work breaks down as follows.
-          </p>
         </div>
         <div class="border-l-2 lg:w-4/12 border-primary-color">
           <h4 class="pl-4 mb-8 text-lg font-bold tracking-wider text-white uppercase din">

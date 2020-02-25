@@ -15,8 +15,11 @@
         <p class="max-w-screen-lg mb-6 text-lg leading-normal lg:text-xl">
           What began as an insight that tugged relentlessly at co-founders Mark & Jordan as they worked on the front lines of cause marketing at GOOD/Upworthy—that impactful storytelling is only half the distance to the goal; breaking through the noise and turning attention into action is the hard-fought ground game that so often makes the difference—C&C has today helped to pass landmark affordable housing reform in California, modernized growth for one of the country’s oldest and most beloved organizations, and inspired millions of millennial women to assess their cancer risk. Our work has been awarded “Social Media Campaign of the Year” by AdAge and Modern Healthcare, received a Webby, and recognized as an Effies finalist. And as the media landscape continues to evolve, our world-class, roll-up-your-sleeves team of strategists, tacticians, and creatives evolves with it—while remaining steadfast to that original North Star.
         </p>
-        <p class="mt-12 text-lg tracking-wider lg:mt-20 lg:text-xl">
+        <p class="text-lg tracking-wider lg:text-xl">
           All to say: <span class="italic">What’s your desired outcome?</span>
+        </p>
+        <p class="mt-12 text-lg tracking-wider uppercase lg:mt-16 lg:text-xl din">
+          Meet the team that makes it possible—
         </p>
       </div>
     </section>
@@ -89,7 +92,7 @@
           Our hands-on team of paid and digital media specialists is dedicated to achieving better results, for things that matter. We're based in New York City but have team members across the country. If you're ready to put your skills to work for positive change, we should talk.
         </p>
         <p class="inline-block px-2 pt-1 mt-8 text-center uppercase bg-white shadow-sm din">
-          See current openings — and drop us a line — <g-link
+          See current openings <g-link
             to="/careers"
             class="underline"
           >
