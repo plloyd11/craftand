@@ -20,13 +20,6 @@
         <p class="max-w-sm mb-8">
           {{ caseStudy.node.campaignDescription }}
         </p>
-        <g-link
-          :to="caseStudy.node.path"
-          class="px-1 pt-1 text-sm uppercase bg-primary-color din"
-        >
-          Read on
-          <RightArrow class="inline-block w-2 pb-1" />
-        </g-link>
       </div>
     </div>
   </section>
