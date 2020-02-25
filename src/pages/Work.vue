@@ -4,7 +4,7 @@
     <section class="mt-12 lg:mt-20 hero">
       <div class="container px-6 mx-auto">
         <h1 class="mb-4 text-3xl font-extrabold lg:text-5xl proxima">
-          For things that <span class="text-strike">matter</span>.
+          Good <span class="text-strike">together</span>.
         </h1>
         <p class="max-w-screen-md mb-6 text-xl leading-normal">
           While we're proud to bring a wealth of experience to our engagements, we've found that transformative results are rarely the result of an external force alone, but rather a collaborative partnership that merges agency expertise with that of internal teams—often across initiatives and departments.

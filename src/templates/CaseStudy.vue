@@ -175,7 +175,10 @@ export default {
     CaseStudyNav
   },
   metaInfo: {
-    title: 'Services'
+    title: 'Craft & Commerce Case Studies',
+    meta: [
+      { name: 'robots', content: 'noindex' }
+    ]
   },
   data () {
     return {
