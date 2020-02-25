@@ -162,6 +162,7 @@ fields:
     these two pieces of information.
 pages:
 - src/content/case-studies/3Ps2019.json
+- src/content/case-studies/MacArthur / 100&Change.json
 - src/content/case-studies/Sample Image.json
 - src/content/case-studies/bay-area-metropolitan-transportation-commission.json
 - src/content/case-studies/bright-pink.json
