@@ -14,12 +14,16 @@
   "mainTakeaway": "2X new member growth",
   "supportiveText": "Doubled new member acquisitions, while cutting acquisition costs by 50%",
   "carousel": [
-
+    {
+      "photo": "../../assets/img/craft/ChatThumb.png",
+      "header": "Starting a conversation",
+      "body": "Our messenger chatbot was a popular tool that also helped verify that citizens were getting the info relevant to them, and that they had intentions to begin or get better about their recycling habits."
+    }
   ],
   "yellowBoxHeadline": "This was a great Campaign",
   "yellowBoxContent": "We did an awesome job!",
   "youtubeLink": "",
   "clientTestimony": "\"What an amazing campaign this was!\"",
   "clientTitle": "Client Name\nHead of the Girl Scouts USA",
-  "pubDate": "2020-02-12T19:00:00-05:00",
+  "pubDate": "2020-02-12T19:00:00-05:00"
 }

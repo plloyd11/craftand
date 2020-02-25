@@ -18,14 +18,9 @@
   },
   "carousel": [
     {
-      "photo": "../../assets/img/craft/jordan-ruden.png",
-      "header": "Carousel Header 2",
-      "body": "Carousel body 2"
-    },
-    {
-      "photo": "../../assets/img/craft/mark-barker.png",
-      "header": "Carousel Header 1",
-      "body": "Carousel Header 2"
+      "photo": "../../assets/img/craft/ChatThumb.png",
+      "header": "Starting a conversation",
+      "body": "Our messenger chatbot was a popular tool that also helped verify that citizens were getting the info relevant to them, and that they had intentions to begin or get better about their recycling habits."
     }
   ],
   "clientTestimony": "With Craft & Commerce, we have been able to see our impact in real time, and know that our message is turning into action.”",
