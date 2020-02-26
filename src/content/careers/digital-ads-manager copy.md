@@ -1,7 +1,7 @@
 ---
 title: Assistant Account Executive
-excerpt: support the C&C team in campaign planning and execution, research and analysis,
-  and crafting marketing communications.
+excerpt: support the C&C team in campaign planning and help advance some of the world’s
+  leading causes.
 date: 2020-01-15
 tags:
 - ads
