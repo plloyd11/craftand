@@ -2,17 +2,19 @@
   <section class="container relative mx-auto mt-2">
     <agile
       :center-mode="true"
+      :autoplay="true"
+      :autoplay-speed="10000"
     >
       <div class="slide">
         <div class="flex flex-col items-center justify-center sm:flex-row">
           <div class="sm:mr-12">
             <Strategy />
           </div>
-          <div class="max-w-xl">
-            <h2 class="mb-2 text-3xl font-bold proxima">
+          <div class="max-w-xl px-6 sm:px-0">
+            <h2 class="my-2 text-xl font-bold sm:text-3xl proxima">
               Digital and Paid Media Strategy
             </h2>
-            <div class="flex">
+            <div class="flex flex-col pl-4 sm:pl-0 sm:flex-row">
               <ul class="mr-12">
                 <li>Attention research and planning</li>
                 <li>Audience segmentation</li>
@@ -34,11 +36,11 @@
           <div class="sm:mr-12">
             <MediaPlanning />
           </div>
-          <div class="max-w-xl">
-            <h2 class="mb-2 text-3xl font-bold proxima">
+          <div class="max-w-xl px-6 sm:px-0">
+            <h2 class="my-2 text-xl font-bold sm:text-3xl proxima">
               Integrated Media Planning and Buying
             </h2>
-            <div class="flex">
+            <div class="flex flex-col pl-4 sm:pl-0 sm:flex-row">
               <ul class="mr-12">
                 <li>Cross-platform social</li>
                 <li>Programmatic native, video, and display</li>
@@ -61,11 +63,11 @@
           <div class="sm:mr-12">
             <TestingIteration />
           </div>
-          <div class="max-w-2xl">
-            <h2 class="mb-2 text-3xl font-bold proxima">
+          <div class="max-w-xl px-6 sm:px-0">
+            <h2 class="my-2 text-xl font-bold sm:text-3xl proxima">
               Performance Optimization
             </h2>
-            <div class="flex">
+            <div class="flex flex-col max-w-md pl-4 sm:pl-0 sm:flex-row sm:max-w-full">
               <ul class="mr-12">
                 <li>Multivariant testing</li>
                 <li>Active, cross-platform media monitoring and hands-on management </li>
@@ -86,11 +88,11 @@
           <div class="sm:mr-12">
             <GrowthCapacity />
           </div>
-          <div class="max-w-2xl">
-            <h2 class="mb-2 text-3xl font-bold proxima">
+          <div class="max-w-xl px-6 sm:px-0">
+            <h2 class="my-2 text-xl font-bold sm:text-3xl proxima">
               Growth Support and Capacity Building
             </h2>
-            <div class="flex">
+            <div class="flex flex-col pl-4 sm:pl-0 sm:flex-row">
               <ul class="mr-12">
                 <li>Digital content creation</li>
                 <li>Design support and brand enhancement </li>
