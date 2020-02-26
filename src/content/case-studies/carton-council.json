@@ -4,10 +4,10 @@
   "photo": "../../assets/img/craft/carton-hero.png",
   "youtubeLink": "",
   "categories": {
-    "issueEducation": false,
-    "behaviorChange": true,
-    "programGrowthDelivery": false,
-    "leadGeneration": false
+    "missionDelivery": true,
+    "brandStorytelling": false,
+    "fundraisingGrowth": false,
+    "advocacyAction": true
   },
   "client": "Carton Council",
   "headline": "Reimagine recycling education",

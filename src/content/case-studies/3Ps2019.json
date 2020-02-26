@@ -7,10 +7,10 @@
   "campaignDescription": "After decades of piecemeal attempts to address affordable housing in California, a diverse coalition of stakeholders came together in support of the “3P’s,” an ambitious package of legislation to preserve, protect, and produce housing. The 3P’s solution was as complex and contentious as it was comprehensive; C&C was proud to take on this challenge as the coalition’s digital advocacy partner. First, C&C addressed the complexity by distilling 3P’s into a simple visual identity and brand voice. Next, C&C headed-off contention by proactively educating constituents and galvanizing support in key districts. Finally, C&C responded to real-time campaign developments with digital pivots and air support for lawmakers. This ultimately contributed to a historic legislative victory, and resulted in Reed Awards for “Best Advocacy Branding” and “Best Grassroots Campaign.”",
   "photo": "../../assets/img/craft/CS_HeaderImage_Template.png",
   "categories": {
-    "issueEducation": false,
-    "behaviorChange": false,
-    "programGrowthDelivery": false,
-    "leadGeneration": false
+    "missionDelivery": false,
+    "brandStorytelling": false,
+    "fundraisingGrowth": false,
+    "advocacyAction": true
   },
   "mainTakeaway": "",
   "supportiveText": "",

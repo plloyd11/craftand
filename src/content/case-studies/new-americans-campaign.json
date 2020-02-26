@@ -6,10 +6,10 @@
   "photo": "../../assets/img/craft/nac.png",
   "youtubeLink": "",
   "categories": {
-    "issueEducation": false,
-    "behaviorChange": false,
-    "programGrowthDelivery": true,
-    "leadGeneration": false
+    "missionDelivery": false,
+    "brandStorytelling": false,
+    "fundraisingGrowth": false,
+    "advocacyAction": true
   },
   "carousel": [
     {

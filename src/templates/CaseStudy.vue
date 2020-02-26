@@ -126,10 +126,10 @@
     caseStudy(path: $path) {
       client
       categories {
-        behaviorChange
-        issueEducation
-        leadGeneration
-        programGrowthDelivery
+        missionDelivery
+        brandStorytelling
+        fundraisingGrowth
+        advocacyAction
       }
       carousel {
         photo
@@ -202,10 +202,10 @@ export default {
   methods: {
     createCategoryNames () {
       const categoryMap = {
-        behaviorChange: 'Behavior Change',
-        issueEducation: 'Issue Education',
-        leadGeneration: 'Lead Generation',
-        programGrowthDelivery: 'Program Growth & Delivery'
+        missionDelivery: 'Mission Delivery',
+        brandStorytelling: 'Brand Storytelling',
+        fundraisingGrowth: 'Fundraising & Growth',
+        advocacyAction: 'Advocacy & Action'
       }
       const categoriesAll = this.$page.caseStudy.categories
       const categoryKeys = Object.keys(categoriesAll)
