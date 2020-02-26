@@ -48,8 +48,8 @@
               <p class="max-w-md px-6 mt-8 sm:px-0">
                 {{ item.shortBio }}
                 <a
-                  class="px-1 py-0 text-sm font-extrabold bg-primary-color"
-                  @click="triggerModal(item)"
+                  class="px-1 py-0 text-sm font-extrabold cursor-pointer bg-primary-color"
+                  @click.stop="triggerModal(item)"
                 >+</a>
               </p>
             </div>
@@ -60,6 +60,7 @@
     <!-- Modal Component -->
     <TeamModal
       v-if="showModal"
+      aria-label="close"
       @close="showModal = false"
     >
       <template v-slot:photo>
