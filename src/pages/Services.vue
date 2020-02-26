@@ -34,14 +34,12 @@
     </section>
     <!-- Tearsheet -->
     <aside class="flex items-center justify-center">
-      <g-link to="/">
-        <div class="px-4 py-8 bg-main-gray">
-          <Tools class="w-6 mx-auto mb-4" />
-          <p class="w-32 text-sm text-center text-white uppercase din">
-            Our Toolbox
-          </p>
-        </div>
-      </g-link>
+      <div class="px-4 py-8 bg-main-gray">
+        <Tools class="w-6 mx-auto mb-4" />
+        <p class="w-32 text-sm text-center text-white uppercase din">
+          Our Toolbox
+        </p>
+      </div>
     </aside>
     <!-- Services Carousel -->
     <section class="py-12 -my-24 services-carousel">

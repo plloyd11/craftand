@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@gridsome/cli": "^0.3.1",
+    "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-json": "^0.2.1",
     "@gridsome/transformer-remark": "^0.4.0",

@@ -2,7 +2,6 @@
   <section class="container relative mx-auto mt-2">
     <agile
       :center-mode="true"
-      :autoplay="true"
       :dots="false"
     >
       <div class="slide">
