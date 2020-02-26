@@ -4,7 +4,7 @@
     <section class="hero">
       <div class="container flex flex-col items-start px-6 py-12 mx-auto lg:py-16 lg:flex-row bg-main-gray-semi-transparent">
         <div class="mb-6 lg:mb-0 lg:w-8/12">
-          <h2 class="mb-8 text-3xl font-extrabold leading-none text-center text-white lg:text-left lg:text-5xl proxima">
+          <h2 class="mb-8 text-3xl font-extrabold leading-none text-left text-white md:text-center lg:text-left lg:text-5xl proxima">
             Leading-edge capabilities, <br> in-house mentality
           </h2>
           <p class="max-w-screen-sm mb-6 text-base leading-normal text-white">

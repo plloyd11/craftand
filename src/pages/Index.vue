@@ -2,7 +2,7 @@
   <Layout>
     <section class="container px-6 py-24 mx-auto bg-light-gray">
       <h1
-        class="max-w-5xl px-12 mx-auto mb-12 text-3xl font-extrabold text-center sm:text-6xl proxima"
+        class="max-w-5xl px-6 mx-auto mb-12 text-3xl font-extrabold text-center md:px-12 sm:text-6xl proxima"
       >
         <span class="text-strike">Our mission</span> is to more effectively harness paid media to advance <span class="text-strike">your mission.</span>
       </h1>

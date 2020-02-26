@@ -3,7 +3,7 @@
     <!-- Hero -->
     <section class="my-12 lg:mb-0 lg:mt-20 hero">
       <div class="container px-6 mx-auto">
-        <h1 class="mb-4 text-3xl font-extrabold lg:text-5xl proxima">
+        <h1 class="mb-4 text-3xl font-extrabold leading-none lg:text-5xl proxima">
           What’s your <span class="text-strike">desired outcome?</span>
         </h1>
         <p class="max-w-screen-lg mb-6 text-lg leading-normal lg:text-xl">
