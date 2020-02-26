@@ -15,35 +15,35 @@
         <a
           data-category="all"
           href="#"
-          class="relative mb-4 mr-4 text-sm tracking-wider text-gray-600 uppercase sm:mb-0 din"
+          class="relative mb-4 mr-4 text-sm font-semibold tracking-wider text-gray-600 uppercase sm:mb-0 din"
         >
           All
         </a>
         <a
           data-category="missionDelivery"
           href="#"
-          class="relative mb-4 mr-4 text-sm tracking-wider text-gray-600 uppercase sm:mb-0 din"
+          class="relative mb-4 mr-4 text-sm font-semibold tracking-wider text-gray-600 uppercase sm:mb-0 din"
         >
           Mission Delivery
         </a>
         <a
           data-category="brandStorytelling"
           href="#"
-          class="relative mb-4 mr-4 text-sm tracking-wider text-gray-600 uppercase sm:mb-0 din"
+          class="relative mb-4 mr-4 text-sm font-semibold tracking-wider text-gray-600 uppercase sm:mb-0 din"
         >
           Brand Storytelling
         </a>
         <a
           data-category="fundraisingGrowth"
           href="#"
-          class="relative mb-4 mr-4 text-sm tracking-wider text-gray-600 uppercase sm:mb-0 din"
+          class="relative mb-4 mr-4 text-sm font-semibold tracking-wider text-gray-600 uppercase sm:mb-0 din"
         >
           Fundraising &amp; Growth
         </a>
         <a
           data-category="advocacyAction"
           href="#"
-          class="relative text-sm tracking-wider text-gray-600 uppercase din"
+          class="relative text-sm font-semibold tracking-wider text-gray-600 uppercase din"
         >
           Advocacy &amp; Action
         </a>

@@ -14,10 +14,10 @@
         <h4 class="mt-3 font-medium uppercase text-client-blue sm:mt-0 text-md din">
           {{ caseStudy.node.client }}
         </h4>
-        <h2 class="max-w-sm my-4 text-2xl font-extrabold leading-tight sm:leading-none sm:text-4xl proxima">
+        <h2 class="max-w-md my-4 text-2xl font-extrabold leading-tight sm:leading-none sm:text-4xl proxima">
           {{ caseStudy.node.headline }}
         </h2>
-        <p class="max-w-sm mb-8">
+        <p class="max-w-md mb-8">
           {{ caseStudy.node.campaignDescription }}
         </p>
       </div>

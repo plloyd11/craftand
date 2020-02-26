@@ -26,6 +26,15 @@
       font-size: 3rem;
     }
   }
+  .subtitle {
+    margin-bottom: 18px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    @media (min-width: 1024px) {
+      font-size: 1.75rem;
+    }
+  }
 }
 
 .job-post ul {
