@@ -1,7 +1,7 @@
 ---
 title: Assistant Account Executive
 excerpt: Support the C&C team and help advance some of the world’s leading causes.
-date: 2020-01-15
+date: 2020-02-25T00:00:00-05:00
 tags:
 - ads
 - sem
@@ -14,11 +14,11 @@ slug: digital-ads-manager
 
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
 
-We’re looking for a sharp, ambitious early career professional to join us as an Assistant Account Executive--beginning on a part-time basis, with growth to full-time for the right fit.
+We’re looking for a sharp, ambitious early career professionals to join us as an Assistant Account Executive--beginning on a part-time basis, with growth to full-time for the right fit.
 
 In the Assistant Account Executive role, you’ll help advance some of the world’s leading causes by helping to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
 
-## Ideal candidate will be:
+## _Ideal candidates will be:_
 
 * Hungry to make an impact in the world
 * Eager and quick to learn new digital platforms and approaches
@@ -48,4 +48,4 @@ We offer a flexible, balanced, self-driven culture. We invite you to join us in 
 * Track record of bringing a positive attitude to your work and team
 * Multilingual a plus
 
-Interested? [Let’s talk](mailto:hello@craftand.com "email"). We offer competitive compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow.
+Interested? Let’s talk. We offer competitive compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information to hello@craftand.com.
