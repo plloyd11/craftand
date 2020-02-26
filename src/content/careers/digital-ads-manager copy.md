@@ -1,6 +1,7 @@
 ---
-title: Digital Ads Manager
-excerpt: This is where the short description of the job requirement will go.
+title: Assistant Account Executive
+excerpt: support the C&C team in campaign planning and execution, research and analysis,
+  and crafting marketing communications.
 date: 2020-01-15
 tags:
 - ads
