@@ -8,6 +8,7 @@ module.exports = {
         'main-gray-semi-transparent': 'hsla(345, 6%, 13%,.8)',
         'light-gray': '#ebebeb',
         'header-color': '#2b2b2b',
+        'client-blue': '#4e7fff',
         gray: {
           100: '#f5f5f5',
           200: '#eeeeee',

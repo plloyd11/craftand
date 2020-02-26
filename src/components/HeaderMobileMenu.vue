@@ -19,9 +19,9 @@
           </g-link>
           <g-link
             class="mb-6 text-gray-900 uppercase din hover:underline"
-            to="/our-work/"
+            to="/work/"
           >
-            Our Work
+            Work
           </g-link>
           <g-link
             class="text-gray-900 uppercase din hover:underline"

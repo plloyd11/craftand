@@ -5,8 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Marketing Scaffold',
-  siteDescription: 'A marketing site scaffold that uses Gridsome, GraphQL, TailwindCSS, and Forestry.io',
+  siteName: 'Craft & Commerce',
+  siteUrl: 'https://www.craftand.com/',
+  siteDescription: 'Craft &amp; Commerce is a hands-on team of digital media specialists dedicated to achieving better results, for things that matter.',
   plugins: [{
     use: 'gridsome-plugin-tailwindcss'
   },
@@ -15,6 +16,18 @@ module.exports = {
   },
   {
     use: 'gridsome-plugin-base-components'
+  },
+  {
+    use: 'gridsome-plugin-robots-txt',
+    options: {
+      policy: [
+        {
+          userAgent: '*',
+          allow: '/',
+          crawlDelay: 10
+        }
+      ]
+    }
   },
   {
     use: '@gridsome/source-filesystem',
