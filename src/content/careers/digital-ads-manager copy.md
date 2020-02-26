@@ -48,4 +48,4 @@ We offer a flexible, balanced, self-driven culture. We invite you to join us in 
 * Track record of bringing a positive attitude to your work and team
 * Multilingual a plus
 
-Interested? Let’s talk. We offer competitive compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow.
+Interested? [Let’s talk](mailto:hello@craftand.com "email"). We offer competitive compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow.
