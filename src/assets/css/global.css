@@ -11,11 +11,11 @@ body {
 }
 
 .din {
-  font-family: 'URW DIN', sans-serif;
+  font-family: urw-din, sans-serif;
 }
 
 .proxima {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: proxima-nova, sans-serif;
 }
 
 .text-strike {
