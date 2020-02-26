@@ -82,7 +82,7 @@
           <div class="flex items-center px-12 text-gray-300 border border-white cursor-pointer din form-submit focus:shadow-outline focus:outline-none">
             <input
               id="mc-embedded-subscribe"
-              class="pt-2 leading-none bg-transparent"
+              class="leading-none bg-transparent"
               type="submit"
               value="SUBMIT"
               name="subscribe"

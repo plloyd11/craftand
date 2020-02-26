@@ -4,6 +4,7 @@
       :center-mode="true"
       :autoplay="true"
       :autoplay-speed="10000"
+      :dots="false"
     >
       <div class="slide">
         <div class="flex flex-col items-center justify-center sm:flex-row">
@@ -157,11 +158,12 @@ li {
     justify-content: center;
   }
   &__nav-button {
-    display: none;
+
   }
   &__dots {
     position: relative;
     top: 128px;
+    display: none;
   }
   &__dot {
     margin: 0 10px;

@@ -12,10 +12,11 @@
           New York <span class="lowercase">x</span> Chicago
         </p>
         <span class="mx-4 din font">|</span>
-        <a
-          href="mailto:hello@craftand.com"
+        <p
           class="block text-sm tracking-wide din font"
-        >HELLO@CRAFTAND.COM</a>
+        >
+          HELLO@CRAFTAND.COM
+        </p>
       </div>
       <small class="block mt-4 text-center">Copyright 2020 by Craft &amp; Commerce.</small>
     </section>

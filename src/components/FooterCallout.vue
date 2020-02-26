@@ -6,7 +6,7 @@
     </p>
     <a
       href="https://www.campaignlive.com/article/why-craft-commerce-seeks-work-meaning/1673611"
-      class="px-1 pt-1 text-sm leading-none uppercase bg-primary-color din"
+      class="px-1 py-1 text-sm leading-none uppercase bg-primary-color din"
       target="_blank"
     >
       Link

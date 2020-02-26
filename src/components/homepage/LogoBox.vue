@@ -3,10 +3,10 @@
     <h3 class="mb-12 text-sm tracking-wider text-center uppercase din">
       We're proud to work with:
     </h3>
-    <div class="px-24 logos">
+    <div class="px-6 md:px-24 logos">
       <g-image
         src="~/assets/img/logos/gsusa.png"
-        class="w-24"
+        class="w-16 md:w-20"
         immediate="true"
       />
       <g-image
@@ -16,7 +16,7 @@
       />
       <g-image
         src="~/assets/img/logos/ilrc.png"
-        class="w-24"
+        class="w-12 md:w-20"
         immediate="true"
       />
       <g-image
@@ -31,77 +31,77 @@
       />
       <g-image
         src="~/assets/img/logos/bp.png"
-        class="hidden w-32 sm:block"
+        class="w-32"
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/sff.png"
-        class="hidden w-48 sm:block"
+        class="w-48 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/mtc.png"
-        class="hidden w-48 sm:block"
+        class="w-48 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/autism-speaks.png"
-        class="hidden w-32 sm:block"
+        class="w-32 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/johnson-johnson.png"
-        class="hidden w-48 sm:block"
+        class="w-48 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/bahfa.png"
-        class="hidden w-24 sm:block"
+        class="w-24 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/ncb.png"
-        class="hidden w-48 sm:block"
+        class="w-48 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/macarthur.png"
-        class="hidden w-32 sm:block"
+        class="w-32 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/nyu.png"
-        class="hidden w-48 sm:block"
+        class="w-48 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/kellogg.png"
-        class="hidden w-32 sm:block"
+        class="w-32 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/crr.png"
-        class="hidden w-24 sm:block"
+        class="w-24 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/united.png"
-        class="hidden w-32 sm:block"
+        class="w-32 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/world-bank.png"
-        class="hidden w-48 sm:block"
+        class="w-48 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/carton-council.png"
-        class="hidden w-32 sm:block"
+        class="w-32 "
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/cuny.png"
-        class="hidden w-20 sm:block"
+        class="w-10 md:w-16"
         immediate="true"
       />
     </div>
@@ -120,10 +120,15 @@
 
   .logos {
     display: grid;
-    row-gap: 48px;
-    column-gap: 72px;
-    grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+    row-gap: 24px;
+    column-gap: 64px;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
+    @media (min-width: 768px) {
+        row-gap: 48px;
+        column-gap: 72px;
+        grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+    }
   }
 </style>

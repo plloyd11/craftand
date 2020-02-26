@@ -19,7 +19,7 @@
         </div>
         <div class="border-l-2 lg:w-4/12 border-primary-color">
           <h4 class="pl-4 mb-8 text-lg font-bold tracking-wider text-white uppercase din">
-            WE PROUDLY SERVE
+            WE PROUDLY SERVE:
           </h4>
           <ul class="text-sm tracking-wider text-white uppercase din hero-list">
             <li>Nonprofits</li>
@@ -55,7 +55,7 @@
         <p class="mb-8 text-xl leading-tight sm:text-4xl">
           <span class="block mb-2 sm:mb-4">"I’ve worked with a lot of media folks in my career.</span> The Craft & Commerce team is <br> the smartest and most effective I’ve ever run into.”
         </p>
-        <p class="px-3 pt-2 tracking-wider uppercase din bg-primary-color">
+        <p class="px-3 tracking-wider uppercase din bg-primary-color">
           —Bright Pink
         </p>
       </div>
