@@ -58,28 +58,30 @@
       </div>
     </div>
     <!-- Modal Component -->
-    <TeamModal
-      v-if="showModal"
-      aria-label="close"
-      @close="showModal = false"
-    >
-      <template v-slot:photo>
-        <g-image
-          :src="teamMember.photo"
-          :alt="teamMember.name"
-          class="img-responsive"
-        />
-      </template>
-      <template v-slot:name>
-        {{ teamMember.name }}
-      </template>
-      <template v-slot:title>
-        {{ teamMember.title }}
-      </template>
-      <template v-slot:content>
-        {{ teamMember.fullBio }}
-      </template>
-    </TeamModal>
+    <transition name="modal">
+      <TeamModal
+        v-if="showModal"
+        aria-label="close"
+        @close="showModal = false"
+      >
+        <template v-slot:photo>
+          <g-image
+            :src="teamMember.photo"
+            :alt="teamMember.name"
+            class="img-responsive"
+          />
+        </template>
+        <template v-slot:name>
+          {{ teamMember.name }}
+        </template>
+        <template v-slot:title>
+          {{ teamMember.title }}
+        </template>
+        <template v-slot:content>
+          {{ teamMember.fullBio }}
+        </template>
+      </TeamModal>
+    </transition>
     <!-- Callout -->
     <section class="container max-w-screen-lg px-6 mx-auto mb-12 sm:px-0 join-the-team lg:mb-24">
       <div class="flex flex-col items-center justify-center py-16">
@@ -134,6 +136,15 @@ export default {
     return {
       showModal: false,
       teamMember: {}
+    }
+  },
+  watch: {
+    showModal (item) {
+      if (item) {
+        return document.querySelector('body').classList.add('overflow-hidden')
+      }
+
+      document.querySelector('body').classList.remove('overflow-hidden')
     }
   },
   methods: {

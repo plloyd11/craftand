@@ -1,35 +1,36 @@
 <template>
-  <transition name="modal">
-    <div class="modal-mask">
-      <div class="modal-wrapper">
-        <div class="modal-container">
-          <Close
-            class="modal-default-button"
-            @click="$emit('close')"
-          />
-          <div
-            slot="body"
-            class="modal-body-content"
-          >
-            <div class="modal-body-content_img">
-              <slot name="photo" />
-            </div>
-            <div class="modal-body-content_text">
-              <h2 class="text-3xl font-bold proxima">
-                <slot name="name" />
-              </h2>
-              <h4 class="mb-4 uppercase text-md din">
-                <slot name="title" />
-              </h4>
-              <p class="pr-8">
-                <slot name="content" />
-              </p>
-            </div>
+  <div class="modal-mask">
+    <div
+      class="modal-wrapper"
+      @click.self="$emit('close')"
+    >
+      <div class="modal-container">
+        <Close
+          class="modal-default-button"
+          @click="$emit('close')"
+        />
+        <div
+          slot="body"
+          class="modal-body-content"
+        >
+          <div class="modal-body-content_img">
+            <slot name="photo" />
+          </div>
+          <div class="modal-body-content_text">
+            <h2 class="text-3xl font-bold proxima">
+              <slot name="name" />
+            </h2>
+            <h4 class="mb-4 uppercase text-md din">
+              <slot name="title" />
+            </h4>
+            <p class="pr-8">
+              <slot name="content" />
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </transition>
+  </div>
 </template>
 
 <script>
