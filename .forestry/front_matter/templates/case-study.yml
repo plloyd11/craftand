@@ -57,18 +57,18 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: issueEducation
+  - name: missionDelivery
     type: boolean
-    label: Issue Education
-  - name: behaviorChange
+    label: Mission Delivery
+  - name: brandStorytelling
     type: boolean
-    label: Behavior Change
-  - name: programGrowthDelivery
+    label: Brand Storytelling
+  - name: fundraisingGrowth
     type: boolean
-    label: Program Growth & Delivery
-  - name: leadGeneration
+    label: Fundraising & Growth
+  - name: advocacyAction
     type: boolean
-    label: Lead Generation
+    label: Advocacy & Action
   label: Categories
 - name: mainTakeaway
   type: text

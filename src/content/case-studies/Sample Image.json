@@ -7,10 +7,10 @@
   "campaignDescription": "National Cooperative Bank challenges the banking status quo by offering customers not just competitive rates, but a commitment to community impact. However, delivering this mission-driven message in the hypercompetitive financial services marketplace is no easy task. To validate an effective customer acquisition strategy, C&C took a market-by-market approach, delivering a one-two punch of upper funnel storytelling through podcast advertising and lower funnel search, remarketing, and landing page optimization to capture and convert demand. The result is a digital funnel that fuels sustainable, scaled growth for NCB.",
   "photo": "../../assets/img/craft/CS_HeaderImage_Template.png",
   "categories": {
-    "issueEducation": false,
-    "behaviorChange": false,
-    "programGrowthDelivery": false,
-    "leadGeneration": false
+    "missionDelivery": false,
+    "brandStorytelling": false,
+    "fundraisingGrowth": false,
+    "advocacyAction": false
   },
   "mainTakeaway": "",
   "supportiveText": "",

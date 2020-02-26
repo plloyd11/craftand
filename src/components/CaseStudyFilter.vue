@@ -20,32 +20,32 @@
           All
         </a>
         <a
-          data-category="issueEducation"
+          data-category="missionDelivery"
           href="#"
           class="relative mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
-          Issue Education
+          Mission Delivery
         </a>
         <a
-          data-category="behaviorChange"
+          data-category="brandStorytelling"
           href="#"
           class="relative mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
-          Behavior Change
+          Brand Storytelling
         </a>
         <a
-          data-category="programGrowthDelivery"
+          data-category="fundraisingGrowth"
           href="#"
           class="relative mr-4 text-sm tracking-wider text-gray-600 uppercase din"
         >
-          Program Growth &amp; Delivery
+          Fundraising &amp; Growth
         </a>
         <a
-          data-category="leadGeneration"
+          data-category="advocacyAction"
           href="#"
           class="relative text-sm tracking-wider text-gray-600 uppercase din"
         >
-          Lead Generation
+          Advocacy &amp; Action
         </a>
       </div>
     </div>

@@ -39,10 +39,10 @@
         node {
           campaignDescription
           categories {
-            behaviorChange
-            issueEducation
-            leadGeneration
-            programGrowthDelivery
+            missionDelivery
+            brandStorytelling
+            fundraisingGrowth
+            advocacyAction
           }
           client
           headline
@@ -82,22 +82,22 @@ export default {
   mounted () {
     this.caseStudiesAll = [...this.$static.allCaseStudy.edges]
     this.caseStudiesFiltered = [...this.caseStudiesAll]
-    this.caseStudiesList = this.filterByMaxDisplay()
     this.caseStudiesList = this.filterByLatestDate()
+    this.caseStudiesList = this.filterByMaxDisplay()
     this.loadMore = this.toggleLoadMore()
   },
   methods: {
     onLoadMore () {
       this.maxDisplay += this.maxDisplay
-      this.caseStudiesList = this.filterByMaxDisplay()
       this.caseStudiesList = this.filterByLatestDate()
+      this.caseStudiesList = this.filterByMaxDisplay()
       this.loadMore = this.toggleLoadMore()
     },
     onCategory (category) {
       if (category === 'all') {
         this.caseStudiesFiltered = [...this.caseStudiesAll]
-        this.caseStudiesList = this.filterByMaxDisplay()
         this.caseStudiesList = this.filterByLatestDate()
+        this.caseStudiesList = this.filterByMaxDisplay()
       } else {
         let next
         const all = [...this.caseStudiesAll]
@@ -110,8 +110,8 @@ export default {
           }
           next = all.shift()
         }
-        this.caseStudiesList = this.filterByMaxDisplay()
         this.caseStudiesList = this.filterByLatestDate()
+        this.caseStudiesList = this.filterByMaxDisplay()
       }
       this.category = category
       this.loadMore = this.toggleLoadMore()
@@ -125,6 +125,7 @@ export default {
       )
     },
     toggleLoadMore () {
+      console.log(this.maxDisplay, this.caseStudiesFiltered.length)
       return this.maxDisplay < this.caseStudiesFiltered.length
     }
   }
