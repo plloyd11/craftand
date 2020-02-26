@@ -75,8 +75,8 @@ export default {
       caseStudiesAll: [],
       caseStudiesFiltered: [],
       caseStudiesList: [],
-      loadMore: true,
-      maxDisplay: 8
+      loadMore: false,
+      maxDisplay: 100
     }
   },
   mounted () {
