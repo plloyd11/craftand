@@ -3,7 +3,6 @@
     <agile
       :center-mode="true"
       :autoplay="true"
-      :autoplay-speed="10000"
       :dots="false"
     >
       <div class="slide">
