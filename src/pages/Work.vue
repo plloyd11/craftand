@@ -121,10 +121,43 @@ export default {
       this.loadMore = this.toggleLoadMore()
     },
     filterByMaxDisplay () {
-      return this.caseStudiesFiltered.slice(0, this.maxDisplay)
+      return this.caseStudiesList.slice(0, this.maxDisplay)
     },
     filterByIndex () {
-      return this.caseStudiesList.sort((a, b) => a.node.index > b.node.index)
+      function mergeHelper (left, right) {
+        const result = []
+        let leftIndex = 0
+        let rightIndex = 0
+        while (leftIndex < left.length && rightIndex < right.length) {
+          if (left[leftIndex] < right[rightIndex]) {
+            result.push(left[leftIndex])
+            leftIndex = leftIndex + 1
+          } else {
+            result.push(right[rightIndex]);
+            rightIndex = rightIndex + 1
+          }
+        }
+        while (leftIndex < left.length) {
+          result.push(left[leftIndex])
+          leftIndex = leftIndex + 1
+        }
+        while (rightIndex < right.length) {
+          result.push(right[rightIndex])
+          rightIndex = rightIndex + 1
+        }
+        return result
+      }
+
+      function mergeSort (arr) {
+        if (arr.length === 1) {
+          return arr
+        }
+        const mid = Math.floor(arr.length / 2)
+        const left = arr.slice(0, mid)
+        const right = arr.slice(mid, arr.length)
+        return mergeHelper(mergeSort(left), mergeSort(right))
+      }
+      return mergeSort(this.caseStudiesList)
     },
     toggleLoadMore () {
       return this.maxDisplay < this.caseStudiesFiltered.length
