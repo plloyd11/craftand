@@ -121,7 +121,10 @@ export default {
 
   },
   metaInfo: {
-    title: 'Craft & Commerce | The Action Agency'
+    title: 'Better Results, For Things That Matter',
+    meta: [
+      { name: 'description', content: 'We\'re dedicated to helping nonprofits, foundations, public sector organizations, and purposeful brands amplify their storytelling and drive real-world results.' }
+    ]
   },
   data () {
     return {

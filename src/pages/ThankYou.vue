@@ -18,7 +18,10 @@
 
 export default {
   metaInfo: {
-    title: 'Thank You'
+    title: 'Thank You',
+    meta: [
+      { name: 'description', content: 'Thank you for filling out our form!' }
+    ]
   }
 }
 </script>
