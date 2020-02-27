@@ -68,7 +68,10 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Careers'
+    title: 'Join Us',
+    meta: [
+      { name: 'description', content: 'Join our growing team of purpose-driven paid and digital media specialists dedicated to achieving better results, for things that matter.' }
+    ]
   }
 }
 </script>

@@ -67,7 +67,11 @@ import ServicesCarousel from '~/components/ServicesCarousel.vue'
 
 export default {
   metaInfo: {
-    title: 'Services'
+    name: 'Services',
+    title: 'Our Services',
+    meta: [
+      { key: 'description', name: 'description', content: 'Craft & Commerce blends leading-edge paid and digital media capabilities with a collaborative, in-house partner mentality.' }
+    ]
   },
   components: {
     Tools,
