@@ -29,7 +29,7 @@ export default function (Vue, { router, head, isClient }) {
 
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://craftand.s3.amazonaws.com/css/carousel.css'
+    href: 'https://craftand.s3.amazonaws.com/new-carousel.css'
   })
 
   head.bodyAttrs = {
