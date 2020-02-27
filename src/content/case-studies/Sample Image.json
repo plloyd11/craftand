@@ -8,7 +8,7 @@
   "photo": "../../assets/img/craft/CS_HeaderImage_NCB.png",
   "categories": {
     "missionDelivery": false,
-    "brandStorytelling": false,
+    "brandStorytelling": true,
     "fundraisingGrowth": false,
     "advocacyAction": false
   },
