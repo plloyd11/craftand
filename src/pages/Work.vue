@@ -46,9 +46,9 @@
           }
           client
           headline
+          index
           path
           photo
-          pubDate
           slug
         }
       }
@@ -82,21 +82,24 @@ export default {
   mounted () {
     this.caseStudiesAll = [...this.$static.allCaseStudy.edges]
     this.caseStudiesFiltered = [...this.caseStudiesAll]
-    this.caseStudiesList = this.filterByLatestDate()
+    this.caseStudiesList = this.caseStudiesFiltered
+    this.caseStudiesList = this.filterByIndex()
     this.caseStudiesList = this.filterByMaxDisplay()
     this.loadMore = this.toggleLoadMore()
   },
   methods: {
     onLoadMore () {
       this.maxDisplay += this.maxDisplay
-      this.caseStudiesList = this.filterByLatestDate()
+      this.caseStudiesList = this.caseStudiesFiltered
+      this.caseStudiesList = this.filterByIndex()
       this.caseStudiesList = this.filterByMaxDisplay()
       this.loadMore = this.toggleLoadMore()
     },
     onCategory (category) {
       if (category === 'all') {
         this.caseStudiesFiltered = [...this.caseStudiesAll]
-        this.caseStudiesList = this.filterByLatestDate()
+        this.caseStudiesList = this.caseStudiesFiltered
+        this.caseStudiesList = this.filterByIndex()
         this.caseStudiesList = this.filterByMaxDisplay()
       } else {
         let next
@@ -110,7 +113,8 @@ export default {
           }
           next = all.shift()
         }
-        this.caseStudiesList = this.filterByLatestDate()
+        this.caseStudiesList = this.caseStudiesFiltered
+        this.caseStudiesList = this.filterByIndex()
         this.caseStudiesList = this.filterByMaxDisplay()
       }
       this.category = category
@@ -119,13 +123,10 @@ export default {
     filterByMaxDisplay () {
       return this.caseStudiesFiltered.slice(0, this.maxDisplay)
     },
-    filterByLatestDate () {
-      return this.caseStudiesList.sort(
-        (a, b) => new Date(b.node.pubDate) - new Date(a.node.pubDate)
-      )
+    filterByIndex () {
+      return this.caseStudiesList.sort((a, b) => a.node.index > b.node.index)
     },
     toggleLoadMore () {
-      console.log(this.maxDisplay, this.caseStudiesFiltered.length)
       return this.maxDisplay < this.caseStudiesFiltered.length
     }
   }
