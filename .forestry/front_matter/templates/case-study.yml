@@ -155,6 +155,18 @@ fields:
   label: Client Name & Title
   description: Enter the clients name and title. Use a carriage return to separate
     these two pieces of information.
+- name: index
+  type: number
+  label: Index
+  description: Case Studies are sorted by index, with lower values appearing higher
+    in the list.
+  default: 0
+  required: true
+  config:
+    min: '0'
+    max: 
+    step: '1'
+    required: true
 pages:
 - src/content/case-studies/3Ps2019.json
 - src/content/case-studies/Autism Speaks.json
