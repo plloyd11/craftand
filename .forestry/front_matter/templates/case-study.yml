@@ -23,7 +23,7 @@ fields:
   type: number
   label: Index
   description: Case Studies are sorted by index, with lower values appearing higher
-    in the list.
+    in the list
   default: 0
   required: true
   config:
