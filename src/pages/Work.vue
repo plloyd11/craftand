@@ -132,11 +132,11 @@ export default {
         let leftIndex = 0
         let rightIndex = 0
         while (leftIndex < left.length && rightIndex < right.length) {
-          if (left[leftIndex] < right[rightIndex]) {
+          if (left[leftIndex].node.index < right[rightIndex].node.index) {
             result.push(left[leftIndex])
             leftIndex = leftIndex + 1
           } else {
-            result.push(right[rightIndex]);
+            result.push(right[rightIndex])
             rightIndex = rightIndex + 1
           }
         }
