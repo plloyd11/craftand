@@ -13,6 +13,9 @@ import HeaderMobile from '~/components/HeaderMobile.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
+  metaInfo: {
+    titleTemplate: 'Craft & Commerce | %s'
+  },
   components: {
     Header,
     HeaderMobile,

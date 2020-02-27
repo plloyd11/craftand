@@ -3,7 +3,7 @@
     <!-- Hero -->
     <section class="mt-12 lg:mt-20 hero">
       <div class="container px-6 mx-auto">
-        <h1 class="mb-4 text-3xl font-extrabold lg:text-5xl proxima">
+        <h1 class="mb-8 text-3xl font-extrabold leading-none lg:text-5xl proxima">
           Good <span class="text-strike">together</span>
         </h1>
         <p class="max-w-screen-md mb-6 text-xl leading-normal">
@@ -63,7 +63,10 @@ import CaseStudyList from '@/components/CaseStudyList.vue'
 export default {
   name: 'CaseStudies',
   metaInfo: {
-    title: 'Our Work'
+    title: 'Our Work',
+    meta: [
+      { name: 'description', content: 'Craft & Commerce is proud to be the paid and digital media partner of leading nonprofits, foundations, public sector organizations, and purposeful brands.' }
+    ]
   },
   components: {
     CaseStudyFilter,
