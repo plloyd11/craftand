@@ -1,13 +1,13 @@
 ---
 title: Assistant Account Executive
 excerpt: Support the C&C team and help advance some of the world’s leading causes.
-date: 2020-02-25T00:00:00-05:00
+date: 2020-02-25T05:00:00.000+00:00
 tags:
 - ads
 - sem
 - sales
 cover_image: "../img/career-photo.png"
-slug: digital-ads-manager
+slug: assistant-account-executive
 
 ---
 # Assistant Account Executive
