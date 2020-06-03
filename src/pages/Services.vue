@@ -8,13 +8,13 @@
             Leading-edge capabilities, <br> in-house mentality
           </h2>
           <p class="max-w-screen-sm mb-6 text-base leading-normal text-white">
-            C&C is a hands-on team of paid and digital media specialists. At our core, we turn the knobs and the pull levers that power campaign success.
+            C&amp;C is a hands-on team of paid and digital media specialists. At our core, we turn the knobs and pull the levers that power campaign success.
           </p>
           <p class="max-w-screen-sm mb-6 text-base leading-normal text-white">
             But what’s mission critical in today’s dynamic, evolving media landscape isn’t just knowing how to push the buttons, it’s knowing when and why to push them, and which ones to push next.
           </p>
           <p class="max-w-screen-sm mb-6 text-base leading-normal text-white">
-            That is what truly sets C&C apart, and is the beating heart of the work that we do. We’re humbled that our clients have referred to us a “force multiplier”— not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern marketing era.
+            That is what truly sets C&amp;C apart, and is the beating heart of the work that we do. We’re humbled that our clients have referred to us a “force multiplier”— not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern marketing era.
           </p>
         </div>
         <div class="border-l-2 lg:w-4/12 border-primary-color">
