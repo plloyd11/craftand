@@ -4,15 +4,14 @@ tags:
 - " Content Strategy"
 - jobs
 title: Content Strategist/Copywriter
-excerpt: We’re looking for a sharp, ambitious Content Strategist and copywriter.
+excerpt: We’re looking for a sharp, ambitious Content Strategist and Copywriter.
 date: 2020-06-16T03:00:00-04:00
 cover_image: "../../assets/img/craft/copywritercontentstrategy3.png"
 slug: content-strategist-copywriter
 
 ---
 
-#####   
-Work with Craft & Commerce
+##### 
 
 # **Content Strategist & Copywriter**
 
