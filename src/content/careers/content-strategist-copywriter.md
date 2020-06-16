@@ -10,6 +10,7 @@ cover_image: "../../assets/img/craft/copywritercontentstrategy3.png"
 slug: content-strategist-copywriter
 
 ---
+
 # **Content Strategist & Copywriter**
 
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
@@ -48,4 +49,7 @@ We offer a flexible, balanced, self-driven culture. This role will begin as part
 * 5+ years of experience writing for an agency or freelance
 * Ability to research and learn about a wide range of topics
 
-Interested? [Let’s talk](mailto:hello@craftand.com "email"). We offer competitive compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow.
+Interested? Let's talk. We offer competitive compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow.
+
+  
+[DROP US A LINE](mailto:karen@craftand.com "email") 
