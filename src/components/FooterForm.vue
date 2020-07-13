@@ -1,5 +1,8 @@
 <template>
-  <section class="flex flex-col items-center justify-center px-6 py-12 sm:py-0 sm:w-8/12 bg-main-gray">
+  <section
+    id="newsletter-signup"
+    class="flex flex-col items-center justify-center px-6 py-12 sm:py-0 sm:w-8/12 bg-main-gray"
+  >
     <h2 class="mb-4 text-2xl font-bold leading-tight text-center lg:mb-2 lg:text-3xl text-primary-color proxima">
       The best way forward is together.
     </h2>
