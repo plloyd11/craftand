@@ -45,4 +45,4 @@ We offer a flexible, balanced, self-driven culture. This role will begin as free
 
 Interested? Let’s talk. We offer competitive compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow.
 
-##### [DROP US A LINE](mailto:karen@craftand.com "email")
+[DROP US A LINE](mailto:karen@craftand.com "email")
