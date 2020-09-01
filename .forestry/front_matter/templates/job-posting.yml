@@ -45,5 +45,4 @@ fields:
   description: Custom URL for job posting. Needs to be lowercase & separated by hyphens
 pages:
 - src/content/careers/content-strategist-copywriter.md
-- src/content/careers/freelance-copywriter-1.md
 - src/content/careers/freelance-copywriter.md
