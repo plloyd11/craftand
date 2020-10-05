@@ -10,13 +10,13 @@
         immediate="true"
       />
       <g-image
-        src="~/assets/img/logos/sfmta.png"
-        class="w-32"
+        src="~/assets/img/logos/johnson-johnson.png"
+        class="w-48 "
         immediate="true"
       />
       <g-image
-        src="~/assets/img/logos/ilrc.png"
-        class="w-12 md:w-20"
+        src="~/assets/img/logos/cmoa.png"
+        class="w-24 md:w-48"
         immediate="true"
       />
       <g-image
@@ -50,8 +50,8 @@
         immediate="true"
       />
       <g-image
-        src="~/assets/img/logos/johnson-johnson.png"
-        class="w-48 "
+        src="~/assets/img/logos/verizon.png"
+        class="w-32 "
         immediate="true"
       />
       <g-image
@@ -75,13 +75,13 @@
         immediate="true"
       />
       <g-image
-        src="~/assets/img/logos/kellogg.png"
+        src="~/assets/img/logos/rubicon.png"
         class="w-32 "
         immediate="true"
       />
       <g-image
-        src="~/assets/img/logos/crr.png"
-        class="w-24 "
+        src="~/assets/img/logos/nflpa.png"
+        class="w-32 "
         immediate="true"
       />
       <g-image

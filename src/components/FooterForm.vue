@@ -15,7 +15,6 @@
       action="https://craftand.us15.list-manage.com/subscribe/post?u=fddf53c8e5bc7f77de77b73d4&amp;id=efe67cf7d9"
       method="post"
       name="mc-embedded-subscribe-form"
-      target="_blank"
       novalidate
     >
       <div class="mx-auto mb-6 footer-form_row-1">

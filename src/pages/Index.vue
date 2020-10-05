@@ -7,7 +7,7 @@
         <span class="text-strike">Our mission</span> is to more effectively harness paid media to advance <span class="text-strike">your mission.</span>
       </h1>
       <p class="w-full mx-auto text-center sm:w-7/12 text-md sm:text-xl">
-        Craft &amp; Commerce is the only agency that’s dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
+        Craft &amp; Commerce is dedicated to helping mission-driven marketers thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team of digital and paid media specialists delivers better, smarter marketing strategies that empower purposeful brands to amplify their storytelling and drive real-world results.
       </p>
     </section>
     <section class="mt-12 lg:mt-24">

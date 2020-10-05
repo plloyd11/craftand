@@ -22,12 +22,12 @@
             WE PROUDLY SERVE:
           </h4>
           <ul class="text-sm tracking-wider text-white uppercase din hero-list">
-            <li>Nonprofits</li>
-            <li>Foundations</li>
-            <li>Advocacy Organizations</li>
-            <li>Purpose-Driven Brands</li>
-            <li>Educational and Cultural Institutions</li>
-            <li>Civic Agencies</li>
+            <li>PURPOSE-DRIVEN BRANDS</li>
+            <li>CIVIC AND CULTURAL INSTITUTIONS</li>
+            <li>NONPROFITS</li>
+            <li>FOUNDATIONS</li>
+            <li>ADVOCACY ORGANIZATIONS</li>
+            <li>PUBLIC AGENCIES</li>
           </ul>
         </div>
       </div>
