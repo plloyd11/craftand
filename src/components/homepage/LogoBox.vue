@@ -16,7 +16,7 @@
       />
       <g-image
         src="~/assets/img/logos/cmoa.png"
-        class="w-24 md:w-48"
+        class="w-24 md:w-32"
         immediate="true"
       />
       <g-image
