@@ -1,32 +1,40 @@
 <template>
-  <section class="flex flex-col items-center justify-center px-24 py-12 lg:py-24 sm:w-4/12 bg-main-gray-faded">
-    <Interview class="w-24 mx-auto mb-12" />
+  <section
+    class="flex flex-col items-center justify-center px-24 py-12 lg:py-24 sm:w-5/12 lg:w-4/12 bg-main-gray-faded"
+  >
+    <DollarsChange class="w-48 mx-auto mb-10" />
     <p class="w-64 mb-8 text-lg text-center text-white">
-      Campaign US interviews Mark and Jordan about their "purposeful" approach to life and work, out of which C&C was born.
+      Just for nonprofit marketers, our new, bimonthly email covers the
+      intersection of modern advertising and doing good in the world.
     </p>
     <a
-      href="https://www.campaignlive.com/article/why-craft-commerce-seeks-work-meaning/1673611"
+      href="https://mailchi.mp/818ef1c35d14/dollars-and-change"
       class="px-1 py-1 text-sm leading-none uppercase bg-primary-color din"
       target="_blank"
     >
-      Link
+      Sign Up
       <RightArrow class="inline-block w-2 pb-1" />
     </a>
   </section>
 </template>
 
 <script>
-import Interview from '~/assets/img/icons/interview.svg'
-import RightArrow from '@/assets/img/icons/right-arrow.svg'
+import DollarsChange from '~/assets/img/icons/dollars-change.svg';
+import RightArrow from '@/assets/img/icons/right-arrow.svg';
 
 export default {
   components: {
-    Interview,
+    DollarsChange,
     RightArrow
   }
-}
+};
 </script>
 
-<style>
-
+<style scoped>
+.cls-1 {
+  fill: #2bf9be;
+}
+.cls-2 {
+  fill: #fff;
+}
 </style>
