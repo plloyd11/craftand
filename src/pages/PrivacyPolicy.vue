@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main class="my-12">
-      <section class="max-w-4xl mx-auto">
+      <section class="max-w-4xl px-4 mx-auto sm:px-6 lg:px-8">
         <h1
           class="mb-2 text-3xl font-extrabold leading-none lg:text-5xl proxima"
         >
