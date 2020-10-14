@@ -8,7 +8,7 @@
       intersection of modern advertising and doing good in the world.
     </p>
     <a
-      href="https://mailchi.mp/818ef1c35d14/dollars-and-change"
+      href="https://mailchi.mp/craftand/dollars-and-change"
       class="px-1 py-1 text-sm leading-none uppercase bg-primary-color din"
       target="_blank"
     >
