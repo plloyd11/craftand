@@ -27,9 +27,14 @@
     "@gridsome/transformer-json": "^0.2.1",
     "@gridsome/transformer-remark": "^0.4.0",
     "@noxify/gridsome-remark-classes": "^1.0.0",
-    "gridsome": "latest",
+    "autoprefixer": "^9",
+    "gridsome": "^0.7.23",
     "gridsome-plugin-base-components": "0.0.12",
     "gridsome-plugin-robots-txt": "^1.0.2",
+    "postcss": "^7",
+    "postcss-loader": "^4.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "tailwindcss-plugin-fancy": "^2.6.2",
     "vue-agile": "^1.0.11"
   },
   "devDependencies": {
@@ -42,12 +47,10 @@
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^6.1.2",
     "gridsome-plugin-svg": "0.0.10",
-    "gridsome-plugin-tailwindcss": "^2.2.32",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     "snazzy": "^8.0.0",
     "standard": "^14.3.1",
-    "tailwindcss-plugin-fancy": "1.0.2",
     "vue-svg-loader": "^0.15.0"
   }
 }

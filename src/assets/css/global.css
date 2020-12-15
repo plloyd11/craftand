@@ -18,6 +18,10 @@ body {
   font-family: proxima-nova, sans-serif;
 }
 
+.pt-mono {
+  font-family: pt-mono, sans-serif;
+}
+
 .text-strike {
   position: relative;
   display: inline-block;

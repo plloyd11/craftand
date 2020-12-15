@@ -2,11 +2,7 @@
   <header class="px-6 py-5 shadow-md bg-main-gray">
     <div class="container flex items-center justify-between mx-auto">
       <div>
-        <g-link
-          exact
-          to="/"
-          class="relative"
-        >
+        <g-link exact to="/" class="relative">
           <g-image
             src="~/assets/img/global/logo.png"
             class="header-logo"
@@ -44,15 +40,8 @@
           class="w-12 cursor-pointer md:ml-8 lg:ml-12"
           @click="toggle"
         />
-        <transition
-          name="slide-in"
-          mode="out-in"
-        >
-          <HeaderForm
-            v-if="isOpen"
-            class="header-form"
-            @close="toggle"
-          />
+        <transition name="slide-in" mode="out-in">
+          <HeaderForm v-if="isOpen" class="header-form" @close="toggle" />
         </transition>
       </nav>
     </div>
@@ -66,13 +55,13 @@ export default {
   components: {
     HeaderForm
   },
-  data () {
+  data() {
     return {
       isOpen: false
     }
   },
   methods: {
-    toggle () {
+    toggle() {
       this.isOpen = !this.isOpen
       document.body.classList.toggle('no-flow')
     }
@@ -89,7 +78,6 @@ export default {
 </static-query>
 
 <style lang="scss" scoped>
-
 nav {
   a {
     position: relative;
@@ -131,12 +119,11 @@ nav {
 
 .slide-in-enter-active,
 .slide-in-leave-active {
-  transition: all .45s ease-in-out;
+  transition: all 0.45s ease-in-out;
 }
 
 .slide-in-leave-to {
   transform: translateX(100%);
   opacity: 0;
 }
-
 </style>

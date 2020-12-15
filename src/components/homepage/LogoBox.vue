@@ -11,7 +11,7 @@
       />
       <g-image
         src="~/assets/img/logos/johnson-johnson.png"
-        class="w-48 "
+        class="w-48"
         immediate="true"
       />
       <g-image
@@ -24,79 +24,55 @@
         class="w-48"
         immediate="true"
       />
+      <g-image src="~/assets/img/logos/cz.png" class="w-24" immediate="true" />
+      <g-image src="~/assets/img/logos/bp.png" class="w-32" immediate="true" />
+      <g-image src="~/assets/img/logos/sff.png" class="w-48" immediate="true" />
+      <g-image src="~/assets/img/logos/mtc.png" class="w-48" immediate="true" />
       <g-image
-        src="~/assets/img/logos/cz.png"
-        class="w-24"
-        immediate="true"
-      />
-      <g-image
-        src="~/assets/img/logos/bp.png"
+        src="~/assets/img/logos/autism-speaks.png"
         class="w-32"
         immediate="true"
       />
       <g-image
-        src="~/assets/img/logos/sff.png"
-        class="w-48 "
-        immediate="true"
-      />
-      <g-image
-        src="~/assets/img/logos/mtc.png"
-        class="w-48 "
-        immediate="true"
-      />
-      <g-image
-        src="~/assets/img/logos/autism-speaks.png"
-        class="w-32 "
-        immediate="true"
-      />
-      <g-image
         src="~/assets/img/logos/verizon.png"
-        class="w-32 "
+        class="w-32"
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/bahfa.png"
-        class="w-24 "
+        class="w-24"
         immediate="true"
       />
-      <g-image
-        src="~/assets/img/logos/ncb.png"
-        class="w-48 "
-        immediate="true"
-      />
+      <g-image src="~/assets/img/logos/ncb.png" class="w-48" immediate="true" />
       <g-image
         src="~/assets/img/logos/macarthur.png"
-        class="w-32 "
+        class="w-32"
         immediate="true"
       />
-      <g-image
-        src="~/assets/img/logos/nyu.png"
-        class="w-48 "
-        immediate="true"
-      />
+      <g-image src="~/assets/img/logos/nyu.png" class="w-48" immediate="true" />
       <g-image
         src="~/assets/img/logos/rubicon.png"
-        class="w-32 "
+        class="w-32"
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/nflpa.png"
-        class="w-32 "
+        class="w-32"
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/united.png"
-        class="w-32 "
+        class="w-32"
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/world-bank.png"
-        class="w-48 "
+        class="w-48"
         immediate="true"
       />
       <g-image
         src="~/assets/img/logos/carton-council.png"
-        class="w-32 "
+        class="w-32"
         immediate="true"
       />
       <g-image
@@ -108,27 +84,27 @@
   </section>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style lang="scss" scoped>
-  .logo-box {
-    width: 100%;
-    background: url('~@/assets/img/global/gray-decorated-square.png') no-repeat center center;
-    background-size: cover;
-  }
+.logo-box {
+  width: 100%;
+  background: url('~@/assets/img/global/gray-decorated-square.png') no-repeat
+    center center;
+  background-size: cover;
+}
 
-  .logos {
-    display: grid;
-    row-gap: 24px;
-    column-gap: 64px;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    @media (min-width: 768px) {
-        row-gap: 48px;
-        column-gap: 72px;
-        grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
-    }
+.logos {
+  display: grid;
+  row-gap: 24px;
+  column-gap: 64px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  @media (min-width: 768px) {
+    row-gap: 48px;
+    column-gap: 72px;
+    grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
   }
+}
 </style>

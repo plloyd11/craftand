@@ -1,4 +1,12 @@
 module.exports = {
+  purge: {
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      './src/pages/**/*.vue',
+      './src/components/**/*.vue',
+      './src/templates/*.vue'
+    ]
+  },
   theme: {
     extend: {
       colors: {
@@ -24,7 +32,5 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: [
-    require('tailwindcss-plugin-fancy')
-  ]
+  plugins: [require('tailwindcss-plugin-fancy')]
 }
