@@ -1,42 +1,46 @@
 <template>
   <main class="py-12 bg-gray-200">
-    <div class="max-w-4xl mx-auto space-y-12">
-      <g-link to="/">
+    <div
+      class="max-w-screen-xl px-4 mx-auto space-y-8 lg:space-y-16 sm:px-6 lg:px-8"
+    >
+      <div class="max-w-screen-md py-3 mx-auto">
+        <g-link to="/" target="_blank">
+          <g-image
+            src="~/assets/img/2020/hero.png"
+            class="mx-auto"
+            immediate="true"
+          />
+        </g-link>
+      </div>
+      <div class="max-w-screen-md py-3 mx-auto">
         <g-image
-          src="~/assets/img/2020/mono-crt.png"
-          class="w-32 mx-auto"
-          immediate="true"
-        />
-      </g-link>
-      <div class="max-w-xl py-3 mx-auto">
-        <g-image
-          src="~/assets/img/2020/hero.png"
+          src="~/assets/img/2020/header-text.png"
           class="mx-auto"
           immediate="true"
         />
       </div>
-      <div class="max-w-2xl mx-auto space-y-8">
-        <p class="text-center pt-mono">
+      <div class="max-w-screen-md mx-auto space-y-8">
+        <p class="text-xl text-center pt-mono">
           Turns out, two decades later we've found ourselves in perhaps the
           strangest of years.
         </p>
-        <p class="text-center pt-mono">
-          So, this holiday, we look back to 2000, year of renting The Matrix at
+        <p class="text-xl text-center pt-mono">
+          This holiday, we look back to 2000, year of renting The Matrix at
           Blockbuster, printing directions from MapQuest, a hotly contested
           presidential election (Bush v. Gore, for those feeling dejavu), and,
-          of course, the desktop background.
+          of course, <span class="font-bold">the desktop background</span>.
         </p>
-        <p class="text-center pt-mono">
+        <p class="text-xl text-center pt-mono">
           Few things are more representative of our professional life in 2020
           than the amount of time we've spent staring into screens. And we felt
           like a change of desktop scenery might be useful for us all.
         </p>
-        <p class="text-center pt-mono">
-          So, this holiday, we’re offering desktop-friendly works that inspire
-          us as we head into the new year — one that we hope builds us back up,
-          in mind, body, and spirit.
+        <p class="text-xl text-center pt-mono">
+          So we’re offering desktop-friendly works that inspire us as we head
+          into the new year — one that we hope builds us back up, in mind, body,
+          and spirit.
         </p>
-        <p class="text-center pt-mono">
+        <p class="text-xl text-center pt-mono">
           <span class="font-bold">
             Plus, we’re making a donation to
             <a
@@ -65,11 +69,16 @@
             :alt="download.caption"
           />
           <div class="flex items-center justify-between mt-6">
-            <p class="font-medium lg:max-w-xl din">{{ download.caption }}</p>
+            <p class="pr-12 font-medium lg:pr-0 lg:max-w-xl din">
+              {{ download.caption }}
+            </p>
             <a
-              :href="`https://craftand.s3.amazonaws.com/${download.name}.png`"
+              :href="`/img/2020-wallpaper/${
+                download.name
+              }.png?utm_source=email&utm_medium=organic&utm_campaign=holiday-card-download&utm_term=${
+                download.id + 1
+              }`"
               target="_blank"
-              rel="noopener"
               class="px-4 py-2 text-sm font-medium uppercase border din border-main-gray"
             >
               Download
@@ -133,15 +142,21 @@ export default {
         },
         {
           id: 4,
-          name: 'DesktopBG_Angela',
+          name: 'DesktopBG_DeepDive',
           caption:
-            'In social justice, government, science and art, monumental work is underway to create a better world.'
+            'Deep dives aren’t just for data anymore: we’re all unearthing depths patience, strength, and imagination we didn’t know we were capable of.'
         },
         {
           id: 5,
+          name: 'DesktopBG_Angela',
+          caption:
+            'It may look messy at times, but throughout social justice, government, science and art, monumental work is underway to create a better world.'
+        },
+        {
+          id: 6,
           name: 'DesktopBG_Rearview',
           caption:
-            'Whatever adventures, experiences and reunions await you, we wish you all the health and joy possible.'
+            'Whatever adventures, experiences and reunions await you, we wish you all the health and joy possible. '
         }
       ]
     }
