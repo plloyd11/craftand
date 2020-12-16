@@ -139,9 +139,9 @@ export default {
     }
   },
   metaInfo: {
-    title: '2020 Holiday Page',
+    title: 'Happy Holidays 2020',
     meta: [
-      { key: 'description', name: 'description', content: 'We reimagine the way that causes deploy their marketing dollars, creating more modern strategies, more effective media plans, and more real-world impact.' }
+      { key: 'description', name: 'description', content: 'The team at Craft&Commerce wishes you the best this holiday season' }
     ]
   }
 }
