@@ -1,83 +1,63 @@
 <template>
   <main class="py-12 bg-gray-200">
-    <div
-      class="max-w-screen-xl px-4 mx-auto space-y-8 lg:space-y-16 sm:px-6 lg:px-8"
-    >
+    <div class="max-w-screen-xl px-4 mx-auto space-y-8 lg:space-y-16 sm:px-6 lg:px-8">
       <div class="max-w-screen-md py-3 mx-auto">
         <g-link to="/" target="_blank">
-          <g-image
-            src="~/assets/img/2020/hero.png"
-            class="mx-auto"
-            immediate="true"
-          />
+          <g-image src="~/assets/img/2020/hero.png" class="mx-auto" immediate="true" />
         </g-link>
       </div>
       <div class="max-w-screen-md py-3 mx-auto">
-        <g-image
-          src="~/assets/img/2020/header-text.png"
-          class="mx-auto"
-          immediate="true"
-        />
+        <g-image src="~/assets/img/2020/header-text.png" class="mx-auto" immediate="true" />
       </div>
-      <div class="max-w-screen-md mx-auto space-y-8">
+      <div class="max-w-screen-lg mx-auto space-y-8">
         <p class="text-xl text-center pt-mono">
-          Turns out, two decades later we've found ourselves in perhaps the
-          strangest of years.
+          Turns out, two decades later we've found ourselves in perhaps the strangest of years.
         </p>
         <p class="text-xl text-center pt-mono">
-          This holiday, we look back to 2000, year of renting The Matrix at
-          Blockbuster, printing directions from MapQuest, a hotly contested
-          presidential election (Bush v. Gore, for those feeling dejavu), and,
-          of course, <span class="font-bold">the desktop background</span>.
+          This holiday, we look back to 2000, year of renting The Matrix at Blockbuster, printing directions from
+          MapQuest, a hotly contested presidential election (Bush v. Gore, for those feeling dejavu), and, of course,
+          <span class="font-bold">the desktop background</span>.
         </p>
         <p class="text-xl text-center pt-mono">
-          Few things are more representative of our professional life in 2020
-          than the amount of time we've spent staring into screens. And we felt
-          like a change of desktop scenery might be useful for us all.
+          Few things are more representative of our professional life in 2020 than the amount of time we've spent
+          staring into screens. And we felt like a change of desktop scenery might be useful for us all.
         </p>
         <p class="text-xl text-center pt-mono">
-          So we’re offering desktop-friendly works that inspire us as we head
-          into the new year — one that we hope builds us back up, in mind, body,
-          and spirit.
+          So we’re offering desktop-friendly works that inspire us as we head into the new year — one that we hope
+          builds us back up, in mind, body, and spirit.
         </p>
         <p class="text-xl text-center pt-mono">
           <span class="font-bold">
             Plus, we’re making a donation to
             <a
-              href="https://hotbreadkitchen.org/"
-              target="_blank"
-              rel="noopener"
-              class="text-blue-500 underline"
+                href="https://hotbreadkitchen.org/"
+                target="_blank"
+                rel="noopener"
+                class="text-blue-500 underline"
             >
-              Hot Bread Kitchen
-            </a>
+              Hot Bread Kitchen</a>
             this holiday, and will add $5 for every wallpaper downloaded below.
           </span>
-          Supporting women, immigrants, and people of color through careers in
-          New York City’s food industry, HBK has pivoted in 2020 to help bolster
-          an industry devastated by COVID through their “Recipes for Resilience”
-          program, providing meal relief, small business support, career path
-          development, and much more. At the end of the day, we’re grateful to
-          be staring into our screens, and are mindful of those whose
-          livelihoods haven’t afforded them that opportunity.
+          Supporting women, immigrants, and people of color through careers in New York City’s food industry, HBK has
+          pivoted in 2020 to help bolster an industry devastated by COVID through their “Recipes for Resilience”
+          program, providing meal relief, small business support, career path development, and much more. At the end of
+          the day, we’re grateful to be staring into our screens, and are mindful of those whose livelihoods haven’t
+          afforded them that opportunity.
         </p>
       </div>
       <div class="mx-auto space-y-24">
         <div v-for="download in downloads" :key="download.id">
           <g-image
-            :src="require(`!!assets-loader!@img/2020/${download.name}.png`)"
+            :src="require(`!!assets-loader!@img/2020/${download.name}.jpg`)"
             :alt="download.caption"
+            immediate="true"
           />
           <div class="flex items-center justify-between mt-6">
             <p class="pr-12 font-medium lg:pr-0 lg:max-w-xl din">
               {{ download.caption }}
             </p>
             <a
-              :href="`/img/2020-wallpaper/${
-                download.name
-              }.png?utm_source=email&utm_medium=organic&utm_campaign=holiday-card-download&utm_term=${
-                download.id + 1
-              }`"
+              :href="`/img/2020-wallpaper/${download.name}.png`"
               target="_blank"
               class="px-4 py-2 text-sm font-medium uppercase border din border-main-gray"
             >
@@ -114,14 +94,13 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       downloads: [
         {
           id: 0,
           name: 'DesktopBG_RBG',
-          caption:
-            'In honor of RBG: inspiring us to be decisive, compassionate champions of justice.'
+          caption: 'In honor of RBG: inspiring us to be decisive, compassionate champions of justice.'
         },
         {
           id: 1,
@@ -131,20 +110,18 @@ export default {
         {
           id: 2,
           name: 'DesktopBG_Bestlife',
-          caption:
-            'No matter what your new normal looks like — we wish you health and humor this new year.'
+          caption: 'No matter what your new normal looks like — we wish you health and humor this new year.'
         },
         {
           id: 3,
           name: 'DesktopBG_Collage',
-          caption:
-            'From the tidepool to the stars, we can’t help but be humbled by our interconnectedness.'
+          caption: 'From the tidepool to the stars, we can’t help but be humbled by our interconnectedness.'
         },
         {
           id: 4,
           name: 'DesktopBG_DeepDive',
           caption:
-            'Deep dives aren’t just for data anymore: we’re all unearthing depths patience, strength, and imagination we didn’t know we were capable of.'
+            'Deep dives aren’t just for data anymore: we’re all unearthing depths of patience, strength, and imagination we didn’t know we were capable of.'
         },
         {
           id: 5,
@@ -160,6 +137,12 @@ export default {
         }
       ]
     }
+  },
+  metaInfo: {
+    title: '2020 Holiday Page',
+    meta: [
+      { key: 'description', name: 'description', content: 'We reimagine the way that causes deploy their marketing dollars, creating more modern strategies, more effective media plans, and more real-world impact.' }
+    ]
   }
 }
 </script>
