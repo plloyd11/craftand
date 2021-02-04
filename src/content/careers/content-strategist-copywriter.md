@@ -18,7 +18,9 @@ slug: freelance-journalist
 
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
 
-We’re looking for a talented journalist to report on nonprofit advertising campaigns, marketing strategy, and paid media news for our agency’s recurring resource for mission-driven marketers, [Dollars + Change](https://mailchi.mp/craftand/dollars-and-change "Dollars + Chane").
+We’re looking for a talented journalist to report on nonprofit advertising campaigns, marketing strategy, and paid media news for our agency’s recurring resource for mission-driven marketers, Dollars + Change.
+
+[Dollars + Change](https://mailchi.mp/craftand/dollars-and-change "Dollars + Chane")
 
 We’re looking for a self-starter who can see professional newsletter writing through from desk research to final copy that is distributed through our bimonthly digital newsletter.
 
