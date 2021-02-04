@@ -46,6 +46,6 @@ Your job will be to stay abreast of the latest daily news and pull out the stori
 * Ability to produce content on a frequent and regular basis
 * College degree or equivalent
 
-Interested? Let's talk. This position will be virtual and will require an approximately 12hr/week commitment.
+Interested? Let's talk. This position will be virtual and will require a commitment of approximately 12hrs/week.
 
 [DROP US A LINE](mailto:karen@craftand.com "email")
