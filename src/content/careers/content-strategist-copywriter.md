@@ -47,3 +47,5 @@ Your job will be to stay abreast of the latest daily news and pull out the stori
 Interested? Let's talk. This position will be virtual and will require a commitment of approximately 12hrs/week.
 
 [DROP US A LINE](mailto:karen@craftand.com "email")
+
+[Dollars + Change](https://mailchi.mp/craftand/dollars-and-change "Check out Dollars + Change")
