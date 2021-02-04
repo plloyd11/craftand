@@ -20,8 +20,6 @@ Craft & Commerce is dedicated to helping mission-driven organizations thrive in 
 
 We’re looking for a talented journalist to report on nonprofit advertising campaigns, marketing strategy, and paid media news for our agency’s recurring resource for mission-driven marketers, Dollars + Change.
 
-[Dollars + Change](https://mailchi.mp/craftand/dollars-and-change "Dollars + Chane")
-
 We’re looking for a self-starter who can see professional newsletter writing through from desk research to final copy that is distributed through our bimonthly digital newsletter.
 
 Your job will be to stay abreast of the latest daily news and pull out the stories and themes that would be most relevant to our audience. You will then be responsible for creation of pieces focused on analysis of the news and what this news means to nonprofit marketers. These news pieces should look to inform our audience while providing unique high-level insights whenever possible.
@@ -29,9 +27,9 @@ Your job will be to stay abreast of the latest daily news and pull out the stori
 **Responsibilities**
 
 * Staying abreast of daily business news and pitching several potential ideas for content pieces on a regular (weekly/daily) basis.
-  * Research and write nonprofit advertising coverage - “Campaign Monitor”
-  * Research and write feature stories - “Deep Dive”
-  * Research and write news synopsis - “Attention Trends”
+* Research and write nonprofit advertising coverage - “Campaign Monitor”
+* Research and write feature stories - “Deep Dive”
+* Research and write news synopsis - “Attention Trends”
 * Curate content within stories - linking to referenced external work that should be attributed
 * Collaborate tightly with the Craft & Commerce Dollars + Change team
 * Producing high-quality content on a consistent basis
