@@ -5,8 +5,8 @@ tags:
 - reporter
 - freelance
 title: Freelance Journalist
-excerpt: We’re looking for a talented journalist to cover the Nonprofit Marketing
-  Industry for Dollars + Change, our newsletter for mission-driven marketers.
+excerpt: Cover the nonprofit marketing industry via Dollars + Change, our newsletter
+  for mission-driven marketers.
 date: 2021-02-04T01:00:00-05:00
 cover_image: "../../assets/img/craft/copywritercontentstrategy3.png"
 slug: freelance-journalist
