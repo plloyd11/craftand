@@ -48,4 +48,4 @@ Interested? Let's talk. This position will be virtual and will require a commitm
 
 [DROP US A LINE](mailto:karen@craftand.com "email")
 
-[Dollars + Change](https://mailchi.mp/craftand/dollars-and-change "Check out Dollars + Change")
+[CHECK OUT DOLLARS + CHANGE](https://us15.campaign-archive.com/home/?u=fddf53c8e5bc7f77de77b73d4&id=1def3dd218 "email archive")
