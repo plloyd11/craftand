@@ -18,7 +18,7 @@ slug: freelance-journalist
 
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
 
-We’re looking for a talented journalist to report on nonprofit advertising campaigns, marketing strategy, and paid media news for our agency’s recurring resource for mission-driven marketers, Dollars + Change. 
+We’re looking for a talented journalist to report on nonprofit advertising campaigns, marketing strategy, and paid media news for our agency’s recurring resource for mission-driven marketers, Dollars + Change.
 
 [CHECK OUT DOLLARS + CHANGE](https://us15.campaign-archive.com/home/?u=fddf53c8e5bc7f77de77b73d4&id=1def3dd218 "email archive")
 
@@ -32,7 +32,6 @@ Your job will be to stay abreast of the latest daily news and pull out the stori
 * Research and write nonprofit advertising coverage - “Campaign Monitor”
 * Research and write feature stories - “Deep Dive”
 * Research and write news synopsis - “Attention Trends”
-* Curate content within stories - linking to referenced external work that should be attributed
 * Collaborate tightly with the Craft & Commerce Dollars + Change team
 * Producing high-quality content on a consistent basis
 
@@ -40,12 +39,12 @@ Your job will be to stay abreast of the latest daily news and pull out the stori
 
 * Experience writing about a variety of business focused topics including the use of paid advertising
 * Familiarity with nonprofit marketing and advertising
-* Ability to write with accurate news stories with clarity, voice, and context
+* Ability to write accurate news stories with clarity, voice, and context
 * Ability to frame stories for a national digital audience of nonprofit marketing leaders
 * Ability to copy edit, turning in clean, crisp and conversational copy on the first draft
 * Ability to produce content on a frequent and regular basis
 * College degree or equivalent
 
-Interested? Let's talk. This position will be virtual and will require a commitment of approximately 12hrs/week. 
+Interested? Let's talk. This position will be virtual and will require a commitment of approximately 12hrs/week.
 
 [DROP US A LINE](mailto:karen@craftand.com "email")
