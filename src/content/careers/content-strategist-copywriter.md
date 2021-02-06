@@ -24,7 +24,7 @@ We’re looking for a talented journalist to report on nonprofit advertising cam
 
 We’re looking for a self-starter who can see professional newsletter writing through from desk research to final copy that is distributed through our bimonthly digital newsletter.
 
-Your job will be to stay abreast of the latest daily news and pull out the stories and themes that would be most relevant to our audience. You will then be responsible for creation of pieces focused on analysis of the news and what this news means to nonprofit marketers. These news pieces should look to inform our audience while providing unique high-level insights whenever possible.
+Your job will be to stay abreast of the latest daily news and pull out the stories and themes that would be most relevant to our audience. You will then be responsible for writing pieces focused on analyzing the news and what this news means to nonprofit marketers. These news pieces should look to inform our audience while providing unique high-level insights whenever possible.
 
 **Responsibilities**
 
