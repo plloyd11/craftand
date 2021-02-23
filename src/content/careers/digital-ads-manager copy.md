@@ -4,7 +4,7 @@ excerpt: Lead C&C's paid media team and help advance some of the world’s leadi
 date: 2021-02-22T01:00:00-05:00
 tags: []
 cover_image: "../img/career-photo.png"
-slug: paid-media-director
+slug: media-director
 
 ---
 # Media Director
