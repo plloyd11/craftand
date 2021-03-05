@@ -11,9 +11,9 @@ slug: media-director
 
 Craft & Commerce is dedicated to helping mission-driven marketers thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team of digital and paid media specialists delivers better, smarter marketing strategies that empower purposeful brands to amplify their storytelling and drive real-world results. We’re humbled that our clients have referred to us a “force multiplier” — not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern media era.
 
-We’re looking for a Media Director with a passion for efficacy, creativity, and innovation; a performance-first DNA, yet an integrated paid media skillset; a mastery of modern media planning and measurement; vision for client success and the ability to communicate a crisp, compelling POV; and the desire to ply your best-in-class skills and experience for the benefit of our purpose-driven partners.
+We’re looking for a Media Director with a passion for efficacy, creativity, and innovation; a performance-first DNA, yet an integrated paid media skillset; a mastery of modern media planning and measurement; vision for client success and the ability to communicate a crisp, compelling POV; and the desire to ply your best-in-class skills and experience for the benefit of partners including purpose-driven companies, nonprofits, foundations, advocacy organizations, civic agencies, and cultural institutions.
 
-You’ll collaborate directly with C&C’s co-founder, and will steward a team of paid media managers in delivering outsize results for C&C clients.
+You’ll collaborate directly with C&C’s co-founder, and will build and steward an entrepreneurial team of paid media managers in deploying media budgets (at times modest, at times mighty) that deliver outsize value for C&C’s clients.
 
 ## Responsibilities:
 
@@ -45,7 +45,7 @@ You’ll collaborate directly with C&C’s co-founder, and will steward a team o
 * Regularly contribute sharp, paid media POV to new business proposals and participate in business development conversations and pitch meetings
 
   ## Requirements:
-* At least 8 years experience as a paid media strategist and planner, with a proven track record of delivering meaningful client outcomes and stewarding integrated paid media campaigns to success
+* At least 8 years experience as a paid media strategist and planner, with a proven track record of delivering meaningful client outcomes and stewarding integrated paid media campaigns to success across budget levels
 * At least 4 years experience leading and managing a paid media team, training early to mid-career professionals, installing systems, processes, and tools, and setting a vision for team and client success
 * DNA as a performance marketer, but full command of integrated media suite including: paid social and search, programmatic buying, linear, convergent, and advanced TV buying, digital audio, and custom content partnerships
 * Strong track record of client loyalty and trust, going beyond media execution to serve as a strategic advisor to client-side stakeholders
