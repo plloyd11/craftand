@@ -1,56 +1,38 @@
 <template>
   <Layout>
-    <div
-      class="container px-6 mx-auto mt-12 job-post"
-      v-html="$page.job.content"
-    />
+    <div class="py-16 mx-auto prose prose-lg" v-html="$page.job.content" />
   </Layout>
 </template>
 
 <page-query>
   query($path: String!) {
     job(path: $path) {
+      title
+      excerpt
       content
+      cover_image
     }
   }
 </page-query>
 
-<style lang="scss">
-
-.job-post {
-  .title {
-    font-family: 'Proxima Nova', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 800;
-    @media (min-width: 1024px) {
-      font-size: 3rem;
+<script>
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.job.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$page.job.excerpt
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.$page.job.cover_image
+        }
+      ]
     }
   }
-  .subtitle {
-    margin-bottom: 18px;
-    font-family: 'Proxima Nova', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    @media (min-width: 1024px) {
-      font-size: 1.75rem;
-    }
-  }
 }
-
-.job-post ul {
-  @apply my-1;
-}
-
-.job-post .body-text {
-  @apply my-6 max-w-screen-md;
-}
-
-.job-post li {
-  @apply list-disc list-inside mb-2;
-}
-
-.job-post p > a {
-  @apply mt-12 inline-block bg-transparent text-gray-900 font-semibold py-2 px-4 border border-gray-900 border-2 uppercase;
-}
-
-</style>
+</script>

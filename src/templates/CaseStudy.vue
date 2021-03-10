@@ -2,12 +2,18 @@
   <Layout>
     <!-- Hero -->
     <section class="container relative px-6 mx-auto lg:px-0">
-      <div class="flex flex-col items-start justify-center sm:flex-row case-study">
+      <div
+        class="flex flex-col items-start justify-center sm:flex-row case-study"
+      >
         <div class="flex-1 lg:mt-12 xl:mt-20 xl:pl-20 case-study--text">
-          <h4 class="mt-8 font-semibold text-gray-700 uppercase text-md din lg:mt-0">
+          <h4
+            class="mt-8 font-semibold text-gray-700 uppercase text-md din lg:mt-0"
+          >
             {{ $page.caseStudy.client }}
           </h4>
-          <h2 class="max-w-md mt-8 mb-6 text-xl font-extrabold leading-none xl:mt-12 lg:text-4xl proxima">
+          <h2
+            class="max-w-md mt-8 mb-6 text-xl font-extrabold leading-none xl:mt-12 lg:text-4xl proxima"
+          >
             {{ $page.caseStudy.headline }}
           </h2>
           <p class="max-w-md mb-8">
@@ -22,9 +28,7 @@
           </span>
         </div>
         <div class="flex-1 case-study--image">
-          <g-image
-            :src="$page.caseStudy.photo"
-          />
+          <g-image :src="$page.caseStudy.photo" />
         </div>
       </div>
       <div
@@ -34,7 +38,7 @@
         <p class="mb-1 text-xl font-bold text-primary-color proxima">
           {{ $page.caseStudy.mainTakeaway }}
         </p>
-        <p class="italic text-white text-gray-400">
+        <p class="italic text-gray-400">
           {{ $page.caseStudy.supportiveText }}
         </p>
       </div>
@@ -42,20 +46,10 @@
     <!-- Carousel -->
     <section class="relative pt-12 case-study-carousel">
       <div class="container mx-auto">
-        <agile
-          v-if="carousel.length > 0"
-          :center-mode="true"
-          :fade="true"
-        >
-          <CaseStudySlide
-            v-for="(item, index) in carousel"
-            :key="index"
-          >
+        <agile v-if="carousel.length > 0" :center-mode="true" :fade="true">
+          <CaseStudySlide v-for="(item, index) in carousel" :key="index">
             <template v-slot:slide-image>
-              <g-image
-                :src="item.photo"
-                class="w-10/12 mr-auto"
-              />
+              <g-image :src="item.photo" class="w-10/12 mr-auto" />
             </template>
             <template v-slot:slide-header>
               {{ item.header }}
@@ -69,11 +63,15 @@
     </section>
     <!-- Takeaway -->
     <section
-      v-if="$page.caseStudy.yellowBoxHeadline && $page.caseStudy.yellowBoxContent"
+      v-if="
+        $page.caseStudy.yellowBoxHeadline && $page.caseStudy.yellowBoxContent
+      "
       class="container max-w-screen-lg mx-auto my-12 takeaway"
     >
       <div class="flex flex-col items-center justify-center py-16">
-        <h3 class="mb-6 text-2xl font-extrabold text-center lg:text-4xl proxima">
+        <h3
+          class="mb-6 text-2xl font-extrabold text-center lg:text-4xl proxima"
+        >
           {{ $page.caseStudy.yellowBoxHeadline }}
         </h3>
         <p class="max-w-screen-md px-6 mx-auto text-center xl:px-0 text-md">
@@ -90,7 +88,9 @@
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
           class="youtube-container"
-          :src="`https://www.youtube.com/embed/${$page.caseStudy.youtubeLink.split('/').pop()}`"
+          :src="`https://www.youtube.com/embed/${$page.caseStudy.youtubeLink
+            .split('/')
+            .pop()}`"
         />
       </div>
     </section>
@@ -99,7 +99,9 @@
       v-if="$page.caseStudy.clientTestimony && $page.caseStudy.clientTitle"
       class="mt-24"
     >
-      <p class="w-10/12 mx-auto mb-12 text-xl leading-normal text-center lg:w-6/12 lg:text-4xl">
+      <p
+        class="w-10/12 mx-auto mb-12 text-xl leading-normal text-center lg:w-6/12 lg:text-4xl"
+      >
         {{ $page.caseStudy.clientTestimony }}
       </p>
       <div class="flex flex-col">
@@ -114,10 +116,7 @@
       </div>
     </section>
     <!-- Bottom Nav -->
-    <CaseStudyNav
-      :next="next"
-      :prev="prev"
-    />
+    <CaseStudyNav :next="next" :prev="prev" />
   </Layout>
 </template>
 
@@ -176,11 +175,9 @@ export default {
   },
   metaInfo: {
     title: 'Craft & Commerce Case Studies',
-    meta: [
-      { name: 'robots', content: 'noindex' }
-    ]
+    meta: [{ name: 'robots', content: 'noindex' }]
   },
-  data () {
+  data() {
     return {
       carousel: [],
       categories: [],
@@ -189,21 +186,23 @@ export default {
     }
   },
   watch: {
-    $route () {
+    $route() {
       this.carousel = this.$page.caseStudy.carousel
       this.createCategoryNames()
       this.createNavLinks()
     }
   },
-  mounted () {
+  mounted() {
     this.carousel = this.$page.caseStudy.carousel
-    this.allPaths = this.$static.allCaseStudy.edges
-      .reduce((a, b) => [...a, b.node.path], [])
+    this.allPaths = this.$static.allCaseStudy.edges.reduce(
+      (a, b) => [...a, b.node.path],
+      []
+    )
     this.createCategoryNames()
     this.createNavLinks()
   },
   methods: {
-    createCategoryNames () {
+    createCategoryNames() {
       const categoryMap = {
         missionDelivery: 'Mission Delivery',
         brandStorytelling: 'Brand Storytelling',
@@ -213,11 +212,11 @@ export default {
       const categoriesAll = this.$page.caseStudy.categories
       const categoryKeys = Object.keys(categoriesAll)
       const categories = categoryKeys
-        .filter(category => categoriesAll[category])
-        .map(category => categoryMap[category])
+        .filter((category) => categoriesAll[category])
+        .map((category) => categoryMap[category])
       this.categories = categories
     },
-    createNavLinks () {
+    createNavLinks() {
       const currentPath = this.$page.caseStudy.path
       const currentIndex = this.allPaths.indexOf(currentPath)
       this.next = this.allPaths[currentIndex + 1]
@@ -228,7 +227,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .hero-callout {
   padding-left: 12px;
   padding-right: 12px;
@@ -248,7 +246,8 @@ export default {
 
 .takeaway {
   width: 100%;
-  background: url('~@/assets/img/global/yellow-decorated-rectangle.jpg') no-repeat center center;
+  background: url('~@/assets/img/global/yellow-decorated-rectangle.jpg')
+    no-repeat center center;
   background-size: cover;
 }
 
@@ -258,5 +257,4 @@ export default {
     height: 800px;
   }
 }
-
 </style>

@@ -33,5 +33,8 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: [require('tailwindcss-plugin-fancy')]
+  plugins: [
+    require('tailwindcss-plugin-fancy'),
+    require('@tailwindcss/typography')
+  ]
 }
