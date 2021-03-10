@@ -30,6 +30,16 @@ export default {
           key: 'og:image',
           name: 'og:image',
           content: this.$page.job.cover_image.src
+        },
+        {
+          name: 'description',
+          property: 'og:description',
+          content: this.$page.job.excerpt
+        },
+        {
+          name: 'image',
+          property: 'og:image',
+          content: this.$page.job.cover_image.src
         }
       ]
     }
