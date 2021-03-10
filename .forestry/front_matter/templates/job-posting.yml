@@ -24,8 +24,8 @@ fields:
   description: When the job was first posted
   config:
     required: true
-    date_format: 
-    time_format: 
+    date_format:
+    time_format:
     display_utc: false
 - name: tags
   type: tag_list
@@ -34,7 +34,7 @@ fields:
 - name: cover_image
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Cover Image
   description: Photo associated with job posting
 - name: slug

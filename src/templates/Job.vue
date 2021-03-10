@@ -5,8 +5,8 @@
 </template>
 
 <page-query>
-  query($path: String!) {
-    job(path: $path) {
+  query Job($path: String!) {
+    job: job(path: $path) {
       title
       excerpt
       content
@@ -22,14 +22,14 @@ export default {
       title: this.$page.job.title,
       meta: [
         {
-          hid: 'description',
-          name: 'description',
+          key: 'og:description',
+          name: 'og:description',
           content: this.$page.job.excerpt
         },
         {
-          hid: 'og:image',
-          property: 'og:image',
-          content: this.$page.job.cover_image
+          key: 'og:image',
+          name: 'og:image',
+          content: this.$page.job.cover_image.src
         }
       ]
     }
