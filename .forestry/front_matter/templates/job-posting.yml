@@ -24,8 +24,8 @@ fields:
   description: When the job was first posted
   config:
     required: true
-    date_format:
-    time_format:
+    date_format: 
+    time_format: 
     display_utc: false
 - name: tags
   type: tag_list
@@ -46,3 +46,4 @@ fields:
 pages:
 - src/content/careers/content-strategist-copywriter.md
 - src/content/careers/freelance-copywriter.md
+- src/content/careers/freelance-journalist-copy.md
