@@ -44,6 +44,6 @@ fields:
   label: Slug
   description: Custom URL for job posting. Needs to be lowercase & separated by hyphens
 pages:
+- src/content/careers/account-manager.md
 - src/content/careers/content-strategist-copywriter.md
 - src/content/careers/freelance-copywriter.md
-- src/content/careers/freelance-journalist-copy.md
