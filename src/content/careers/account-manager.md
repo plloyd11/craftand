@@ -1,8 +1,7 @@
 ---
 tags: []
 title: Account Manager
-excerpt: Cover the nonprofit marketing industry via our newsletter for mission-driven
-  marketers.
+excerpt: Strong communicator and savvy manager of projects and people.
 date: 2021-03-30T01:00:00-04:00
 cover_image: "../../assets/img/craft/copywritercontentstrategy3.png"
 slug: account-manager
@@ -14,7 +13,7 @@ slug: account-manager
 
 Craft & Commerce is dedicated to helping mission-driven marketers thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team of digital and paid media specialists delivers better, smarter marketing strategies that empower purposeful brands to amplify their storytelling and drive real-world results. We’re humbled that our clients have referred to us a “force multiplier” — not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern media era.
 
-We’re looking for an Account Manager who is a strong communicator and savvy manager of project and people, and possesses the ability to internalize project details and client priorities with a clear-eyed focus on success for our partners including purpose-driven companies, nonprofits, foundations, advocacy organizations, civic agencies, and cultural institutions.
+We’re looking for an Account Manager who is a strong communicator and savvy manager of projects and people, and possesses the ability to internalize project details and client priorities with a clear-eyed focus on success for our partners including purpose-driven companies, nonprofits, foundations, advocacy organizations, civic agencies, and cultural institutions.
 
 You’ll collaborate directly with C&C’s VP of Partnerships and Strategy, and be an integral part of our fast-growing, collaborative, and entrepreneurial team. We’ll look to you to help support client success from campaign strategy to execution and optimization.
 
