@@ -1,7 +1,8 @@
 ---
 tags: []
 title: Account Manager
-excerpt: Strong communicator and savvy manager of projects and people.
+excerpt: Manage client communications and projects with top-notch communication and
+  organizational skills.
 date: 2021-03-30T01:00:00-04:00
 cover_image: "../../assets/img/craft/green-chameleon-s9cc2skysjm-unsplash.jpg"
 slug: account-manager
