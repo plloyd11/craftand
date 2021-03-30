@@ -3,7 +3,7 @@ tags: []
 title: Account Manager
 excerpt: Strong communicator and savvy manager of projects and people.
 date: 2021-03-30T01:00:00-04:00
-cover_image: "../../assets/img/craft/collaboration-iteration-icon.svg"
+cover_image: "../../assets/img/craft/green-chameleon-s9cc2skysjm-unsplash.jpg"
 slug: account-manager
 
 ---
