@@ -4,7 +4,7 @@ title: Account Manager
 excerpt: Manage client communications and projects with top-notch communication and
   organizational skills.
 date: 2021-03-30T01:00:00-04:00
-cover_image: "../../assets/img/craft/green-chameleon-s9cc2skysjm-unsplash.jpg"
+cover_image: "../../assets/img/craft/newphoto.jpg"
 slug: account-manager
 
 ---
