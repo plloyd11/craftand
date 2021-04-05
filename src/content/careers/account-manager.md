@@ -14,14 +14,14 @@ slug: account-manager
 
 Craft & Commerce is dedicated to helping mission-driven marketers thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team of digital and paid media specialists delivers better, smarter marketing strategies that empower purposeful brands to amplify their storytelling and drive real-world results. We’re humbled that our clients have referred to us a “force multiplier” — not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern media era.
 
-We’re looking for an Account Manager who is a strong communicator and savvy manager of projects and people, and possesses the ability to internalize project details and client priorities with a clear-eyed focus on success for our partners including purpose-driven companies, nonprofits, foundations, advocacy organizations, civic agencies, and cultural institutions.
+We’re looking for an Account Manager who is a strong communicator and savvy manager of projects and people, and possesses the ability to internalize project details and client priorities with a clear-eyed focus on success for our partners, including purpose-driven companies, nonprofits, foundations, advocacy organizations, civic agencies, and cultural institutions.
 
-You’ll collaborate directly with C&C’s VP of Partnerships and Strategy, and be an integral part of our fast-growing, collaborative, and entrepreneurial team. We’ll look to you to help support client success from campaign strategy to execution and optimization.
+You’ll collaborate directly with C&C’s VP of Partnerships and Strategy, and be an integral part of our fast-growing, collaborative, and entrepreneurial team. We’ll look to you to support client success from campaign strategy to execution and optimization.
 
 **Responsibilities**
 
 * Internalize client goals, needs, and objectives and help shape the strategy that will deliver a successful outcome
-* Collaborate with the paid media team in executing and optimizing paid media ad campaigns
+* Collaborate with the paid media team in executing and optimizing campaigns
 * Craft client communications and output, including roadmap and reporting documents
 * Coordinate workflows, deadlines, and deliverables among C&C team and freelancers
 * Manage projects with grace and humility, ensuring all stays on point, on budget, and on time
