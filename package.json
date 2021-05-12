@@ -32,7 +32,7 @@
     "gridsome": "^0.7.23",
     "gridsome-plugin-base-components": "0.0.12",
     "gridsome-plugin-robots-txt": "^1.0.2",
-    "postcss": "^7",
+    "postcss": "^8",
     "postcss-loader": "^4.1.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "tailwindcss-plugin-fancy": "^2.6.2",
