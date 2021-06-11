@@ -4,8 +4,8 @@
   >
     <DollarsChange class="w-48 mx-auto mb-10" />
     <p class="w-64 mb-8 text-lg text-center text-white">
-      Just for nonprofit marketers, our new, bimonthly email covers the
-      intersection of modern advertising and doing good in the world.
+      For outcome-focused, purpose-driven marketers, our monthly email covers
+      the intersection of modern advertising and doing good in the world.
     </p>
     <a
       href="https://mailchi.mp/craftand/dollars-and-change"
@@ -19,15 +19,15 @@
 </template>
 
 <script>
-import DollarsChange from '~/assets/img/icons/dollars-change.svg';
-import RightArrow from '@/assets/img/icons/right-arrow.svg';
+import DollarsChange from '~/assets/img/icons/dollars-change.svg'
+import RightArrow from '@/assets/img/icons/right-arrow.svg'
 
 export default {
   components: {
     DollarsChange,
     RightArrow
   }
-};
+}
 </script>
 
 <style scoped>

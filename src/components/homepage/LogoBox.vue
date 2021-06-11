@@ -20,6 +20,11 @@
         immediate="true"
       />
       <g-image
+        src="~/assets/img/logos/nasa.png"
+        class="w-24 md:w-28"
+        immediate="true"
+      />
+      <g-image
         src="~/assets/img/logos/rockerfeller.png"
         class="w-48"
         immediate="true"
