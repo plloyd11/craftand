@@ -1,15 +1,14 @@
 ---
 tags:
-- journalist
-- writer
-- reporter
-- freelance
-title: Freelance Journalist
+- Internship
+- marketing
+- paid media
+title: Marketing Intern
 excerpt: Cover the nonprofit marketing industry via our newsletter for mission-driven
   marketers.
-date: 2021-02-04T01:00:00-05:00
+date: 2021-06-14T01:00:00-04:00
 cover_image: "../../assets/img/craft/copywritercontentstrategy3.png"
-slug: freelance-journalist
+slug: marketing-intern
 
 ---
 ##### 
