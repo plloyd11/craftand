@@ -48,6 +48,6 @@ We offer a flexible, balanced, self-driven culture. We invite you to join us vir
 * Track record of bringing a positive attitude to your work and team
 * Multilingual a plus
 
-Interested? Let’s talk. We offer competitive intern compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information to karen@craftand.com
+Interested? Let’s talk. We offer competitive intern compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information to karen@craftand.com. 
 
 [DROP US A LINE](mailto:karen@craftand.com "email")
