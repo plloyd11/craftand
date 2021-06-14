@@ -4,8 +4,7 @@ tags:
 - marketing
 - paid media
 title: Marketing Intern
-excerpt: Cover the nonprofit marketing industry via our newsletter for mission-driven
-  marketers.
+excerpt: 10-week paid internship for a sharp, ambitious student/early career professional
 date: 2021-06-14T01:00:00-04:00
 cover_image: "../../assets/img/craft/copywritercontentstrategy3.png"
 slug: marketing-intern
@@ -13,37 +12,42 @@ slug: marketing-intern
 ---
 ##### 
 
-# **Freelance Journalist, Non Profit Marketing Industry**
+# **Marketing Intern**
 
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
 
-We’re looking for a talented journalist to report on nonprofit advertising campaigns, marketing strategy, and paid media news for our agency’s recurring resource for mission-driven marketers, Dollars + Change.
+We’re looking for a sharp, ambitious student/early career professional to join us as a Marketing Intern--for a 10 week (or flexible time period) paid internship.
 
-[CHECK OUT DOLLARS + CHANGE](https://us15.campaign-archive.com/home/?u=fddf53c8e5bc7f77de77b73d4&id=1def3dd218 "email archive")
+In the Marketing Intern role, you’ll help advance some of the world’s leading causes by learning to help to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
 
-We’re looking for a self-starter who can see professional newsletter writing through from desk research to final copy that is distributed through our bimonthly digital newsletter.
+_Ideal candidates will be ->_
 
-Your job will be to stay abreast of the latest daily news and pull out the stories and themes that would be most relevant to our audience. You will then be responsible for writing pieces focused on analyzing the news and what this news means to nonprofit marketers. These news pieces should look to inform our audience while providing unique high-level insights whenever possible.
+* Hungry to make an impact in the world
+* Eager and quick to learn new digital platforms and approaches
+* Adept at balancing concurrent, fast-moving projects and deadlines
+* Borderline unhealthy in your attention to detail
+* Excellent at writing in both short and long-form, as well as editing and proofing
 
-**Responsibilities**
+We offer a flexible, balanced, self-driven culture. We invite you to join us virtually.
 
-* Staying abreast of daily business news and pitching several potential ideas for content pieces on a regular (weekly/daily) basis.
-* Research and write nonprofit advertising coverage - “Campaign Monitor”
-* Research and write feature stories - “Deep Dive”
-* Research and write news synopsis - “Attention Trends”
-* Collaborate tightly with the Craft & Commerce Dollars + Change team
-* Producing high-quality content on a consistent basis
+**Responsibilities:**
 
-**Requirements**
+* Learn and mentored by Operations and Account Management teams
+* Participate in campaign strategy and planning--documenting, organizing, and actioning key items
+* Develop, maintain, and optimize project plans and campaign workflows
+* Help to traffic approvals, creative assets, and media buys
+* Monitor campaign progress and generate detailed client reports
+* Perform online research and analysis in support of campaign and partnership priorities
+* Take ownership of a special project--setting goals, coordinating workflows, and managing deadlines
 
-* Experience writing about a variety of business focused topics including the use of paid advertising
-* Familiarity with nonprofit marketing and advertising
-* Ability to write accurate news stories with clarity, voice, and context
-* Ability to frame stories for a national digital audience of nonprofit marketing leaders
-* Ability to copy edit, turning in clean, crisp and conversational copy on the first draft
-* Ability to produce content on a frequent and regular basis
-* College degree or equivalent
+**Requirements:**
 
-Interested? Let's talk. This position will be virtual and will require a commitment of approximately 12hrs/week.
+* Completed or in-process Bachelor's Degree in Marketing, Business Management, Communications, Operations, or a related field
+* Mastery of digital tools and social platforms, with MS Excel expertise preferred
+* Demonstrated attention to detail and proactive approach to your work
+* Track record of bringing a positive attitude to your work and team
+* Multilingual a plus
 
-[DROP US A LINE](mailto:carli@craftand.com "email")
+Interested? Let’s talk. We offer competitive intern compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information to karen@craftand.com
+
+[DROP US A LINE](mailto:karen@craftand.com "email")
