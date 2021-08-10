@@ -15,7 +15,7 @@ fields:
   - name: photo
     type: file
     config:
-      maxSize: 250
+      maxSize: 25
     label: Photograph
     description: '600x600 photo '
   - type: textarea
