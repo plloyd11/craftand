@@ -5,8 +5,8 @@ tags:
 - paid media
 title: Marketing Intern
 excerpt: 10-week paid internship for a sharp, ambitious student/early career professional
-date: 2021-06-14T01:00:00-04:00
-cover_image: "../../assets/img/craft/always-be-open-li.jpg"
+date: 2021-06-14T01:00:00.000-04:00
+cover_image: "../../assets/img/craft/copywritercontentstrategy.png"
 slug: marketing-intern
 
 ---
