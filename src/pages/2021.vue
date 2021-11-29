@@ -86,14 +86,14 @@ export default {
           url: 'https://www.texasmonthly.com/food/the-chilton-recipe/'
         },
         {
-          title: "Za'atar & Harissa Roasted Chickpeas (Vegan)",
-          owner: 'Karen',
+          title: 'Carnitas Tacos',
+          owner: 'Jordan',
           description:
-            "Staying at home has meant finding new ways to eat healthy without getting bored. Za'atar & Harissa Roasted Chickpeas became a house favorite to keep flavors and textures exciting, and now we add them to everything—on a salad, as a snack, with salmon or lamb—just pick your favorite (or new) spices and enjoy this easy, crunchy, high-protein side!",
+            'I love tacos and missed them during the pandemic. So I would make them myself. I source a pork butt/shoulder from a local farm and stew it up. It also makes great leftovers, like Chipotle bowls.',
           img:
-            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772890/clients/craft/holiday-2021/zaatar_chickpeas_e2iqz3.png',
+            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772890/clients/craft/holiday-2021/tacos_lj54mp.png',
           url:
-            'https://www.thekitchn.com/how-to-make-crispy-roasted-chickpeas-in-the-oven-cooking-lessons-from-the-kitchn-219753'
+            'https://craftcommerce.box.com/s/7bb8ocyc33tfvvy3sm0boc1htsgwhftb'
         },
         {
           title: 'Easy Homemade Cranberry Sauce (Vegan)',
@@ -105,13 +105,14 @@ export default {
             'https://www.thekitchn.com/recipe-very-basic-cranberry-sauce-14886'
         },
         {
-          title: 'Garlic Noodles',
-          owner: 'Kristin',
+          title: "Za'atar & Harissa Roasted Chickpeas (Vegan)",
+          owner: 'Karen',
           description:
-            'Craving a favorite garlic noodle dish from a pier-side Japanese restaurant in San Francisco during the pandemic led me to recreate them in the safety of my home. Made from simple ingredients common to my pantry, it’s a quick something to cook up without needing to travel to the store.',
+            "Staying at home has meant finding new ways to eat healthy without getting bored. Za'atar & Harissa Roasted Chickpeas became a house favorite to keep flavors and textures exciting, and now we add them to everything—on a salad, as a snack, with salmon or lamb—just pick your favorite (or new) spices and enjoy this easy, crunchy, high-protein side!",
           img:
-            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772890/clients/craft/holiday-2021/garlic_noodles_bgzugu.png',
-          url: 'https://www.budgetbytes.com/garlic-noodles/'
+            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772890/clients/craft/holiday-2021/zaatar_chickpeas_e2iqz3.png',
+          url:
+            'https://www.thekitchn.com/how-to-make-crispy-roasted-chickpeas-in-the-oven-cooking-lessons-from-the-kitchn-219753'
         },
         {
           title: 'Chili Paneer or Tofu (Vegetarian or Vegan)',
@@ -123,14 +124,13 @@ export default {
           url: 'https://www.spiceindiaonline.com/chilli-paneer/'
         },
         {
-          title: 'Carnitas Tacos',
-          owner: 'Jordan',
+          title: 'Garlic Noodles',
+          owner: 'Kristin',
           description:
-            'I love tacos and missed them during the pandemic. So I would make them myself. I source a pork butt/shoulder from a local farm and stew it up. It also makes great leftovers, like Chipotle bowls.',
+            'Craving a favorite garlic noodle dish from a pier-side Japanese restaurant in San Francisco during the pandemic led me to recreate them in the safety of my home. Made from simple ingredients common to my pantry, it’s a quick something to cook up without needing to travel to the store.',
           img:
-            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772890/clients/craft/holiday-2021/tacos_lj54mp.png',
-          url:
-            'https://craftcommerce.box.com/s/7bb8ocyc33tfvvy3sm0boc1htsgwhftb'
+            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772890/clients/craft/holiday-2021/garlic_noodles_bgzugu.png',
+          url: 'https://www.budgetbytes.com/garlic-noodles/'
         },
         {
           title: 'Slow Cooker Spinach-Artichoke Chicken Stew',
