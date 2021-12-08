@@ -2,12 +2,19 @@
   <Layout>
     <!-- Hero -->
     <section class="mt-12 lg:mt-20 hero">
-      <div class="container px-6 mx-auto">
+      <div class="px-6 mx-auto max-w-7xl">
         <h1
           class="mb-8 text-3xl font-extrabold leading-none text-center lg:text-5xl proxima"
         >
-          <span class="text-strike">2021 Recipes Collection</span>
+          <span class="text-strike">C&amp;C's Holiday Recipe Box</span>
         </h1>
+        <p
+          class="max-w-screen-md mx-auto mb-6 text-lg leading-normal text-center lg:text-xl"
+        >
+          Below we've gathered the C&C team's favorite recipes of 2021. Each
+          links to an online recipe that can be easily saved on the recipe
+          management tool of your choice. Enjoy!
+        </p>
       </div>
     </section>
     <section class="my-6 md:my-12">
@@ -69,7 +76,7 @@ export default {
         key: 'description',
         name: 'description',
         content:
-          'Favorite recipes from lockdown to share with family and friends this holiday season.'
+          "we've gathered the C&C team's favorite recipes of 2021. Each links to an online recipe that can be easily saved on the recipe management tool of your choice. Enjoy!"
       }
     ]
   },
