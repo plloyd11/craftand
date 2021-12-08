@@ -4,9 +4,15 @@
     <section class="mt-12 lg:mt-20 hero">
       <div class="px-6 mx-auto max-w-7xl">
         <h1
-          class="mb-8 text-3xl font-extrabold leading-none text-center lg:text-5xl proxima"
+          class="hidden mb-8 text-3xl font-extrabold leading-none text-center sm:block lg:text-5xl proxima"
         >
           <span class="text-strike">C&amp;C's Holiday Recipe Box</span>
+        </h1>
+        <h1
+          class="mb-8 text-3xl font-extrabold leading-none text-center sm:hidden lg:text-5xl proxima"
+        >
+          C&amp;C's Holiday <br />
+          <span class="text-strike">Recipe Box</span>
         </h1>
         <p
           class="max-w-screen-md mx-auto mb-6 text-lg leading-normal text-center lg:text-xl"
