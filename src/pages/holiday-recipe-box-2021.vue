@@ -17,9 +17,9 @@
         <p
           class="max-w-screen-md mx-auto mb-6 text-lg leading-normal text-center lg:text-xl"
         >
-          Below we've gathered the C&C team's favorite recipes of 2021. Each
-          links to an online recipe that can be easily saved on the recipe
-          management tool of your choice. Enjoy!
+          Below we've gathered the C&C team's favorite recipes of 2021, ordered
+          by how one might course. Each links to an online recipe that can be
+          easily saved on the recipe management tool of your choice. Enjoy!
         </p>
       </div>
     </section>
@@ -86,23 +86,24 @@ export default {
       }
     ]
   },
-  data() {
+  data: function () {
     return {
       recipes: [
         {
-          title: 'The Chilton (Vegan)',
+          title: 'Cinnamigo',
           owner: 'Mark',
           description:
-            'This was my response to an overabundance of "ranch water" this summer, and has remained surprisingly resilient. In my simple version, I fill a mason jar with ice, sprinkle in a little salt, add Tito\'s and Topo Chico, and the juice of 1/2 a fresh-squeezed lemon. I then put the top on the mason jar, shake thoroughly, and it\'s ready to serve.',
+            "I came across this drink in early fall, and have been concocting it at home ever since. It's perfect for a holiday gathering. Most importantly, you've got to find Licor 43 Horchata liqueur (vegan). Start off with a couple of shots of that. Then add a shot of Hard Truth Cinnamon Vodka and your favorite tequila blanco (the original recipe uses Casamigos, thus the name). Shake and serve like a martini.",
           img:
-            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772889/clients/craft/holiday-2021/chilton_csdi2r.png',
-          url: 'https://www.texasmonthly.com/food/the-chilton-recipe/'
+            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772889/clients/craft/holiday-2021/cinnamigo.png',
+          url:
+            'https://6c1dd139-336f-450d-8cac-c6a28f8ccbb3.filesusr.com/ugd/91874b_d5b5ac679aa44502a5b56147daf59f25.pdf'
         },
         {
           title: 'Carnitas Tacos',
           owner: 'Jordan',
           description:
-            'I love tacos and missed them during the pandemic. So I would make them myself. I source a pork butt/shoulder from a local farm and stew it up. It also makes great leftovers, like Chipotle bowls.',
+            'I love tacos and missed them during the pandemic. So I would make them myself. I source a pork butt/shoulder from a local farm and stew it up. It also makes great leftovers, like a Chipotle-style bowl.',
           img:
             'https://res.cloudinary.com/observatory-agency/image/upload/v1637772890/clients/craft/holiday-2021/tacos_lj54mp.png',
           url:
@@ -131,7 +132,7 @@ export default {
           title: 'Chili Paneer or Tofu (Vegetarian or Vegan)',
           owner: 'Nidhi',
           description:
-            "Growing up, the largest cabinet in our kitchen was full of my mom's spices. Front and center. From chili powder to garam masala to turmeric - I was always in awe of all the different colors and smells as my mom would whip up my favorite meals. I still can\t cook Indian food like my mother but I can make chili paneer/tofu. I use my favorite seasonings and am instantly reminded of my mom's spice cabinet.",
+            "Growing up, the largest cabinet in our kitchen was full of my mom's spices. Front and center. From chili powder to garam masala to turmeric, I was always in awe of all the different colors and smells as my mom would whip up my favorite meals. I still can't cook Indian food like my mother but I can make chili paneer/tofu. I use my favorite seasonings and am instantly reminded of my mom's spice cabinet.",
           img:
             'https://res.cloudinary.com/observatory-agency/image/upload/v1637772889/clients/craft/holiday-2021/chili_paneer_t8wdrc.png',
           url: 'https://www.spiceindiaonline.com/chilli-paneer/'
