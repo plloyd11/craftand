@@ -95,7 +95,7 @@ export default {
           description:
             "I came across this drink in early fall, and have been concocting it at home ever since. It's perfect for a holiday gathering. Most importantly, you've got to find Licor 43 Horchata liqueur (vegan). Start off with a couple of shots of that. Then add a shot of Hard Truth Cinnamon Vodka and your favorite tequila blanco (the original recipe uses Casamigos, thus the name). Shake and serve like a martini.",
           img:
-            'https://res.cloudinary.com/observatory-agency/image/upload/v1637772889/clients/craft/holiday-2021/cinnamigo.png',
+            'https://res.cloudinary.com/observatory-agency/image/upload/v1639437633/clients/craft/holiday-2021/cinnamigo.png',
           url:
             'https://6c1dd139-336f-450d-8cac-c6a28f8ccbb3.filesusr.com/ugd/91874b_d5b5ac679aa44502a5b56147daf59f25.pdf'
         },
