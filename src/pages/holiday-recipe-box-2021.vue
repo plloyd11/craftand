@@ -17,9 +17,10 @@
         <p
           class="max-w-screen-md mx-auto mb-6 text-lg leading-normal text-center lg:text-xl"
         >
-          Below we've gathered the C&C team's favorite recipes of 2021, ordered
-          by how one might course. Each links to an online recipe that can be
-          easily saved on the recipe management tool of your choice. Enjoy!
+          Below we've gathered the C&amp;C team's favorite recipes of 2021
+          (ordered by how one might course). Each links to an online recipe that
+          can be easily saved on the recipe management tool of your choice.
+          Enjoy!
         </p>
       </div>
     </section>
@@ -90,7 +91,7 @@ export default {
     return {
       recipes: [
         {
-          title: 'Cinnamigo',
+          title: 'The Cinnamigo',
           owner: 'Mark',
           description:
             "I came across this drink in early fall, and have been concocting it at home ever since. It's perfect for a holiday gathering. Most importantly, you've got to find Licor 43 Horchata liqueur (vegan). Start off with a couple of shots of that. Then add a shot of Hard Truth Cinnamon Vodka and your favorite tequila blanco (the original recipe uses Casamigos, thus the name). Shake and serve like a martini.",
