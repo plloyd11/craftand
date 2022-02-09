@@ -28,13 +28,13 @@ You’ll collaborate directly with C&C’s VP of Strategy and Insights, and be a
 
 **Requirements**
 
-* 2-4 years experience within the client, agency or ad tech realms and a passion for / working knowledge of performance marketing writ large.
+* 2-4 years experience within the client, agency or ad tech realms and a passion for / working knowledge of performance marketing writ large
 * Exceptionally organized, with a honed practice of managing multiple concurrent work streams across a variety of initiatives
 * Stellar, efficient, clear written and oral communication skills
 * Demonstrated ability to successfully / gracefully manage clients, projects, and teams
 * Solid knowledge of MS Office software (MS Word, Excel, PowerPoint) and Google Docs; experience with Google Analytics preferred
-* Knowledge of paid media and/or nonprofit marketing or advocacy preferred.
-* Strong project management background preferred, including CAPM and PMP certification holders.
+* Knowledge of paid media and/or nonprofit marketing or advocacy preferred
+* Strong project management background preferred, including CAPM and PMP certification holders
 
 Interested? Let’s talk. We offer a competitive salary and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information.
 
