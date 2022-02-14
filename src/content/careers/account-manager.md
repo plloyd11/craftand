@@ -3,7 +3,7 @@ tags: []
 title: Associate Campaign Manager
 excerpt: Manage client communications & projects with top-notch organizational skills.
 date: 2021-03-30T01:00:00.000-04:00
-cover_image: "../../assets/img/craft/newphoto.jpg"
+cover_image: "../../assets/img/craft/copywritercontentstrategy3.png"
 slug: associate-campaign-manager
 
 ---
