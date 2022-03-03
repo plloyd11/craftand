@@ -44,4 +44,6 @@ We offer a flexible, balanced, self-driven culture.
 * Track record of bringing a positive attitude to your work and team
 * Multilingual a plus
 
-Interested? Let’s talk. We offer competitive compensation ranging from $45,000 to $55,000 and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information to hello@craftand.com.
+Interested? Let’s talk. We offer competitive compensation ranging from $45,000 to $55,000 and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information.
+
+[DROP US A LINE](mailto:karen@craftand.com "email")
