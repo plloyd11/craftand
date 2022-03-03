@@ -3,7 +3,7 @@ tags:
 - Internship
 - marketing
 - paid media
-title: Marketing Intern
+title: Digital Marketing Intern
 excerpt: 10-week paid internship for a sharp, ambitious student/early career professional
 date: 2021-06-14T01:00:00.000-04:00
 cover_image: "../../assets/img/craft/copywritercontentstrategy.png"
@@ -12,13 +12,13 @@ slug: marketing-intern
 ---
 ##### 
 
-# **Marketing Intern**
+# **Digital Marketing Intern**
 
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
 
-We’re looking for a sharp, ambitious student/early career professional to join us as a Marketing Intern--for a 10 week (or flexible time period) paid internship.
+We’re looking for a sharp, ambitious student/early career professional to join us as a Digital Marketing Intern--for a 10 week (or flexible time period) paid internship.
 
-In the Marketing Intern role, you’ll help advance some of the world’s leading causes by learning to help to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
+In the Digital Marketing Intern role, you’ll help advance some of the world’s leading causes by learning to help to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
 
 _Ideal candidates will be ->_
 
@@ -48,6 +48,6 @@ We offer a flexible, balanced, self-driven culture. We invite you to join us vir
 * Track record of bringing a positive attitude to your work and team
 * Multilingual a plus
 
-Interested? Let’s talk. We offer competitive intern compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information to karen@craftand.com. 
+Interested? Let’s talk. We offer competitive intern compensation **at $18 per hour** and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information.
 
 [DROP US A LINE](mailto:karen@craftand.com "email")
