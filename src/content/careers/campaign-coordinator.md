@@ -1,6 +1,6 @@
 ---
 tags: []
-title: Campaign Coordinator
+title: Digital Campaign Coordinator
 excerpt: Help advance some of the world’s leading causes by developing smart, data-driven
   paid media campaigns.
 date: 2022-02-14T00:00:00-05:00
@@ -10,9 +10,9 @@ slug: campaign-coordinator
 ---
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
 
-We’re looking for a sharp, ambitious early career professional to join us as a Campaign Coordinator.
+We’re looking for a sharp, ambitious early career professional to join us as a Digital Campaign Coordinator.
 
-In the Campaign Coordinator role, you’ll help advance some of the world’s leading causes by helping to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
+In the Digital Campaign Coordinator role, you’ll help advance some of the world’s leading causes by helping to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
 
 _Ideal candidates will be ->_
 
@@ -44,5 +44,4 @@ We offer a flexible, balanced, self-driven culture.
 * Track record of bringing a positive attitude to your work and team
 * Multilingual a plus
 
-  
-Interested? Let’s talk. We offer competitive compensation and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information to hello@craftand.com.
+Interested? Let’s talk. We offer competitive compensation ranging from $45,000 to $55,000 and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information to hello@craftand.com.
