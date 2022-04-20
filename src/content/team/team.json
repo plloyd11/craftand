@@ -1,12 +1,5 @@
 [
   {
-    "name": "Lizzy Toreev",
-    "title": "Account Manager",
-    "photo": "../../assets/img/craft/lizzytoreev.JPG",
-    "shortBio": "Lizzy is an organized, detail-oriented relationship builder with experience managing a wide variety of marketing campaigns, mostly focused on the B2B market. ",
-    "fullBio": "Lizzy is an organized, detail-oriented relationship builder with experience managing a wide variety of marketing campaigns, mostly focused on the B2B market. She has worked as a project manager at a creative agency in Chicago, in the development department of the University of St Andrews in Scotland, and most recently got her masters in Food Studies from the University of Exeter. At Craft and Commerce, she ensures projects run on time and have the biggest impact possible, working with clients to build a true agency partner. She loves to cook and is passionate about sustainable agriculture and food sovereignty. "
-  },
-  {
     "id": 2,
     "photo": "../../assets/img/craft/jordan-alt.jpg",
     "name": "Jordan Ruden",
@@ -52,6 +45,13 @@
     "photo": "https://craftand.s3.amazonaws.com/samantha-sq.png",
     "shortBio": "Samantha is a self-driven and passionate team member who manages our day-to-day digital media and analytics.",
     "fullBio": "Samantha is a self-driven and passionate recent college graduate who supports the team in campaign projects. Prior to Craft & Commerce, Samantha has had experience in marketing freelancing helping businesses rebrand themselves through social media campaigns, and also graduated from Binghamton University. With her eagerness to learn and attention to detail, Samantha supports campaign strategy and planning through documenting, organizing, and actioning key items."
+  },
+  {
+    "name": "Lizzy Toreev",
+    "title": "Account Manager",
+    "photo": "../../assets/img/craft/lizzytoreev.JPG",
+    "shortBio": "Lizzy is an organized, detail-oriented relationship builder with experience managing a wide variety of marketing campaigns, mostly focused on the B2B market. ",
+    "fullBio": "Lizzy is an organized, detail-oriented relationship builder with experience managing a wide variety of marketing campaigns, mostly focused on the B2B market. She has worked as a project manager at a creative agency in Chicago, in the development department of the University of St Andrews in Scotland, and most recently got her masters in Food Studies from the University of Exeter. At Craft and Commerce, she ensures projects run on time and have the biggest impact possible, working with clients to build a true agency partner. She loves to cook and is passionate about sustainable agriculture and food sovereignty. "
   },
   {
     "id": 8,
