@@ -24,12 +24,11 @@
     "fullBio": "Carli is an expert cause marketer and bridge-builder, who empowers Craft & Commerce's partners to achieve strategic objectives though powerful bespoke collaborations. Carli's career took off through roles in branding, sponsorship, experiential and cause marketing for personal-care logos such as TRESemme, Degree, and AXE. In 2012, Carli merged professional and personal passions when she joined national women's health nonprofit Bright Pink to oversee marketing and communications strategy and manage key partner relationships. At Craft & Commerce, Carli brings all that experience to her hand-in-hand work with clients, helping them achieve cause awareness, constituent acquisition, issue education, and social change.\n\nCarli is a founding member of Chicago's Global Shapers, a globally recognized group of young leaders empowered by the World Economic Forum to improve the lives of Chicagoans. She also serves on the advisory council for youth emotional intelligence education start-up, Odyssey. "
   },
   {
-    "id": 5,
-    "photo": "../../assets/img/craft/karen_2022.png",
-    "name": "Karen Stransky-Price",
-    "title": "Director of Operations",
-    "shortBio": "Karen is a master of end-to-end digital campaign management, who stewards setup and delivery, iteration and optimization, and reporting for all Craft & Commerce partners.",
-    "fullBio": "Karen is a master of end-to-end digital campaign management, who stewards setup and delivery, iteration and optimization, and reporting for all Craft & Commerce partners, while also keeping the company trains running on time. Prior to working with Craft & Commerce, Karen specialized in analytics, site management, product design, and project management for leading ecommerce and sustainability companies such as West Elm, One Kings Lane, and TerraCycle. With a prodigious depth of knowledge and a ready answer to every question, Karen oversees Craft & Commerce's work from start to finish, keeping projects on track and ensuring the achievement of strategic objectives."
+    "name": "Lizzy Toreev",
+    "title": "Account Manager",
+    "photo": "../../assets/img/craft/lizzy-sq-0d7bb5f-84a621c973fa6eeeaaa16f3beb090995.png",
+    "shortBio": "Lizzy is an organized, detail-oriented relationship builder with experience managing a wide variety of marketing campaigns, mostly focused on the B2B market. ",
+    "fullBio": "Lizzy is an organized, detail-oriented relationship builder with experience managing a wide variety of marketing campaigns, mostly focused on the B2B market. She has worked as a project manager at a creative agency in Chicago, in the development department of the University of St Andrews in Scotland, and most recently got her masters in Food Studies from the University of Exeter. At Craft and Commerce, she ensures projects run on time and have the biggest impact possible, working with clients to build a true agency partner. She loves to cook and is passionate about sustainable agriculture and food sovereignty. "
   },
   {
     "id": 7,
@@ -40,24 +39,25 @@
     "fullBio": "Jacob is a seasoned movement-builder and cause marketing strategist with deep digital and integrated marketing expertise, who has developed and executed dozens of successful marketing campaigns for global nonprofits, advocacy organizations and private companies. Prior to joining Craft & Commerce, Jacob managed global cause marketing efforts for Johnson & Johnson, including the Donate a Photo app, which activated more than 250,000 people and unlocked $2.5MM+ for partner nonprofits. Jacob brings a unique skillset to Craft & Commerce, where he has led hyper-targeted advocacy campaigns for high-profile legislative efforts, conducted in-depth audience insights research for global foundations, and done digital capacity-building work for a range of partners. \n\nJacob has also worked as adjunct professor at Rutgers University, teaching the Service, Leadership, Impact course."
   },
   {
+    "name": "Arianna Dupiton",
+    "title": "Campaign Coordinator",
+    "photo": "../../assets/img/craft/img_4581_square-1.jpg",
+    "shortBio": ""
+  },
+  {
+    "id": 5,
+    "photo": "../../assets/img/craft/karen_2022.png",
+    "name": "Karen Stransky-Price",
+    "title": "Director of Operations",
+    "shortBio": "Karen is a master of end-to-end digital campaign management, who stewards setup and delivery, iteration and optimization, and reporting for all Craft & Commerce partners.",
+    "fullBio": "Karen is a master of end-to-end digital campaign management, who stewards setup and delivery, iteration and optimization, and reporting for all Craft & Commerce partners, while also keeping the company trains running on time. Prior to working with Craft & Commerce, Karen specialized in analytics, site management, product design, and project management for leading ecommerce and sustainability companies such as West Elm, One Kings Lane, and TerraCycle. With a prodigious depth of knowledge and a ready answer to every question, Karen oversees Craft & Commerce's work from start to finish, keeping projects on track and ensuring the achievement of strategic objectives."
+  },
+  {
     "name": "Samantha La",
     "title": "Digital Media & Analytics Manager",
     "photo": "https://craftand.s3.amazonaws.com/samantha-sq.png",
     "shortBio": "Samantha is a self-driven and passionate team member who manages our day-to-day digital media and analytics.",
     "fullBio": "Samantha is a self-driven and passionate recent college graduate who supports the team in campaign projects. Prior to Craft & Commerce, Samantha has had experience in marketing freelancing helping businesses rebrand themselves through social media campaigns, and also graduated from Binghamton University. With her eagerness to learn and attention to detail, Samantha supports campaign strategy and planning through documenting, organizing, and actioning key items."
-  },
-  {
-    "name": "Lizzy Toreev",
-    "title": "Account Manager",
-    "photo": "../../assets/img/craft/lizzy-sq-0d7bb5f-84a621c973fa6eeeaaa16f3beb090995.png",
-    "shortBio": "Lizzy is an organized, detail-oriented relationship builder with experience managing a wide variety of marketing campaigns, mostly focused on the B2B market. ",
-    "fullBio": "Lizzy is an organized, detail-oriented relationship builder with experience managing a wide variety of marketing campaigns, mostly focused on the B2B market. She has worked as a project manager at a creative agency in Chicago, in the development department of the University of St Andrews in Scotland, and most recently got her masters in Food Studies from the University of Exeter. At Craft and Commerce, she ensures projects run on time and have the biggest impact possible, working with clients to build a true agency partner. She loves to cook and is passionate about sustainable agriculture and food sovereignty. "
-  },
-  {
-    "name": "Arianna Dupiton",
-    "title": "Campaign Coordinator",
-    "photo": "../../assets/img/craft/img_4581_square-1.jpg",
-    "shortBio": ""
   },
   {
     "id": 8,
