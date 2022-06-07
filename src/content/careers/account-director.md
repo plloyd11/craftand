@@ -4,7 +4,7 @@ title: Account Director
 excerpt: Thoughtfully steward campaigns and grow client relationships through candor,
   trust, and project success.
 date: 2022-06-07T00:00:00-04:00
-cover_image: "../../assets/img/craft/austin-chan-ukzhlkoz1ie-unsplash.jpg"
+cover_image: "../../assets/img/craft/austin-chan-ukzhlkoz1ie-unsplash-1.jpg"
 slug: account-director
 
 ---
