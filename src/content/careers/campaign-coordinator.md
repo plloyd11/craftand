@@ -1,6 +1,6 @@
 ---
 tags: []
-title: Digital Campaign Coordinator
+title: Campaign Coordinator
 excerpt: Advance some of the world’s leading causes by developing paid media campaigns.
 date: 2022-02-14T00:00:00-05:00
 cover_image: "../../assets/img/craft/newphoto.jpg"
