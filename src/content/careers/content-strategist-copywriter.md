@@ -3,7 +3,7 @@ tags:
 - Internship
 - marketing
 - paid media
-title: Digital Marketing Intern
+title: Advertising Intern
 excerpt: 10-week paid internship for a sharp, ambitious student/early career professional
 date: 2021-06-14T01:00:00.000-04:00
 cover_image: "../../assets/img/craft/copywritercontentstrategy.png"
@@ -12,13 +12,13 @@ slug: marketing-intern
 ---
 ##### 
 
-# **Digital Marketing Intern**
+# **Advertising Intern**
 
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
 
-We’re looking for a sharp, ambitious student/early career professional to join us as a Digital Marketing Intern--for a 10 week (or flexible time period) paid internship.
+We’re looking for a sharp, ambitious student/early career professional to join us as a Digital Advertising Intern--for a 10 week (or flexible time period) paid internship.
 
-In the Digital Marketing Intern role, you’ll help advance some of the world’s leading causes by learning to help to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
+In the Digital Advertising Intern role, you’ll help advance some of the world’s leading causes by learning to help to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
 
 _Ideal candidates will be ->_
 
