@@ -8,6 +8,8 @@ cover_image: "../../assets/img/craft/austin-chan-ukzhlkoz1ie-unsplash-1.jpg"
 slug: account-supervisor
 
 ---
+# **Account Supervisor**
+
 Craft & Commerce is dedicated to helping mission-driven marketers thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team of digital and paid media specialists delivers better, smarter marketing strategies that empower purposeful brands to amplify their storytelling and drive real-world results. We’re humbled that our clients have referred to us as a “force multiplier” — not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern media era.
 
 We’re looking for an Account Supervisor who can help us thoughtfully steward campaigns and grow client relationships through candor, trust, and project success. The ideal candidate is a great communicator, has deep understanding of and passion for our client’s work, is a savvy manager of projects and people, can internalize project details and client priorities, and has a clear-eyed focus on success for our partners.

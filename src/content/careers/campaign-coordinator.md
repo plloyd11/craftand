@@ -7,6 +7,8 @@ cover_image: "../../assets/img/craft/newphoto.jpg"
 slug: campaign-coordinator
 
 ---
+# **Campaign Coordinator**
+
 Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
 
 We’re looking for a sharp, ambitious early career professional to join us as a Digital Campaign Coordinator.
