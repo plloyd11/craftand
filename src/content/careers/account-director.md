@@ -1,16 +1,16 @@
 ---
 tags: []
-title: Account Director
+title: Account Supervisor
 excerpt: Steward campaigns and grow client relationships through candor, trust, and
   project success.
 date: 2022-06-07T00:00:00-04:00
 cover_image: "../../assets/img/craft/austin-chan-ukzhlkoz1ie-unsplash-1.jpg"
-slug: account-director
+slug: account-supervisor
 
 ---
 Craft & Commerce is dedicated to helping mission-driven marketers thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team of digital and paid media specialists delivers better, smarter marketing strategies that empower purposeful brands to amplify their storytelling and drive real-world results. We’re humbled that our clients have referred to us as a “force multiplier” — not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern media era.
 
-We’re looking for an Account Director who can help us thoughtfully steward campaigns and grow client relationships through candor, trust, and project success. The ideal candidate is a great communicator, has deep understanding of and passion for our client’s work, is a savvy manager of projects and people, can internalize project details and client priorities, and has a clear-eyed focus on success for our partners.
+We’re looking for an Account Supervisor who can help us thoughtfully steward campaigns and grow client relationships through candor, trust, and project success. The ideal candidate is a great communicator, has deep understanding of and passion for our client’s work, is a savvy manager of projects and people, can internalize project details and client priorities, and has a clear-eyed focus on success for our partners.
 
 And—at C&C—we treasure a candid, ask-the-right-questions, get-it-done attitude that’s at the heart of our fast-moving and collaborative team culture. We’re a flexible, balanced, self-driven workplace. The right candidate will join us in New York, Chicago, or remotely from a place that makes you happy.
 
@@ -28,7 +28,7 @@ And—at C&C—we treasure a candid, ask-the-right-questions, get-it-done attitu
 
 **Requirements**
 
-* 6-8 years experience successfully managing client relationships
+* 5-7 years experience successfully managing client relationships
 * Expertise in marketing, communications, advertising, paid media, and related
 * Stellar written and oral communication skills
 * Demonstrated ability to manage multiple concurrent projects / clients
