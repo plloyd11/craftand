@@ -4,7 +4,7 @@ title: Marketing Manager
 excerpt: Amplify the agency’s impactful, award-winning services with the business
   development team
 date: 2022-08-10T00:00:00-04:00
-cover_image: "../../assets/img/craft/newphoto.jpg"
+cover_image: "../../assets/img/craft/copywritercontentstrategy.png"
 slug: marketing-manager
 
 ---
