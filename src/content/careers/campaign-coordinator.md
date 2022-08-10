@@ -1,50 +1,42 @@
 ---
 tags: []
-title: Campaign Coordinator
-excerpt: Advance some of the world’s leading causes by developing paid media campaigns.
-date: 2022-02-14T00:00:00-05:00
+title: Marketing Manager
+excerpt: Amplify the agency’s impactful, award-winning services with the business
+  development team
+date: 2022-08-10T00:00:00-04:00
 cover_image: "../../assets/img/craft/newphoto.jpg"
-slug: campaign-coordinator
+slug: marketing-manager
 
 ---
-# **Campaign Coordinator**
+# **Marketing Manager**
 
-Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team delivers better, smarter paid and digital media strategies that empower nonprofits, foundations, public sector organizations, and purposeful brands to amplify their storytelling and drive real-world results.
+Craft & Commerce is dedicated to helping mission-driven organizations thrive in today’s complex, fast-evolving marketplace for attention. Our hands-on team of digital and paid media specialists delivers better, smarter marketing strategies that empower purposeful brands to amplify their storytelling and drive real-world results. We’re humbled that our clients have referred to us as a “force multiplier” — not simply an agency resource, but a strategic thought partner and dot connector in navigating the modern media era.
 
-We’re looking for a sharp, ambitious early career professional to join us as a Digital Campaign Coordinator.
+We’re looking for a Marketing Manager to amplify the agency’s impactful, award-winning services and partner with the business development team to generate new business. Working with our experts, the Manager will help raise C&C’s visibility and profile amongst marketing leadership and decision makers across target sectors. They will be responsible for building, managing, and driving an overarching content strategy that builds brand awareness, creates demand for our solutions, and ultimately, positions C&C as a leader in paid media.
 
-In the Digital Campaign Coordinator role, you’ll help advance some of the world’s leading causes by helping to develop and steward smart, data-driven paid media campaigns. You’ll support the C&C team in campaign planning and execution, research and analysis, and crafting marketing communications.
+And—at C&C—we treasure a candid, ask-the-right-questions, get-it-done attitude that’s at the heart of our fast-moving and collaborative team culture. We’re a flexible, balanced, self-driven workplace. The right candidate will join us in New York, Chicago, or remotely from a place that makes you happy.
 
-_Ideal candidates will be ->_
+**Responsibilities**
 
-* Hungry to make an impact in the world
-* Eager and quick to learn new digital platforms and approaches
-* Adept at balancing concurrent, fast-moving projects and deadlines
-* Borderline unhealthy in your attention to detail
-* Excellent at writing in both short and long-form, as well as editing and proofing
+* Own the development and tactical execution of our agency marketing, lead generation/nurturing, and digital marketing campaigns
+* Optimize and streamline our marketing processes through effective project management and thought leadership
+* Manage our editorial calendar workflows to ensure we’re delivering the right message to the right people at the right time
+* Support the creation and production of engaging, authentic content, including emails, white papers, webinars, events, and social media posts
+* Foster human connection and community engagement across our social channels by monitoring and participating in conversations authentically and consistently
+* Organize and maintain marketing assets and collateral to improve the speed and efficiency of our marketing programs
+* Partner cross-functionally with the internal Craft & Commerce team, as well as external partners, clients, and vendors
+* Offer innovative ideas and solutions to help drive strategic marketing decision-making
 
-We offer a flexible, balanced, self-driven culture.
+**Requirements**
 
-**Responsibilities:**
+* 3-5+ years of B2B Marketing experience, specifically in marketing/advertising services is a plus
+* Strong attention to detail, planning and project management skills are required
+* Proactive desire to make a meaningful impact in a small, rapidly growing organization
+* Creative problem-solver with a strong ability to adapt in a changing environment
+* Curiosity and willingness to experiment, fail fast, learn and adapt
+* Strong writing and communication capabilities
 
-* Participate in campaign strategy and planning--documenting, organizing, and actioning key items
-* Develop, maintain, and optimize project plans and campaign workflows
-* Help to traffic approvals, creative assets, and media buys
-* Monitor campaign progress and generate detailed client reports
-* Coordinate the C&C team across client and new business activity, including calls, meetings, and travel
-* Help to craft partnership proposals and C&C marketing assets, including case studies, scopes of work, presentations, and thought leadership content
-* Perform online research and analysis in support of campaign and partnership priorities
-* Take ownership of special projects as needed--setting goals, coordinating workflows, and managing deadlines
+Interested? Let’s talk. We offer a competitive salary with hybrid or fully-remote options depending on location preference, quality healthcare, and a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links.
 
-**Requirements:**
-
-* Bachelor's Degree in Marketing, Communications, Operations, or a related field
-* Mastery of digital tools and platforms, with MS Excel expertise preferred
-* Demonstrated excellence in administrative tasks
-* Demonstrated attention to detail and proactive approach to your work
-* Track record of bringing a positive attitude to your work and team
-* Multilingual a plus
-
-Interested? Let’s talk. We offer competitive compensation ranging from $45,000 to $55,000 and, per above, a healthy dose of autonomy in how you shape your role and manage your workflow. Please drop us a note with your resume and any relevant links / information.
-
+  
 [DROP US A LINE](mailto:karen@craftand.com "email")
